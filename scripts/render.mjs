@@ -39,6 +39,12 @@ function asSentence(text) {
   return String(text).trim().replace(/[。；;\s]+$/u, "");
 }
 
+function firstSentence(text) {
+  const clean = String(text).trim();
+  const cut = clean.indexOf("。");
+  return cut === -1 ? asSentence(clean) : clean.slice(0, cut);
+}
+
 function joinSentences(items) {
   const parts = items.map(asSentence).filter(Boolean);
   return parts.length ? `${parts.join("。")}。` : "";
@@ -62,10 +68,10 @@ function storyArticle(story, issue, base) {
   const figureText = joinSentences(story.figures);
   const caveatText = joinSentences(story.caveats);
   const figures = figureText
-    ? `<p class="note"><span class="label">关键数字</span>${escapeHtml(figureText)}</p>`
+    ? `<section class="block"><h4>关键数字</h4><p>${escapeHtml(figureText)}</p></section>`
     : "";
   const caveats = caveatText
-    ? `<p class="note"><span class="label">需留意</span>${escapeHtml(caveatText)}</p>`
+    ? `<section class="block"><h4>需注意</h4><p>${escapeHtml(caveatText)}</p></section>`
     : "";
   const sources = orderedSources(story).map((source) => {
     const prefix = source.role === "primary" ? "主要 · " : "";
@@ -75,17 +81,16 @@ function storyArticle(story, issue, base) {
     ? `<p class="when">来源 ${escapeHtml(formatChineseDate(published.date))} ${escapeHtml(published.time)}</p>`
     : "";
   const credit = story.image.status === "archived"
-    ? `<p class="credit">${escapeHtml(story.image.credit)}</p>`
-    : `<p class="credit gap-note">${escapeHtml(story.image.gapReason)}</p>`;
+    ? `<p class="credit">图片来自${escapeHtml((story.sources.find((source) => source.url === story.image.sourcePage) || primary).name)}。</p>`
+    : `<p class="credit gap-note">${escapeHtml(firstSentence(story.image.gapReason))}。</p>`;
 
   return `<article class="story" id="s-${escapeHtml(story.id)}" data-story-id="${escapeHtml(story.id)}">
     <div class="story-media">${imageBlock(story, base)}</div>
     <div class="story-copy">
       <p class="kicker"><span class="num">${number}</span><span class="en">${escapeHtml(story.kickerEn)}</span><span class="meta">${escapeHtml(story.region)} · ${tierLabel(story.tier)}</span></p>
       <h3>${externalLink(primary.url, story.headline, "headline")}</h3>
-      <p class="standfirst">${escapeHtml(story.standfirst)}</p>
       <div class="prose">${paragraphs}</div>
-      <p class="why"><span class="label">为何重要</span>${escapeHtml(story.whyItMatters)}</p>
+      <section class="block"><h4>为何重要</h4><p>${escapeHtml(story.whyItMatters)}</p></section>
       ${figures}
       ${caveats}
       ${when}
@@ -124,10 +129,12 @@ function pageShell({
   const homeHref = joinBase(base, "");
   const current = (id) => (edition === id ? ` aria-current="page"` : "");
   return `<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="utf-8">
+  <script>document.documentElement.setAttribute("data-theme",(()=>{try{var q=new URLSearchParams(location.search).get("theme");if(q==="light"||q==="dark")return q;var t=sessionStorage.getItem("ai-news-theme");if(t==="light"||t==="dark")return t;}catch(e){}return "dark";})());</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <link rel="canonical" href="${escapeHtml(canonical)}">
@@ -142,7 +149,13 @@ function pageShell({
         <a class="masthead-link" href="${escapeHtml(homeHref)}" aria-label="AI NEWS">
           <span class="masthead-name">AI NEWS</span>
         </a>
-        <p class="masthead-sub">${body.stack}</p>
+        <div class="masthead-side">
+          <div class="theme-switch" role="group" aria-label="配色">
+            <button type="button" data-theme-set="light" aria-label="浅色模式" aria-pressed="false">☀</button>
+            <button type="button" data-theme-set="dark" aria-label="深色模式" aria-pressed="true">☾</button>
+          </div>
+          <p class="masthead-sub">${body.stack}</p>
+        </div>
       </div>
       <div class="nav-wrap">
         <nav class="nav" aria-label="版面">
@@ -157,14 +170,8 @@ function pageShell({
     <main id="main">
       ${body.main}
     </main>
-    <footer class="colophon">
-      <p class="en">AI NEWS</p>
-      <p>新闻早报看综合，电影晚报看电影与视频。两条线各自按日期出报：新的一期成为这一流的最新，旧的一期留在历史目录里。</p>
-      <p>本报日期是这一期的日期。每条的来源发布时间另计。时间都按亚洲/上海。</p>
-      <p>配图来自原文页面公开的 og:image 或官方缩略图。存不下来、或原图对不上这条新闻时，用文字版位，不配假照片，也不编署名。</p>
-      <p>标题、图片和来源都链到原始页面。本报不放视频，也不自动播放。</p>
-    </footer>
   </div>
+  <script src="${escapeHtml(joinBase(base, "assets/theme.js"))}"></script>
   ${script}
 </body>
 </html>
@@ -191,9 +198,6 @@ export function renderIssuePage({ issue, stream, base, role }) {
   const statusLine = isLatest
     ? ""
     : `<p class="return"><a href="${escapeHtml(returnHref)}">返回最新一期</a></p>`;
-  const alone = stream.length === 1
-    ? `<p class="archive-note">本站这一流目前只收入这一日。更早的报纸不会在这里编造；以后的新日期会按从新到旧接在上面。</p>`
-    : `<p class="archive-note">只列本流已经收入的期刊，从新到旧。点开的是那一天自己的地址。</p>`;
   const stack = `<span class="stream-name">${escapeHtml(meta.nav)}</span><span>${meta.nav === "电影晚报" ? "电影与视频" : "综合"}</span><span>亚洲/上海</span><span>${escapeHtml(issue.issueDate.replaceAll("-", "."))}</span>`;
   const main = `${statusLine}
       <section class="front" aria-label="头版">
@@ -205,7 +209,6 @@ export function renderIssuePage({ issue, stream, base, role }) {
       <div class="stories">${stories.map((story) => storyArticle(story, issue, base)).join("")}</div>
       <section class="archive" aria-labelledby="archive-title">
         <h2 id="archive-title" class="section-title"><span>历史目录</span><span class="en">ARCHIVE</span></h2>
-        ${alone}
         <ol>${archiveList(stream, issue.issueDate, base)}</ol>
       </section>`;
   return pageShell({
