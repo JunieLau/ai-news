@@ -85,7 +85,7 @@ content/media/YYYY-MM-DD/<图片文件>
 - `edition` 只能是 `morning` 或 `evening`。
 - `timezone` 必须是 `Asia/Shanghai`。
 - `slot`：早报必须是 `10:00`，晚报必须是 `20:00`。这是档期，不是 `updatedAt`。
-- `title`：早报必须是 `AI新闻速报`，晚报必须是 `AI电影与视频速报`。
+- `title`：文件里早报仍必须是 `AI新闻速报`，晚报仍必须是 `AI电影与视频速报`。页面导航和标题显示为「新闻早报」「电影晚报」。
 - `updatedAt` 和 `retrievedThrough` 是带时区的 ISO 时间，和 `issueDate` 分开。
 - `issueDate` 必须是真实日历日，例如拒绝 `2026-11-31`。
 
@@ -126,7 +126,8 @@ content/media/YYYY-MM-DD/<图片文件>
 - `tier`：`send` 显示「主推」，`alternate` 显示「备选」。
 - `region` 只能是 `海外` 或 `国内`。
 - `sources` 至少一个。必须正好有一个 `primary`，其余是 `secondary`。`url` 只能是 `http` 或 `https`。
-- 标题、图片和来源都链到这些原文。`publishedAt` 是来源发布时间，不是本报日期。
+- 标题、图片和来源都链到这些原文。`publishedAt` 是来源发布时间，不是本报日期。页面上只在有钟点时写一行「来源」时间。`publishedAtNote`、`editorsNote`、`slotNote` 留在文件里，不在版面上展开。
+- `figures` 和 `caveats` 在版面上各收成一段，不拆成条目。
 
 ### 图片
 

@@ -4,16 +4,16 @@ import path from "node:path";
 export const EDITIONS = {
   morning: {
     id: "morning",
-    nav: "早报",
+    nav: "新闻早报",
     title: "AI新闻速报",
-    stack: ["早报", "AI新闻速报", "上海"],
+    stack: ["新闻早报", "上海"],
     slot: "10:00",
   },
   evening: {
     id: "evening",
-    nav: "晚报",
+    nav: "电影晚报",
     title: "AI电影与视频速报",
-    stack: ["晚报", "电影与视频", "上海"],
+    stack: ["电影晚报", "上海"],
     slot: "20:00",
   },
 };

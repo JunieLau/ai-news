@@ -77,7 +77,7 @@ test("each stream opens its own newest issue date, and home stays on morning", (
   assert.doesNotMatch(oldMorning, /<script/);
 
   assert.match(currentMorning, /data-issue-date="2026-11-18"/);
-  assert.match(currentMorning, /这是本流最新一期/);
+  assert.doesNotMatch(currentMorning, /这是本流最新一期/);
   assert.doesNotMatch(currentMorning, /返回最新一期/);
   assert.match(oldEvening, /返回最新一期/);
   assert.match(oldEvening, /href="\/ai-news\/evening\/"/);
