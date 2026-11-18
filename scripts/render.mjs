@@ -85,18 +85,20 @@ function storyArticle(story, issue, base) {
     : `<p class="credit gap-note">${escapeHtml(firstSentence(story.image.gapReason))}。</p>`;
 
   return `<article class="story" id="s-${escapeHtml(story.id)}" data-story-id="${escapeHtml(story.id)}">
-    <div class="story-media">${imageBlock(story, base)}</div>
-    <div class="story-copy">
+    <div class="story-main">
       <p class="kicker"><span class="num">${number}</span><span class="en">${escapeHtml(story.kickerEn)}</span><span class="meta">${escapeHtml(story.region)} · ${tierLabel(story.tier)}</span></p>
       <h3>${externalLink(primary.url, story.headline, "headline")}</h3>
       <div class="prose">${paragraphs}</div>
       <section class="block"><h4>为何重要</h4><p>${escapeHtml(story.whyItMatters)}</p></section>
       ${figures}
       ${caveats}
+    </div>
+    <figure class="story-figure">${imageBlock(story, base)}</figure>
+    <aside class="story-side">
       ${when}
       <ul class="sources">${sources}</ul>
       ${credit}
-    </div>
+    </aside>
   </article>`;
 }
 

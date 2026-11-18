@@ -140,7 +140,14 @@ a { color: inherit; }
   border: 1px solid var(--pink);
   margin: 7px;
   min-height: calc(100vh - 14px);
-  padding: 0 22px 48px;
+  padding: 0 16px 40px;
+}
+
+.top,
+main {
+  max-width: 1248px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .top { padding-top: 4px; }
@@ -498,11 +505,25 @@ a { color: inherit; }
 
 .story {
   display: grid;
-  grid-template-columns: 168px minmax(0, 38rem);
-  justify-content: start;
-  gap: 20px 28px;
-  padding: 22px 0 26px;
+  grid-template-columns: minmax(0, 3fr) minmax(260px, 2fr);
+  grid-template-areas:
+    "main figure"
+    "main side";
+  column-gap: 24px;
+  row-gap: 16px;
+  align-items: start;
+  width: 100%;
+  padding: 22px 0 28px;
   border-bottom: 1px solid var(--rule);
+}
+
+.story-main { grid-area: main; min-width: 0; }
+.story-figure { grid-area: figure; margin: 0; }
+.story-side { grid-area: side; min-width: 0; }
+.story-figure .frame img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
 }
 
 .story h3 { font-size: 26px; line-height: 1.35; font-weight: 700; }
@@ -623,7 +644,15 @@ select:focus-visible {
     padding: 12px 0;
   }
   .col-lead { border-bottom: 1px solid var(--rule); }
-  .story { grid-template-columns: 1fr; gap: 12px; }
+  .story {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "figure"
+      "main"
+      "side";
+    row-gap: 12px;
+  }
+  .story-figure .frame img { aspect-ratio: 16 / 9; }
   .times { grid-template-columns: 1fr; }
   body { font-size: 16px; line-height: 1.7; }
   .prose p, .block p { font-size: 16px; line-height: 1.7; }
