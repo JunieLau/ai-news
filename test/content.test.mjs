@@ -53,6 +53,17 @@ test("the production build links originals, keeps the image gaps, and does not r
   const searchJs = fs.readFileSync(path.join(repo, "src", "search.js"), "utf8");
   const index = JSON.parse(fs.readFileSync(path.join(out, "search-index.json"), "utf8"));
 
+  assert.match(home, /<title>新闻早报 · /);
+  assert.match(evening, /<title>电影晚报 · /);
+  assert.match(home, /aria-current="page">新闻早报</);
+  assert.match(home, /href="\/ai-news\/evening\/">电影晚报</);
+  assert.match(evening, /aria-current="page">电影晚报</);
+  assert.match(evening, /class="stream-name">电影晚报</);
+  assert.match(home, /class="stream-name">新闻早报</);
+  const css = fs.readFileSync(path.join(repo, "src", "styles.css"), "utf8");
+  assert.match(css, /--paper:\s*#fff/);
+  assert.match(css, /--paper-deep:\s*#fff/);
+  assert.doesNotMatch(css, /#e7f4f8|#d5e8ef/);
   assert.match(home, /data-edition="morning"/);
   assert.match(home, /data-issue-date="2026-11-18"/);
   assert.match(home, /href="\/ai-news\/evening\/"/);
@@ -63,10 +74,17 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(morning, /花束/);
   assert.match(morning, /品牌标识/);
   assert.match(evening, /higgsfield\.ai\/miracle/);
-  assert.match(evening, /没有凑成 10 条/);
+  const eveningIssue = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-18", "evening.json"), "utf8"));
+  assert.match(eveningIssue.editorsNote, /没有凑成 10 条/);
+  assert.match(morning, /1158 亿美元，同比增 103%/);
+  assert.match(morning, /请愿签名已经超过 16 万/);
+  assert.doesNotMatch(evening, /编者按|这是本流最新一期|<dt>来源发布时间|<ul class="figures"|<ul class="caveats"/);
   assert.match(dated, /data-page-role="issue"/);
   assert.match(dated, /data-issue-date="2026-11-18"/);
-  assert.match(dated, /这是本流最新一期/);
+  assert.doesNotMatch(dated, /这是本流最新一期/);
+  assert.match(morning, /<p class="note"><span class="label">关键数字<\/span>/);
+  assert.match(morning, /<p class="note"><span class="label">需留意<\/span>/);
+  assert.doesNotMatch(morning, /class="figures"|class="caveats"|class="times"/);
   assert.doesNotMatch(dated, /返回最新一期/);
   assert.doesNotMatch(home, /http-equiv="refresh"/);
   assert.doesNotMatch(morning, /<script/);

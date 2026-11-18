@@ -9,8 +9,8 @@ export function filterStories(items, { query = "", edition = "all", date = "all"
 }
 
 function editionName(value) {
-  if (value === "morning") return "早报";
-  if (value === "evening") return "晚报";
+  if (value === "morning") return "新闻早报";
+  if (value === "evening") return "电影晚报";
   return "全部";
 }
 
