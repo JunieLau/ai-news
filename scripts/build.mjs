@@ -102,6 +102,7 @@ export function buildSite({ contentDir, outDir, base = "/ai-news" }) {
   fs.mkdirSync(path.join(outDir, "assets", "fonts"), { recursive: true });
   fs.copyFileSync(path.join(root, "src", "styles.css"), path.join(outDir, "assets", "styles.css"));
   fs.copyFileSync(path.join(root, "src", "search.js"), path.join(outDir, "assets", "search.js"));
+  fs.copyFileSync(path.join(root, "src", "theme.js"), path.join(outDir, "assets", "theme.js"));
   fs.copyFileSync(path.join(root, "src", "favicon.svg"), path.join(outDir, "favicon.svg"));
   fs.cpSync(path.join(root, "src", "fonts"), path.join(outDir, "assets", "fonts"), { recursive: true });
   writeFile(path.join(outDir, ".nojekyll"), "");

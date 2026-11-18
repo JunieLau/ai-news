@@ -52,7 +52,7 @@ test("each stream opens its own newest issue date, and home stays on morning", (
   assert.match(home, /夹具：早报新日期十八日/);
   assert.doesNotMatch(home, /夹具：晚报新日期十九日/);
   assert.doesNotMatch(home, /返回最新一期/);
-  assert.doesNotMatch(home, /<script/);
+  assert.match(home, /data-theme="dark"/);
   assert.doesNotMatch(home, /localStorage/);
 
   assert.match(morning, /data-page-role="latest"/);
@@ -74,7 +74,7 @@ test("each stream opens its own newest issue date, and home stays on morning", (
   assert.match(oldMorning, /href="\/ai-news\/morning\/2026-11-18\/"/);
   assert.doesNotMatch(oldMorning, /http-equiv="refresh"/);
   assert.doesNotMatch(oldMorning, /location\s*=/);
-  assert.doesNotMatch(oldMorning, /<script/);
+  assert.doesNotMatch(oldMorning, /localStorage/);
 
   assert.match(currentMorning, /data-issue-date="2026-11-18"/);
   assert.doesNotMatch(currentMorning, /这是本流最新一期/);
