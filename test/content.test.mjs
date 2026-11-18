@@ -77,7 +77,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   const eveningIssue = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-18", "evening.json"), "utf8"));
   assert.match(eveningIssue.editorsNote, /没有凑成 10 条/);
   assert.match(morning, /1158 亿美元，同比增 103%/);
-  assert.match(morning, /请愿签名已经超过 16 万/);
+  assert.match(morning, /还没有认定/);
+  assert.doesNotMatch(morning, /请愿签名/);
+  assert.match(css, /min\(92vw, 1680px\)/);
+  assert.doesNotMatch(css, /max-width:\s*1248px/);
   assert.doesNotMatch(evening, /编者按|这是本流最新一期|<dt>来源发布时间|<ul class="figures"|<ul class="caveats"/);
   assert.match(dated, /data-page-role="issue"/);
   assert.match(dated, /data-issue-date="2026-11-18"/);
