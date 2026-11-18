@@ -1,0 +1,17 @@
+{
+  "name": "ai-news",
+  "private": true,
+  "type": "module",
+  "description": "AI NEWS：中文早报与晚报。静态站点，按日期归档。",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "upsert": "node scripts/upsert.mjs",
+    "test": "node --test test/*.test.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}

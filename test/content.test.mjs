@@ -1,0 +1,87 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import test from "node:test";
+import { buildSite } from "../scripts/build.mjs";
+import { loadIssues } from "../scripts/lib.mjs";
+import { filterStories } from "../src/search.js";
+
+const repo = path.resolve(import.meta.dirname, "..");
+const contentDir = path.join(repo, "content");
+
+test("the seeded 18 November issues validate and keep both streams on that date", () => {
+  const { issues, errors } = loadIssues(contentDir);
+  assert.deepEqual(errors, []);
+  const morning = issues.find((issue) => issue.edition === "morning");
+  const evening = issues.find((issue) => issue.edition === "evening");
+  assert.equal(morning.issueDate, "2026-11-18");
+  assert.equal(evening.issueDate, "2026-11-18");
+  assert.equal(morning.updatedAt, "2026-11-18T22:40:00+08:00");
+  assert.equal(evening.updatedAt, "2026-11-18T22:40:00+08:00");
+  assert.equal(morning.stories.length, 10);
+  assert.equal(evening.stories.length, 6);
+  assert.match(morning.editorsNote, /11 月 18 日/);
+  assert.match(evening.editorsNote, /6 条/);
+  assert.match(JSON.stringify(morning), /不打算让 Jensen 重任/);
+  assert.match(JSON.stringify(morning), /发行价仍未公布/);
+  assert.match(JSON.stringify(morning), /224B/);
+  assert.match(JSON.stringify(morning), /220B/);
+  assert.match(JSON.stringify(morning), /临时最终规则/);
+  assert.match(JSON.stringify(morning), /数亿元/);
+  assert.match(JSON.stringify(evening), /即将推出/);
+  assert.match(JSON.stringify(evening), /27/);
+  const morningGaps = morning.stories.filter((story) => story.image.status === "gap").map((story) => story.id);
+  assert.deepEqual(morningGaps, ["2026-11-18-morning-06", "2026-11-18-morning-08"]);
+  assert.equal(evening.stories.every((story) => story.image.status === "archived"), true);
+});
+
+test("the production build links originals, keeps the image gaps, and does not redirect", () => {
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), "ai-news-prod-"));
+  const manifest = buildSite({ contentDir, outDir: out, base: "/ai-news" });
+  assert.equal(manifest.home.edition, "morning");
+  assert.equal(manifest.home.issueDate, "2026-11-18");
+  assert.equal(manifest.streams.morning.latest, "2026-11-18");
+  assert.equal(manifest.streams.evening.latest, "2026-11-18");
+  assert.deepEqual(manifest.streams.morning.dates, ["2026-11-18"]);
+  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-18"]);
+
+  const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
+  const morning = fs.readFileSync(path.join(out, "morning", "index.html"), "utf8");
+  const evening = fs.readFileSync(path.join(out, "evening", "index.html"), "utf8");
+  const dated = fs.readFileSync(path.join(out, "morning", "2026-11-18", "index.html"), "utf8");
+  const searchJs = fs.readFileSync(path.join(repo, "src", "search.js"), "utf8");
+  const index = JSON.parse(fs.readFileSync(path.join(out, "search-index.json"), "utf8"));
+
+  assert.match(home, /data-edition="morning"/);
+  assert.match(home, /data-issue-date="2026-11-18"/);
+  assert.match(home, /href="\/ai-news\/evening\/"/);
+  assert.match(home, /href="\/ai-news\/morning\/"/);
+  assert.match(home, /href="\/ai-news\/search\/"/);
+  assert.match(morning, /investor\.nvidia\.com\/news\/press-release-details\/2026\/NVIDIA-Announces-Financial-Results/);
+  assert.match(morning, /无存档图片/);
+  assert.match(morning, /花束/);
+  assert.match(morning, /品牌标识/);
+  assert.match(evening, /higgsfield\.ai\/miracle/);
+  assert.match(evening, /没有凑成 10 条/);
+  assert.match(dated, /data-page-role="issue"/);
+  assert.match(dated, /data-issue-date="2026-11-18"/);
+  assert.match(dated, /这是本流最新一期/);
+  assert.doesNotMatch(dated, /返回最新一期/);
+  assert.doesNotMatch(home, /http-equiv="refresh"/);
+  assert.doesNotMatch(morning, /<script/);
+  assert.doesNotMatch(evening, /<video|iframe|autoplay/);
+  assert.doesNotMatch(morning, /<video|iframe|autoplay/);
+  assert.doesNotMatch(searchJs, /localStorage|sessionStorage|indexedDB/);
+  assert.equal(fs.existsSync(path.join(out, "media", "2026-11-18", "morning-01.jpg")), true);
+  assert.equal(fs.existsSync(path.join(out, "media", "2026-11-18", "evening-01.webp")), true);
+  assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
+  assert.equal(index.length, 16);
+
+  const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
+  assert.equal(found.length, 1);
+  assert.equal(found[0].id, "2026-11-18-morning-01");
+  assert.equal(found[0].issueDate, "2026-11-18");
+  assert.equal(filterStories(index, { query: "不打算让 Jensen 重任", edition: "evening" }).length, 0);
+  assert.equal(filterStories(index, { query: "Miracle", edition: "evening" }).length, 1);
+});
