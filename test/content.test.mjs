@@ -73,7 +73,8 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(home, /每股 83 美元/);
   assert.match(home, /Gemini 4 Neon/);
   assert.match(morning, /anthropic\.com\/news\/anthropic-prices-initial-public-offering/);
-  assert.match(morning, /无存档图片/);
+  assert.doesNotMatch(morning, /无存档图片/);
+  assert.doesNotMatch(currentMorning, /无存档图片/);
   assert.match(dated, /investor\.nvidia\.com\/news\/press-release-details\/2026\/NVIDIA-Announces-Financial-Results/);
   assert.match(dated, /无存档图片/);
   assert.match(dated, /花束/);
@@ -124,6 +125,12 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", "morning-04.jpg")), true);
   assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", "morning-06.png")), true);
   assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", "morning-09.jpg")), true);
+  for (const name of ["morning-03.jpg", "morning-05.jpg", "morning-07.jpg", "morning-08.jpg", "morning-10.jpg"]) {
+    assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", name)), true);
+  }
+  const nov19 = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-19", "morning.json"), "utf8"));
+  assert.equal(nov19.stories.length, 10);
+  assert.equal(nov19.stories.every((story) => story.image.status === "archived" && story.image.file), true);
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
   assert.equal(index.length, 26);
 
