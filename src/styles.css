@@ -627,7 +627,16 @@ select:focus-visible {
 }
 
 @media (min-width: 861px) {
-  .teaser-lead > .frame { width: min(612px, 100%); }
+  .teaser-lead > .frame,
+  .teaser-lead > .kicker,
+  .teaser-lead > h2 {
+    width: min(680px, 100%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .teaser-lead > .kicker,
+  .teaser-lead > h2 { text-align: start; }
+  .teaser-lead > .kicker { margin-top: 12px; }
   .col-left .teaser > .frame,
   .col-right .teaser > .frame { width: min(306px, 100%); }
   .story-figure,
@@ -639,16 +648,6 @@ select:focus-visible {
   .top,
   main { max-width: 76vw; }
   .story { grid-template-columns: minmax(0, 1fr) 490px; }
-}
-
-@media (min-width: 2300px) {
-  .teaser-lead {
-    display: grid;
-    grid-template-columns: 612px minmax(0, 1fr);
-    column-gap: 18px;
-    align-items: start;
-  }
-  .teaser-lead > .frame { grid-row: 1 / span 3; }
 }
 
 @container (min-width: 1750px) {
