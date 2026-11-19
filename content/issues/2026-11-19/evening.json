@@ -1,0 +1,400 @@
+{
+  "issueDate": "2026-11-19",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-19T20:40:00+08:00",
+  "retrievedThrough": "2026-11-19T20:40:00+08:00",
+  "slot": "20:00",
+  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "2026 年 11 月 19 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 18 日及更早期刊去重。Genie 4 只写今天向 Google AI Ultra 用户开放，不重复 10 月 27 日的模型宣布。Higgsfield MCP 2.0 已写入当日速报源文件，但官方博客配图是工具生成的示意成片，按既有规则未入库网站。",
+  "stories": [
+    {
+      "id": "2026-11-19-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "PIKA ENACT",
+      "headline": "Pika 发布 Enact 研究预览，称可在画面仍播放时摆演员、导戏并运镜",
+      "standfirst": "创作者圈讨论度很高，但它还是研究预览，不是已经向所有用户开放的产品。",
+      "paragraphs": [
+        "Pika 发布 Enact，称这是「会回应你的场景」：画面和声音以亚秒级片段持续生成，创作者可以在仍播放的镜头里用鼠标拖动演员或物体、口头或文字下指令，并用鼠标运镜。官方把它写成模拟片场执导，而不是再等一轮提示词出片。",
+        "产品建在 Pika H3 Flex 上。官方未公布分辨率、场次时长、公开上线时间和价格，并请有兴趣的人联系演示。必须写清这是研究预览，不能把演示当成已经实测，也不能写成已经进入 Pika 主产品。"
+      ],
+      "whyItMatters": "「在还在播放的画面里导戏」改变的是制作方式，不只是又一个出片模型。对外必须写明尚未全面开放。",
+      "caveats": [
+        "这是研究预览，不是已经向所有用户上线的功能。官方帖约 38 万次曝光是截稿时的时点，还会变。0.4 秒响应和 1.8 倍于播放的生成速度是公司在 H100、低延迟设置下的说明，本报未实测。"
+      ],
+      "figures": [
+        "官方 X 主帖时间为 11 月 19 日 02:53（亚洲/上海）。截稿读取时约 38.3 万次曝光。官方称低延迟设置下画面响应不到 0.4 秒（H100，含解码），生成速度约为播放的 1.8 倍。"
+      ],
+      "publishedAt": "2026-11-19T02:53:56+08:00",
+      "publishedAtNote": "官方博客标注 2026-11-18，未标钟点。这里采用官方 X 主帖 18:53:56 UTC，合上海时间 11 月 19 日 02:53。",
+      "sources": [
+        {
+          "name": "Pika 官方博客",
+          "url": "https://pika.art/blog/pika-enact",
+          "role": "primary"
+        },
+        {
+          "name": "Pika 官方帖",
+          "url": "https://x.com/pika_labs/status/2123127584342921652",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-01.webp",
+        "alt": "黑白片场照片：导演坐在椅子上举手示意，灯光和摄影机在两侧，画面上叠有 Pika LABS 和 ENACT 字样。这是官方博客的标题图。",
+        "credit": "Pika 官方文章 Research Preview: Pika Enact 页面的公开 og:image。",
+        "sourcePage": "https://pika.art/blog/pika-enact",
+        "retrievedFrom": "https://cdn.pika.art/v2/creation/cms/notion/3d4def814b639f561d66a26a482e3b70.webp",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "GENIE 4",
+      "headline": "Genie 4 向 Google AI Ultra 用户开放，可在 Project Genie 里实时改世界并带原生音频",
+      "standfirst": "这是消费端上线，不是对 10 月那次模型宣布的重复。Pro 用户目前只能登记等待名单。",
+      "paragraphs": [
+        "Google DeepMind 把 Genie 4 放进 Project Genie，向符合条件的 Google AI Ultra 订阅者开放。官方称，用户可在探索过程中输入提示，实时改天气、加入角色或改写行动，并由模型同步生成环境声和对话。同时上线用对话搭建世界的智能体，以及可发现、再混和发布的社区画廊。",
+        "Genie 3 仍留在模型选择器里，官方称单次生成由 60 秒延长到最多 3 分钟，并可用 360 度全景图作为起点。所有生成的视频和音频带 SynthID 水印。官方自己写明，镜头延迟、复杂物理和长期场景稳定性都还在研究中。不要写成已经向所有 Google 账号开放，也不要写成它已经取代 Veo。"
+      ],
+      "whyItMatters": "世界模型第一次以可订阅的形式让用户走进去改场景，而不只是看一段生成视频。",
+      "caveats": [
+        "仅限符合条件的 Ultra 订阅者；Pro 是等待名单。官方承认这仍是前沿研究。本报未做交互实测。"
+      ],
+      "figures": [
+        "官方 X 主帖时间为 11 月 19 日 02:14（亚洲/上海）。截稿读取时约 17.0 万次曝光。Genie 3 单次生成官方称最多 3 分钟，此前为 60 秒。"
+      ],
+      "publishedAt": "2026-11-19T02:14:47+08:00",
+      "publishedAtNote": "官方博客标注 2026-11-18，未标钟点。这里采用官方 X 主帖 18:14:47 UTC，合上海时间 11 月 19 日 02:14。",
+      "sources": [
+        {
+          "name": "Google 官方博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "role": "primary"
+        },
+        {
+          "name": "Google DeepMind 官方帖",
+          "url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-02.png",
+        "alt": "黑底上写着 Project Genie 和 Step inside your imagination，周围是可进入的世界球体。这是官方博客的标题图。",
+        "credit": "Google 官方文章 Genie 4 is now available 页面的公开 og:image。",
+        "sourcePage": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "GOSSIP GOBLIN",
+      "headline": "《Gods Don't Give Gifts》放出幕后短片，并宣布 2027 年 1 月 22 日起全球同步院线",
+      "standfirst": "12 月的场次被官方写成带导演问答的提前预映；全球公映改到明年 1 月。",
+      "paragraphs": [
+        "Zack London（Gossip Goblin）与 Fable 发布约 20 分钟幕后短片，把作曲、剪辑、摄影和拟音等人类主创摆到台前，回应「一个人用提示词做长片」的想象。",
+        "官方称，12 月 4 日洛杉矶、12 月 5 日旧金山的导演见面会预映已售罄，纽约 12 月 10 日只剩少量票；并宣布与国际发行方 AGC 合作，自 2027 年 1 月 22 日起全球同步院线。此前宣传的 12 月 4 日北美公映，已被官方改写成特别提前预映。不要把预映写成已经大规模上映，也不要预判奖项。"
+      ],
+      "whyItMatters": "创作者长片第一次把档期从北美点映，改成有国际发行方的全球同步院线。",
+      "caveats": [
+        "这是对已报道定档的新安排，不是影片首发。12 月 4 日是否同时作为奖项资格放映，来自后续报道对 Forbes 的转述，不是官方帖原文。曝光数字还会变。"
+      ],
+      "figures": [
+        "官方帖时间为 11 月 19 日 00:45（亚洲/上海）。截稿读取时约 5.50 万次曝光。全球同步院线自 2027 年 1 月 22 日开始。"
+      ],
+      "publishedAt": "2026-11-19T00:45:52+08:00",
+      "publishedAtNote": "采用 @Gossip_Goblin 官方帖 16:45:52 UTC，合上海时间 11 月 19 日 00:45。",
+      "sources": [
+        {
+          "name": "Gossip Goblin 官方帖",
+          "url": "https://x.com/Gossip_Goblin/status/2123095356506325436",
+          "role": "primary"
+        },
+        {
+          "name": "The Daring Creatives",
+          "url": "https://www.thedaringcreatives.com/creator-stories/gossip-goblin-gods-dont-give-gifts-behind-the-scenes/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-03.jpg",
+        "alt": "暗绿色森林里，一只猩猩看着前方，一只手把浅色果实递到它面前。这是该片在 The Daring Creatives 报道中的剧照。",
+        "credit": "The Daring Creatives 该报道页面的公开配图，来自《Gods Don't Give Gifts》。",
+        "sourcePage": "https://www.thedaringcreatives.com/creator-stories/gossip-goblin-gods-dont-give-gifts-behind-the-scenes/",
+        "retrievedFrom": "https://storage.ghost.io/c/4b/dc/4bdc4be6-5abc-4e80-986d-59016a3f1831/content/images/size/w1200/2026/11/hero-gorilla-and-the-apple.jpg",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "STORM DOGS",
+      "headline": "Tilly Norwood 创作者在伦敦放出《Storm Dogs》片段，并称还没看见一部好的 AI 长片",
+      "standfirst": "项目几周前已经披露，新闻点是今天的片段和现场表态。",
+      "paragraphs": [
+        "Eline Van der Velden 在伦敦 British Screen Forum 放出与《The Lion King》联合导演 Rob Minkoff 合作的《Storm Dogs》片段。她说影片把真人演员和由人工智能扮演的幼童、狗混在一起，并称「把 AI 做好非常难，所以才会有那么多 slop」。",
+        "她还说，人工智能「也许能把预算砍掉 50%，但不会降到零。所以你还没看见一部好的 AI 长片」；Particle6 过去一年给 30 名新锐电影人提供了工作。谈到 Tilly Norwood，她说对方「成功点燃了关于规则和监管的辩论」，并称「Tilly is me, I am Tilly」。不要把这次放映写成已经定档，也不要写成全行业已经接受人工智能演员。"
+      ],
+      "whyItMatters": "有姓名的争议人物和主流动画导演同时出现，把「AI 长片好不好」直接说给行业听。",
+      "caveats": [
+        "影片几周前已报道，本条不是首发。Deadline 标注 2:01am，未标明时区，这里按该站常见美东时间换算。预算和「还没看见好长片」都是她的现场判断，不是第三方评测。"
+      ],
+      "figures": [
+        "她称预算也许能降 50%、但不会到零；Particle6 过去一年给 30 名新锐电影人提供了工作。档期和发行方未公布。"
+      ],
+      "publishedAt": "2026-11-19T15:01:00+08:00",
+      "publishedAtNote": "Deadline 标注 November 19, 2026 2:01am，未标明时区。按该站常见美东时间，合上海时间 15:01。",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/tilly-norwood-creator-teases-next-storm-dogs-clip-1237228854/",
+          "role": "primary"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/tilly-norwood-ai-dog-movie-minkoff-watch-trailer-1236751596/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-04.png",
+        "alt": "雾林河边，一名穿雨靴的幼童站在岩石上，身边和横跨溪流的树干上站着几只不同品种的狗。这是 Particle 6 提供的《Storm Dogs》剧照。",
+        "credit": "The Hollywood Reporter 该报道页面的公开剧照，标注为 Particle 6 提供。Deadline 该稿配图是另一部作品中的 Tilly Norwood，未采用。",
+        "sourcePage": "https://www.hollywoodreporter.com/movies/movie-news/tilly-norwood-ai-dog-movie-minkoff-watch-trailer-1236751596/",
+        "retrievedFrom": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/StormDogs.png?w=1440&h=810&crop=1",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "SUNO",
+      "headline": "Suno 上线 Visuals，可把平台上的歌曲做成最长 15 秒、可对口型的视频",
+      "standfirst": "网页和手机已经能用，但视频积分要另外买，也还不是完整 MV 长片。",
+      "paragraphs": [
+        "Suno 推出 Visuals，用户可选歌的某一段，用官方角色、自己的图或现场出图做参考，生成与歌词同步的视频或封面。官方还提供把参考图放在开头或结尾、以及时间线和歌词文字的工具。",
+        "功能已在网页、iOS 和 Android 上线。Visuals 积分与做歌积分分开。官方新增过滤，试图拦截特定艺人、公众人物和受版权保护作品的形象，并在站外分享前加水印。The Verge 称画面模型基于 MiniMax 的 H3。不要写成已经能直接出完整音乐长片。"
+      ],
+      "whyItMatters": "做歌的人第一次在同一平台里给自己的曲子配画面，门槛比单独的视频模型更低。",
+      "caveats": [
+        "官方博客只标注 11 月 17 日，没有钟点；可核对的钟点来自 The Verge 11 月 18 日 11:16 UTC。H3 Move 的出处是 The Verge，不是官方博客原句。本报未做生成实测。"
+      ],
+      "figures": [
+        "单段视频最长 15 秒。已在网页、iOS 和 Android 上线。Visuals 积分需单独购买。"
+      ],
+      "publishedAt": "2026-11-18T19:16:00+08:00",
+      "publishedAtNote": "官方博客标注 2026-11-17，未标钟点。这里采用 The Verge 11 月 18 日 11:16 UTC，合上海时间 19:16。",
+      "sources": [
+        {
+          "name": "Suno 官方博客",
+          "url": "https://suno.com/blog/introducing-visuals",
+          "role": "primary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-05.jpg",
+        "alt": "多幅风格各异的人物、玩偶和场景画面拼在一起，这是 Suno 官方为 Visuals 提供的示例图。",
+        "credit": "Suno 官方文章 Introducing Visuals 页面的公开配图。",
+        "sourcePage": "https://suno.com/blog/introducing-visuals",
+        "retrievedFrom": "https://cdn.sanity.io/images/cl7b1q1i/production/89947c59d1f2c8fda3d2133d67c0f7e11da012c5-3840x2160.jpg",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "IQIYI",
+      "headline": "爱奇艺将 AIGC 电影分账补贴延长至 2027 年 6 月 30 日，符合条件可再获 20%",
+      "standfirst": "新闻点是截止日延长，以及继续把人工智能内容推向长片和剧集。",
+      "paragraphs": [
+        "爱奇艺宣布，AIGC 电影分账补贴延至 2027 年 6 月 30 日。全流程使用 AI 生成、且符合合作与发行条件的电影，可在原有分账收益上再获 20%。独家项目现行阶梯仍是：收入不超过 100 万元分成 80%，100 万到 500 万元分成 100%，超过 500 万元分成 120%。",
+        "稿件称已上线近 20 部拿到该项补贴的作品，并以《灵魂摆渡》「浮生梦」系列分账票房突破 1400 万元为例，这是平台口径，不是今天新结算的票房。「鲍德熹·爱奇艺电影剧场」有 9 部 AIGC 长片在开发；自制中剧《不羡鸳鸯只羡仙》预计今年第四季度推出第一季；混制长剧《天行九歌之举世无双》计划 2027 年上线。不要把开发中的项目写成已经播出。"
+      ],
+      "whyItMatters": "国内主流平台把给 AI 电影的真金白银又往后延了半年，并明确要做长片和季播。",
+      "caveats": [
+        "本报以中新经纬 11 月 18 日 19:14 的报道为宣布口径，未见爱奇艺署名新闻稿原页。1400 万元是平台称「截至目前」，不是今日新公布的结算。"
+      ],
+      "figures": [
+        "补贴延至 2027 年 6 月 30 日；额外 20%。独家分成阶梯为 80%、100%、120%。近 20 部已补贴作品；「浮生梦」系列分账票房平台称已破 1400 万元。"
+      ],
+      "publishedAt": "2026-11-18T19:14:21+08:00",
+      "publishedAtNote": "采用中新经纬 2026-11-18 19:14:21（亚洲/上海）。新京报转述为 11 月 19 日 11:38。",
+      "sources": [
+        {
+          "name": "中新经纬",
+          "url": "https://www.jwview.com/jingwei/html/m/11-18/697588.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795059496129962.html",
+          "role": "secondary"
+        },
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/stock/t/2026-11-18/doc-inizehkz6868644.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-06.jpg",
+        "alt": "绿色说明图，标题为爱奇艺电影新分账模式，列出独家和非独家分成阶梯，并写明全流程 AI 生成内容额外补贴 20%，适用至 2027 年 6 月 30 日。",
+        "credit": "新浪财经该报道页面的公开配图。",
+        "sourcePage": "https://finance.sina.com.cn/stock/t/2026-11-18/doc-inizehkz6868644.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/spider20261118/136/w660h1076/20261118/4c09-668b0700ce4557bdfa96f5162da1c39e.jpg",
+        "retrievedAt": "2026-11-19T12:32:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "HEYGEN",
+      "headline": "HeyGen 发布 Avatar 6，称可按脚本做手势，并把运行上下文扩到 30 秒",
+      "standfirst": "数字分身模型已经在平台和 API 上线，但评测数字都是公司口径。",
+      "paragraphs": [
+        "HeyGen 推出 Avatar 6，称模型会根据台词生成相应手势和表情，而不只是循环同一组动作。官方称运行上下文由约 3 秒扩到 30 秒，并输出原生 2K；现有 Personal Avatars 将自动升级。",
+        "官方引用类图灵测试称，84% 的参与者认为形象与本人同样真实，并称在 New Measure 的 Avatar Arena 中排第一。真实人物的逼真视频仍留在 HeyGen 平台，并要求身份核验和明确同意。不要把这些评测写成独立复现后的最终结论。"
+      ],
+      "whyItMatters": "商业数字分身把重点从「像不像」转到「会不会跟着台词做动作」，但仍是企业视频工具，不是影视演员替代方案。",
+      "caveats": [
+        "84% 和榜单名次是公司或其引述的评测。通讯稿时间为美东 11 月 17 日 12:07，合上海时间 11 月 18 日 01:07。"
+      ],
+      "figures": [
+        "运行上下文官方称从约 3 秒到 30 秒；原生 2K。创建形象最短约 30 秒视频。类图灵测试官方称 84%（产品页为 84.4%）认为与本人同样真实。"
+      ],
+      "publishedAt": "2026-11-18T01:07:00+08:00",
+      "publishedAtNote": "PR Newswire 标注 Nov 17, 2026, 12:07 ET，合上海时间 11 月 18 日 01:07。",
+      "sources": [
+        {
+          "name": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/heygen-introduces-avatar-6-an-audio-driven-context-aware-ai-model-that-alleviates-repetitive-or-unnatural-motion-in-ai-generated-video-302942527.html",
+          "role": "primary"
+        },
+        {
+          "name": "HeyGen 官方产品页",
+          "url": "https://www.heygen.com/models/heygen-avatar-6",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-07.png",
+        "alt": "五个带情绪标签的人物画框横排，下方大字写着 Avatar 6。这是官方产品页的标题图。",
+        "credit": "HeyGen 官方产品页 HeyGen Avatar 6 的公开配图。通讯稿页只有公司字标，未采用。",
+        "sourcePage": "https://www.heygen.com/models/heygen-avatar-6",
+        "retrievedFrom": "https://cdn.sanity.io/images/pdhqcmb1/production/2789b327ede1f3ba3e222d14a268b2289cd05296-3840x2160.png",
+        "retrievedAt": "2026-11-19T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "JINGXI",
+      "headline": "《星火映征途》之「云贵川」在京西剧谷首映，稿件称作品入藏中国电影博物馆",
+      "standfirst": "这是机构主办的首映和产业发布，还不是院线或平台热度事件。",
+      "paragraphs": [
+        "11 月 18 日下午，纪念红军长征胜利 90 周年的 AI 微电影系列《星火映征途》在门头沟 XR 沉浸视听联合实验室首映「云贵川」篇。主办方包括新华出版社、中国电影博物馆和门头沟区委宣传部。放映后，现场用全息影像让片中人物与来宾对话。",
+        "稿件称，该系列随后入藏中国电影博物馆，纳入国家电影典藏。同场举行 AI 导演工作室揭牌，并启动京西剧谷与京西智映的共创计划。新华社副总编辑任卫东提出「赋能而非替代」。"
+      ],
+      "whyItMatters": "红色题材 AI 短片被放进国家电影典藏，说明机构在给这类创作一个正式位置。",
+      "caveats": [
+        "报道时间为 11 月 19 日 18:31，活动本身在 11 月 18 日下午。入藏和国家电影典藏的表述来自这篇报道，本报未见博物馆单独公告。未见播放量或投资额。"
+      ],
+      "figures": [
+        "首映场次在 11 月 18 日下午。主办三家机构：新华出版社、中国电影博物馆、门头沟区委宣传部。"
+      ],
+      "publishedAt": "2026-11-19T18:31:00+08:00",
+      "publishedAtNote": "活动在 11 月 18 日下午举行。这里采用新京报 2026-11-19 18:31 的报道时间，来源门头沟融媒。",
+      "sources": [
+        {
+          "name": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795083858019376.html",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-08.png",
+        "alt": "放映厅里观众面向大屏幕，屏幕上是《星火映征途》片名和行进中的队伍，天花板投有星星光斑。这是新京报该报道的现场照片。",
+        "credit": "新京报该报道页面的公开新闻照片。",
+        "sourcePage": "https://www.bjnews.com.cn/detail/1795083858019376.html",
+        "retrievedFrom": "https://mposs.bjnews.com.cn/2026/11/19/3517950835925690008_2b8bd0fabf44dc981b3ae2387d0a89d6.jpg?x-oss-process=image/resize,m_lfit,w_800/quality,q_80",
+        "retrievedAt": "2026-11-19T12:33:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-evening-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "NANJING SHANGHAI",
+      "headline": "南京 AI 视听产业合作交流活动上海专场举行，报道称约 140 人到场",
+      "standfirst": "这是一场产业对接会，不是产品发布或作品首映。",
+      "paragraphs": [
+        "11 月 18 日下午，南京 AI 视听产业合作交流活动（上海专场）在上海东方智媒城「海上会客厅」举行。报道称约 140 名沪宁两地政府、园区、企业和高校代表参加，并推介「智汇无限」AI 视听产业生态平台，讨论短剧孵化、社区共建和联合出海。",
+        "南京市政府网站 11 月 19 日发稿。本报打开该页时遇到访问限制，现场事实以凤凰网刊发的报道和照片为准。未见可核对的签约金额或完整项目清单。"
+      ],
+      "whyItMatters": "地方政府把微短剧和 AI 视听当成可对外谈合作的产业链，但今天还只是对接，不是已经落地的作品或产品。",
+      "caveats": [
+        "官方网站正文未能打开。到场人数和平台名称来自可打开的报道。不是产品发布会。"
+      ],
+      "figures": [
+        "活动在 11 月 18 日下午举行。报道称约 140 人到场。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "活动在 11 月 18 日下午举行。南京市政府网站页面日期为 2026-11-19，未标钟点；本侧打开该页时返回 403。",
+      "sources": [
+        {
+          "name": "南京市人民政府",
+          "url": "https://www.nanjing.gov.cn/njxx/202611/t20261119_6043681.html",
+          "role": "primary"
+        },
+        {
+          "name": "凤凰网",
+          "url": "https://feng.ifeng.com/c/8y9vW8fTtrh",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/evening-09.jpg",
+        "alt": "会场里观众面向舞台，大屏幕写着南京AI视听产业合作交流活动上海专场，演讲人站在台前。这是凤凰网该报道的现场照片。",
+        "credit": "凤凰网该报道页面的公开现场照片。",
+        "sourcePage": "https://feng.ifeng.com/c/8y9vW8fTtrh",
+        "retrievedFrom": "https://x0.ifengimg.com/res/2026/E1CB6D0F26E990D6DF87E37CE05AF632B9830689_size110_w1080_h720.jpg",
+        "retrievedAt": "2026-11-19T12:32:00Z"
+      }
+    }
+  ]
+}
