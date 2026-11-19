@@ -42,15 +42,17 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.equal(manifest.home.edition, "morning");
   assert.equal(manifest.home.issueDate, "2026-11-19");
   assert.equal(manifest.streams.morning.latest, "2026-11-19");
-  assert.equal(manifest.streams.evening.latest, "2026-11-18");
+  assert.equal(manifest.streams.evening.latest, "2026-11-19");
   assert.deepEqual(manifest.streams.morning.dates, ["2026-11-19", "2026-11-18"]);
-  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-18"]);
+  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-19", "2026-11-18"]);
 
   const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
   const morning = fs.readFileSync(path.join(out, "morning", "index.html"), "utf8");
   const evening = fs.readFileSync(path.join(out, "evening", "index.html"), "utf8");
   const dated = fs.readFileSync(path.join(out, "morning", "2026-11-18", "index.html"), "utf8");
+  const eveningDated = fs.readFileSync(path.join(out, "evening", "2026-11-18", "index.html"), "utf8");
   const currentMorning = fs.readFileSync(path.join(out, "morning", "2026-11-19", "index.html"), "utf8");
+  const currentEvening = fs.readFileSync(path.join(out, "evening", "2026-11-19", "index.html"), "utf8");
   const searchJs = fs.readFileSync(path.join(repo, "src", "search.js"), "utf8");
   const index = JSON.parse(fs.readFileSync(path.join(out, "search-index.json"), "utf8"));
 
@@ -79,7 +81,15 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(dated, /无存档图片/);
   assert.match(dated, /花束/);
   assert.match(dated, /品牌标识/);
-  assert.match(evening, /higgsfield\.ai\/miracle/);
+  assert.match(eveningDated, /higgsfield\.ai\/miracle/);
+  assert.match(eveningDated, /data-latest="false"/);
+  assert.match(eveningDated, /返回最新一期/);
+  assert.match(currentEvening, /data-issue-date="2026-11-19"/);
+  assert.match(currentEvening, /data-latest="true"/);
+  assert.match(currentEvening, /media\/2026-11-19\/evening-01\.webp/);
+  assert.match(currentEvening, /Pika 发布 Enact/);
+  assert.doesNotMatch(currentEvening, /返回最新一期/);
+  assert.doesNotMatch(evening, /返回最新一期/);
   const eveningIssue = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-18", "evening.json"), "utf8"));
   assert.match(eveningIssue.editorsNote, /没有凑成 10 条/);
   assert.match(dated, /1158 亿美元，同比增 103%/);
@@ -131,8 +141,14 @@ test("the production build links originals, keeps the image gaps, and does not r
   const nov19 = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-19", "morning.json"), "utf8"));
   assert.equal(nov19.stories.length, 10);
   assert.equal(nov19.stories.every((story) => story.image.status === "archived" && story.image.file), true);
+  const nov19Evening = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-19", "evening.json"), "utf8"));
+  assert.equal(nov19Evening.stories.length, 9);
+  assert.equal(nov19Evening.stories.every((story) => story.image.status === "archived" && story.image.file), true);
+  for (const name of ["evening-01.webp", "evening-02.png", "evening-03.jpg", "evening-04.png", "evening-05.jpg", "evening-06.jpg", "evening-07.png", "evening-08.png", "evening-09.jpg"]) {
+    assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", name)), true);
+  }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
-  assert.equal(index.length, 26);
+  assert.equal(index.length, 35);
 
   const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
   assert.equal(found.length, 1);
