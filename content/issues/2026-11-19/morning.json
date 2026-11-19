@@ -2,7 +2,7 @@
   "issueDate": "2026-11-19",
   "edition": "morning",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-19T10:45:00+08:00",
+  "updatedAt": "2026-11-19T15:40:00+08:00",
   "retrievedThrough": "2026-11-19T10:45:00+08:00",
   "slot": "10:00",
   "slotNote": "常规早报档期是上海时间 10:00。本期按窗口检索至截稿时点。",
@@ -154,8 +154,13 @@
         }
       ],
       "image": {
-        "status": "gap",
-        "gapReason": "官方发布是 PDF 新闻稿，没有可存档的活动配图。财新和澎湃页面配图不是官方照片，也不用库存图。"
+        "status": "archived",
+        "file": "2026-11-19/morning-03.jpg",
+        "alt": "深圳腾讯滨海大厦外，银色立体字拼出 Tencent 和「腾讯」。这是澎湃该报道页面的配图，是园区外观资料照片，不是财报会或电话会现场。",
+        "credit": "澎湃新闻该报道页面的公开配图。",
+        "sourcePage": "https://www.thepaper.cn/newsDetail_forward_34505420",
+        "retrievedFrom": "https://imgpai.thepaper.cn/newpai/image/1795012089485_4rA76e_1795012089689.png",
+        "retrievedAt": "2026-11-19T07:31:00Z"
       }
     },
     {
@@ -235,8 +240,13 @@
         }
       ],
       "image": {
-        "status": "gap",
-        "gapReason": "报告页配图是英伟达标识，属于通用标识，与这份质疑的具体内容对不上，所以不用。"
+        "status": "archived",
+        "file": "2026-11-19/morning-05.jpg",
+        "alt": "浑水报告封面页，标题是「NVIDIA: More China」，日期是 2026 年 11 月 17 日，右上角有 Muddy Waters Research 标识。这是官方 PDF 的首页，不是现场照片，也不是被质疑人士的相片。",
+        "credit": "浑水 2026 年 11 月 17 日报告《NVIDIA: More China》官方 PDF 首页。",
+        "sourcePage": "https://muddywatersresearch.com/research/2026/mw-short-nvda/",
+        "retrievedFrom": "https://muddywatersresearch.com/wp-content/uploads/2026/11/MW_NVDA_20261117.pdf",
+        "retrievedAt": "2026-11-19T07:31:00Z"
       }
     },
     {
@@ -303,11 +313,21 @@
           "name": "36氪",
           "url": "https://www.36kr.com/p/4075322592187524",
           "role": "primary"
+        },
+        {
+          "name": "镁伽科技官网",
+          "url": "https://en.megarobo.com/",
+          "role": "secondary"
         }
       ],
       "image": {
-        "status": "gap",
-        "gapReason": "36氪封面图路径含人工智能生成标记，按站规不用生成图。没有另外存下可核对的官方产品照片。"
+        "status": "archived",
+        "file": "2026-11-19/morning-07.jpg",
+        "alt": "黄昏天空下的一台立方体仪器，机身标有「镁伽 MEGAROBO」和 CellVue T2000。这是镁伽官方网站上的产品图，不是本轮融资的现场照片。",
+        "credit": "镁伽科技英文官网首页公开产品图。",
+        "sourcePage": "https://en.megarobo.com/",
+        "retrievedFrom": "https://imgs-data-brwq.bcdn8.com/meijia1210/uploads/20241219/599312435ae187d7723c611811f50bdc.jpg",
+        "retrievedAt": "2026-11-19T07:33:00Z"
       }
     },
     {
@@ -344,8 +364,13 @@
         }
       ],
       "image": {
-        "status": "gap",
-        "gapReason": "通讯稿页面没有可存档的官方静帧，抓到的是带播放键的视频缩略图。本报不放视频，也不用带播放键的预览图。"
+        "status": "archived",
+        "file": "2026-11-19/morning-08.jpg",
+        "alt": "两名创始人坐在实验室里，画面左下写着 Genesis $500M Series A，背景可见机器人。这是通讯稿所嵌官方视频的静帧，没有播放键，不是带播放键的预览图。",
+        "credit": "Genesis AI 此轮融资通讯稿所嵌官方视频的公开静帧（YouTube 视频 VeYie2A9iGk 的 maxres 帧）。",
+        "sourcePage": "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html",
+        "retrievedFrom": "https://i.ytimg.com/vi/VeYie2A9iGk/maxresdefault.jpg",
+        "retrievedAt": "2026-11-19T07:30:00Z"
       }
     },
     {
@@ -427,11 +452,21 @@
           "name": "The Korea Herald",
           "url": "https://www.koreaherald.com/article/10940879",
           "role": "secondary"
+        },
+        {
+          "name": "KED Global",
+          "url": "https://www.kedglobal.com/us/electronics/newsView/ked202610220002",
+          "role": "secondary"
         }
       ],
       "image": {
-        "status": "gap",
-        "gapReason": "三星电机页面的 og:image 是通用站点图。Nvidia 新闻稿配图是合作伙伴标识拼贴，属于通用标识，所以不用。"
+        "status": "archived",
+        "file": "2026-11-19/morning-10.jpg",
+        "alt": "洁净室通道里，一名穿防护服的工作人员正在操作设备。KED Global 说明这是三星电机位于韩国世宗的生产工厂，照片由三星电机提供。这是 10 月合作报道中的资料照片，不是 11 月 18 日新拍的现场。",
+        "credit": "KED Global 报道配图，说明为三星电机世宗工厂，由三星电机提供。",
+        "sourcePage": "https://www.kedglobal.com/us/electronics/newsView/ked202610220002",
+        "retrievedFrom": "https://www.kedglobal.com/data/ked/image/2026/10/22/ked202610220009.jpg",
+        "retrievedAt": "2026-11-19T07:31:00Z"
       }
     }
   ]
