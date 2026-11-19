@@ -1,0 +1,438 @@
+{
+  "issueDate": "2026-11-19",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-19T10:45:00+08:00",
+  "retrievedThrough": "2026-11-19T10:45:00+08:00",
+  "slot": "10:00",
+  "slotNote": "常规早报档期是上海时间 10:00。本期按窗口检索至截稿时点。",
+  "title": "AI新闻速报",
+  "editorsNote": "2026 年 11 月 19 日新闻早报。优先过去约 24 小时、最远不超过约 48 小时的硬新闻；已与 11 月 18 日及更早期刊去重。Anthropic 一条只写定价结果，不重复昨日「即将定价」。",
+  "stories": [
+    {
+      "id": "2026-11-19-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Anthropic",
+      "headline": "IPO 定价每股 83 美元，发行上调至 9.80 亿股；报道称全面摊薄估值约 1.5 万亿美元，截稿时尚未开盘",
+      "standfirst": "发行价高出指引，规模也扩大了。已经定价，但美东今天才会开始交易。",
+      "paragraphs": [
+        "Anthropic 把 IPO 定价为每股 83 美元，高于此前 70–78 美元的指引，并把发行规模从 8.25 亿股上调至 9.80 亿股。按官方股数计算，公司出售 9.5635 亿股，筹资约 794 亿美元；含出售股东的 2365 万股后，整笔约 813 亿美元。路透等称，这超过今年早些时候 SpaceX 的上市筹资，全面摊薄估值约 1.5 万亿美元，未摊薄约 1.1 万亿美元。",
+        "股票预计 11 月 19 日（美东，约为上海时间今晚）以代码 ANT 在纳斯达克开始交易，11 月 20 日交割。截稿时美股尚未开盘，不能写成已经上市。估值和「纪录」来自报道口径，不是官方新闻稿里的原句；路透还称申报文件显示，按发行价另有约 260 亿美元私募。"
+      ],
+      "whyItMatters": "这是对人工智能实验室还能不能按顶格估值公开融资的一次直接测试，也是昨天「即将定价」之后真正落地的数字。",
+      "caveats": [
+        "尚未开盘，也尚未交割。1.5 万亿和 1.1 万亿美元是路透等按全面摊薄和未摊薄口径估算，不是官方新闻稿数字。承销商还有 30 天内最多再购 1.47 亿股的选择权，未计入上述 813 亿美元。额外私募 260 亿美元是路透对申报文件的转述。"
+      ],
+      "figures": [
+        "发行价 83.00 美元；发行 9.80 亿股，其中公司出售 9.5635 亿股。按官方股数×定价，公司发行部分约 794 亿美元，整笔约 813 亿美元。路透等：全面摊薄估值约 1.5 万亿美元，未摊薄约 1.1 万亿美元。"
+      ],
+      "publishedAt": "2026-11-19T07:54:00+08:00",
+      "publishedAtNote": "官方新闻稿标注 2026-11-18，未标钟点。这里采用 NPR 美东 11 月 18 日 18:54 的报道时间，合上海时间 11 月 19 日 07:54。TechCrunch 为美西 14:11，合 06:11。",
+      "sources": [
+        {
+          "name": "Anthropic 官方公告",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "role": "primary"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+          "role": "secondary"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
+          "role": "secondary"
+        },
+        {
+          "name": "The Globe and Mail（路透）",
+          "url": "https://www.theglobeandmail.com/business/article-anthropic-prices-ipo-at-83-a-share-above-targeted-range-source-says/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/morning-01.jpg",
+        "alt": "打开的笔记本电脑屏幕上是 Anthropic 网站和 Claude 标识。此图是美联社该报道的页面配图，说明拍摄于 2026 年 2 月 26 日，不是定价或开市现场。",
+        "credit": "美联社该报道页面的公开 og:image。说明为 2026 年 2 月 26 日拍摄的资料照片。官方公告页的 og:image 只是公司字标，本条未用。",
+        "sourcePage": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
+        "retrievedFrom": "https://dims.apnews.com/dims4/default/9fdc316/2147483647/strip/true/crop/5000x3336+0+0/resize/1200x801!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fec%2F30%2F2501423507cb60a338a9d98e7908%2Fefeabdb499534038b7b6820d87ae673b",
+        "retrievedAt": "2026-11-19T02:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Google",
+      "headline": "发布 Gemini 4 Neon，定位在 Carbon 与 Hydrogen 之间，并公布 API 定价",
+      "standfirst": "这是 Gemini 4 家族的新成员，面向复杂工程和知识工作，今天开始滚动上线。",
+      "paragraphs": [
+        "Google 发布 Gemini 4 Neon，把它放在 Carbon（最长周期、最难任务）和 Hydrogen（日常快速执行）之间，强调软件工程、知识工作和科学流程的端到端速度。官方 API 定价为每百万 tokens 输入 3 美元、缓存输入 0.15 美元、输出 15 美元，上下文窗口 100 万 tokens，并提供四个思考档位。",
+        "模型即日起在 Gemini API、Gemini for business、Google Antigravity 以及 Gemini 应用的 Pro 和 Ultra 订阅中滚动上线。官方引用的榜单成绩和「最低虚构率」多为公司公布的评测，须保留「公司称」。"
+      ],
+      "whyItMatters": "在 OpenAI 刚更新 GPT-6.2 之后，Google 又放出一档可直接使用的主力模型，竞争落在价格、速度和能否真正交给工作流。",
+      "caveats": [
+        "榜单名次、内部评测和「最低虚构率」都是官方或公司委托评测，不是独立复现后的结论。官方博客只标注了日期，没有钟点；发布时间以 9to5Google 和 The Verge 的时戳为准。"
+      ],
+      "figures": [
+        "每百万 tokens：输入 3 美元，缓存输入 0.15 美元，输出 15 美元；上下文 100 万 tokens。官方称在 Artificial Analysis Intelligence Index 的 xhigh 档得分 61，总体第 3；Vals Index 第 2（70.9%）。"
+      ],
+      "publishedAt": "2026-11-19T05:34:00+08:00",
+      "publishedAtNote": "官方博客标注 2026-11-18，未标钟点。这里采用 9to5Google 美西 11 月 18 日 13:34，合上海时间 11 月 19 日 05:34。The Verge 为 22:08 UTC，合 06:08。",
+      "sources": [
+        {
+          "name": "Google 官方博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "role": "primary"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/",
+          "role": "secondary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1037150/google-released-another-gemini-4-model",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/morning-02.png",
+        "alt": "深色背景上是橙色霓虹灯管组成的「Gemini 4 Neon」字样和星形标志。这是 Google 官方博客的标题图。",
+        "credit": "Google 官方文章 Introducing Gemini 4 Neon 页面的公开 og:image。",
+        "sourcePage": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+        "retrievedAt": "2026-11-19T02:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Tencent",
+      "headline": "三季报营收 2073 亿元，同比增 8%；称 WorkBuddy 日活超千万，同日豆包工作称日活破 800 万",
+      "standfirst": "腾讯收入仍在增长，利润被新人工智能产品和算力投入拉低；办公智能体成为国内对标的焦点。",
+      "paragraphs": [
+        "腾讯公布第三季度营收 2073 亿元，同比增长 8%。非国际财务报告准则经营盈利 681 亿元，同比下降 6%；剔除新人工智能产品后，经营盈利 833 亿元，同比增长 8%。资本开支 651 亿元，同比增 225%。自由现金流为负 691 亿元，官方称若剔除算力采购预付款，则为正 169 亿元。云服务收入同比增长 35%。",
+        "官方称，WorkBuddy 以大模型 token 消耗计已成为中国使用量最高的人工智能产品，日活超过 1000 万，每天合计消耗超过 100 万亿 tokens。同日，第一财经和每经转述豆包官方宣布：「豆包工作」上线三个月，日活突破 800 万，企业客户年度经常性收入突破 20 亿元。总裁刘炽平在电话会上说，理想状态是现有业务用更少的人，再把人力配置到新增长上；这是对组织变革的解释，不是宣布按比例裁员。"
+      ],
+      "whyItMatters": "国内两家最大的互联网公司在同一晚给出办公智能体的用户和收入数据，腾讯还把「用更少的人」和组织变革放进财报电话会。",
+      "caveats": [
+        "Hy4 达到「中国最先进」是马化腾在新闻稿里的公司自评。财新称电话会上披露微信智能体「小微」日活突破 3000 万，但这一数字未出现在本报打开的官方新闻稿中，只能作为财新转述。豆包工作的 800 万日活和 20 亿元年度经常性收入来自对公司官方宣布的媒体转述。"
+      ],
+      "figures": [
+        "腾讯官方：营收 2073 亿元，同比增 8%；非国际财务报告准则经营盈利 681 亿元，同比降 6%。WorkBuddy 日活超过 1000 万，每日消耗超过 100 万亿 tokens。媒体转述豆包官方：日活 800 万，企业客户年度经常性收入 20 亿元。"
+      ],
+      "publishedAt": "2026-11-18T18:00:00+08:00",
+      "publishedAtNote": "腾讯官方英文新闻稿标注 2026 年 11 月 18 日于香港发布，文件名含 1800，这里按 18:00 记录。豆包工作数据见每经 20:47、第一财经 21:18。刘炽平电话会表述见澎湃 22:44。",
+      "sources": [
+        {
+          "name": "腾讯官方英文业绩新闻稿",
+          "url": "https://static.www.tencent.com/website-2026-upload/Tencent-Announces-2026-Third-Quarter-Results-1800-6d9a2a.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "腾讯官方中文业绩新闻稿",
+          "url": "https://www.tencent.com/wp-content/uploads/2026/11/%E8%85%BE%E8%AE%AF%E5%85%AC%E5%B8%83%E4%BA%8C%E9%9B%B6%E4%BA%8C%E5%85%AD%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E4%B8%9A%E7%BB%A9.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34505420",
+          "role": "secondary"
+        },
+        {
+          "name": "第一财经",
+          "url": "https://www.yicai.com/news/103445658.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "官方发布是 PDF 新闻稿，没有可存档的活动配图。财新和澎湃页面配图不是官方照片，也不用库存图。"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "NVIDIA",
+      "headline": "临时 CEO 主持去职后首次全员会，把加薪和股权授予从 3 月提前到 12 月",
+      "standfirst": "Colette Kress 说「向前看」，并用提前激励来稳定队伍。这是董事会拒绝请回黄仁勋之后的新动作。",
+      "paragraphs": [
+        "英伟达临时首席执行官 Colette Kress 主持黄仁勋去职后的首次全员大会，对员工说「向前看」，并宣布把通常在 3 月进行的年度评估、加薪和股权授予提前到 12 月。董事会主席 Harvey Jones 介绍了新首席执行官的遴选进展。会议在加州圣克拉拉现场举行，并在 Microsoft Teams 上直播，约一小时。",
+        "CNBC 一名要求匿名的与会者称，现场仍有员工希望黄仁勋回来；另一名知情人士则称，员工欢迎管理层出面说明。两说并存，不能写成全员已经达成一致。"
+      ],
+      "whyItMatters": "领导层去留仍未落定，公司先用提前加薪和股权来稳住人心，这是去职之后第一次面向全员的正式表态。",
+      "caveats": [
+        "会议是内部活动，引述来自匿名与会者和知情人士，不是官方新闻稿。CNBC 提到股价较 52 周高点下跌 37%，只是报道背景，不是本次会议宣布的数字。"
+      ],
+      "figures": [
+        "年度评估、加薪和股权授予由通常的 3 月提前到 12 月。CNBC 称会议约一小时，现场举行并在 Teams 直播。"
+      ],
+      "publishedAt": "2026-11-19T03:09:00+08:00",
+      "publishedAtNote": "CNBC 于美东 2026 年 11 月 18 日 14:09 首发，合上海时间 11 月 19 日 03:09。会议本身在 11 月 18 日美国西部时间举行。",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+          "role": "primary"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/morning-04.jpg",
+        "alt": "白色网状穹顶舞台上，十余名高管坐成一排，台下是听会的员工。此图是 CNBC 该报道的页面配图，来自全员会现场，不是新闻发布会效果图。",
+        "credit": "CNBC 该报道页面的公开 og:image。报道称照片由 CNBC 获得。",
+        "sourcePage": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+        "retrievedFrom": "https://image.cnbcfm.com/api/v1/image/108554444-1795034841037-108554444-1795025697370-image-1_1024.jpg?v=1795034856&w=1920&h=1080",
+        "retrievedAt": "2026-11-19T02:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Muddy Waters",
+      "headline": "浑水宣布做空英伟达，质疑前高管与超微电脑前高管是否存在关联，指控尚未证实",
+      "standfirst": "这是一份做空报告提出的问题，不是监管已经认定的新罪名。",
+      "paragraphs": [
+        "做空机构浑水宣布已做空英伟达，并质疑前全球现场运营执行副总裁 Ajay K. Puri，与超微电脑前首席增长官 Cenly Chen 之间是否存在未披露的关联。报告问的是：与 Puri 一同出现在公开照片中、有时被标注为 Cenly Puri 的女子，是否就是这位前超微电脑高管。Puri 于 2026 年 6 月底离开英伟达，目前仍担任高级顾问。",
+        "报告写明：目前没有任何政府指控 Chen 或 Puri 犯罪，相关集体诉讼中的主张也尚未得到证实。浑水还称，报告发布后拟回补大部分乃至全部空头仓位。对外必须同时写清这四点，不能写成已经坐实。"
+      ],
+      "whyItMatters": "在英伟达领导层动荡和出口管制敏感期，一份点名中国业务关联的做空报告会迅速传播，但报告本身把未证实的界限写得很清楚。",
+      "caveats": [
+        "浑水是空头，存在利益冲突，并写明发布后将回补大部分仓位。报告提出的是身份与治理问题，不是已判决或已起诉 Puri、Chen 的结论。文中提及的超微电脑员工被起诉，对象不是这两人。"
+      ],
+      "figures": [
+        "报告未披露空头仓位规模或目标价，并写明发布后拟回补大部分仓位。文中提到，今年 3 月美国起诉三名超微电脑员工，指控经新加坡空壳向中国终端客户非法销售至少约 25 亿美元、搭载英伟达 GPU 的服务器；该检控对象不是 Chen 或 Puri。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "报告网页未标钟点。附件文件名为 MW_NVDA_20261117.pdf，36氪 11 月 19 日早报写「当地时间 11 月 17 日」。没有可核对的单一钟点，故 publishedAt 留空。",
+      "sources": [
+        {
+          "name": "Muddy Waters Research",
+          "url": "https://muddywatersresearch.com/research/2026/mw-short-nvda/",
+          "role": "primary"
+        },
+        {
+          "name": "36氪",
+          "url": "https://www.36kr.com/p/4075920892581000",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "报告页配图是英伟达标识，属于通用标识，与这份质疑的具体内容对不上，所以不用。"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "OpenAI",
+      "headline": "称模型改进自研芯片 Jalapeño，并与 AMD 合作，官方称旗舰 GPU 的 PPA 最高提升 14%",
+      "standfirst": "公司把自己的模型和 AMD 的量产设计放在一起，给出了面积和能效方面的具体数字。",
+      "paragraphs": [
+        "OpenAI 称，其模型改进了自研推理芯片 Jalapeño 的设计：向量单元标准单元面积约减 13%，矩阵单元约减 10%，并已通过硅验证。与 AMD 合作时，官方称在已高度优化的基准上，旗舰 GPU IP 的功耗、性能与面积最高提升 14%，做法是改写 SystemVerilog RTL；并称这相当于把约一年的优化压缩到不到 5 个月。",
+        "官方称，AMD 已将部分改动纳入近期送交制造的设计，其他改动写入后续产品的生产设计文件，并验证了下一代旗舰 CPU 关键模块的个位数百分比提升。OpenAI 还说将与新思科技合作，把模型接入工程师已在使用的电子设计自动化工具。上述数字来自公司披露，其中部分写明经过 AMD 验证。"
+      ],
+      "whyItMatters": "如果模型真能改动即将送交制造的 GPU 设计，人工智能就不再只是芯片的买家，也开始进入芯片本身的设计流程。",
+      "caveats": [
+        "面积、PPA 和「已送交制造」都是 OpenAI 的单方陈述，即使写明部分结果经 AMD 验证，也不是独立实验室复现。开源 RISC-V 内核上的评测不能写成已经量产。"
+      ],
+      "figures": [
+        "官方称：Jalapeño 向量单元面积约减 13%，矩阵单元约减 10%，已通过硅验证；AMD 旗舰 GPU IP 的 PPA 最高提升 14%，部分改动已送交制造。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "官方博客标注 2026 年 11 月 18 日，未标钟点，故 publishedAt 留空。",
+      "sources": [
+        {
+          "name": "OpenAI 官方文章",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/morning-06.png",
+        "alt": "左侧是英文标题「Advancing chip design with OpenAI models」，右侧是彩色芯片版图风格的图形。这是 OpenAI 官方文章的配图，不是某一颗已量产芯片的实物照片。",
+        "credit": "OpenAI 官方文章 Advancing chip design with OpenAI models 页面的公开 og:image。",
+        "sourcePage": "https://openai.com/index/advancing-chip-design-with-our-models/",
+        "retrievedFrom": "https://images.ctfassets.net/kftzwdyauwt9/658zg0FHAg7zuL73DTFCfC/fff21fd18c260ce64a10a14ee8d4e851/advancing-chip-design-social.png?w=1600&h=900&fit=fill",
+        "retrievedAt": "2026-11-19T02:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Megarobo",
+      "headline": "36氪：镁伽科技完成近 2 亿美元新一轮融资，阿曼投资局参与",
+      "standfirst": "这是今天上午见报的融资披露，报道写的是近日已经完成。",
+      "paragraphs": [
+        "36氪报道，镁伽科技近日完成近 2 亿美元新一轮融资。本轮由阿曼投资局参与，亚投资本、Granite Asia、创新工场等老股东加注，招银国际、苏创投、三江招商集团等跟投。报道称公司累计融资近 6 亿美元，面向生命科学实验室自动化和工业智能。",
+        "报道还提到，公司 2025 年 6 月曾递表港交所，并援引招股书称截至当年 6 月在手订单 15 亿元。这是历史披露，不是今天的新业绩。"
+      ],
+      "whyItMatters": "国际主权资本进入国内人工智能实验室基础设施公司，说明资金仍在向「能把实验和数据跑起来」的方向集中。",
+      "caveats": [
+        "金额是「近 2 亿美元」，没有更精确的数字。正文写「近日已完成」，见报时间是 11 月 19 日 08:30。招股书中的在手订单截止于 2025 年 6 月。"
+      ],
+      "figures": [
+        "本轮近 2 亿美元，累计融资近 6 亿美元。领投或参与方包括阿曼投资局，以及亚投资本、Granite Asia、创新工场等老股东。"
+      ],
+      "publishedAt": "2026-11-19T08:30:00+08:00",
+      "publishedAtNote": "36氪首发时间为 2026 年 11 月 19 日 08:30。正文写「近日已完成」。",
+      "sources": [
+        {
+          "name": "36氪",
+          "url": "https://www.36kr.com/p/4075322592187524",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "36氪封面图路径含人工智能生成标记，按站规不用生成图。没有另外存下可核对的官方产品照片。"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Genesis AI",
+      "headline": "完成 5 亿美元 A 轮，投后估值 35 亿美元，将规模化部署机器人 Eno",
+      "standfirst": "一轮高额机器人融资，投资方包括 Nvidia 和 AMD Ventures。",
+      "paragraphs": [
+        "Genesis AI 宣布完成 5 亿美元 A 轮融资，投后估值 35 亿美元，由 Premji Invest、Khosla Ventures 和 Eclipse 联合领投。参投包括 NVIDIA、AMD Ventures、Zoom、Samsung Next 等机构。资金将用于扩大数据采集与训练，并规模化部署旗舰通用机器人 Eno，初期场景是制造、物流和实验室。",
+        "TechCrunch 采访中，公司称已制造 30 到 40 台 Eno，量产计划由尚未点名的承包商于明年在美国启动。这些是采访内容，不是已经大规模交付。"
+      ],
+      "whyItMatters": "在大模型融资向头部集中的同时，产业资本仍在为「能在工厂里干活」的机器人写出高估值。",
+      "caveats": [
+        "估值和投资名单来自公司通讯稿。已造 30 到 40 台、灵巧手使用寿命以及量产安排来自 TechCrunch 采访，不能写成已经规模交付。"
+      ],
+      "figures": [
+        "官方：5 亿美元 A 轮，投后估值 35 亿美元。联合领投为 Premji Invest、Khosla Ventures 和 Eclipse。"
+      ],
+      "publishedAt": "2026-11-17T22:00:00+08:00",
+      "publishedAtNote": "PR Newswire 标注 2026 年 11 月 17 日 09:00 ET，合上海时间 22:00。",
+      "sources": [
+        {
+          "name": "Genesis AI / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html",
+          "role": "primary"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "通讯稿页面没有可存档的官方静帧，抓到的是带播放键的视频缩略图。本报不放视频，也不用带播放键的预览图。"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Microsoft",
+      "headline": "发布 MAI Code 2 与 Code 2 Flash，已登陆 GitHub Copilot",
+      "standfirst": "Microsoft 把自己的编码模型推向日常企业开发，主打价格和可规模使用。",
+      "paragraphs": [
+        "Microsoft 发布编码模型 MAI Code 2 和更便宜的 MAI Code 2 Flash，已登陆 GitHub Copilot，Flash 还在 Microsoft Foundry 做有限预览。官方称，在一组面向日常企业编码的基准上，MAI Code 2 达到 GPT-6.1 Sol 约 98% 的表现，成本约为其 40%。",
+        "公司同时写明，这些模型尚未针对基础科学和超长周期智能体任务做调优，部分成本对比还使用了促销价。对外须保留「公司称」。"
+      ],
+      "whyItMatters": "编码模型的竞争已经从榜单第一，转向日常开发能不能用得起、用得稳。",
+      "caveats": [
+        "所有对比都是官方评测和官方计价口径，不是第三方确认的全面领先。官方博客只标注了 11 月 17 日，没有钟点。"
+      ],
+      "figures": [
+        "官方称：在四项日常企业编码基准的平均结果上，MAI Code 2 约为 GPT-6.1 Sol 表现的 98%、成本的 40%。已在 GitHub Copilot 上线。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "官方博客标注 2026 年 11 月 17 日，未标钟点。GitHub Changelog 日期同为 2026-11-17。故 publishedAt 留空。",
+      "sources": [
+        {
+          "name": "Microsoft AI 官方博客",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "role": "primary"
+        },
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-19/morning-09.jpg",
+        "alt": "浅色背景上写着「MAI Code 2」和「MAI Code 2 Flash」，副标题是面向日常企业编码任务的性价比。这是 Microsoft 官方博客的标题图。",
+        "credit": "Microsoft AI 官方文章 MAI Code 2 and Code 2 Flash 页面的公开配图。",
+        "sourcePage": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+        "retrievedFrom": "https://microsoft.ai/wp-content/uploads/2026/11/MAI-Code-2-Ignite-WithHeader-16x9-1.jpg",
+        "retrievedAt": "2026-11-19T02:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-19-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "NVIDIA",
+      "headline": "与三星电机加强先进封装基板合作，追加资金仍在审议，目标 2029 年规模量产",
+      "standfirst": "这是对 10 月已有合作的加强，不是从零开始的全新立项。",
+      "paragraphs": [
+        "三星电机宣布与 Nvidia 加强合作，为下一代 GPU 增加先进封装基板供应，并提升世宗、釜山工厂的运营能力。新闻稿写，Nvidia 正在审议追加资金，用于扩大这两处的生产设施和设备，并据此从 2029 年开始建立规模量产体系。合作还延伸到计算平台所需的多层陶瓷电容。",
+        "Nvidia 11 月 17 日另发新闻稿，提及与 Kinsus、Amkor、SPIL 等的扩产安排。其中与 Amkor 在美国和韩国合计近 30 亿美元的协议已在 7 月和 10 月宣布，不能当成今天的新金额。三星电机把追加资金写成「正在审议」，不能写成已经到账。"
+      ],
+      "whyItMatters": "下一代人工智能芯片能出货多少，越来越取决于基板和封装产能，而不只是设计本身。",
+      "caveats": [
+        "三星电机新闻稿对追加资金的表述是「正在审议」，不是已经拨款。这是 10 月合作的加强和修订。Nvidia 供应链新闻稿与 11 月 17 日季报同日发出，其中部分安排不是 18 日才出现的。"
+      ],
+      "figures": [
+        "三星电机：目标 2029 年起规模量产，合作延伸到 MLCC。Nvidia 另称，Kinsus 计划把专供产能提高到当前的 3.5 倍以上，预计 2027 年下半年开始生产。与 Amkor 近 30 亿美元的协议此前已经宣布。"
+      ],
+      "publishedAt": "2026-11-18T09:23:00+08:00",
+      "publishedAtNote": "三星电机新闻稿标注 2026-11-18，未标钟点。《韩国先驱报》11 月 18 日 10:23（韩国时间）报道，合上海时间 09:23。Nvidia 供应链新闻稿标注 2026-11-17。",
+      "sources": [
+        {
+          "name": "三星电机新闻稿",
+          "url": "https://samsungsem.com/global/newsroom/news/view.do?id=10703",
+          "role": "primary"
+        },
+        {
+          "name": "NVIDIA 供应链新闻稿",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx",
+          "role": "secondary"
+        },
+        {
+          "name": "The Korea Herald",
+          "url": "https://www.koreaherald.com/article/10940879",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "三星电机页面的 og:image 是通用站点图。Nvidia 新闻稿配图是合作伙伴标识拼贴，属于通用标识，所以不用。"
+      }
+    }
+  ]
+}
