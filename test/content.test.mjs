@@ -95,8 +95,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(dated, /1158 亿美元，同比增 103%/);
   assert.match(dated, /请愿签名已经超过 16 万/);
   assert.match(css, /max-width:\s*76vw/);
-  assert.match(css, /min\(612px, 100%\)/);
+  assert.match(css, /min\(680px, 100%\)/);
+  assert.match(css, /min\(306px, 100%\)/);
   assert.match(css, /min\(490px, 100%\)/);
+  assert.doesNotMatch(css, /grid-template-columns:\s*612px/);
   assert.doesNotMatch(css, /min\(92vw, 1680px\)/);
   assert.doesNotMatch(evening, /编者按|这是本流最新一期|<dt>来源发布时间|<ul class="figures"|<ul class="caveats"/);
   assert.match(dated, /data-page-role="issue"/);
