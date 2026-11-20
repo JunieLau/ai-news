@@ -1,0 +1,498 @@
+{
+  "issueDate": "2026-11-20",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-20T10:50:00+08:00",
+  "retrievedThrough": "2026-11-20T10:38:00+08:00",
+  "slot": "10:00",
+  "slotNote": "常规早报档期是上海时间 10:00。本期按窗口检索至截稿时点。",
+  "title": "AI新闻速报",
+  "editorsNote": "2026 年 11 月 20 日新闻早报。优先过去约 24 小时、最远不超过约 48 小时的硬新闻；已与 11 月 19 日、18 日期刊去重。Anthropic 一条只写首日交易结果，不重复昨日定价。台积电一条只写新指引，不重写已报过的美国商务部规则。",
+  "stories": [
+    {
+      "id": "2026-11-20-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Anthropic",
+      "headline": "ANT 纳斯达克首日：开盘 111.50 美元，收盘 97.17 美元，较发行价涨 17%；报道称全面摊薄市值约 1.8 万亿美元",
+      "standfirst": "这是上市首日的收盘结果，不是对昨日定价报道的重复。开盘后有回落，仍高于发行价 83 美元。",
+      "paragraphs": [
+        "Anthropic 股票 11 月 19 日（美东）以代码 ANT 在纳斯达克开始交易，开盘 111.50 美元，收盘 97.17 美元，较发行价 83 美元上涨 17%。CNBC 称，按全面摊薄口径市值约 1.8 万亿美元，成交超过 8.46 亿股，超过 SpaceX 开市日的 5.22 亿股，并成为当日美国第七大市值公司。联合创始人 Dario Amodei 与 Daniela Amodei 在纳斯达克 MarketSite 参加了开市铃仪式。",
+        "IPO 筹资 813 亿美元、发行价和发行规模已在昨报写过，这里只作对照。CNBC 还称，招股文件显示发行后 Amazon 持股约 14.7%、Google 约 13.7%。1.8 万亿美元是收盘时的报道估算，不能写成已经稳定的市值。"
+      ],
+      "whyItMatters": "这是独立人工智能实验室首次按纪录规模公开交易的第一天，收盘价、市值和成交量会直接影响后续定价和风险偏好。",
+      "caveats": [
+        "开盘后价格自 111.50 美元回落至 97.17 美元。全面摊薄市值约 1.8 万亿美元来自 CNBC 等对收盘价的估算，不是交易所的官方「定值」。昨日已报的发行价、股数和筹资额不是本条新事实。"
+      ],
+      "figures": [
+        "开盘 111.50 美元，收盘 97.17 美元，较发行价 83 美元涨 17%。CNBC：全面摊薄市值约 1.8 万亿美元，成交超过 8.46 亿股。"
+      ],
+      "publishedAt": "2026-11-20T05:00:00+08:00",
+      "publishedAtNote": "首日交易为美东 2026-11-19。收盘 16:00 ET，合上海时间 11-20 05:00。纳斯达克新闻稿 15:30 ET 确认开盘价，当时尚未收盘。CNBC 直播页更新至 19:04 ET，合 08:04。",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+          "role": "primary"
+        },
+        {
+          "name": "Nasdaq Newsroom",
+          "url": "https://www.nasdaq.com/newsroom/anthropic-marks-ipo-at-nasdaq",
+          "role": "secondary"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/live/c933xxm82mr8t",
+          "role": "secondary"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-01.jpg",
+        "alt": "Dario Amodei、Daniela Amodei 与纳斯达克 CEO Adena Friedman 等人站在 Nasdaq 标志台前鼓掌。照片拍摄于 2026 年 11 月 19 日开市活动。",
+        "credit": "CNBC 该报道页面的公开配图。",
+        "sourcePage": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+        "retrievedFrom": "https://image.cnbcfm.com/api/v1/image/108555440-1795105864195-gettyimages-2305334311-ANTHROPIC_IPO.jpeg?v=1795105887&w=1920&h=1080",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "DeepSeek",
+      "headline": "第二轮外部融资完成工商变更：杭州程砚新持约 17.27%，31 家合伙人现身；腾讯与宁德时代体系在平台内出资并列居前",
+      "standfirst": "新事实是登记落地和出资名单。募资额与估值仍来自此前报道，未见公司官方确认。",
+      "paragraphs": [
+        "工商信息显示，杭州深度求索人工智能基础技术研究有限公司于 11 月 17 日完成变更，注册资本由 1644.7496 万元增至 1991.8707 万元，新增股东杭州程砚持股 17.265%。杭州程砚同期变更，登记出资额由 0.6 万元增至约 34.39 亿元，新增 31 名有限合伙人。天眼查截图显示，腾讯旗下上海珩岫出资比例 9.5653%，与宁德时代体系相关基金合计比例并列居前；中移投资控股与中信证券投资各 7.6522%。",
+        "财新和杭州网称，梁文锋不再担任杭州程砚的直接合伙人，但仍持有执行事务合伙人杭州程策 99% 的股权；多家报道还称，资金注入持股平台，投资方不享有投票权。每经、杭州网等仍引用此前报道的约 1000 亿至 1055 亿元募资、约 6155 亿元投后估值，杭州网写明这些数字见于 10 月 30 日的媒体报道。公司尚未发布官方新闻稿确认规模与估值。"
+      ],
+      "whyItMatters": "这是本轮融资从传闻转入可核对的登记信息，出资名单第一次完整出现；规模数字仍需与官方确认分开看。",
+      "caveats": [
+        "变更日期是 11 月 17 日，公开报道集中在 11 月 19 日至 20 日。1055 亿元和 6155 亿元不是今日工商信息里的数字，也未见 DeepSeek 官方确认。出资比例来自天眼查等第三方平台截图和媒体转述。"
+      ],
+      "figures": [
+        "注册资本 1644.7496 万元增至 1991.8707 万元；杭州程砚持股 17.265%，登记出资额增至约 34.39 亿元，新增 31 名合伙人。上海珩岫 9.5653%，与宁德时代体系合计比例并列。报道曾称募资约 1000 亿至 1055 亿元、投后估值约 6155 亿元，公司未确认。"
+      ],
+      "publishedAt": "2026-11-19T17:17:00+08:00",
+      "publishedAtNote": "工商变更日期为 2026-11-17。这里采用财新 11-19 17:17 的报道时间。杭州网为 16:18，每经为 11-20 09:39。",
+      "sources": [
+        {
+          "name": "财新",
+          "url": "https://www.caixin.com/2026-11-19/102506633.html",
+          "role": "primary"
+        },
+        {
+          "name": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-11-20/4653473.html",
+          "role": "secondary"
+        },
+        {
+          "name": "杭州网",
+          "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/19/content_9374068.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "东方财富（转载）",
+          "url": "https://finance.eastmoney.com/a/202611193935125171.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-02.png",
+        "alt": "天眼查「合伙人信息」列表截图，显示杭州程砚前 10 名合伙人及出资比例，第一名为上海珩岫商业管理有限公司 9.5653%。这是杭州网该报道中的登记信息截图，不是公司商标图。",
+        "credit": "杭州网 2026 年 11 月 19 日报道中的天眼查合伙人列表截图。",
+        "sourcePage": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/19/content_9374068.htm",
+        "retrievedFrom": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/19/9a574232-d0e8-4d73-84c8-0de7526b7ff1.png",
+        "retrievedAt": "2026-11-20T02:37:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "U.S. Congress",
+      "headline": "众议院外委会公布：截至 5 月 11 日，BIS 批准向中国企业转移 879,868 颗受管制芯片，申请量为 3,444,160 颗；文件指产品为 H200 与 MI325X",
+      "standfirst": "这是国会公开已有许可数据，不是新的出口禁令。数据截止于 5 月，不能写成 11 月仍在按此规模批出。",
+      "paragraphs": [
+        "美国众议院外交事务委员会 11 月 19 日依据《出口管制改革法》公开商务部工业与安全局的许可信息。官方摘要称，截至 2026 年 5 月 11 日，BIS 收到向中国企业出售 3,444,160 颗受管制集成电路的申请，并批准 879,868 颗，涉及 21 份许可。获批数量包括阿里巴巴 75,000 颗、腾讯及其子公司 150,000 颗、百度 43,000 颗、比亚迪 4,000 颗。文件脚注写明，受管制产品为 Nvidia H200 与 AMD MI325X。",
+        "申请清单还列入美方 1260H 名单上相关企业的需求，其中阿里巴巴及其子公司为 948,950 颗。委员会称另有未完全计入该汇总的申请，例如 Nvidia 在 2025 年 12 月申请向腾讯出口 445,000 颗 H200。Nvidia 对 CNBC 称当时遵守有效规定，并已停止向中国出货 H200；AMD 称遵守美国出口管制。BIS 表示许可经多部门商议。"
+      ],
+      "whyItMatters": "具体颗数和公司名单被公开后，对华先进芯片贸易的规模和限制都不再只是笼统表述，也会影响后续国会监督。",
+      "caveats": [
+        "数据截止于 2026 年 5 月 11 日。受管制产品仅指文件所列的 H200 与 MI325X，不能写成所有人工智能芯片。委员会文件中的「中国军方企业」是美方名单用语。分析师对 CNBC 表示，获批量大约是申请量的四分之一。"
+      ],
+      "figures": [
+        "申请 3,444,160 颗，批准 879,868 颗、21 份许可（截至 5 月 11 日）。获批：阿里巴巴 75,000、腾讯及其子公司 150,000、百度 43,000、比亚迪 4,000。产品为 Nvidia H200 与 AMD MI325X。"
+      ],
+      "publishedAt": "2026-11-20T03:55:00+08:00",
+      "publishedAtNote": "委员会新闻稿标注 2026-11-19，未标钟点。这里采用 CNBC 美东 14:55 的报道时间，合上海时间 11-20 03:55。The Verge 为 21:19 UTC，合 05:19。",
+      "sources": [
+        {
+          "name": "House Foreign Affairs Committee",
+          "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+          "role": "primary"
+        },
+        {
+          "name": "HFAC ECRA Disclosure PDF",
+          "url": "https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-HFAC-Summary.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+          "role": "secondary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1038110/trump-administration-approved-more-than-879000-ai-chip-sales-to-chinese-companies-per-new-disclosure",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-03.png",
+        "alt": "美国众议院外交事务委员会 2026 年 11 月 19 日《ECRA Disclosure》官方文件首页，正文列出申请 3,444,160 颗、批准 879,868 颗等数字。这是文件本身，不是人物肖像。",
+        "credit": "众议院外交事务委员会 2026 年 11 月 19 日官方披露文件首页。",
+        "sourcePage": "https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-HFAC-Summary.pdf",
+        "retrievedFrom": "https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-HFAC-Summary.pdf",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "TSMC",
+      "headline": "路透引述知情人士：台积电暂停中国客户 16 纳米及以下订单，除非取得美国出口许可；受影响客户原则上只能使用 28 与 40 纳米",
+      "standfirst": "这是台积电在新规生效后的执行指引，不是对美国商务部规则文本的重复。消息来自知情人士，不是台积电官方新闻稿。",
+      "paragraphs": [
+        "美国商务部先进芯片出口管制临时最终规则于 11 月 19 日生效。路透引述两名知情人士称，台积电已收紧对中国芯片设计客户的限制：16 纳米及以下制程订单须暂停，除非客户取得美国出口许可；受影响客户原则上只能使用较成熟的 28 纳米与 40 纳米，且芯片不得使用高带宽存储器，也不需要先进封装。中央社 11 月 20 日早间转述了这一报道。",
+        "知情人士称，新规生效后，台积电不能再靠核查芯片算力与规格来排除管制。金融时报此前已报道台积电与三星暂停部分对华出货。指引还要求更严格审查客户运营地、母公司、股东、封装商和出货路线。美国政府核准的设计厂商名单包括 Nvidia、AMD、Apple 以及联发科、瑞昱，没有中国企业。"
+      ],
+      "whyItMatters": "先进制程和存储器组合一旦被卡住，国产替代芯片在海外代工的路径会明显变窄。",
+      "caveats": [
+        "规则文本已在 11 月 18 日早报写过，本条只写台积电的新指引。这是路透对知情人士的转述，台积电未发官方新闻稿。路透称无法独立查证此前部分 7 纳米订单的具体安排。"
+      ],
+      "figures": [
+        "16 纳米及以下订单暂停，除非取得美国出口许可。受影响客户原则上可使用 28 纳米与 40 纳米，前提是不使用高带宽存储器，也不需要先进封装。"
+      ],
+      "publishedAt": "2026-11-20T07:51:00+08:00",
+      "publishedAtNote": "中央社 2026-11-20 07:51 发布，08:26 更新，转述路透 11 月 19 日报道。台北时报 11-20、U.S. News 转载路透稿标注 11-19。",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611200021.aspx",
+          "role": "primary"
+        },
+        {
+          "name": "Taipei Times（路透）",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041",
+          "role": "secondary"
+        },
+        {
+          "name": "U.S. News（路透）",
+          "url": "https://money.usnews.com/investing/news/articles/2026-11-19/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-04.jpg",
+        "alt": "灰色厂房外墙上的红色 tsmc 标识，一侧是玻璃幕墙。中央社说明此图取自台积电网页，不是本次指引的发布会现场。",
+        "credit": "中央社该报道配图，说明为取自台积电官方网页。",
+        "sourcePage": "https://www.cna.com.tw/news/afe/202611200021.aspx",
+        "retrievedFrom": "https://imgcdn.cna.com.tw/www/webphotos/WebCover/800/20261120/1599x1199_18001851137.jpg",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "AMD",
+      "headline": "Hunterbrook 做空 AMD，称其存在对华业务风险；公司否认，股价收跌 7.72% 至 489.19 美元",
+      "standfirst": "这是做空机构的单方报告和公司否认，不能写成监管部门已认定违规。",
+      "paragraphs": [
+        "Hunterbrook 11 月 19 日发布报告并披露做空 AMD。报告称，浪潮信息（IEIT Systems）在 2025 年 3 月被列入实体清单后，仍将至少六个更新版本的 AMD 固件纳入产品，最近一次出现在 10 月 19 日的更新中；并称 AMD 超过 20% 的收入来自中国和香港客户，且依赖中国合作伙伴完成大部分芯片。CNBC 写明未独立核实这些主张。AMD 当日收跌 7.72%，收于 489.19 美元。",
+        "AMD 发言人说，「相关主张误读了 AMD 的业务做法和关系」，并称公司遵守美国出口管制，在全球业务中维持合规流程。报告还点名 Maginfra、Kaytus、Aivres 等与浪潮信息关系密切的公司使用同一套固件。"
+      ],
+      "whyItMatters": "在英伟达对华销售已受审查的背景下，同一交易日对 AMD 的做空报告会立刻反映在股价和合规讨论里。",
+      "caveats": [
+        "关键指控未经 CNBC 独立核实，也不是政府结论。对外必须同时写明公司否认。收盘跌幅是单一交易日的市场反应，不能外推为调查结果。"
+      ],
+      "figures": [
+        "AMD 收跌 7.72%，收于 489.19 美元。Hunterbrook 称至少六个更新版固件，最近日期为 10 月 19 日，并称中国和香港客户收入占比超过 20%。上述比例和固件链路为报告主张。"
+      ],
+      "publishedAt": "2026-11-20T05:00:00+08:00",
+      "publishedAtNote": "Hunterbrook 报告页标注 2026-11-19。这里采用美东 11 月 19 日 16:00 收盘，合上海时间 11-20 05:00。",
+      "sources": [
+        {
+          "name": "Hunterbrook",
+          "url": "https://newsletter.hntrbrk.com/p/amd-has-its-own-china-problem",
+          "role": "primary"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-05.jpg",
+        "alt": "Hunterbrook 报告中的证据拼图：一份标明浪潮信息为最终控股公司的文件，以及日期为 2026 年 10 月 19 日的固件列表截图。这是报告原文中的文件图，不是人物照片。",
+        "credit": "Hunterbrook 2026 年 11 月 19 日报告页所配证据图。",
+        "sourcePage": "https://newsletter.hntrbrk.com/p/amd-has-its-own-china-problem",
+        "retrievedFrom": "https://substack-post-media.s3.amazonaws.com/public/images/9f3c8b53-cea0-4a6e-8d05-c26df31ea177_960x619.gif",
+        "retrievedAt": "2026-11-20T02:32:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Lenovo",
+      "headline": "二季度营收 302 亿美元同比增 48%，调整后净利润同比增 166%；人工智能相关收入首次超过 100 亿美元，GPU 服务器订单储备 800 亿美元",
+      "standfirst": "这是已上市公司的季度财报。800 亿美元是订单储备，不是已经确认的收入。",
+      "paragraphs": [
+        "联想 11 月 19 日公布 2026/27 财年第二季度业绩：营收 302.38 亿美元，同比增 48%；调整后净利润 13.61 亿美元，同比增 166%。官方称，人工智能相关收入同比增 79%，首次超过 100 亿美元，占营收 36%。基础设施方案集团营收 113 亿美元，同比增 178%，经营利润首次超过 10 亿美元。GPU 服务器收入同比增超 300%，订单储备环比增 48% 至 800 亿美元。",
+        "当期经营现金流 16 亿美元，自由现金流 12 亿美元。董事会宣布中期股息每股 9.0 港仙。董事长兼 CEO 杨元庆称，有信心最早在本财年达到 1000 亿美元年营收。调整后净利润为非香港财务报告准则口径，官方有脚注。"
+      ],
+      "whyItMatters": "这份财报把联想的增长更清楚地写在人工智能服务器和基础设施上，也给出了可核对的大额储备。",
+      "caveats": [
+        "调整后净利润不是国际财务报告准则/香港财务报告准则净利润。800 亿美元是订单储备，可能随项目变化。杨元庆关于 1000 亿美元年营收的表述是管理层展望。"
+      ],
+      "figures": [
+        "营收 302.38 亿美元，同比增 48%；调整后净利润 13.61 亿美元，同比增 166%。人工智能相关收入同比增 79%，占比 36%。GPU 服务器收入同比增超 300%，订单储备 800 亿美元。"
+      ],
+      "publishedAt": "2026-11-19T00:00:00+08:00",
+      "publishedAtNote": "官方新闻稿与联想 StoryHub 均标注 2026-11-19，未标钟点。港交所同日刊登。",
+      "sources": [
+        {
+          "name": "联想官方新闻稿",
+          "url": "https://investor.lenovo.com/en/financial/results/press_2627_q2.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "Lenovo StoryHub",
+          "url": "https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/",
+          "role": "secondary"
+        },
+        {
+          "name": "港交所",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900157.pdf",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-06.png",
+        "alt": "联想官方标题图，白字写着 Record Q2 Performance Demonstrates Strong Growth…，右下是 Lenovo 标识，左下是 Q2 2026/27。这是本次业绩发布的官方图像，不是现场照片。",
+        "credit": "联想官方 StoryHub 本期新闻稿标题图。",
+        "sourcePage": "https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/",
+        "retrievedFrom": "https://media.lenovonews.fiestic.com/2026/11/Storyhub-tile_press-release.png",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "U.S.-China",
+      "headline": "特朗普称与习近平都希望制定用于安全目的的人工智能规则；中国驻美使馆表示应加强协调并确保人类掌控",
+      "standfirst": "这是访谈表态和使馆声明，不是已经签署的共同规则。",
+      "paragraphs": [
+        "路透报道，美国总统特朗普 11 月 19 日接受 Fox News 采访时说，他与中国国家主席习近平都希望出于安全目的制定人工智能监管，并将共同推动合理规则。中国驻华盛顿使馆当天声明称，两国应加强沟通协调，防范人工智能的安全风险，确保人工智能始终处于人类控制之下。两人当天在深圳麒麟别墅举行会晤。",
+        "特朗普还称，会晤中没有过多谈论英伟达及相关人事传闻。双方没有公布一份可执行的共同规则文本或时间表。"
+      ],
+      "whyItMatters": "在芯片出口和实验室上市同一周，两国领导人如何谈论人工智能规则，会被当成政策信号来读。",
+      "caveats": [
+        "目前只有访谈和使馆声明，不能写成已经达成新的监管协议。路透稿经由 Yahoo、FMT 等转载核对，本侧未打开路透官网原文页。"
+      ],
+      "figures": [
+        "无新的条约条款或生效日期。会晤与访谈均在 2026 年 11 月 19 日。"
+      ],
+      "publishedAt": "2026-11-20T06:34:00+08:00",
+      "publishedAtNote": "路透电头为 11 月 19 日。这里采用 Yahoo 转载标注的 17:34 ET，合上海时间 11-20 06:34。",
+      "sources": [
+        {
+          "name": "路透（Yahoo 转载）",
+          "url": "https://www.yahoo.com/news/articles/trump-says-chinas-xi-want-223410951.html",
+          "role": "primary"
+        },
+        {
+          "name": "路透（FMT 转载）",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/trump-says-he-and-china-s-xi-want-moderate-ai-rules",
+          "role": "secondary"
+        },
+        {
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/east-asia/xi-trump-bilateral-talks-apec-shenzhen-6564771",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-07.jpg",
+        "alt": "特朗普与习近平在中美国旗前并肩站立合影，背景是山水画。右下角有 Reuters 标识。CNA 配发此图用于报道两人 11 月 19 日在深圳的会晤。",
+        "credit": "CNA 该报道页面配图，照片来自路透。",
+        "sourcePage": "https://www.channelnewsasia.com/east-asia/xi-trump-bilateral-talks-apec-shenzhen-6564771",
+        "retrievedFrom": "https://dam.mediacorp.sg/image/upload/s--yVKh51FO--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/19/trump_xi_apec_summit_bilateral_kylin_villa_1.jpg?itok=dKxAmwIr",
+        "retrievedAt": "2026-11-20T02:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Congress",
+      "headline": "Warner 等两党议员提出法案，要求上市公司披露大规模人工智能相关融资，并规范风险提示",
+      "standfirst": "这是已经提交的法案，还不是通过后的法律。",
+      "paragraphs": [
+        "参议员 Mark Warner 与同事 11 月 19 日提出一项两党法案，要求上市公司就重大人工智能相关融资作出具体披露，并推动规范公司如何向投资者提示人工智能相关风险。POLITICO 最先报道。华纳在采访中表示，担忧人工智能公司向同时也是客户的企业提供资金支持这类「循环投资」，并以英伟达支持购买其芯片的企业为例。",
+        "他还希望掌握可能不直接出现在公司账上的融资实体信息。本侧未在华纳参议员官网核对到新闻稿，也未列出全部联署人名单。法案没有实施时间表。"
+      ],
+      "whyItMatters": "如果进入立法程序，公开市场里常见的相互投资和担保，可能被要求写得更清楚。",
+      "caveats": [
+        "法案只是提出，尚未通过。另外三名联署人的完整名单，本侧未在官方新闻稿中核对到。"
+      ],
+      "figures": [
+        "尚无已通过的条文或生效日期。提案时间为 2026 年 11 月 19 日。"
+      ],
+      "publishedAt": "2026-11-20T02:24:00+08:00",
+      "publishedAtNote": "POLITICO 11:24 ET 首发，合上海时间 11-20 02:24；16:00 ET 更新，合 05:00。",
+      "sources": [
+        {
+          "name": "POLITICO",
+          "url": "https://www.politico.com/news/2026/11/19/warner-bipartisan-bill-ai-financing-01175873",
+          "role": "primary"
+        },
+        {
+          "name": "Alexandria Brief",
+          "url": "https://www.alexandriabrief.com/beyer-outlines-federal-ai-safety-rules-warner-bill-targets-ai-financing/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-08.png",
+        "alt": "参议员 Mark Warner 在办公室接受采访，身后是美国国旗，窗外可看到国会大厦。说明为 2026 年 11 月 19 日，照片由华纳办公室提供。",
+        "credit": "Alexandria Brief 该报道配图，说明来自 Sen. Mark Warner's office，拍摄于 2026 年 11 月 19 日。",
+        "sourcePage": "https://www.alexandriabrief.com/beyer-outlines-federal-ai-safety-rules-warner-bill-targets-ai-financing/",
+        "retrievedFrom": "https://storage.ghost.io/c/ff/13/ff131648-b5c5-4123-bc71-3f87d1c17e8f/content/images/size/w1200/2026/11/Screenshot-2026-11-19-at-5.37.49-PM.png",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Palo Alto Networks",
+      "headline": "Palo Alto Networks 以 45 亿美元全股票交易收购 Applied Compute，预计 2027 财年第三季度完成",
+      "standfirst": "协议已签署，但仍须监管批准，尚未交割。",
+      "paragraphs": [
+        "Palo Alto Networks 11 月 18 日宣布，已达成确定协议，以 45 亿美元全股票交易收购 Applied Compute，对价可予调整。官方称，Applied Compute 做开放权重模型的训练后与推理平台，交易后将帮助企业在公共云或主权环境中更安全地训练、适配和部署开源及开放权重模型。联合创始人兼 CEO Yash Patil 将在交割后出任联席首席人工智能官。",
+        "交易预计在公司 2027 财年第三季度完成，须满足惯例交割条件，包括监管批准。11 月 18 日早报截稿时尚未写入，11 月 19 日早报也未收入，仍在约 48 小时窗口内。"
+      ],
+      "whyItMatters": "网络安全公司把开放权重模型的训练和推理能力买下来，说明企业侧「既要用模型、又要管住模型」正在变成一桩大交易。",
+      "caveats": [
+        "45 亿美元可予调整，交割前仍有监管和其他先决条件。不能写成已经完成收购。"
+      ],
+      "figures": [
+        "全股票对价 45 亿美元，可予调整。预计 2027 财年第三季度完成。Yash Patil 将出任联席首席人工智能官。"
+      ],
+      "publishedAt": "2026-11-19T05:30:00+08:00",
+      "publishedAtNote": "官方新闻稿标注 2026-11-18，未标钟点。公司称将在美西 11 月 18 日 13:30 的财报电话会上说明细节，合上海时间 11-19 05:30。",
+      "sources": [
+        {
+          "name": "Palo Alto Networks 官方公告",
+          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-acquire-applied-compute--bringing-secure-open-weight-ai-to-the-enterprise",
+          "role": "primary"
+        },
+        {
+          "name": "Kleiner Perkins",
+          "url": "https://www.kleinerperkins.com/perspectives/applied-computes-next-chapter-with-palo-alto-networks/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-09.jpg",
+        "alt": "深棕色抽象背景上，白色字写着 Applied Compute × paloalto NETWORKS。这是领投方 Kleiner Perkins 就本次收购发布的公告图，不是签约现场照片。",
+        "credit": "Kleiner Perkins 就本次收购发布的公告配图。",
+        "sourcePage": "https://www.kleinerperkins.com/perspectives/applied-computes-next-chapter-with-palo-alto-networks/",
+        "retrievedFrom": "https://www.kleinerperkins.com/wp-content/uploads/2026/11/Applied-Compute-x-Palo-Alto-Networks_Perspectives.jpg",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Apple",
+      "headline": "报道称 Apple 招聘启事显示公司在开发可使用应用、浏览网页并写代码的自有人工智能代理；仍处早期，公司未置评",
+      "standfirst": "这是招聘与规划信号，不是产品已经发布。",
+      "paragraphs": [
+        "Bloomberg 11 月 19 日报道，Apple 的招聘启事显示公司在开发一种可代表用户使用电脑的人工智能代理。TechCrunch、9to5Mac 和 MacRumors 随后跟进。启事写道，这个代理要能浏览网页、跨应用工作、运行命令、编写和调试代码、调用服务，并在每一步选择合适工具，同时强调私密和完成度。",
+        "Bloomberg 称，公司曾考虑最早在明年年底推出，但进展仍处早期。TechCrunch 称已联系 Apple，未获回复。报道还提到，即将到来的 macOS 27.3 会提醒用户谨慎向第三方代理授予完整控制。"
+      ],
+      "whyItMatters": "如果 Apple 把「会用电脑的代理」做成系统能力，会改变个人电脑和第三方代理的关系，但现在还只是招聘文本。",
+      "caveats": [
+        "没有产品名，也没有发布日期。Apple 未回应置评。「明年年底」只是报道中的考虑时间，不是官方日程。"
+      ],
+      "figures": [
+        "没有已公布的价格、上线日期或用户规模。报道称进展仍处早期。"
+      ],
+      "publishedAt": "2026-11-20T06:21:00+08:00",
+      "publishedAtNote": "9to5Mac 为美西 14:21，合上海时间 11-20 06:21。TechCrunch 为 16:56 PT，合 08:56。均转述 Bloomberg 当日报道。",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "role": "primary"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+          "role": "secondary"
+        },
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/11/19/apple-ai-agent-development/",
+          "role": "secondary"
+        },
+        {
+          "name": "Apple Jobs",
+          "url": "https://jobs.apple.com/en-us/details/200695488-0836/senior-engineering-manager-agentic-ai-proactive?team=SFTWR",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/morning-10.jpg",
+        "alt": "一台打开的 Mac 笔记本放在桌面上，屏幕中央是 Apple 智能界面的圆形图标。这是 9to5Mac 该报道的配图，是已有系统界面的产品照片，不是尚未发布的新代理产品图。",
+        "credit": "9to5Mac 该报道页面的公开配图。",
+        "sourcePage": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+        "retrievedFrom": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Siri-AI-Beta-macOS-27-Top-Features.jpg?quality=82&strip=all&resize=1200,628",
+        "retrievedAt": "2026-11-20T02:30:00Z"
+      }
+    }
+  ]
+}
