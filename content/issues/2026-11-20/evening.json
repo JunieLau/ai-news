@@ -1,0 +1,453 @@
+{
+  "issueDate": "2026-11-20",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-20T20:50:00+08:00",
+  "retrievedThrough": "2026-11-20T20:50:00+08:00",
+  "slot": "20:00",
+  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "2026 年 11 月 20 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 19 日、11 月 18 日及更早期刊去重。Genie 4 只写今天向 Gemini API 和 Google AI Studio 开放，不重复昨天向 Google AI Ultra 用户开放 Project Genie。万妖图录只写按计划于今天启动的预约放映，不写成今日首次宣布进院线。",
+  "stories": [
+    {
+      "id": "2026-11-20-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "KUAISHOU KLING",
+      "headline": "快手业绩会：程一笑称 Kling 4.0 上线后可灵流水提升，并将加码 AI 短剧",
+      "standfirst": "这是上市公司把可灵商业化和短剧策略放到同一场业绩会上，但可灵收入并未单列，「流水提升」也没有幅度。",
+      "paragraphs": [
+        "快手发布截至 2026 年 9 月 30 日的第三季度业绩，并在北京时间 11 月 19 日 19:00 召开电话会。智通财经等转述程一笑说，Kling 4.0 于 10 月 15 日全面上线后，可灵流水实现提升，收入增长由企业 API 和专业创作者订阅共同驱动，用户规模与 ARPPU 均保持增长。他称，公司会把 AI 短剧作为丰富平台内容的重要方向，并通过孵化、IP 合作和创作者扶持扩大供给。",
+        "官方公告是未经审核中期资料。其他服务收入同比增长，官方写主要是因为游戏及可灵 AI，同时被电商下滑部分抵销，因此不能把这一科目写成可灵单列收入。公告对 Kling 4.0 的产品描述是季度回顾，不是今天发布新模型。"
+      ],
+      "whyItMatters": "国产视频生成模型是否开始贡献收入、平台如何把模型接到短剧生态，会直接影响创作者和投资人怎么看这一行。",
+      "caveats": [
+        "「流水提升」不见于公告正文，也没有百分比或金额，须标明来自电话会转述。可灵投入被官方写成国内经营利润下降的原因之一。陆川对 Kling 4.0 的评价不是这次电话会上的新表态。"
+      ],
+      "figures": [
+        "第三季度收入人民币 31,592 百万元，同比下降 11.1%；经调整利润净额人民币 790 百万元，同比下降 84.2%；经营亏损人民币 635 百万元。其他服务收入人民币 5,969 百万元，同比增加 1.5%。研发开支人民币 5,178 百万元，占收入 16.4%，上年同期为 3,650 百万元。截至 9 月，日均活跃短剧数量较 1 月增长超 350.0%；内容消费行业线上营销服务总消耗同比增长超过 100%。国内分部经营利润人民币 420 百万元，上年同期人民币 54 亿元，官方称减少主要是由于国内收入下降及可灵 AI 投入增加。"
+      ],
+      "publishedAt": "2026-11-19T20:23:02+08:00",
+      "publishedAtNote": "业绩公告落款 2026-11-19，电话会为当天 19:00。这里采用最早核验到时分的详细媒体稿（智通财经经新浪财经转载）20:23。",
+      "sources": [
+        {
+          "name": "港交所快手业绩公告",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900311_c.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "智通财经 / 新浪财经",
+          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-19/doc-inizhrry7667097.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34513516",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-01.png",
+        "alt": "港交所披露的快手科技中文业绩公告首页，标题为截至 2026 年 9 月 30 日止三个月及九个月的业绩公告，下方是第三季度收入、利润等财务摘要表。",
+        "credit": "港交所披露易《截至2026年9月30日止三个月及九个月的业绩公告》首页。",
+        "sourcePage": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900311_c.pdf",
+        "retrievedFrom": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900311_c.pdf",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "KLING 4K HDR",
+      "headline": "可灵宣布 Kling 4.0 现已支持原生 4K 与 10-bit HDR，1080p 也可输出 HDR",
+      "standfirst": "这是成片分辨率和色深的更新，不是新模型，官方也还没说明格式和价格。",
+      "paragraphs": [
+        "可灵官方称，Kling 4.0 现在支持原生 4K，以及 4K 和 1080p 下的 10-bit HDR 输出，并写这能给每一帧带来更高细节和更丰富的颜色。官方帖引导用户前往 kling.ai。",
+        "这与此前已报道的 Kling Image 4.0 原生 8K，以及 Kling 4.0 视频模型首发，不是同一件事。官方没有说明 HDR 标准、封装格式、积分价格或时长上限，也不能据此写成所有第三方平台已经同步提供这一输出。"
+      ],
+      "whyItMatters": "如果生成镜头能以交付级分辨率和更高色深直接出模型，后期放大和调色的起点就会改变。对外须写明细节尚未公布。",
+      "caveats": [
+        "官方未公布 HDR 标准、文件格式和 4K/HDR 的价格或时长限制。本报未做输出实测。VP Land 关于功能页此前标注「即将推出」、以及 Kling 3.0 已有原生 4K 的说法，来自该报道，不是官方帖原文。"
+      ],
+      "figures": [
+        "官方 X 主帖时间为 11 月 19 日 23:00（亚洲/上海）。截稿读取时约 9,196 次曝光。官方原文是 native 4K，以及 10-bit HDR output in both 4K and 1080p。"
+      ],
+      "publishedAt": "2026-11-19T23:00:05+08:00",
+      "publishedAtNote": "采用官方 X 主帖 2026-11-19T15:00:05Z，合上海时间 23:00:05。",
+      "sources": [
+        {
+          "name": "Kling 官方帖",
+          "url": "https://x.com/Kling_ai/status/2123431119903461709",
+          "role": "primary"
+        },
+        {
+          "name": "VP Land",
+          "url": "https://www.vp-land.com/stories/kling-4-0-adds-native-4k-and-10-bit-hdr-output",
+          "role": "secondary"
+        },
+        {
+          "name": "可灵官网",
+          "url": "https://kling.ai",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-02.jpg",
+        "alt": "可灵官方公告图：极光下的人物剪影，叠有 4K RESOLUTION 和 10-BIT HDR OUTPUT 字样，并写明 Kling 4.0 在 4K 和 1080p 下均支持 10-bit HDR。",
+        "credit": "Kling AI 官方账号宣布 Kling 4.0 支持原生 4K 与 10-bit HDR 的公开帖图。",
+        "sourcePage": "https://x.com/Kling_ai/status/2123431119903461709",
+        "retrievedFrom": "https://pbs.twimg.com/media/HXftFlPbIAAGjJu.jpg",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "OZZY FOX",
+      "headline": "《Ozzy Fox》定档 12 月 5 日登陆 Disney+，新预告放出，第二季已在制作",
+      "standfirst": "这是主流流媒体给一部明确使用人工智能工具的学龄前动画定档，但人类仍然负责动画。",
+      "paragraphs": [
+        "Disney+ 将于 12 月 5 日播出短节目音乐动画《Ozzy Fox》。Variety 独家报道称，Disney 同时放出新预告，第二季已经在制作中；官方 12 月片单确认了这一天。系列由 Jennifer Oxley 创作、Guillermo García-Carsí 开发，Disney Jr. 与 Animaj 联合制作，今年 7 月已在 YouTube 和 Disney Jr. 首播。",
+        "Variety 写，节目来自旨在探索人工智能如何支持创作者的 Disney Accelerator；Animaj 自称拥有以人工智能驱动、数字优先的制作模式。报道同时写明：人类仍然负责动画，只是用人工智能工具加速流程。新闻点是定档、预告和第二季，不是 7 月的首播本身。"
+      ],
+      "whyItMatters": "Disney+ 把一部公开使用人工智能工具的儿童动画放入正式片单，会改变家长和行业对「AI 动画能不能上主流平台」的判断。须写清不是全自动出片。",
+      "caveats": [
+        "节目并非本窗口内新开播。不要写成全片由人工智能生成，也不要写成已经在 Disney+ 上线。"
+      ],
+      "figures": [
+        "Variety：自 7 月首播以来超过 3,000 万次播放，单集上线 30 天内平均 140 万次。Disney+ 官方片单确认 12 月 5 日首播。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "采用 Variety 独家稿 article:published_time 2026-11-19T16:00:00Z，合上海时间 11 月 20 日 00:00。官方片单标注 November 19, 2026，未标钟点。",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/tv/news/ozzy-fox-disney-plus-release-date-1236953192/",
+          "role": "primary"
+        },
+        {
+          "name": "Disney+ 12 月片单",
+          "url": "https://press.disneyplus.com/news/next-on-disney-plus-december-2026",
+          "role": "secondary"
+        },
+        {
+          "name": "Disney+ Ozzy Fox 主视觉",
+          "url": "https://press.disneyplus.com/disney-plus/ozzy-fox-logo-and-key-art",
+          "role": "secondary"
+        },
+        {
+          "name": "Animation Magazine",
+          "url": "https://www.animationmagazine.net/2026/11/ozzy-fox-short-form-musical-series-sets-disney-debut/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-03.jpg",
+        "alt": "Disney Jr. 与 Animaj 的《Ozzy Fox》官方主视觉：绿色背景上是橙色狐狸 Ozzy 和几位配角，底部写有 December 5 和 Disney+。",
+        "credit": "Disney+ 官方 Logo and Key Art 页面提供的系列主视觉。",
+        "sourcePage": "https://press.disneyplus.com/disney-plus/ozzy-fox-logo-and-key-art",
+        "retrievedFrom": "https://lumiere-a.akamaihd.net/v1/images/ozzy_fox_key_art_27x40_1_3ffebda5.jpeg",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "GEN Z SURVEY",
+      "headline": "TheWrap 援引 NRG：近三分之二 Gen Z 不能接受 AI 主演，但 39% 对含部分 AI 素材的电影更有兴趣",
+      "standfirst": "年轻观众对人工智能电影的态度仍然矛盾，而这组数据没有公布样本量。",
+      "paragraphs": [
+        "TheWrap 在 Decoding Gen Z 系列首篇中，使用研究公司 NRG 为该报道采集的数据：近三分之二的 Gen Z 受访者认为由人工智能扮演主角不可接受，并对海报、预告等营销材料里的人工智能更警惕。同时，39% 的 Gen Z 受访者表示，如果一部电影含有部分人工智能生成素材，会更有兴趣观看；TheWrap 称这一比例高于 Millennials 和 Gen X。",
+        "NRG 的 Kevin Tran 说，过去一年这一代的态度没有显著转变，他们相对更能接受人工智能用于调色、特效等幕后流程，而不是取代演员和编剧。文中未给出样本量、调查时间和抽样误差。该文仍把《Gods Don't Give Gifts》写成 12 月 4 日进院线，这一日期已被官方更新，不能沿用。"
+      ],
+      "whyItMatters": "几部人工智能或混合制作影片正靠近影院和流媒体，年轻观众接不接受，会直接影响发行和宣传怎么做。",
+      "caveats": [
+        "这是媒体委托的调查报道，不是公司或工会行动。样本量和方法未完整披露。不要沿用文中 12 月 4 日全球公映的过时说法。"
+      ],
+      "figures": [
+        "近三分之二 Gen Z 受访者认为 AI 扮演主角不可接受；39% 表示对含有部分 AI 生成素材的电影更有兴趣。文章未公布样本量。"
+      ],
+      "publishedAt": "2026-11-19T22:00:00+08:00",
+      "publishedAtNote": "采用 TheWrap article:published_time 2026-11-19T14:00:00Z，合上海时间 22:00。",
+      "sources": [
+        {
+          "name": "TheWrap",
+          "url": "https://www.thewrap.com/industry-news/tech/gen-z-hollywood-ai-opposition-films/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-04.jpg",
+        "alt": "TheWrap 报道主图：影院座位前，一名年轻观众看向镜头，背景屏幕上是大大的 AI 字样和数字代码，右下角有 Decoding Gen Z 标识。",
+        "credit": "TheWrap 该报道页面公开主图，署名 Chris Smith/TheWrap。本报采用原 GIF 的首帧静图。",
+        "sourcePage": "https://www.thewrap.com/industry-news/tech/gen-z-hollywood-ai-opposition-films/",
+        "retrievedFrom": "https://www.thewrap.com/wp-content/uploads/2026/11/Gen-Z-AI.gif",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "UTOPAI",
+      "headline": "Utopai 在 Beverly Hills 开设办公室；标题与公司转述称计划 2027 年在全球创造约 500 个制作岗位",
+      "standfirst": "办公室已经启用，但 500 个岗位是计划，不是已经完成的招聘。",
+      "paragraphs": [
+        "Deadline 独家报道，人工智能制片公司 Utopai Studios 已在 Beverly Hills 开设办公室，作为好莱坞制作业务的新基地。公司联合创始人兼首席执行官 Cecilia Shen 说，每一个进入制作的项目都会让人得到工作，增长意味着拍更多影片和剧集，并雇用更多把它们做出来的人。",
+        "Deadline 标题写计划 2027 年在全球创造 500 个制作岗位；Utopai 官网转述这篇报道时，还写预计 2028 年招聘会显著增加。本报打开的 Deadline 正文确认了办公室、片单和约 80% 预算给人的公司口径，但正文未再出现 500 这一完整句子。在制片单包括动画《The Most Serious Fart》、Hyo-joo Yang 的《Half Moon》，以及 Antonio Banderas 主演、Alex Proyas 导演的《Cortés》。"
+      ],
+      "whyItMatters": "在制作萎缩和人工智能焦虑并存的时候，一家 AI 制片公司选择把办公室开进 Beverly Hills，并主动谈就业，本身就是一个行业信号。岗位数字仍只是目标。",
+      "caveats": [
+        "500 个岗位来自 Deadline 标题和公司对这篇独家报道的转述，是计划而非已到岗人数。80% 预算口径是公司自己的说法。Hans Ku 出任首席产品官是此前消息。"
+      ],
+      "figures": [
+        "Deadline 标题与 Utopai 转述：计划 2027 年在全球创造约 500 个制作岗位。公司称《The Most Serious Fart》约 80% 制作预算分配给参与制作的人，人工智能作为辅助工具。"
+      ],
+      "publishedAt": "2026-11-20T00:33:22+08:00",
+      "publishedAtNote": "采用 Deadline article:published_time 2026-11-19T16:33:22Z，合上海时间 11 月 20 日 00:33。",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/utopai-studios-opens-beverly-hills-office-production-jobs-1237229012/",
+          "role": "primary"
+        },
+        {
+          "name": "Utopai 官网",
+          "url": "https://www.utopaistudios.com/en/news/deadline-utopai-studios-opens-beverly-hills-office-500-production-jobs",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-05.png",
+        "alt": "Utopai Studios Beverly Hills 办公室入口：玻璃门上方写有公司名和 Beverly Hills Office，门外能看到街道和棕榈树的倒影。",
+        "credit": "Utopai 官网该新闻页公开的 Beverly Hills 办公室照片。",
+        "sourcePage": "https://www.utopaistudios.com/en/news/deadline-utopai-studios-opens-beverly-hills-office-500-production-jobs",
+        "retrievedFrom": "https://cdn.prod.website-files.com/68a3683abb74228f4d39b151/6aff409832e4d7ed9658cd18_Utopai_Studios_Beverly_Hills_Office.png",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "WANYAO",
+      "headline": "《万妖图录传之云州异客》今日起经中影预约放映，在 200 余座城市举办限时派对",
+      "standfirst": "这是按计划启动的预约放映，不是今天才宣布进院线，也不是常规公映。",
+      "paragraphs": [
+        "光宇出品的 AI 漫剧特别篇《万妖图录传之云州异客》自 11 月 20 日起，通过中影预约放映在全国 200 余座城市举办限时派对。这条约 109 分钟的独立番外，讲姜月初进入带有赛博元素的新世界。观众经中影电影通等渠道预约场次，票价普遍为 35 元或 30 元，不同于传统固定排片。",
+        "系列改编自番茄小说，今年 3 月上线以来已更新至第十四季，报道称播放量突破百亿。计划在 11 月 16 日就已宣布，本报写的是今天按计划启动。集数有「超过 1600 集」和「超 1200 集」两套口径，必须并存。这不是常规公映，截至截稿也未见全国票房汇总。"
+      ],
+      "whyItMatters": "一部本来在手机里免费刷的 AI 漫剧，要检验观众会不会专门买票进影院。路径和传统先排片再找观众的院线长片不同。",
+      "caveats": [
+        "不要写成今日首次宣布进院线，也不要写成正式公映。集数口径不一致。成本与回本门槛是 36氪所引「业内测算」，不是官方数字。截图里「2026-11-19 上映」只作界面记录。"
+      ],
+      "figures": [
+        "覆盖 200 余座城市，时长约 109 分钟，票价普遍 35 元、30 元。澎湃写总集数超过 1600 集；较早报道写超 1200 集。澎湃所配中影电影通截图可见「最低 1 人开场」「30 家影院可预约」。"
+      ],
+      "publishedAt": "2026-11-20T14:52:00+08:00",
+      "publishedAtNote": "放映自 11 月 20 日起。这里采用窗口内澎湃报道 14:52。计划宣布早于窗口，已在正文标明。",
+      "sources": [
+        {
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34518387",
+          "role": "primary"
+        },
+        {
+          "name": "36氪",
+          "url": "https://www.36kr.com/p/4076190155740807",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-06.jpg",
+        "alt": "澎湃报道所配的中影电影通截图：左侧是预约放映列表，右侧是《万妖图录传之云州异客》影片详情，可见 11 月 20 日起、109 分钟和立即预约按钮。",
+        "credit": "澎湃新闻该报道页公开的中影电影通「预约放映 / 影片详情」界面截图。",
+        "sourcePage": "https://www.thepaper.cn/newsDetail_forward_34518387",
+        "retrievedFrom": "https://imgpai.thepaper.cn/newpai/image/20261120/845057e2-8723-43da-bdee-c4656c53191e.jpg",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "GENIE 4 API",
+      "headline": "Genie 4 已向开发者开放：可在 Gemini API 和 Google AI Studio 生成带原生音频的 720p 世界",
+      "standfirst": "这是昨天消费端上线之后的开发者通道，不是对模型宣布的重复，也还没有向所有 Google 账号开放。",
+      "paragraphs": [
+        "Google 官方写道，继昨天的 Genie 4 发布之后，开发者现在可通过 Gemini API（经 Interactions API）和 Google AI Studio 使用该模型。官方称，可从文本、参考图或两者出发，生成 720p、24fps、带同步原生音频的连续世界，并用键盘和即时提示改天气、灯光、物体或事件。",
+        "所有输出带不可见 SynthID 水印。官方请开发者在 AI Studio 试用交互画布，并查阅定价与文档。这篇博文没有写每秒价格或会话时长。不要写成它已经取代 Veo，或已经对所有账号开放。"
+      ],
+      "whyItMatters": "世界模型进入开发者已经在用的 API，工具和互动体验的制作门槛会下降。它仍是对昨天消费端上线的后续，不是全新模型。",
+      "caveats": [
+        "官方博文未公布价格和会话上限，未在官方文档核验的第三方报价不用。Genie 仍被官方视为前沿研究。"
+      ],
+      "figures": [
+        "官方博客时间为 11 月 20 日 01:00（亚洲/上海）。官方参数为 720p、24fps，并带同步原生音频和 SynthID。"
+      ],
+      "publishedAt": "2026-11-20T01:00:00+08:00",
+      "publishedAtNote": "采用官方博客 datePublished 2026-11-19T17:00:00Z，合上海时间 01:00。",
+      "sources": [
+        {
+          "name": "Google 官方博客",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-07.png",
+        "alt": "Google 官方宣布图：夜景车窗前的人物侧面，叠有 Genie 4 以及 Now available in the Gemini API and Google AI Studio。",
+        "credit": "Google 官方博客 Genie 4 is now available on the Gemini API 页面的公开社交图。",
+        "sourcePage": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png",
+        "retrievedAt": "2026-11-20T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "RUNWAY AIF",
+      "headline": "Runway AI Festival 2027 开放投稿，纽约 6 月 10 日、东京 7 月 2 日放映，大奖 5 万美元",
+      "standfirst": "这是新一届征稿和档期，洛杉矶日期还没定。",
+      "paragraphs": [
+        "Runway 宣布第五届国际 AI Festival 回归，覆盖电影、设计、时尚、广告和游戏，并在纽约、洛杉矶和东京举行庆典放映，投稿已经开放。官方站点写明，电影类是 3 到 10 分钟、讲述完整故事并包含人工智能生成视频的短片，截止时间为 2027 年 4 月 5 日中午 12 点（美东）。",
+        "放映日为纽约 6 月 10 日、东京 7 月 2 日，洛杉矶待定，评审在 2027 年春季。Grand Prix 为 5 万美元加 100 万 Runway 积分。这不是对往届获奖结果的回顾。"
+      ],
+      "whyItMatters": "有明确奖金和城市放映日的征稿，会直接决定一批人工智能短片在接下来几个月往哪里投。",
+      "caveats": [
+        "官方帖发于 11 月 19 日 00:59（亚洲/上海），在 48 小时窗口内但早于优先 24 小时。洛杉矶日期尚未公布。"
+      ],
+      "figures": [
+        "投稿截止 2027 年 4 月 5 日 12:00 PM ET。Grand Prix 50,000 美元 + 1,000,000 credits；Gold 25,000 美元 + 500,000；Silver 10,000 美元 + 500,000。纽约 6 月 10 日，东京 7 月 2 日，洛杉矶待定。"
+      ],
+      "publishedAt": "2026-11-19T00:59:17+08:00",
+      "publishedAtNote": "采用官方 X 主帖 2026-11-18T16:59:17Z，合上海时间 11 月 19 日 00:59。",
+      "sources": [
+        {
+          "name": "Runway AI Festival 官网",
+          "url": "https://aif.runway.com/",
+          "role": "primary"
+        },
+        {
+          "name": "Runway 官方帖",
+          "url": "https://x.com/runwayml/status/2123098732770263485",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-08.webp",
+        "alt": "Runway 官方征稿图：黑底白字写有 runway、Fifth Annual International、AI Festival、Submissions Open 和 aif.runway.com。",
+        "credit": "Runway AI Festival 2027 官方网站的公开 og 图。",
+        "sourcePage": "https://aif.runway.com/",
+        "retrievedFrom": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/aif-2027-og.webp",
+        "retrievedAt": "2026-11-20T12:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "GODS DONT GIVE GIFTS",
+      "headline": "Gossip Goblin 开放《Gods Don't Give Gifts》城市点映征集，官方图曾显示 1,579 次请求",
+      "standfirst": "这是已定档影片的新动作，不是新的全球公映日期，申请也不等于已经确认办映。",
+      "paragraphs": [
+        "Zack London（Gossip Goblin）连续发帖，请观众提交邮箱，为所在城市申请《Gods Don't Give Gifts》点映。官方写道，与其只看观众数据，不如直接问你希望影片在哪里放映。表格称全球同步发行仍从 2027 年 1 月 22 日开始。",
+        "后一条官方附图显示，当时已有 1,579 次请求、覆盖 70 个国家，伦敦最热（91）。较早那张官方图是 628 次请求、48 个国家。这些数字是配图里的时点，还会变化。昨天已报道的档期和幕后短片，这里不再当作新发布。"
+      ],
+      "whyItMatters": "一部已经宣布全球院线的人工智能长片，开始用公开征集决定还要去哪些城市，这会改变它的放映版图，但还不是确认排片。",
+      "caveats": [
+        "不要把征集写成这些城市已经办映，也不要重复把 1 月 22 日或 12 月预映写成今天才宣布。请求数字来自官方配图时点。"
+      ],
+      "figures": [
+        "后一条官方帖时间为 11 月 20 日 06:20（亚洲/上海），配图显示 1,579 requests、70 countries，hottest: London (91)。较早官方图为 628 requests、48 countries。"
+      ],
+      "publishedAt": "2026-11-20T06:20:03+08:00",
+      "publishedAtNote": "首次邀请为 11 月 19 日 16:19。这里采用后一条官方主帖 2026-11-19T22:20:03Z，合上海时间 11 月 20 日 06:20。",
+      "sources": [
+        {
+          "name": "Gossip Goblin 官方帖",
+          "url": "https://x.com/Gossip_Goblin/status/2123541843346592176",
+          "role": "primary"
+        },
+        {
+          "name": "Gossip Goblin 较早邀请",
+          "url": "https://x.com/Gossip_Goblin/status/2123330365309985043",
+          "role": "secondary"
+        },
+        {
+          "name": "点映征集页",
+          "url": "https://gods-dont-give-gifts.onrender.com/screenings/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-09.jpg",
+        "alt": "官方点映征集页截图，标题为 BRING THE FILM TO YOUR CITY，下方是全球需求热力图，并写有 January 22, 2027 以及 1,579 requests、70 countries。",
+        "credit": "Gossip Goblin 官方账号 11 月 20 日点映征集帖的公开配图。",
+        "sourcePage": "https://x.com/Gossip_Goblin/status/2123541843346592176",
+        "retrievedFrom": "https://pbs.twimg.com/media/HXhUoMBWEAAfI6m.jpg",
+        "retrievedAt": "2026-11-20T12:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-20-evening-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "FLOW SESSIONS",
+      "headline": "Google Labs 公布 Flow Sessions 作品：创作者用 Google Flow 做动画片、电视提案和个人叙事",
+      "standfirst": "这是官方社区成果展示，不是新模型，也不是院线或流媒体定档。",
+      "paragraphs": [
+        "Google Labs 社区负责人 Brianna Doyle 介绍过去六周 Flow Sessions 的视觉项目。官方称，艺术家用 Google Flow 完成动画短片、电视系列提案和个人叙事，并列出入选作品，其中包括 Nate Talbot 的《The Catch》、Matias Collado 的《A Lucky Greyhound》和 River Davis 的《Roger & The Chicken》等九部。",
+        "同期还有 Flow Music Sessions 的音频工具和插件，供人查看和再混。官方没有公布播放量、预算或发行平台。不要把这些短片写成已经公映或已经卖给某家流媒体。"
+      ],
+      "whyItMatters": "它展示的是创作者已经能用 Google 的电影工具做出可分享的成片和提案，而不只是又一次模型参数更新。",
+      "caveats": [
+        "这不是新产品发布，也没有贸易媒体的广泛跟进。官方未给出发行安排。"
+      ],
+      "figures": [
+        "官方博客时间为 11 月 20 日 00:00（亚洲/上海）。过去六周的 Flow Sessions 列出 9 个视觉项目。官方未提供播放或预算数字。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "采用官方博客标注的 Nov 19, 2026，并与研究核验的 2026-11-19T16:00:00Z 对齐，合上海时间 11 月 20 日 00:00。",
+      "sources": [
+        {
+          "name": "Google Labs 官方博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-20/evening-10.png",
+        "alt": "Google Labs 官方博客标题图：海边一名穿夹克的人提着橙色渔网，旁边红色石墩上站着一只海鸥，是 Flow Sessions 作品静帧。",
+        "credit": "Google 官方博客 See some of the work from Google Flow and Flow Music Sessions artists 页面的公开 og 图（Seagull still）。",
+        "sourcePage": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ss_Seagull_still_1.1.1.width-1300.png",
+        "retrievedAt": "2026-11-20T12:40:00Z"
+      }
+    }
+  ]
+}
