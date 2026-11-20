@@ -40,10 +40,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   const out = fs.mkdtempSync(path.join(os.tmpdir(), "ai-news-prod-"));
   const manifest = buildSite({ contentDir, outDir: out, base: "/ai-news" });
   assert.equal(manifest.home.edition, "morning");
-  assert.equal(manifest.home.issueDate, "2026-11-19");
-  assert.equal(manifest.streams.morning.latest, "2026-11-19");
+  assert.equal(manifest.home.issueDate, "2026-11-20");
+  assert.equal(manifest.streams.morning.latest, "2026-11-20");
   assert.equal(manifest.streams.evening.latest, "2026-11-19");
-  assert.deepEqual(manifest.streams.morning.dates, ["2026-11-19", "2026-11-18"]);
+  assert.deepEqual(manifest.streams.morning.dates, ["2026-11-20", "2026-11-19", "2026-11-18"]);
   assert.deepEqual(manifest.streams.evening.dates, ["2026-11-19", "2026-11-18"]);
 
   const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
@@ -51,7 +51,8 @@ test("the production build links originals, keeps the image gaps, and does not r
   const evening = fs.readFileSync(path.join(out, "evening", "index.html"), "utf8");
   const dated = fs.readFileSync(path.join(out, "morning", "2026-11-18", "index.html"), "utf8");
   const eveningDated = fs.readFileSync(path.join(out, "evening", "2026-11-18", "index.html"), "utf8");
-  const currentMorning = fs.readFileSync(path.join(out, "morning", "2026-11-19", "index.html"), "utf8");
+  const nov19Morning = fs.readFileSync(path.join(out, "morning", "2026-11-19", "index.html"), "utf8");
+  const currentMorning = fs.readFileSync(path.join(out, "morning", "2026-11-20", "index.html"), "utf8");
   const currentEvening = fs.readFileSync(path.join(out, "evening", "2026-11-19", "index.html"), "utf8");
   const searchJs = fs.readFileSync(path.join(repo, "src", "search.js"), "utf8");
   const index = JSON.parse(fs.readFileSync(path.join(out, "search-index.json"), "utf8"));
@@ -68,15 +69,22 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(css, /--paper-deep:\s*#fff/);
   assert.doesNotMatch(css, /#e7f4f8|#d5e8ef/);
   assert.match(home, /data-edition="morning"/);
-  assert.match(home, /data-issue-date="2026-11-19"/);
+  assert.match(home, /data-issue-date="2026-11-20"/);
   assert.match(home, /href="\/ai-news\/evening\/"/);
   assert.match(home, /href="\/ai-news\/morning\/"/);
   assert.match(home, /href="\/ai-news\/search\/"/);
-  assert.match(home, /每股 83 美元/);
-  assert.match(home, /Gemini 4 Neon/);
-  assert.match(morning, /anthropic\.com\/news\/anthropic-prices-initial-public-offering/);
+  assert.match(home, /收盘 97\.17 美元/);
+  assert.match(morning, /cnbc\.com\/2026\/11\/19\/anthropic-ipo-ant-live-updates\.html/);
   assert.doesNotMatch(morning, /无存档图片/);
   assert.doesNotMatch(currentMorning, /无存档图片/);
+  assert.match(nov19Morning, /每股 83 美元/);
+  assert.match(nov19Morning, /Gemini 4 Neon/);
+  assert.match(nov19Morning, /anthropic\.com\/news\/anthropic-prices-initial-public-offering/);
+  assert.doesNotMatch(nov19Morning, /无存档图片/);
+  assert.match(nov19Morning, /data-issue-date="2026-11-19"/);
+  assert.match(nov19Morning, /data-latest="false"/);
+  assert.match(nov19Morning, /返回最新一期/);
+  assert.match(nov19Morning, /media\/2026-11-19\/morning-01\.jpg/);
   assert.match(dated, /investor\.nvidia\.com\/news\/press-release-details\/2026\/NVIDIA-Announces-Financial-Results/);
   assert.match(dated, /无存档图片/);
   assert.match(dated, /花束/);
@@ -108,9 +116,9 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(dated, /返回最新一期/);
   assert.doesNotMatch(dated, /这是本流最新一期/);
   assert.match(currentMorning, /data-page-role="issue"/);
-  assert.match(currentMorning, /data-issue-date="2026-11-19"/);
+  assert.match(currentMorning, /data-issue-date="2026-11-20"/);
   assert.match(currentMorning, /data-latest="true"/);
-  assert.match(currentMorning, /media\/2026-11-19\/morning-01\.jpg/);
+  assert.match(currentMorning, /media\/2026-11-20\/morning-01\.jpg/);
   assert.doesNotMatch(currentMorning, /返回最新一期/);
   assert.match(morning, /<h4>关键数字<\/h4>/);
   assert.match(morning, /<h4>需注意<\/h4>/);
@@ -143,6 +151,12 @@ test("the production build links originals, keeps the image gaps, and does not r
   const nov19 = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-19", "morning.json"), "utf8"));
   assert.equal(nov19.stories.length, 10);
   assert.equal(nov19.stories.every((story) => story.image.status === "archived" && story.image.file), true);
+  const nov20 = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-20", "morning.json"), "utf8"));
+  assert.equal(nov20.stories.length, 10);
+  assert.equal(nov20.stories.every((story) => story.image.status === "archived" && story.image.file), true);
+  for (const name of ["morning-01.jpg", "morning-02.png", "morning-03.png", "morning-04.jpg", "morning-05.jpg", "morning-06.png", "morning-07.jpg", "morning-08.png", "morning-09.jpg", "morning-10.jpg"]) {
+    assert.equal(fs.existsSync(path.join(out, "media", "2026-11-20", name)), true);
+  }
   const nov19Evening = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-19", "evening.json"), "utf8"));
   assert.equal(nov19Evening.stories.length, 9);
   assert.equal(nov19Evening.stories.every((story) => story.image.status === "archived" && story.image.file), true);
@@ -150,7 +164,7 @@ test("the production build links originals, keeps the image gaps, and does not r
     assert.equal(fs.existsSync(path.join(out, "media", "2026-11-19", name)), true);
   }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
-  assert.equal(index.length, 35);
+  assert.equal(index.length, 45);
 
   const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
   assert.equal(found.length, 1);
