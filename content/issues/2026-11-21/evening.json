@@ -1,0 +1,324 @@
+{
+  "issueDate": "2026-11-21",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-21T20:40:00+08:00",
+  "retrievedThrough": "2026-11-21T20:40:00+08:00",
+  "slot": "20:00",
+  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。窗口内核到 7 条经核实的新事，未编造凑满 10 条。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "2026 年 11 月 21 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 20 日、11 月 19 日晚报及 11 月 21 日早报去重。David Fincher 对《洛杉矶时报》的原访谈发于 11 月 19 日 3 AM PT，约早于 48 小时切点 81 分钟，本条只把它作为 11 月 20 日 Deadline 与 TheWrap 报道影评争议时的引语来源，并写明他尚未直接证实本片使用 AI。",
+  "stories": [
+    {
+      "id": "2026-11-21-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "FINCHER",
+      "headline": "《Cliff Booth》因疑似使用生成式 AI 受批评；Fincher 尚未直接证实，但称「它已经存在了。难道我们不该用吗？」",
+      "standfirst": "这是即将上映的主流电影遇上公开争议，不是他已经承认本片用了 AI。",
+      "paragraphs": [
+        "Deadline 和 TheWrap 于 11 月 20 日报道，David Fincher 执导、Quentin Tarantino 编剧、Brad Pitt 主演的《The Further Mis-Adventures of Cliff Booth》，在试映和影评中被指使用生成式 AI。Indie 导演 Patrick Tomasso 11 月 19 日在 X 上说，自己看完后「完全被掏空」，并称这是他在工作室影片里见过的「最露骨、最过分的 AI 使用之一」。TheWrap 还写，有评论指出片尾字幕出现 generative supervisor。",
+        "Fincher 本人尚未就本片是否使用 AI 公开说明，Netflix 也未回应 TheWrap 的置评请求。两家媒体转引他 11 月 19 日对《洛杉矶时报》的话说：「我不是 Luddite，所以我不害怕未知。」他又问，是否有人认为这门约百年历史的艺术已经不必再迭代，不该把「改那个人眼睛的颜色」放在手边，并说：「它已经存在了。难道我们不该用吗？」影片定于 11 月 25 日 IMAX 有限上映，12 月 23 日登陆 Netflix。"
+      ],
+      "whyItMatters": "Brad Pitt 和 Fincher 的新片四天后就要进 IMAX，观众已经在争「片子有没有用 AI」。这会直接影响人们对主流院线片的接受度，但目前仍是指控和态度，不是已证实的制作说明。",
+      "caveats": [
+        "Fincher 没有在这些报道里直接承认本片使用了生成式 AI。个别影评和社交帖不能当成已核实的镜头清单。《洛杉矶时报》访谈发布于 11 月 19 日 3 AM PT，约早于本报 48 小时切点 81 分钟；本条的新闻点是 11 月 20 日的争议报道。"
+      ],
+      "figures": [
+        "Deadline 发于 11 月 20 日 15:45 太平洋时间（11 月 21 日 07:45 亚洲/上海），TheWrap 发于当天 21:04 太平洋时间。影片 11 月 25 日 IMAX 上映，12 月 23 日登陆 Netflix。"
+      ],
+      "publishedAt": "2026-11-21T07:45:00+08:00",
+      "publishedAtNote": "采用较早的贸易媒体 Deadline，时间按该站惯例视为太平洋时间 2026-11-20T15:45:00-08:00。",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/david-fincher-defends-ai-cliff-booth-criticism-1237230711/",
+          "role": "primary"
+        },
+        {
+          "name": "TheWrap",
+          "url": "https://www.thewrap.com/creative-content/movies/david-fincher-cliff-booth-ai-criticism/",
+          "role": "secondary"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/entertainment-arts/movies/story/2026-11-19/david-fincher-further-mis-adventures-cliff-booth-holiday-preview-2026",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-01.jpg",
+        "alt": "Deadline 报道配图：左侧是 Brad Pitt 在《The Further Mis-Adventures of Cliff Booth》中戴星条头盔的剧照，右侧是导演 David Fincher 的肖像。",
+        "credit": "Deadline 报道页公开主图，署名 Netflix/Courtesy Everett Collection/Michael Buckner/PMC。",
+        "sourcePage": "https://deadline.com/2026/11/david-fincher-defends-ai-cliff-booth-criticism-1237230711/",
+        "retrievedFrom": "https://deadline.com/wp-content/uploads/2026/11/Cliff-Booth-David-Fincher-2-shot.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "SCHRADER",
+      "headline": "Paul Schrader 对《卫报》说自己是在「打开一个怪物的笼子」；新片《The Doors of Perception》将与 Fable 合作，并用 AI 生成幻觉",
+      "standfirst": "这是今天的长篇专访，他把自己正在用 AI 做演员、特效和剧本说得很明确，也对工会直接提出批评。",
+      "paragraphs": [
+        "《卫报》11 月 21 日刊出对 80 岁导演 Paul Schrader 的专访。他说，用 AI 拍电影的感觉是：「我打开了一个怪物的笼子，而且没有链子。」他正在与旧金山 AI 电影工作室 Fable 合作新片《The Doors of Perception》，故事关于两兄弟追查杀害母亲的凶手，其中秘鲁丛林的 ayahuasca 幻觉将由 AI 生成。",
+        "他试过让 AI 写「Paul Schrader 剧本」，并说当它写出带有他口吻的场景时，自己「把针从胳膊上拔了出来」。谈到 Sag-Aftra 要求 AI 表演者须证明有「significant additional value」时，他认为工会「只是绝望」，「电影世界是被钱推动的」；又说工会是在「竖一道会被推土机碾过的篱笆」。不能把文中提及的 9 月旧项目争议，或学院今年对 AI 演员和剧本的限制，写成今天的新决定。"
+      ],
+      "whyItMatters": "一位写过《Taxi Driver》的导演公开说自己在用 AI 做演员和剧本，还直接评价工会的新协议，会把「名导到底站哪边」推到公众面前。",
+      "caveats": [
+        "他对《Three Guns at Dawn》和黑人演员的说法，是在复述今年 9 月已引起争议的内容，不是今天宣布开拍。学院禁止 AI 演员和剧本冲击奥斯卡，也不是今天公布的新规。本报未见 Fable 的单独官方声明。"
+      ],
+      "figures": [
+        "专访发布于 11 月 21 日 06:00 EST（19:00 亚洲/上海）。Schrader 现年 80 岁。他在今年 3 月妻子去世后，于哥斯达黎加两周静修中服用 ayahuasca 八次。他称 AI 给出的 10 个剧本前提里，5 个不错，3 个不逊于他自己会想到的。"
+      ],
+      "publishedAt": "2026-11-21T19:00:00+08:00",
+      "publishedAtNote": "采用《卫报》标注的 Sat 21 Nov 2026 06.00 EST。",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-02.jpg",
+        "alt": "Paul Schrader 坐在城市街边的金属咖啡桌前，身穿黑色 Polo 衫，一只手扶着眼镜，看向镜头。",
+        "credit": "The Guardian 本次专访公开主图，采用该报媒体库原图，未加报头水印。",
+        "sourcePage": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
+        "retrievedFrom": "https://media.guim.co.uk/c3c591ee1acfc05bd826c7b9314021f5f105c5c6/804_0_7200_5760/master/7200.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "TIKTOK",
+      "headline": "TikTok 上线可公开使用的 AI 内容核验工具，并开始全球推送可选的 Likeness Detection",
+      "standfirst": "谁都可以去查一条文件是不是 TikTok 自己的 AI 做的，但查不到其他公司的模型。",
+      "paragraphs": [
+        "TikTok 于 11 月 20 日宣布两件事。第一，任何人即使没有账号，也可以在透明中心上传图片或视频，检查它是否由 TikTok 的 AI 创作功能生成或编辑；工具会读取 C2PA Content Credentials，以及官方称为更耐编辑的不可见水印 VeraDura。第二，向符合条件的创作者和公众人物开始全球推送可选的 Likeness Detection，用于发现并举报可能未经同意使用其肖像的 AI 内容。",
+        "官方称，平台迄今已为超过 50 亿条 AI 生成视频添加标签。Likeness Detection 需经第三方核验身份，官方写不保留证件。不能把核验结果写成「一定是真人或一定不是 AI」，因为该工具只识别 TikTok 自有 AI 功能。"
+      ],
+      "whyItMatters": "这把「查一查这条视频是不是 AI」和「有没有人盗用我的脸」做成了普通人可以去用的工具，尽管它覆盖的只是 TikTok 自己的生成结果。",
+      "caveats": [
+        "核验工具不能检测其他公司的 AI 模型，干净的结果不等于内容真实。官方未给出 Likeness Detection 覆盖全部合格创作者的时间表。"
+      ],
+      "figures": [
+        "日本官方新闻稿时间为 11 月 20 日 15:00 JST（14:00 亚洲/上海）。官方数字：已为超过 50 亿条 AI 生成视频加标签；称会在有人举报前移除超过 99% 的违规内容；7 月上线的 AI 素养中心已帮助超过 400 万人；欧盟 2026 年上半年有超过 7900 万人使用「不感兴趣」和关键词过滤等功能。"
+      ],
+      "publishedAt": "2026-11-20T14:00:00+08:00",
+      "publishedAtNote": "采用 TikTok Japan / Bytedance 株式会社新闻稿落款 2026年11月20日 15时00分（日本时间）。",
+      "sources": [
+        {
+          "name": "TikTok Newsroom",
+          "url": "https://newsroom.tiktok.com/en-us/more-tools-to-provide-clarity-and-control-around-ai-generated-content",
+          "role": "primary"
+        },
+        {
+          "name": "TikTok Japan / PR Times",
+          "url": "https://prtimes.jp/main/html/rd/p/000001380.000030435.html",
+          "role": "secondary"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/tiktok-rolls-out-deepfake-detection-tool-for-public-figures-to-fight-back-against-disinfor",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-03.jpg",
+        "alt": "TikTok 官方新闻稿配图：白底界面写有 Identify content made with TikTok AI，中间是上传图片、视频或音频的区域，周围摆放着示例照片，底部有 TikTok 标识。",
+        "credit": "Bytedance 株式会社 / TikTok Japan 11 月 20 日新闻稿公开产品图。",
+        "sourcePage": "https://prtimes.jp/main/html/rd/p/000001380.000030435.html",
+        "retrievedFrom": "https://prcdn.freetls.fastly.net/release_image/30435/1380/30435-1380-551c2e4618150a0111c84f15694c0f0c-800x800.png",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "KINISON",
+      "headline": "Buchwald 签下已故喜剧演员 Sam Kinison 的遗产，将开发由其 AI 化身参与的商务机会",
+      "standfirst": "这是经纪合约和形象授权，还不是一部已经确定的新电影或演出。",
+      "paragraphs": [
+        "Variety 独家报道，经纪公司 Buchwald 签下 1992 年去世的喜剧演员 Sam Kinison 的遗产，以开发其姓名与形象的新商业机会，其中包括由 Uare.AI 制作的 AI 化身。公司由 LivePerson 创始人 Rob LoCascio 创办。Buchwald 正与 Kinison 的弟弟、也是其前经纪人 Bill Kinison 合作，寻找化身的使用场景。",
+        "Bill Kinison 在声明中说，要让哥哥的遗产承诺继续活着，并写「我等不及想看 Sam 会做什么」。报道未公布具体项目、形式或上线日期。不能写成 Kinison 将在某部作品里「复出」。"
+      ],
+      "whyItMatters": "大型经纪公司把已故明星的 AI 化身签下来，会把「死人能不能再出镜、谁来点头」变成公众讨论，而不是停留在技术演示。",
+      "caveats": [
+        "目前没有已宣布的具体项目或播出日期。Variety 提到的其他名人声音或形象授权，只是背景，不是今天同时发生的新签约。"
+      ],
+      "figures": [
+        "Variety 独家发于 11 月 20 日 10:00 PT（11 月 21 日 02:00 亚洲/上海）。Kinison 于 1992 年车祸去世，享年 38 岁；1994 年凭《Live from Hell》获得追授 Grammy，1986 年主持过 Saturday Night Live。"
+      ],
+      "publishedAt": "2026-11-21T02:00:00+08:00",
+      "publishedAtNote": "采用 Variety 标注的 Nov 20, 2026 10:00am PT。",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/buchwald-signs-sam-kinison-estate-ai-avatar-1236954233/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-04.jpg",
+        "alt": "Sam Kinison 的肖像：他头戴灰色针织帽，留着长发，侧目看向镜头。",
+        "credit": "Variety 该报道页公开主图。",
+        "sourcePage": "https://variety.com/2026/film/news/buchwald-signs-sam-kinison-estate-ai-avatar-1236954233/",
+        "retrievedFrom": "https://variety.com/wp-content/uploads/2026/11/Sam-Kinison-1.png",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "BEIJING AIGC",
+      "headline": "北京发布「2026 十大精品项目」，最高提供 10 万元 Token 扶持，爱奇艺创意中心迎来首批 13 位创作者",
+      "standfirst": "这是项目发布、平台签约和算力扶持，不是某一部新片定档公映。",
+      "paragraphs": [
+        "11 月 20 日，由北京市广电局主办的「AI 赋能视听产业创新实践论坛」在首创·郎园 Station 举行。北京 AIGC 视听产业创新中心发布「2026 十大精品项目」，覆盖网络故事片、VR 电影、动画、短片和短剧，并与掌阅·泡漫、爱奇艺·纳逗 Pro、年轮 AI 等 6 家智能体平台战略签约。爱奇艺 AIGC（北京）国际创意中心迎来首批 13 位创作者入驻；潘家园公司与掌阅泡漫还将共创 60 集 AI 微短剧《记忆修复师》。",
+        "现场发布的扶持包括最高 10 万元 Token 支持，以及面向超级创作者、视听 OPC 公司和内容企业的叠加服务。创新中心负责人梁一帆说，AI 只是工具，好内容离不开人的创意。报道中的「国内首部」表述来自官方介绍的转述，10 万元是上限而不是普遍发放的现金。"
+      ],
+      "whyItMatters": "这是把具名 AI 影视项目、平台签约和创作者入驻放在同一场官方活动里，对国内创作者来说，看到的是项目和算力支持，而不是又一次空泛倡议。",
+      "caveats": [
+        "各「国内首部」说法来自报道转述官方介绍，本报未独立核实出品与许可文件。10 万元是 Token 支持上限。朝阳区文化产业营收等数字是区域背景，不是这次计划的拨款额。"
+      ],
+      "figures": [
+        "央广网报道时间为 11 月 20 日 20:40。十大项目包括《弈·1592》《奇谭：纸刃渡荒墟》《灵魂摆渡·浮生梦》系列、《生死传令》《心生万相》《走向世界的那一天》《圈马谷》《封神第一季：风起朝歌》《元龙》《我在风花雪月里等你》。签约平台 6 家；入驻创作者首批 13 人；共创短剧 60 集；Token 支持最高 10 万元。"
+      ],
+      "publishedAt": "2026-11-20T20:40:06+08:00",
+      "publishedAtNote": "采用最早核验到时分的央广网报道 2026-11-20 20:40:06。活动于当天举行。",
+      "sources": [
+        {
+          "name": "央广网",
+          "url": "https://www.cnr.cn/bj/sijh/20261120/t20261120_527878881.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795225340129317.html",
+          "role": "secondary"
+        },
+        {
+          "name": "中国网",
+          "url": "http://cul.china.com.cn/2026-11/21/content_43505275.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "中新社北京分社",
+          "url": "https://www.bj.chinanews.com.cn/news/2026/1120/104064.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-05.jpg",
+        "alt": "「AI赋能视听产业创新实践论坛」活动现场：舞台大屏写着「新视听·创无界」，台下坐满观众，有人举起手机拍照。",
+        "credit": "央广网该报道页公开的活动现场照片。",
+        "sourcePage": "https://www.cnr.cn/bj/sijh/20261120/t20261120_527878881.shtml",
+        "retrievedFrom": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2026/1120/dbb81270d257475aada1f4f45cef168111.jpg?auth=d54854f8ae991bcb161809c000134650&scale=1.48",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "TOPVIEW",
+      "headline": "Topview 推出 Video Relight 等工具，把 Film Studio 重新定位为保留真人表演、用 AI 改光线和机位",
+      "standfirst": "这是对已拍素材的新工具和混合制作说法，不是 Film Studio 今天才第一次上线。",
+      "paragraphs": [
+        "新加坡公司 Topview 于 11 月 19 日发布 Video Relight，以及从已有真人镜头生成新机位、添加 AI 群众、改时间天气、替换绿幕和分层编辑等功能，并把 Film Studio 重新定位为混合制作：保留真人表演，用 AI 改周围的光、机位和场景。CEO Jensen Wu 说，完全由 AI 生成的影片在好莱坞遇到阻力，收入「largely」限于 YouTube；他认为混合制作更容易进入主流发行。",
+        "Film Studio 已于今年 7 月上线。The Generated 写，公司展示案例仍全部是纯 AI 作品，且官方未公布新工具价格。所谓「世界首个」并不准确，Runway Aleph 和 Beeble SwitchLight 等更早就能改机位或重打光。不能写成已有好莱坞发行成交。"
+      ],
+      "whyItMatters": "它把争论从「要不要用 AI 演员」转到「真人表演能不能当通行证」，这会影响混合制作怎么卖给发行方，但目前仍是产品宣传，不是已经谈成的发行。",
+      "caveats": [
+        "Film Studio 并非 11 月 19 日首次上线。官方未公布价格，也未点名已签约的传统发行方。AWN 等部分报道把它写成平台发布，需与 7 月上线的既有产品区分。"
+      ],
+      "figures": [
+        "AWN 报道时间为 11 月 19 日 8:24am（按该站所在加州视为太平洋时间，合 11 月 20 日 00:24 亚洲/上海）。公司称注册用户超过 500 万，约 40% 在制作 AI 电影和短剧，每天约生成 100 万条视频；2025 年获 850 万美元 A 轮。Microdrama Summit 定于 2027 年 1 月 15 日在洛杉矶举行。"
+      ],
+      "publishedAt": "2026-11-20T00:24:00+08:00",
+      "publishedAtNote": "采用 AWN 标注的 Thursday, November 19, 2026 at 8:24am；该站位于加州，按太平洋时间换算。",
+      "sources": [
+        {
+          "name": "Animation World Network",
+          "url": "https://www.awn.com/news/topview-launches-film-studio-hybrid-ai-production-platform",
+          "role": "primary"
+        },
+        {
+          "name": "TVBEurope",
+          "url": "https://www.tvbeurope.com/artificial-intelligence/worlds-first-hybrid-film-production-platform-debuts",
+          "role": "secondary"
+        },
+        {
+          "name": "The Generated",
+          "url": "https://thegenerated.com/stories/topview-film-studio-hybrid-relight-20261119",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-06.jpg",
+        "alt": "Topview 产品演示图：九个画格展示同一场夜驾车戏的不同机位，分别标有 Source/Side、Front View、Top-down、Over-the-shoulder 等名称。",
+        "credit": "TVBEurope 该报道页公开的 Topview 产品演示图。",
+        "sourcePage": "https://www.tvbeurope.com/artificial-intelligence/worlds-first-hybrid-film-production-platform-debuts",
+        "retrievedFrom": "https://www.tvbeurope.com/wp-content/uploads/2026/11/Top-View-camera-angle.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "GOOGLE VIDS",
+      "headline": "Google Vids 在用 Gemini Omni 生成视频时，会把素材存进项目内的 Assets 供再次使用",
+      "standfirst": "这是同一项目里的素材复用，不是新的视频生成模型，也还没有对所有域名即时生效。",
+      "paragraphs": [
+        "Google 于 11 月 20 日在 Workspace Updates 写明：用 Gemini Omni 在 Google Vids 里生成视频时，用过的媒体会进入新的 Assets 分区，可在同一项目中再次当作生成素材。该分区支持图像、视频和音频，并直接接在 AI 视频生成流程里。",
+        "功能默认开启，没有管理员开关。Rapid Release 域名从 11 月 17 日起最长 15 天逐步可见，Scheduled Release 域名从 12 月 2 日起 1 至 3 天推出。不能写成已经对所有用户同时开放，也不能写成可以跨项目共享素材。"
+      ],
+      "whyItMatters": "对已经在 Vids 里做多条生成视频的人，少了重复上传同一张产品图或片段的步骤，但这是流程更新，不是模型能力跃迁。",
+      "caveats": [
+        "官方博客只标注了日期，没有钟点。该项从 11 月 17 日起在 Rapid Release 域名逐步推出，公告日是 11 月 20 日。复用范围限于同一项目。"
+      ],
+      "figures": [
+        "官方博客日期为 November 20, 2026。Rapid Release 自 11 月 17 日起最长 15 天逐步可见；Scheduled Release 自 12 月 2 日起 1–3 天推出。适用于 Business、Enterprise、Education 及个人 Google 账号（含 Google AI Pro 和 Ultra）等列出的版本。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "官方博客只标注 November 20, 2026，未写钟点。这里只记录日期，时间 00:00 不代表已核验的发布时间。",
+      "sources": [
+        {
+          "name": "Google Workspace Updates",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-07.jpg",
+        "alt": "Google Vids 官方产品界面：左侧是名为 Ocean animals 的时间线项目，正在预览海中鱼群画面；右侧 AI video clip 面板显示 Ingredients 素材区和生成说明。",
+        "credit": "Google Workspace Updates 官方博客配图的 GIF 首帧静图。",
+        "sourcePage": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
+        "retrievedFrom": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCphyphenhyphenct0-1j5CDw0j7Mh24xZHGXR4wHHdJgK06m3b73Q2kmQf6aDlMziRV9U60mZFGIAGT5S7TVYd6f38hOX5BIUcDeLvgNXLwVpNTrMLeUKhpmnnZYXG3kypvmqQ63taUD5b3XDJJMcWstLVnfYgKlX8JxXjpIVaOqWKUn_rJXjacWNjEl8owfgLkEvY/s0/Google%20Vids%20now%20lets%20you%20reuse%20your%20media%20in%20video%20generation%20-%207198.gif",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    }
+  ]
+}
