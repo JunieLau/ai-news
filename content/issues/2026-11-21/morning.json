@@ -1,0 +1,458 @@
+{
+  "issueDate": "2026-11-21",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-21T10:50:00+08:00",
+  "retrievedThrough": "2026-11-21T10:45:00+08:00",
+  "slot": "10:00",
+  "slotNote": "常规早报档期是上海时间 10:00。本期按窗口检索至截稿时点。",
+  "title": "AI新闻速报",
+  "editorsNote": "2026 年 11 月 21 日新闻早报。优先过去约 24 小时、最远不超过约 48 小时的硬新闻；已与 11 月 20 日、19 日期刊去重。Anthropic 一条只写交割和超额配售、私募的新事实，不重复首日交易过程。英伟达一条写周五收盘与 SEC 审查报道；特朗普呼吁回归单列，并注明董事会此前立场。",
+  "stories": [
+    {
+      "id": "2026-11-21-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Nvidia",
+      "headline": "周五再跌约 14%，收于 125.53 美元，连续第七周下跌为 2008 年以来最长；路透：SEC 正在审查潜在会计问题",
+      "standfirst": "新事实是周五收盘和路透独家报道的会计审查。调查本身不是违法证据，证交会与公司当时均未就具体问题置评。",
+      "paragraphs": [
+        "英伟达股票在 11 月 20 日（美东）再跌约 14%，收于 125.53 美元，连续第七个交易日、也是连续第七周收跌，为 2008 年金融危机以来最长的周线连跌。CNBC 称，这段时间股价累计下跌 46%，市值减少约 2.6 万亿美元，目前约 3 万亿美元，排在 Apple、Microsoft 和 Alphabet 之后。",
+        "路透当天独家报道，两名消息人士称，美国证券交易委员会执法人员正在审查英伟达的潜在会计问题。路透未能确定调查何时启动、具体针对哪些问题，并写明调查不是违法证据，许多调查最终不会带来执法行动。证交会发言人拒绝置评，英伟达当时未立即回应。路透称，该报道发出前股价已跌逾 6%，随后跌幅扩大。"
+      ],
+      "whyItMatters": "这是人工智能算力龙头一周内最清楚的价格信号，又叠加上市公司会计监管的不确定性，会直接影响市场对整条人工智能开支链条的风险判断。",
+      "caveats": [
+        "SEC 审查由路透引述匿名消息人士报道，官方未确认调查范围或时间。不能写成已经认定存在会计违规。新加坡收入口径变化和循环融资是报道中的背景讨论，不是已证实的调查事项。收盘价 125.53 美元来自 The Verge，周五约 14% 的跌幅来自 CNBC。"
+      ],
+      "figures": [
+        "CNBC：周五跌约 14%，连续第七周收跌，为 2008 年以来最长；期间累计跌 46%，市值减少约 2.6 万亿美元，目前约 3 万亿美元。The Verge：收于 125.53 美元。"
+      ],
+      "publishedAt": "2026-11-21T05:00:00+08:00",
+      "publishedAtNote": "周五交易日为美东 2026-11-20，收盘 16:00 ET，合上海时间 11-21 05:00。路透独家稿标注 11-20。The Verge 23:00 UTC，合 07:00。",
+      "sources": [
+        {
+          "name": "路透",
+          "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+          "role": "primary"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+          "role": "secondary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1039305/nvda-down-sec-investigation-accounting",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-01.jpg",
+        "alt": "英伟达位于圣克拉拉 San Tomas 的总部外景，可见带公司标识的深色立牌、玻璃幕墙和白色遮阳棚，不是扁平商标图。",
+        "credit": "路透该独家报道页面的公开配图。",
+        "sourcePage": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+        "retrievedFrom": "https://www.reuters.com/resizer/v2/IV2YV6GDE5JMTGWTVZMD4BLO3U.jpg?auth=fc9190943f4351cbebcaf186611eb835df3e8c0639805e4d8f4b0f5f0c0a6041&height=1005&width=1920&quality=80&smart=true",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Anthropic",
+      "headline": "IPO 与同步私募交割完成：超额配售全额行使，公开发行毛筹资约 935 亿美元；另募私募约 260 亿美元，合计毛额约 1,195 亿美元",
+      "standfirst": "这是发行结束后的官方交割公告。首日开盘、收盘和涨幅已在昨报写过，这里只作对照。",
+      "paragraphs": [
+        "Anthropic 11 月 20 日宣布，首次公开发行和同步私募已经交割。公司按每股 83.00 美元发行合计 11.27 亿股 Class A 普通股，其中包括承销商全额行使的 1.47 亿股超额配售。公开发行毛筹资约 935 亿美元，公司约获得 916 亿美元；其余来自部分股东出售的股份，公司不获款项。",
+        "同步私募以同样价格，向 AMD、Broadcom、Google、Micron、Microsoft、NVIDIA 和 TSMC Partners 出售约 3.13 亿股 Class N，募资约 260 亿美元。公开发行与私募合计毛额约 1,195 亿美元，均尚未扣除承销费用。首日以 ANT 上市、开盘 111.50 美元、收盘 97.17 美元已在昨报写过。"
+      ],
+      "whyItMatters": "超额配售和私募交割把可核对的筹资总额从此前的公开发行规模，扩大到含战略投资者入股后的完整数字，是这次上市过程的收官节点。",
+      "caveats": [
+        "935 亿美元和 1,195 亿美元都是扣除费用前的毛额。公司从公开发行中约获得 916 亿美元，不包括股东出售部分。私募未按证券法登记。首日交易数据不是本条新事实。"
+      ],
+      "figures": [
+        "11.27 亿股 Class A，含 1.47 亿股超额配售，公开发行毛筹资约 935 亿美元，公司约获得 916 亿美元。私募 3.13 亿股 Class N，约 260 亿美元。两项合计毛额约 1,195 亿美元。"
+      ],
+      "publishedAt": "2026-11-20T21:11:00+08:00",
+      "publishedAtNote": "官方新闻稿标注 2026-11-20。这里采用 CNBC 首发 08:11 ET，合上海时间 21:11；09:59 ET 有更新。",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "role": "primary"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-02.jpg",
+        "alt": "Dario Amodei、Daniela Amodei 与纳斯达克 CEO Adena Friedman 等人在 Nasdaq MarketSite 为本次 IPO 鼓掌。照片拍摄于 2026 年 11 月 19 日。官方交割稿配图只是字标，未用。",
+        "credit": "Brendan Mcdermid / Reuters，见于 CNBC 该报道。",
+        "sourcePage": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+        "retrievedFrom": "https://image.cnbcfm.com/api/v1/image/108555352-17951019042026-11-19t145814z_563319887_rc21roaktnjs_rtrmadp_0_anthropic-ipo-debut.jpeg",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Huawei",
+      "headline": "发布新子品牌星芒 OSTA，首款鸿蒙 AI 手机 OSTA O1 Pro 上市，标价 5699 元起、首发 5499 元起",
+      "standfirst": "这是华为出售荣耀六年后再推出的手机子品牌。官方称 O1 Pro 是「首款为 AI 而生的鸿蒙手机」。",
+      "paragraphs": [
+        "华为 11 月 20 日发布新子品牌星芒 OSTA，并推出首款手机 OSTA O1 Pro。华为终端董事长余承东说，公司在人工智能时代推出这一品牌，定位是「成为 AI 时代消费者喜爱的先锋科技品牌」。财新写明，这是华为 2020 年 11 月出售荣耀后，时隔六年再有手机子品牌。",
+        "该机首发搭载 HarmonyOS 7 AI 先锋版和麒麟 9030S。四档标价为 5699 元、6699 元、7499 元和 8999 元，12 月 31 日前首发价各低 200 元，最低 5499 元。IT之家还记录了 6.39 英寸 16:9.5 屏幕、约 200 克机身和 7000mAh 电池等规格。"
+      ],
+      "whyItMatters": "消费级新品带着明确售价和新品牌故事进入市场，会直接进入普通人的购买和讨论范围，而不只是行业发布。",
+      "caveats": [
+        "5499 元起是截至 12 月 31 日的首发价，之后以标价为准。官网部分示意图标明为「AI 辅助生成」，本条配图用的是发布会现场照片，不是那些生成图。产品宣传中的体验效果以实际为准。"
+      ],
+      "figures": [
+        "标价 5699 元、6699 元、7499 元、8999 元；12 月 31 日前首发价分别为 5499 元、6499 元、7299 元、8799 元。麒麟 9030S，HarmonyOS 7 AI 先锋版，电池 7000mAh。"
+      ],
+      "publishedAt": "2026-11-20T16:43:00+08:00",
+      "publishedAtNote": "发布会为 2026-11-20 14:30。这里采用 IT之家现场稿 16:43。财新为 21:51。",
+      "sources": [
+        {
+          "name": "财新",
+          "url": "https://www.caixin.com/2026-11-20/102507346.html",
+          "role": "primary"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/030/120.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "华为官网",
+          "url": "https://consumer.huawei.com/cn/osta/phones/o1-pro/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-03.jpg",
+        "alt": "2026 年 11 月 20 日发布会现场：大屏展示 OSTA O1 Pro 星云白、星芒紫、星空黑三款配色及价格，台下观众举着手机拍摄。",
+        "credit": "视觉中国照片，见于财新 2026 年 11 月 20 日报道。",
+        "sourcePage": "https://www.caixin.com/2026-11-20/102507346.html",
+        "retrievedFrom": "https://img.caixin.com/2026-11-20/179518337361948.jpg",
+        "retrievedAt": "2026-11-21T02:25:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Alibaba",
+      "headline": "9 月季度收入 2715.19 亿元同比增 10%，AI 云与算力服务收入同比增 53%；吴泳铭称 2027、2028 年将是中国算力最紧缺的两年",
+      "standfirst": "这是 11 月 19 日发布、昨日早报未写入的官方季报。芯片供给判断来自电话会报道，须与公告中的业绩数字分开看。",
+      "paragraphs": [
+        "阿里巴巴 11 月 19 日公布截至 9 月 30 日的季度业绩：收入 2715.19 亿元，同比增 10%。AI 云与算力服务收入同比增 53% 至 609.73 亿元，外部经常性收入同比增 67%。AI 相关产品收入连续第十三个季度同比三位数增长。云分部经调整 EBITA 同比增 121%，利润率 14.5%；集团经调整 EBITA 同比增 260% 至 326.36 亿元。自由现金流转为净流出 344.72 亿元，主要因云基础设施开支增加。",
+        "官方英文说明称，平头哥发布新一代训练与推理芯片真武 V900，计划 2027 年第一季度商业发布。据每经报道，首席执行官吴泳铭在电话会上说，2027 年和 2028 年将是中国算力最紧缺的两年；他判断 2027 年及之后阿里云芯片供给将以平头哥为主，并采购其他国产芯片；旗舰芯片优先保障自有大模型训练，再兼顾核心合作伙伴。"
+      ],
+      "whyItMatters": "这是国内云与芯片策略的一份可核对官方成绩单，也把国产算力供给能不能跟上训练需求，直接放到了公司管理层的公开判断里。",
+      "caveats": [
+        "11-20 早报未写入本条，现按窗口补报。真武 V900 的商业发布日程来自官方英文说明。关于 2027 年后芯片供给以平头哥为主的判断，来自每经对电话会的报道。平头哥保密上市申请被写成「此前」已提交，不是今日新申报。"
+      ],
+      "figures": [
+        "收入 2715.19 亿元，同比增 10%。AI 云与算力服务收入 609.73 亿元，同比增 53%；外部经常性收入同比增 67%。云分部经调整 EBITA 同比增 121%，利润率 14.5%。集团经调整 EBITA 同比增 260% 至 326.36 亿元。自由现金净流出 344.72 亿元。"
+      ],
+      "publishedAt": "2026-11-19T00:00:00+08:00",
+      "publishedAtNote": "官方业绩公告标注 2026-11-19，未写精确钟点。每经就电话会内容发稿时间为 11-20 00:45。Investing.com 英文章标注 11-19 08:31（站点时间）。",
+      "sources": [
+        {
+          "name": "阿里巴巴集团",
+          "url": "https://www.alibabagroup.com/zh-HK/document-2060147792046718976",
+          "role": "primary"
+        },
+        {
+          "name": "Alibaba Group",
+          "url": "https://www.alibabagroup.com/en-US/document-2060213191907999744",
+          "role": "secondary"
+        },
+        {
+          "name": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-11-20/4653240.html",
+          "role": "secondary"
+        },
+        {
+          "name": "Investing.com（Reuters 配图）",
+          "url": "https://www.investing.com/news/company-news/alibaba-q3-2026-slides-profitability-surges-260-on-ai-cloud-growth-93CH-5039036",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-04.jpg",
+        "alt": "夜间亮灯的 Alibaba 标识牌立在办公楼前，一名行人从旁边走过。这是 Investing.com 该业绩报道中的 Reuters 新闻照片，不是扁平商标。官方业绩页配图只是标识，未用。",
+        "credit": "Reuters 照片，见于 Investing.com 2026 年 11 月 19 日业绩报道。",
+        "sourcePage": "https://www.investing.com/news/company-news/alibaba-q3-2026-slides-profitability-surges-260-on-ai-cloud-growth-93CH-5039036",
+        "retrievedFrom": "https://content-media.investing.com/news/moved_LYNXNPEI2E0M2_L.jpg",
+        "retrievedAt": "2026-11-21T02:26:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Nvidia - White House",
+      "headline": "特朗普呼吁给黄仁勋「第二次机会」，希望他作出郑重道歉并重返英伟达；董事会此前已排除复职",
+      "standfirst": "这是特朗普周五的新公开表态。英伟达董事会本周早些时候已表示不计划恢复其首席执行官职务。",
+      "paragraphs": [
+        "美国总统特朗普 11 月 20 日对记者表示，希望黄仁勋得到「第二次机会」，作出郑重道歉并回到英伟达。据 Al Jazeera 转述，他说黄仁勋是「truly most brilliant minds」之一，也是「a good man」，但「made some bad decisions」，并提到黄仁勋「created something with Blackwell」。",
+        "特朗普还说，他在深圳会晤中与习近平谈及此事，并转述对方称黄仁勋「brilliant」。财政部长 Scott Bessent 当天早些时候曾表示会谈中没有谈到黄仁勋，两说并存。黄仁勋本周早些时候曾表示如董事会认为合适愿返回，但董事会已一致接受辞职、不计划恢复其职务。特朗普的呼吁本身并不改变这一已公开立场。"
+      ],
+      "whyItMatters": "国家元首公开点名一家人工智能龙头的人事安排，会把已经存在的公司治理冲突，进一步推到政治和外交语境里。",
+      "caveats": [
+        "董事会排除复职已在此前速报写过，本条只作对照，不是新的公司决定。特朗普对中美元首会谈内容的转述与贝森特的说法不一致，中方未在本条所引报道中证实这一转述。"
+      ],
+      "figures": [
+        "黄仁勋于 11 月 12 日去职。特朗普的表态发表于 11 月 20 日。无新的交易或合同数字。"
+      ],
+      "publishedAt": "2026-11-21T00:00:00+08:00",
+      "publishedAtNote": "特朗普于美东 2026-11-20（周五）向记者发表言论。Al Jazeera 报道标注 2026-11-21，未写精确钟点。",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang",
+          "role": "primary"
+        },
+        {
+          "name": "路透（经 Investing.com）",
+          "url": "https://www.investing.com/news/stock-market-news/trump-says-he-still-backs-lutnick-urges-nvidias-huang-to-apologize-5042495",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-05.jpg",
+        "alt": "美国总统特朗普与中国国家主席习近平 2026 年 11 月 19 日在深圳亚太经合组织会议期间并肩走入全会。稿件将这次会晤与特朗普有关黄仁勋的转述写在一起。",
+        "credit": "Ng Han Guan / China Pool via Getty Images，见于 Al Jazeera 该报道。",
+        "sourcePage": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang",
+        "retrievedFrom": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b00e93a45-1795221818.jpg",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Signal",
+      "headline": "加强屏幕安全，默认阻止 Siri AI、Gemini 等系统级智能体通过截屏读取聊天内容",
+      "standfirst": "这是 Signal 官方采取的产品措施。关闭保护后，官方写明将无法继续保证应用内隐私。",
+      "paragraphs": [
+        "Signal 于 11 月 20 日由总裁 Meredith Whittaker 发文称，将限制操作系统内置人工智能智能体截取和存储 Signal 内容。在 iOS 27 上，Signal 8.37 及以上版本默认开启「Block Siri AI」；在可检测到助手试图读取屏幕的 Android 系统上，自动启用 Screen Security。",
+        "官方说，谷歌和苹果把 Gemini、Siri AI 更深入地嵌进操作系统后，这些系统会扫描屏幕信息，使应用层加密难以独立保证隐私。用户可在设置中关闭该项，但关闭后可能暴露自己和联系人的内容。官方还称，目前无法在 macOS 上实现同等保护，仅阻止截屏也不能覆盖从文件系统读取已存内容等途径。"
+      ],
+      "whyItMatters": "聊天加密能不能在系统级人工智能助手面前继续成立，已经从原则争议变成了用户手机里一项默认开关。",
+      "caveats": [
+        "目前无法在 macOS 上提供同等保护。关闭设置会打破官方所称的隐私保证。本条以 Signal 官方说明为准，不把其他媒体对 Meta Muse 的测试写成这项更新的直接原因。"
+      ],
+      "figures": [
+        "iOS 27 上 Signal 8.37 及以上默认开启 Block Siri AI；部分 Android 系统在检测到人工智能助手读屏时自动启用 Screen Security。目前无法在 macOS 上实现同等保护。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "Signal 官方博客标注 20 Nov 2026，未写精确钟点。The Verge 同日报道。",
+      "sources": [
+        {
+          "name": "Signal",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "role": "primary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "role": "secondary"
+        },
+        {
+          "name": "Signal Support",
+          "url": "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Siri-AI",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-06.jpg",
+        "alt": "iPhone 上的 Signal App Security 设置截图，「Block Siri AI」处于 On，说明文字写明这会阻止 Siri AI 扫描 Signal 内容，同时无法在应用和 App Switcher 中截屏。这是官方博文中的产品界面，不是商标图。",
+        "credit": "Signal 官方博客《Signal is Serious About Protecting Your Privacy》中的设置截图，亦见于 The Verge 报道。",
+        "sourcePage": "https://signal.org/blog/protecting-your-privacy/",
+        "retrievedFrom": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&w=1200",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "OpenAI",
+      "headline": "公布对抗「对抗性蒸馏」的防护：称 GPT-6.2 Astra 上将受保护推理提取的攻击成功率从 54.0% 降至 0.2%",
+      "standfirst": "数字来自 OpenAI 自己的内部自适应红队评估，不是独立第三方复现。",
+      "paragraphs": [
+        "OpenAI 11 月 20 日介绍其对抗「对抗性蒸馏」的防护。公司称，在内部自适应评估中，针对先前请求里受保护推理的平均攻击成功率，从 GPT-6 Astra 原有防护下的 54.0%，降至 GPT-6.2 Astra 更新防护下的 0.2%；针对当前请求的成功率从 22.9% 降至 0.9%。",
+        "官方把对抗性蒸馏定义为：未经授权用前沿模型输出训练另一模型，从而在缺少相应防护时复现能力，在网络与生物等两用领域尤其危险。防护包括对抗训练、分类器、应用程序接口控制和协同提取调查。这些结果只适用于所测试的模型与攻击设置。"
+      ],
+      "whyItMatters": "如果思维链可以被稳定提取，前沿模型的能力就可能在没有同等安全约束的情况下被复制，这关系到模型发布后的实际防护能否站住。",
+      "caveats": [
+        "54.0% 至 0.2%、22.9% 至 0.9% 都是公司内部评估，不能外推成蒸馏风险已经消失，也不能当成独立实验室的复现结果。"
+      ],
+      "figures": [
+        "内部评估：先前请求受保护推理提取成功率 54.0% 降至 0.2%；当前请求 22.9% 降至 0.9%。对照模型为 GPT-6 Astra 原有防护与 GPT-6.2 Astra 更新防护。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "OpenAI 官方博客标注 November 20, 2026，未写精确钟点。",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-07.png",
+        "alt": "OpenAI 官方博文公开配图，浅色背景上写着 Combatting adversarial distillation。这是本次公告的官方标题图，不是通用 ChatGPT 标识。",
+        "credit": "OpenAI 官方博客《Combatting adversarial distillation》公开配图。",
+        "sourcePage": "https://openai.com/index/combatting-adversarial-distillation/",
+        "retrievedFrom": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Google",
+      "headline": "Mac 版 Gemini 应用上线 Computer use，可在隔离窗口中操作本地应用与网页",
+      "standfirst": "功能从 11 月 19 日起在限定范围内开放。这不是新的基础模型发布。",
+      "paragraphs": [
+        "Google 11 月 19 日宣布，Mac 版 Gemini 应用上线 Computer use：用户可以用自然语言描述跨本地文件、桌面应用和网页的多步任务，Gemini 在独立后台窗口里点击、输入和操作菜单，并在聊天中提供实时预览。",
+        "官方说，用户可选择允许访问的应用，随时暂停，并在关键动作发生前批准。目前仅向美国、英语、年满 18 岁的个人 Google 账户开放，需订阅 Google AI Plus、Pro 或 Ultra，设备须为 Apple Silicon，系统为 macOS Sequoia 15.0 及以上。"
+      ],
+      "whyItMatters": "把「会用电脑」的智能体放进正版桌面应用，会改变一部分知识工作的操作方式，但也把权限、批准和适用范围变成了实际问题。",
+      "caveats": [
+        "只在上述地区、语言、年龄、订阅和设备条件下开放，不能写成已向所有 Gemini 用户推出。官方未给出速度或成功率的对比数字。11-20 早报未写入，本报按仍在约 48 小时窗口内补报。"
+      ],
+      "figures": [
+        "面向美国英语、18 岁以上个人账户和 Google AI Plus / Pro / Ultra 订阅用户；需 Apple Silicon 与 macOS Sequoia 15.0 及以上。"
+      ],
+      "publishedAt": "2026-11-20T02:21:00+08:00",
+      "publishedAtNote": "Google 官方博客标注 Nov 19, 2026。这里采用 The Verge 18:21 UTC，合上海时间 11-20 02:21。",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "role": "primary"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-08.png",
+        "alt": "Gemini 官方介绍图：聊天中发出带 @Computer use 的任务，下方显示 Gemini 正在 Blender 窗口中处理一只蝴蝶模型。这是该功能的官方界面图。",
+        "credit": "Google 官方博客《Let Gemini tackle repetitive chores on your Mac》题图。",
+        "sourcePage": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "OpenAI",
+      "headline": "发布 MedChemBench：99 道药物化学推理题中，称 GPT-6.2 Astra 在最高推理设置下得到 84.5% 的分数",
+      "standfirst": "这是 OpenAI 自己发布的评测集和自家模型分数，不是监管批准，也不能写成已经能独立发现新药。",
+      "paragraphs": [
+        "OpenAI 11 月 20 日发布 MedChemBench，用 99 道来自已发表研究的题目，测试模型能否把分子结构与实验证据联系起来，解释结果、比较化合物并预测性质。题目取材于 117 篇论文和专利，涵盖 761 个不同分子结构。",
+        "官方称，在 xhigh 推理设置下，GPT-6.2 Astra 得到 84.5% 的可用分数，对照为 GPT-6 Astra 83.3%、GPT-6.1 Sol 82.0%、GPT-5.6 Sol 58.2%。公司还说，重建分子结构和解释证据相对更容易，选择化合物和预测数值性质更难。"
+      ],
+      "whyItMatters": "药物化学需要在相互冲突的分子性质之间做取舍。把这类推理单独做成可核对的题目，有助于判断模型能不能真正进入科研工作流，而不只是看通用问答分数。",
+      "caveats": [
+        "分数来自 OpenAI 自己的基准和评估设置，不是独立复现，也不代表临床或监管结果。"
+      ],
+      "figures": [
+        "99 道题，117 篇论文和专利，761 个分子结构。xhigh 设置下 GPT-6.2 Astra 84.5%，GPT-6 Astra 83.3%，GPT-6.1 Sol 82.0%，GPT-5.6 Sol 58.2%。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "OpenAI 官方博客标注 November 20, 2026，未写精确钟点。",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-09.png",
+        "alt": "OpenAI 官方博文公开配图，彩色背景上写着 MedChemBench: Benchmarking AI for medicinal chemistry。这是本次公告的官方标题图。",
+        "credit": "OpenAI 官方博客《Can AI help scientists identify promising drug candidates?》公开配图。",
+        "sourcePage": "https://openai.com/index/introducing-medchembench/",
+        "retrievedFrom": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+        "retrievedAt": "2026-11-21T02:22:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Amazon",
+      "headline": "Amazon Textract Insights 正式商用：可用自然语言蓝图从文件中抽取字段，并给出置信度与页内定位",
+      "standfirst": "这是文档理解功能在两个区域的正式商用，不是新的通用大模型发布。",
+      "paragraphs": [
+        "AWS 11 月 20 日宣布，Amazon Textract Insights 在美国东部（弗吉尼亚北部）和美国西部（俄勒冈）正式商用。这项功能把拆分、分类和抽取放进一次异步请求，用户用 JSON 蓝图以自然语言描述要提取的字段，也可从 W-2、发票、银行对账单等公共蓝图起步。",
+        "系统为每个值返回置信度和在页面上的定位，便于高置信结果自动处理、其余转人工复核。文件来自客户自己的 Amazon S3 存储桶。官方还写到，混合文档包可一次提交最多 3,000 页并启用拆分，且无需为这项功能单独训练模型。"
+      ],
+      "whyItMatters": "把「这份材料里我要哪些字段」写成可追踪的抽取请求，会降低企业处理杂乱扫描件和材料包的手工成本，前提是置信度和定位真的能被复核。",
+      "caveats": [
+        "目前仅在上述两个 AWS 区域提供。这不是通用大模型发布。What's New 页面的 re:Invent 预留座位图与本条无关，配图用的是该功能官方博客题图。"
+      ],
+      "figures": [
+        "2026 年 11 月 20 日在美国东部（弗吉尼亚北部）和美国西部（俄勒冈）正式商用。混合文档包可一次提交最多 3,000 页并启用拆分。无需单独训练模型。"
+      ],
+      "publishedAt": "2026-11-20T00:00:00+08:00",
+      "publishedAtNote": "AWS What's New 与机器学习和人工智能博客均标注 Nov 20, 2026 / 2026-11-20，未写精确钟点。",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-insights-ga/",
+          "role": "primary"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/morning-10.png",
+        "alt": "AWS 人工智能博客题图，标题为 Announcing Amazon Textract Insights: Verifiable generative AI for documents。这是本次功能发布的官方标题图，不是通用 AWS 标识或无关活动图。",
+        "credit": "AWS Machine Learning / Artificial Intelligence Blog 该文题图。",
+        "sourcePage": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+        "retrievedFrom": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22308-featured-image.png",
+        "retrievedAt": "2026-11-21T02:25:00Z"
+      }
+    }
+  ]
+}
