@@ -196,13 +196,13 @@ test("the production build links originals, keeps the image gaps, and does not r
     assert.equal(fs.existsSync(path.join(out, "media", "2026-11-20", name)), true);
   }
   const nov21Evening = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-21", "evening.json"), "utf8"));
-  assert.equal(nov21Evening.stories.length, 7);
+  assert.equal(nov21Evening.stories.length, 10);
   assert.equal(nov21Evening.stories.every((story) => story.image.status === "archived" && story.image.file), true);
-  for (const name of ["evening-01.jpg", "evening-02.jpg", "evening-03.jpg", "evening-04.jpg", "evening-05.jpg", "evening-06.jpg", "evening-07.jpg"]) {
+  for (const name of ["evening-01.jpg", "evening-02.jpg", "evening-03.jpg", "evening-04.jpg", "evening-05.jpg", "evening-06.jpg", "evening-07.jpg", "evening-08.jpg", "evening-09.jpg", "evening-10.jpg"]) {
     assert.equal(fs.existsSync(path.join(out, "media", "2026-11-21", name)), true);
   }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
-  assert.equal(index.length, 72);
+  assert.equal(index.length, 75);
 
   const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
   assert.equal(found.length, 1);

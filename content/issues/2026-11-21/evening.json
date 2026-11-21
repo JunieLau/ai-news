@@ -2,12 +2,12 @@
   "issueDate": "2026-11-21",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-21T20:40:00+08:00",
-  "retrievedThrough": "2026-11-21T20:40:00+08:00",
+  "updatedAt": "2026-11-21T20:45:00+08:00",
+  "retrievedThrough": "2026-11-21T20:45:00+08:00",
   "slot": "20:00",
-  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。窗口内核到 7 条经核实的新事，未编造凑满 10 条。",
+  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。窗口内核到 10 条经核实的新事；其中第 5 条是昨日已报放映的首日现场新事实，不是重复宣布进院线。",
   "title": "AI电影与视频速报",
-  "editorsNote": "2026 年 11 月 21 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 20 日、11 月 19 日晚报及 11 月 21 日早报去重。David Fincher 对《洛杉矶时报》的原访谈发于 11 月 19 日 3 AM PT，约早于 48 小时切点 81 分钟，本条只把它作为 11 月 20 日 Deadline 与 TheWrap 报道影评争议时的引语来源，并写明他尚未直接证实本片使用 AI。",
+  "editorsNote": "2026 年 11 月 21 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 20 日、11 月 19 日晚报及 11 月 21 日早报去重。David Fincher 对《洛杉矶时报》的原访谈发于 11 月 19 日 3 AM PT，约早于 48 小时切点 81 分钟，本条只把它作为 11 月 20 日贸易媒体报道影评争议时的引语来源，并写明他尚未直接证实本片使用 AI。《万妖图录传之云州异客》只写 11 月 21 日见报的首日到场新事实，不重复昨天的预约放映宣布。",
   "stories": [
     {
       "id": "2026-11-21-evening-01",
@@ -23,10 +23,10 @@
       ],
       "whyItMatters": "Brad Pitt 和 Fincher 的新片四天后就要进 IMAX，观众已经在争「片子有没有用 AI」。这会直接影响人们对主流院线片的接受度，但目前仍是指控和态度，不是已证实的制作说明。",
       "caveats": [
-        "Fincher 没有在这些报道里直接承认本片使用了生成式 AI。个别影评和社交帖不能当成已核实的镜头清单。《洛杉矶时报》访谈发布于 11 月 19 日 3 AM PT，约早于本报 48 小时切点 81 分钟；本条的新闻点是 11 月 20 日的争议报道。"
+        "Fincher 没有在这些报道里直接承认本片使用了生成式 AI。个别影评和社交帖不能当成已核实的镜头清单。《洛杉矶时报》访谈发布于 11 月 19 日 3 AM PT，约早于本报 48 小时切点 81 分钟；本条的新闻点是 11 月 20 日的争议报道。《洛杉矶时报》、TheWrap 等写 11 月 25 日 IMAX 上映，Deadline 写 Thanksgiving（2026 年感恩节为 11 月 26 日），日期不完全一致。"
       ],
       "figures": [
-        "Deadline 发于 11 月 20 日 15:45 太平洋时间（11 月 21 日 07:45 亚洲/上海），TheWrap 发于当天 21:04 太平洋时间。影片 11 月 25 日 IMAX 上映，12 月 23 日登陆 Netflix。"
+        "Deadline 发于 11 月 20 日 15:45 太平洋时间（11 月 21 日 07:45 亚洲/上海），TheWrap 发于当天 21:04 太平洋时间。《洛杉矶时报》和 TheWrap 写 11 月 25 日 IMAX 上映，Deadline 写 Thanksgiving；Netflix 日期均为 12 月 23 日。"
       ],
       "publishedAt": "2026-11-21T07:45:00+08:00",
       "publishedAtNote": "采用较早的贸易媒体 Deadline，时间按该站惯例视为太平洋时间 2026-11-20T15:45:00-08:00。",
@@ -44,6 +44,11 @@
         {
           "name": "Los Angeles Times",
           "url": "https://www.latimes.com/entertainment-arts/movies/story/2026-11-19/david-fincher-further-mis-adventures-cliff-booth-holiday-preview-2026",
+          "role": "secondary"
+        },
+        {
+          "name": "The Playlist",
+          "url": "https://theplaylist.net/david-fincher-ai-cliff-booth-controversy-20261120/",
           "role": "secondary"
         }
       ],
@@ -112,10 +117,10 @@
         "核验工具不能检测其他公司的 AI 模型，干净的结果不等于内容真实。官方未给出 Likeness Detection 覆盖全部合格创作者的时间表。"
       ],
       "figures": [
-        "日本官方新闻稿时间为 11 月 20 日 15:00 JST（14:00 亚洲/上海）。官方数字：已为超过 50 亿条 AI 生成视频加标签；称会在有人举报前移除超过 99% 的违规内容；7 月上线的 AI 素养中心已帮助超过 400 万人；欧盟 2026 年上半年有超过 7900 万人使用「不感兴趣」和关键词过滤等功能。"
+        "英文 Newsroom firstPublished 为 11 月 20 日 13:00 亚洲/上海。官方数字：已为超过 50 亿条 AI 生成视频加标签；称会在有人举报前移除超过 99% 的违规内容；7 月上线的 AI 素养中心已帮助超过 400 万人；欧盟 2026 年上半年有超过 7900 万人使用「不感兴趣」和关键词过滤等功能。"
       ],
-      "publishedAt": "2026-11-20T14:00:00+08:00",
-      "publishedAtNote": "采用 TikTok Japan / Bytedance 株式会社新闻稿落款 2026年11月20日 15时00分（日本时间）。",
+      "publishedAt": "2026-11-20T13:00:00+08:00",
+      "publishedAtNote": "采用 TikTok 英文 Newsroom 的 firstPublished 2026-11-20T05:00:00Z，合 11 月 20 日 13:00 亚洲/上海。日本新闻稿落款为当天 15:00 JST（14:00 亚洲/上海）。",
       "sources": [
         {
           "name": "TikTok Newsroom",
@@ -186,6 +191,54 @@
       "rank": 5,
       "tier": "send",
       "region": "国内",
+      "kickerEn": "WAN YAO",
+      "headline": "《万妖图录传之云州异客》首日探访：北京一场约售 40 多张，部分场次仅数人；成都一场另有 13 人购票",
+      "standfirst": "这是已开始放映后的现场到场情况，不是再次宣布全国预约放映，也还没有公开总票房。",
+      "paragraphs": [
+        "新京报 11 月 21 日探访北京中关村完美世界影城：该厅有一百多个座位，首场售出约 40 多张（约三分之一），记者称这是北京当日人数较多的场次之一，但部分场次只有十几人乃至几人。报道写票面 35 元，有观众优惠后 20 多元。澎湃号「短剧八部半」则记录成都周五 15:20 一场，除作者外另有 13 人购票，并写在大银幕上城市与交通工具等细节更难被忽略，前半段节奏也比短剧更慢。",
+        "这是 11 月 20 日起经中影预约放映的限时派对的首日反馈，没有龙标、不进入常规票房榜。新京报写「整体表现仍有待观察」。不能把「北京一场约 40 多张」写成全国热映。文中「1 人就能成团」只见于「短剧八部半」，未见官方规则确认，不能当成新的官方规定。"
+      ],
+      "whyItMatters": "一部头部 AI 漫剧已经进了影院，现在缺的不是预告，而是有多少人愿意买票走进去。零散的现场数字会改变人们对「短剧能否救影院」的判断，但不能代替尚未公布的总票房。",
+      "caveats": [
+        "没有官方总票房或中影战报。北京数字来自新京报对单家影城的探访，成都数字来自一篇栏目现场观察。「1 人就能成团」未经官方确认。大银幕瑕疵和节奏问题是作者观感。新浪财经转载页栏头为 11 月 21 日 17:58，本报未能打开新京报原站。"
+      ],
+      "figures": [
+        "新京报探访稿栏头 11 月 21 日 17:58 亚洲/上海。北京该厅一百多个座位，首场约售 40 多张；部分场次十几人乃至几人；票面 35 元，有人优惠后 20 多元。成都周五 15:20 场除作者外另有 13 人购票；该文写票价 30–35 元。影片时长约 109 分钟，昨日已报。"
+      ],
+      "publishedAt": "2026-11-21T17:58:02+08:00",
+      "publishedAtNote": "采用新浪财经转载新京报稿的栏头与 create_at：2026-11-21 17:58:02 亚洲/上海。澎湃号「短剧八部半」为当天 11:02:38。",
+      "sources": [
+        {
+          "name": "新京报 / 新浪财经转载",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-iniznxpy6599350.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "澎湃号·短剧八部半",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34521927",
+          "role": "secondary"
+        },
+        {
+          "name": "界面新闻",
+          "url": "https://www.jiemian.com/article/15356767.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-05.jpg",
+        "alt": "北京影城柜台前的三块《万妖图录传》限时派对立牌，分别是卖品套餐、活动规则和卡牌兑换规则，由新京报记者在现场拍摄。",
+        "credit": "新京报记者徐美琳在北京中关村完美世界影城拍摄的活动规则立牌，见于该报道的新浪财经转载页。",
+        "sourcePage": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-iniznxpy6599350.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/spider20261121/177/w1242h535/20261121/a426-79a1a2da36523cd2dea305acc8ff4f88.jpg",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "国内",
       "kickerEn": "BEIJING AIGC",
       "headline": "北京发布「2026 十大精品项目」，最高提供 10 万元 Token 扶持，爱奇艺创意中心迎来首批 13 位创作者",
       "standfirst": "这是项目发布、平台签约和算力扶持，不是某一部新片定档公映。",
@@ -226,7 +279,7 @@
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-21/evening-05.jpg",
+        "file": "2026-11-21/evening-06.jpg",
         "alt": "「AI赋能视听产业创新实践论坛」活动现场：舞台大屏写着「新视听·创无界」，台下坐满观众，有人举起手机拍照。",
         "credit": "央广网该报道页公开的活动现场照片。",
         "sourcePage": "https://www.cnr.cn/bj/sijh/20261120/t20261120_527878881.shtml",
@@ -235,8 +288,56 @@
       }
     },
     {
-      "id": "2026-11-21-evening-06",
-      "rank": 6,
+      "id": "2026-11-21-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "WECHAT",
+      "headline": "微信短剧审核新规：12 月 1 日起单集最低 1 分钟，含 AI 内容须提交制作证明视频",
+      "standfirst": "这是微信短剧提审规则调整，不是即日起已经强制，也不等于「必须在作品上标注 AI」。",
+      "paragraphs": [
+        "IT之家、观点网和凤凰网科技报道，微信短剧内容中心 11 月 20 日发文，两项调整均从 12 月 1 日起生效：单集最低时长由 45 秒上调至 1 分钟，不足 1 分钟将无法通过提审；针对含 AI 生成内容的剧集，「AI 制作证明视频」由目前选填改为必填。视频须展示 AI 软件生成过程，包括资产列表、剧集列表、不同集和分镜的提示词，以及少量分镜片段，用于证明创作真实性、减少盗版。",
+        "官方建议创作者现在就附上该视频，以提高过审效率。本报未见微信公众号原文链接，以上为三家媒体对同一公告的一致转述。不能写成所有短视频平台的新规，也不能把 9 月已实施的微短剧标识要求写成这次的新内容。"
+      ],
+      "whyItMatters": "微信是国内短剧的重要入口，这两条硬规则会直接改变 12 月起 AI 短剧的单集时长和提审材料，创作者现在就要改生产节奏。",
+      "caveats": [
+        "未见微信官方原文 URL。规则 12 月 1 日才生效，现在仍是选填。只覆盖微信短剧提审，不是爱奇艺、抖音、快手或院线电影的新规。不要写成「必须对外标注 AI」。"
+      ],
+      "figures": [
+        "媒体首报时间为 11 月 20 日 14:04（IT之家）。单集最低时长由 45 秒调整为 1 分钟。凤凰网配发的提审页截图还写：可上传截图或视频；支持 PDF、JPG、JPEG、BMP、PNG、MP4；单个文件不超过 10MB，最多 3 个文件。"
+      ],
+      "publishedAt": "2026-11-20T14:04:06+08:00",
+      "publishedAtNote": "采用最早可核验时分的 IT之家稿 2026-11-20 14:04:06。官方公告落款为 11 月 20 日，原文 URL 未取到。",
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/029/883.htm",
+          "role": "primary"
+        },
+        {
+          "name": "观点网",
+          "url": "https://www.guandian.cn/m/show/630679",
+          "role": "secondary"
+        },
+        {
+          "name": "凤凰网科技",
+          "url": "https://original.ifeng.com/c/8yD7fD2Q7st",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-07.jpg",
+        "alt": "微信短剧提审页截图：AI 内容声明开关已打开，下方是 AI 制作证明的上传说明和「选择文件」按钮。",
+        "credit": "凤凰网科技该报道配发的提审页截图，不是通用 logo。",
+        "sourcePage": "https://original.ifeng.com/c/8yD7fD2Q7st",
+        "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_47/A6ADA02E36BFDEBB4D259CE3C759871383C43B18_size82_w1080_h390.png",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-08",
+      "rank": 8,
       "tier": "alternate",
       "region": "海外",
       "kickerEn": "TOPVIEW",
@@ -274,7 +375,7 @@
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-21/evening-06.jpg",
+        "file": "2026-11-21/evening-08.jpg",
         "alt": "Topview 产品演示图：九个画格展示同一场夜驾车戏的不同机位，分别标有 Source/Side、Front View、Top-down、Over-the-shoulder 等名称。",
         "credit": "TVBEurope 该报道页公开的 Topview 产品演示图。",
         "sourcePage": "https://www.tvbeurope.com/artificial-intelligence/worlds-first-hybrid-film-production-platform-debuts",
@@ -283,41 +384,99 @@
       }
     },
     {
-      "id": "2026-11-21-evening-07",
-      "rank": 7,
+      "id": "2026-11-21-evening-09",
+      "rank": 9,
       "tier": "alternate",
       "region": "海外",
-      "kickerEn": "GOOGLE VIDS",
-      "headline": "Google Vids 在用 Gemini Omni 生成视频时，会把素材存进项目内的 Assets 供再次使用",
-      "standfirst": "这是同一项目里的素材复用，不是新的视频生成模型，也还没有对所有域名即时生效。",
+      "kickerEn": "GOSSIP GOBLIN",
+      "headline": "Gossip Goblin 放出《Gods Don't Give Gifts》新官方短片，并确认 12 月 2 日将在洛杉矶 Artist and the Machine 峰会演讲",
+      "standfirst": "这是新的官方片段和演讲日期，不是新的全球公映档期，也不要重写已经报道过的点映征集。",
       "paragraphs": [
-        "Google 于 11 月 20 日在 Workspace Updates 写明：用 Gemini Omni 在 Google Vids 里生成视频时，用过的媒体会进入新的 Assets 分区，可在同一项目中再次当作生成素材。该分区支持图像、视频和音频，并直接接在 AI 视频生成流程里。",
-        "功能默认开启，没有管理员开关。Rapid Release 域名从 11 月 17 日起最长 15 天逐步可见，Scheduled Release 域名从 12 月 2 日起 1 至 3 天推出。不能写成已经对所有用户同时开放，也不能写成可以跨项目共享素材。"
+        "Zack London（Gossip Goblin）于 11 月 21 日 00:26 亚洲/上海在官方账号放出约 149 秒的新短片，标题仍是《Gods Don't Give Gifts》，画面是一段中世纪风格的戏剧场面。同一窗口内，Artist and the Machine 发布访谈并写明他将于 12 月 2 日登上洛杉矶峰会舞台；Goblin 随后转发确认了这个日期。",
+        "本侧约 20:25 读取该主帖时，约有 3,089 个赞、156,278 次曝光。不要把 2027 年 1 月 22 日全球院线、12 月洛杉矶等地的提前场，或「把放映带到你的城市」再次写成新宣布。"
       ],
-      "whyItMatters": "对已经在 Vids 里做多条生成视频的人，少了重复上传同一张产品图或片段的步骤，但这是流程更新，不是模型能力跃迁。",
+      "whyItMatters": "一部已经定档院线的 AI 长片又放出新片段，并确定创作者将在洛杉矶公开露面，这是创作者圈里今天最明确的一手新动作，但还不是档期变化。",
       "caveats": [
-        "官方博客只标注了日期，没有钟点。该项从 11 月 17 日起在 Rapid Release 域名逐步推出，公告日是 11 月 20 日。复用范围限于同一项目。"
+        "短片本身没有宣布新的城市、电影节或票房数字。12 月 2 日演讲由活动方与本人官方账号共同确认，未见贸易媒体另发稿。Rick Rubin 的具体原话未在这些帖中写出。"
       ],
       "figures": [
-        "官方博客日期为 November 20, 2026。Rapid Release 自 11 月 17 日起最长 15 天逐步可见；Scheduled Release 自 12 月 2 日起 1–3 天推出。适用于 Business、Enterprise、Education 及个人 Google 账号（含 Google AI Pro 和 Ultra）等列出的版本。"
+        "官方短片发布于 2026-11-20T16:26:57Z（11 月 21 日 00:26 亚洲/上海），时长约 149 秒。本侧读取时约 3,089 个赞、195 次转帖、156,278 次曝光。演讲日期为 12 月 2 日。"
       ],
-      "publishedAt": "2026-11-20T00:00:00+08:00",
-      "publishedAtNote": "官方博客只标注 November 20, 2026，未写钟点。这里只记录日期，时间 00:00 不代表已核验的发布时间。",
+      "publishedAt": "2026-11-21T00:26:57+08:00",
+      "publishedAtNote": "采用官方 X 主帖 created_at 2026-11-20T16:26:57Z。",
       "sources": [
         {
-          "name": "Google Workspace Updates",
-          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
+          "name": "Gossip Goblin 官方短片",
+          "url": "https://x.com/Gossip_Goblin/status/2123815371606012104",
           "role": "primary"
+        },
+        {
+          "name": "Gossip Goblin 确认演讲日期",
+          "url": "https://x.com/Gossip_Goblin/status/2123876139617956129",
+          "role": "secondary"
+        },
+        {
+          "name": "Artist and the Machine",
+          "url": "https://x.com/artistatmachine/status/2123770355231621370",
+          "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-21/evening-07.jpg",
-        "alt": "Google Vids 官方产品界面：左侧是名为 Ocean animals 的时间线项目，正在预览海中鱼群画面；右侧 AI video clip 面板显示 Ingredients 素材区和生成说明。",
-        "credit": "Google Workspace Updates 官方博客配图的 GIF 首帧静图。",
-        "sourcePage": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
-        "retrievedFrom": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCphyphenhyphenct0-1j5CDw0j7Mh24xZHGXR4wHHdJgK06m3b73Q2kmQf6aDlMziRV9U60mZFGIAGT5S7TVYd6f38hOX5BIUcDeLvgNXLwVpNTrMLeUKhpmnnZYXG3kypvmqQ63taUD5b3XDJJMcWstLVnfYgKlX8JxXjpIVaOqWKUn_rJXjacWNjEl8owfgLkEvY/s0/Google%20Vids%20now%20lets%20you%20reuse%20your%20media%20in%20video%20generation%20-%207198.gif",
-        "retrievedAt": "2026-11-21T12:35:00Z"
+        "file": "2026-11-21/evening-09.jpg",
+        "alt": "《Gods Don't Give Gifts》新官方短片中的一帧：红发女子身着镶嵌宝石的蓝色丝绒礼服，神情惊恐地向上看。",
+        "credit": "Gossip Goblin 官方账号该条视频的公开预览静帧，无播放键遮罩。",
+        "sourcePage": "https://x.com/Gossip_Goblin/status/2123815371606012104",
+        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2123815159617486848/img/3aDUYyn6eR-668qJ.jpg",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "HIGGSFIELD",
+      "headline": "Higgsfield 放出官方工作流：Claude 建了 2,538 件资产的迈阿密风小镇，GPU Harness 上 74 分钟渲染完成",
+      "standfirst": "这是今天的官方演示和教程，不是 GPU Harness 今天才首次发布。",
+      "paragraphs": [
+        "Higgsfield 于 11 月 21 日 04:15 亚洲/上海在官方博客发布教程，并在 X 上放出演示：Claude 在 Blender 里搭建一座迈阿密风格小镇，包含 2,538 件资产，再放到 Unreal Engine，用 Higgsfield GPU Harness 在约 74 分钟内完成渲染。官方帖写使用 8 张 GPU，并在画面上标明 NVIDIA RTX PRO 6000。",
+        "GPU Harness 本身已在 11 月 20 日 04:51 亚洲/上海由官方账号介绍，昨晚晚报未单列。不能把它写成今天才发布的新产品，也不能与 11 月 19 日已报的 Higgsfield MCP 2.0 混为一谈。渲染耗时和资产数量来自官方自己的测试。"
+      ],
+      "whyItMatters": "它展示的是「让智能体直接租用云 GPU、在 Unreal 里出片」的工作流，对已经在用代理做预演的人有参考价值，但数字尚未经第三方复测。",
+      "caveats": [
+        "产品介绍帖发于 11 月 19 日 20:50 UTC，不是今天的首发。74 分钟、2,538 件资产和每小时积分价格均为官方自述。促销折扣比例在不同官方帖里并不完全一致，不宜当作稳定报价。"
+      ],
+      "figures": [
+        "官方博客发布于 2026-11-20T20:15:23Z（11 月 21 日 04:15 亚洲/上海）。演示称 2,538 件资产、74 分钟、8 张 GPU。产品介绍帖为 2026-11-19T20:50:56Z（11 月 20 日 04:51 亚洲/上海）。"
+      ],
+      "publishedAt": "2026-11-21T04:15:23+08:00",
+      "publishedAtNote": "采用官方博客 publishedAt 2026-11-20T20:15:23.073Z。产品介绍帖更早，仅作背景。",
+      "sources": [
+        {
+          "name": "Higgsfield 官方博客",
+          "url": "https://higgsfield.ai/@higgsfield.studio/blogs/how-we-rendered-a-3d-modeled-city-in-unreal-engine-on-higgsfield-gpu",
+          "role": "primary"
+        },
+        {
+          "name": "Higgsfield 官方演示帖",
+          "url": "https://x.com/higgsfield_ai/status/2123905539063336984",
+          "role": "secondary"
+        },
+        {
+          "name": "Higgsfield GPU Harness 介绍帖",
+          "url": "https://x.com/higgsfield/status/2123519417610825890",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-10.jpg",
+        "alt": "Higgsfield 官方演示画面：迈阿密风情摩天轮与棕榈树街道的三维场景，右上角写有 Higgsfield GPU Harness 和 NVIDIA RTX PRO 6000（X8），画面上标有灯光和建筑标签。",
+        "credit": "Higgsfield 官方博客教程封面图。",
+        "sourcePage": "https://higgsfield.ai/@higgsfield.studio/blogs/how-we-rendered-a-3d-modeled-city-in-unreal-engine-on-higgsfield-gpu",
+        "retrievedFrom": "https://cdn.higgsfield.ai/a9f89e47-9730-488a-b27e-37735813a52f_thumb.webp",
+        "retrievedAt": "2026-11-21T12:42:00Z"
       }
     }
   ]
