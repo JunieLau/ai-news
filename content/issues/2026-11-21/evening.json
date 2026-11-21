@@ -1,0 +1,483 @@
+{
+  "issueDate": "2026-11-21",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-21T20:45:00+08:00",
+  "retrievedThrough": "2026-11-21T20:45:00+08:00",
+  "slot": "20:00",
+  "slotNote": "常规晚报档期是上海时间 20:00。本期按窗口检索至截稿时点。窗口内核到 10 条经核实的新事；其中第 5 条是昨日已报放映的首日现场新事实，不是重复宣布进院线。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "2026 年 11 月 21 日电影晚报。优先过去约 24 小时、最远不超过约 48 小时；已与 11 月 20 日、11 月 19 日晚报及 11 月 21 日早报去重。David Fincher 对《洛杉矶时报》的原访谈发于 11 月 19 日 3 AM PT，约早于 48 小时切点 81 分钟，本条只把它作为 11 月 20 日贸易媒体报道影评争议时的引语来源，并写明他尚未直接证实本片使用 AI。《万妖图录传之云州异客》只写 11 月 21 日见报的首日到场新事实，不重复昨天的预约放映宣布。",
+  "stories": [
+    {
+      "id": "2026-11-21-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "FINCHER",
+      "headline": "《Cliff Booth》因疑似使用生成式 AI 受批评；Fincher 尚未直接证实，但称「它已经存在了。难道我们不该用吗？」",
+      "standfirst": "这是即将上映的主流电影遇上公开争议，不是他已经承认本片用了 AI。",
+      "paragraphs": [
+        "Deadline 和 TheWrap 于 11 月 20 日报道，David Fincher 执导、Quentin Tarantino 编剧、Brad Pitt 主演的《The Further Mis-Adventures of Cliff Booth》，在试映和影评中被指使用生成式 AI。Indie 导演 Patrick Tomasso 11 月 19 日在 X 上说，自己看完后「完全被掏空」，并称这是他在工作室影片里见过的「最露骨、最过分的 AI 使用之一」。TheWrap 还写，有评论指出片尾字幕出现 generative supervisor。",
+        "Fincher 本人尚未就本片是否使用 AI 公开说明，Netflix 也未回应 TheWrap 的置评请求。两家媒体转引他 11 月 19 日对《洛杉矶时报》的话说：「我不是 Luddite，所以我不害怕未知。」他又问，是否有人认为这门约百年历史的艺术已经不必再迭代，不该把「改那个人眼睛的颜色」放在手边，并说：「它已经存在了。难道我们不该用吗？」影片定于 11 月 25 日 IMAX 有限上映，12 月 23 日登陆 Netflix。"
+      ],
+      "whyItMatters": "Brad Pitt 和 Fincher 的新片四天后就要进 IMAX，观众已经在争「片子有没有用 AI」。这会直接影响人们对主流院线片的接受度，但目前仍是指控和态度，不是已证实的制作说明。",
+      "caveats": [
+        "Fincher 没有在这些报道里直接承认本片使用了生成式 AI。个别影评和社交帖不能当成已核实的镜头清单。《洛杉矶时报》访谈发布于 11 月 19 日 3 AM PT，约早于本报 48 小时切点 81 分钟；本条的新闻点是 11 月 20 日的争议报道。《洛杉矶时报》、TheWrap 等写 11 月 25 日 IMAX 上映，Deadline 写 Thanksgiving（2026 年感恩节为 11 月 26 日），日期不完全一致。"
+      ],
+      "figures": [
+        "Deadline 发于 11 月 20 日 15:45 太平洋时间（11 月 21 日 07:45 亚洲/上海），TheWrap 发于当天 21:04 太平洋时间。《洛杉矶时报》和 TheWrap 写 11 月 25 日 IMAX 上映，Deadline 写 Thanksgiving；Netflix 日期均为 12 月 23 日。"
+      ],
+      "publishedAt": "2026-11-21T07:45:00+08:00",
+      "publishedAtNote": "采用较早的贸易媒体 Deadline，时间按该站惯例视为太平洋时间 2026-11-20T15:45:00-08:00。",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/david-fincher-defends-ai-cliff-booth-criticism-1237230711/",
+          "role": "primary"
+        },
+        {
+          "name": "TheWrap",
+          "url": "https://www.thewrap.com/creative-content/movies/david-fincher-cliff-booth-ai-criticism/",
+          "role": "secondary"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/entertainment-arts/movies/story/2026-11-19/david-fincher-further-mis-adventures-cliff-booth-holiday-preview-2026",
+          "role": "secondary"
+        },
+        {
+          "name": "The Playlist",
+          "url": "https://theplaylist.net/david-fincher-ai-cliff-booth-controversy-20261120/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-01.jpg",
+        "alt": "Deadline 报道配图：左侧是 Brad Pitt 在《The Further Mis-Adventures of Cliff Booth》中戴星条头盔的剧照，右侧是导演 David Fincher 的肖像。",
+        "credit": "Deadline 报道页公开主图，署名 Netflix/Courtesy Everett Collection/Michael Buckner/PMC。",
+        "sourcePage": "https://deadline.com/2026/11/david-fincher-defends-ai-cliff-booth-criticism-1237230711/",
+        "retrievedFrom": "https://deadline.com/wp-content/uploads/2026/11/Cliff-Booth-David-Fincher-2-shot.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "SCHRADER",
+      "headline": "Paul Schrader 对《卫报》说自己是在「打开一个怪物的笼子」；新片《The Doors of Perception》将与 Fable 合作，并用 AI 生成幻觉",
+      "standfirst": "这是今天的长篇专访，他把自己正在用 AI 做演员、特效和剧本说得很明确，也对工会直接提出批评。",
+      "paragraphs": [
+        "《卫报》11 月 21 日刊出对 80 岁导演 Paul Schrader 的专访。他说，用 AI 拍电影的感觉是：「我打开了一个怪物的笼子，而且没有链子。」他正在与旧金山 AI 电影工作室 Fable 合作新片《The Doors of Perception》，故事关于两兄弟追查杀害母亲的凶手，其中秘鲁丛林的 ayahuasca 幻觉将由 AI 生成。",
+        "他试过让 AI 写「Paul Schrader 剧本」，并说当它写出带有他口吻的场景时，自己「把针从胳膊上拔了出来」。谈到 Sag-Aftra 要求 AI 表演者须证明有「significant additional value」时，他认为工会「只是绝望」，「电影世界是被钱推动的」；又说工会是在「竖一道会被推土机碾过的篱笆」。不能把文中提及的 9 月旧项目争议，或学院今年对 AI 演员和剧本的限制，写成今天的新决定。"
+      ],
+      "whyItMatters": "一位写过《Taxi Driver》的导演公开说自己在用 AI 做演员和剧本，还直接评价工会的新协议，会把「名导到底站哪边」推到公众面前。",
+      "caveats": [
+        "他对《Three Guns at Dawn》和黑人演员的说法，是在复述今年 9 月已引起争议的内容，不是今天宣布开拍。学院禁止 AI 演员和剧本冲击奥斯卡，也不是今天公布的新规。本报未见 Fable 的单独官方声明。"
+      ],
+      "figures": [
+        "专访发布于 11 月 21 日 06:00 EST（19:00 亚洲/上海）。Schrader 现年 80 岁。他在今年 3 月妻子去世后，于哥斯达黎加两周静修中服用 ayahuasca 八次。他称 AI 给出的 10 个剧本前提里，5 个不错，3 个不逊于他自己会想到的。"
+      ],
+      "publishedAt": "2026-11-21T19:00:00+08:00",
+      "publishedAtNote": "采用《卫报》标注的 Sat 21 Nov 2026 06.00 EST。",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-02.jpg",
+        "alt": "Paul Schrader 坐在城市街边的金属咖啡桌前，身穿黑色 Polo 衫，一只手扶着眼镜，看向镜头。",
+        "credit": "The Guardian 本次专访公开主图，采用该报媒体库原图，未加报头水印。",
+        "sourcePage": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
+        "retrievedFrom": "https://media.guim.co.uk/c3c591ee1acfc05bd826c7b9314021f5f105c5c6/804_0_7200_5760/master/7200.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "TIKTOK",
+      "headline": "TikTok 上线可公开使用的 AI 内容核验工具，并开始全球推送可选的 Likeness Detection",
+      "standfirst": "谁都可以去查一条文件是不是 TikTok 自己的 AI 做的，但查不到其他公司的模型。",
+      "paragraphs": [
+        "TikTok 于 11 月 20 日宣布两件事。第一，任何人即使没有账号，也可以在透明中心上传图片或视频，检查它是否由 TikTok 的 AI 创作功能生成或编辑；工具会读取 C2PA Content Credentials，以及官方称为更耐编辑的不可见水印 VeraDura。第二，向符合条件的创作者和公众人物开始全球推送可选的 Likeness Detection，用于发现并举报可能未经同意使用其肖像的 AI 内容。",
+        "官方称，平台迄今已为超过 50 亿条 AI 生成视频添加标签。Likeness Detection 需经第三方核验身份，官方写不保留证件。不能把核验结果写成「一定是真人或一定不是 AI」，因为该工具只识别 TikTok 自有 AI 功能。"
+      ],
+      "whyItMatters": "这把「查一查这条视频是不是 AI」和「有没有人盗用我的脸」做成了普通人可以去用的工具，尽管它覆盖的只是 TikTok 自己的生成结果。",
+      "caveats": [
+        "核验工具不能检测其他公司的 AI 模型，干净的结果不等于内容真实。官方未给出 Likeness Detection 覆盖全部合格创作者的时间表。"
+      ],
+      "figures": [
+        "英文 Newsroom firstPublished 为 11 月 20 日 13:00 亚洲/上海。官方数字：已为超过 50 亿条 AI 生成视频加标签；称会在有人举报前移除超过 99% 的违规内容；7 月上线的 AI 素养中心已帮助超过 400 万人；欧盟 2026 年上半年有超过 7900 万人使用「不感兴趣」和关键词过滤等功能。"
+      ],
+      "publishedAt": "2026-11-20T13:00:00+08:00",
+      "publishedAtNote": "采用 TikTok 英文 Newsroom 的 firstPublished 2026-11-20T05:00:00Z，合 11 月 20 日 13:00 亚洲/上海。日本新闻稿落款为当天 15:00 JST（14:00 亚洲/上海）。",
+      "sources": [
+        {
+          "name": "TikTok Newsroom",
+          "url": "https://newsroom.tiktok.com/en-us/more-tools-to-provide-clarity-and-control-around-ai-generated-content",
+          "role": "primary"
+        },
+        {
+          "name": "TikTok Japan / PR Times",
+          "url": "https://prtimes.jp/main/html/rd/p/000001380.000030435.html",
+          "role": "secondary"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/tiktok-rolls-out-deepfake-detection-tool-for-public-figures-to-fight-back-against-disinfor",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-03.jpg",
+        "alt": "TikTok 官方新闻稿配图：白底界面写有 Identify content made with TikTok AI，中间是上传图片、视频或音频的区域，周围摆放着示例照片，底部有 TikTok 标识。",
+        "credit": "Bytedance 株式会社 / TikTok Japan 11 月 20 日新闻稿公开产品图。",
+        "sourcePage": "https://prtimes.jp/main/html/rd/p/000001380.000030435.html",
+        "retrievedFrom": "https://prcdn.freetls.fastly.net/release_image/30435/1380/30435-1380-551c2e4618150a0111c84f15694c0f0c-800x800.png",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "KINISON",
+      "headline": "Buchwald 签下已故喜剧演员 Sam Kinison 的遗产，将开发由其 AI 化身参与的商务机会",
+      "standfirst": "这是经纪合约和形象授权，还不是一部已经确定的新电影或演出。",
+      "paragraphs": [
+        "Variety 独家报道，经纪公司 Buchwald 签下 1992 年去世的喜剧演员 Sam Kinison 的遗产，以开发其姓名与形象的新商业机会，其中包括由 Uare.AI 制作的 AI 化身。公司由 LivePerson 创始人 Rob LoCascio 创办。Buchwald 正与 Kinison 的弟弟、也是其前经纪人 Bill Kinison 合作，寻找化身的使用场景。",
+        "Bill Kinison 在声明中说，要让哥哥的遗产承诺继续活着，并写「我等不及想看 Sam 会做什么」。报道未公布具体项目、形式或上线日期。不能写成 Kinison 将在某部作品里「复出」。"
+      ],
+      "whyItMatters": "大型经纪公司把已故明星的 AI 化身签下来，会把「死人能不能再出镜、谁来点头」变成公众讨论，而不是停留在技术演示。",
+      "caveats": [
+        "目前没有已宣布的具体项目或播出日期。Variety 提到的其他名人声音或形象授权，只是背景，不是今天同时发生的新签约。"
+      ],
+      "figures": [
+        "Variety 独家发于 11 月 20 日 10:00 PT（11 月 21 日 02:00 亚洲/上海）。Kinison 于 1992 年车祸去世，享年 38 岁；1994 年凭《Live from Hell》获得追授 Grammy，1986 年主持过 Saturday Night Live。"
+      ],
+      "publishedAt": "2026-11-21T02:00:00+08:00",
+      "publishedAtNote": "采用 Variety 标注的 Nov 20, 2026 10:00am PT。",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/buchwald-signs-sam-kinison-estate-ai-avatar-1236954233/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-04.jpg",
+        "alt": "Sam Kinison 的肖像：他头戴灰色针织帽，留着长发，侧目看向镜头。",
+        "credit": "Variety 该报道页公开主图。",
+        "sourcePage": "https://variety.com/2026/film/news/buchwald-signs-sam-kinison-estate-ai-avatar-1236954233/",
+        "retrievedFrom": "https://variety.com/wp-content/uploads/2026/11/Sam-Kinison-1.png",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "WAN YAO",
+      "headline": "《万妖图录传之云州异客》首日探访：北京一场约售 40 多张，部分场次仅数人；成都一场另有 13 人购票",
+      "standfirst": "这是已开始放映后的现场到场情况，不是再次宣布全国预约放映，也还没有公开总票房。",
+      "paragraphs": [
+        "新京报 11 月 21 日探访北京中关村完美世界影城：该厅有一百多个座位，首场售出约 40 多张（约三分之一），记者称这是北京当日人数较多的场次之一，但部分场次只有十几人乃至几人。报道写票面 35 元，有观众优惠后 20 多元。澎湃号「短剧八部半」则记录成都周五 15:20 一场，除作者外另有 13 人购票，并写在大银幕上城市与交通工具等细节更难被忽略，前半段节奏也比短剧更慢。",
+        "这是 11 月 20 日起经中影预约放映的限时派对的首日反馈，没有龙标、不进入常规票房榜。新京报写「整体表现仍有待观察」。不能把「北京一场约 40 多张」写成全国热映。文中「1 人就能成团」只见于「短剧八部半」，未见官方规则确认，不能当成新的官方规定。"
+      ],
+      "whyItMatters": "一部头部 AI 漫剧已经进了影院，现在缺的不是预告，而是有多少人愿意买票走进去。零散的现场数字会改变人们对「短剧能否救影院」的判断，但不能代替尚未公布的总票房。",
+      "caveats": [
+        "没有官方总票房或中影战报。北京数字来自新京报对单家影城的探访，成都数字来自一篇栏目现场观察。「1 人就能成团」未经官方确认。大银幕瑕疵和节奏问题是作者观感。新浪财经转载页栏头为 11 月 21 日 17:58，本报未能打开新京报原站。"
+      ],
+      "figures": [
+        "新京报探访稿栏头 11 月 21 日 17:58 亚洲/上海。北京该厅一百多个座位，首场约售 40 多张；部分场次十几人乃至几人；票面 35 元，有人优惠后 20 多元。成都周五 15:20 场除作者外另有 13 人购票；该文写票价 30–35 元。影片时长约 109 分钟，昨日已报。"
+      ],
+      "publishedAt": "2026-11-21T17:58:02+08:00",
+      "publishedAtNote": "采用新浪财经转载新京报稿的栏头与 create_at：2026-11-21 17:58:02 亚洲/上海。澎湃号「短剧八部半」为当天 11:02:38。",
+      "sources": [
+        {
+          "name": "新京报 / 新浪财经转载",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-iniznxpy6599350.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "澎湃号·短剧八部半",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34521927",
+          "role": "secondary"
+        },
+        {
+          "name": "界面新闻",
+          "url": "https://www.jiemian.com/article/15356767.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-05.jpg",
+        "alt": "北京影城柜台前的三块《万妖图录传》限时派对立牌，分别是卖品套餐、活动规则和卡牌兑换规则，由新京报记者在现场拍摄。",
+        "credit": "新京报记者徐美琳在北京中关村完美世界影城拍摄的活动规则立牌，见于该报道的新浪财经转载页。",
+        "sourcePage": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-iniznxpy6599350.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/spider20261121/177/w1242h535/20261121/a426-79a1a2da36523cd2dea305acc8ff4f88.jpg",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "BEIJING AIGC",
+      "headline": "北京发布「2026 十大精品项目」，最高提供 10 万元 Token 扶持，爱奇艺创意中心迎来首批 13 位创作者",
+      "standfirst": "这是项目发布、平台签约和算力扶持，不是某一部新片定档公映。",
+      "paragraphs": [
+        "11 月 20 日，由北京市广电局主办的「AI 赋能视听产业创新实践论坛」在首创·郎园 Station 举行。北京 AIGC 视听产业创新中心发布「2026 十大精品项目」，覆盖网络故事片、VR 电影、动画、短片和短剧，并与掌阅·泡漫、爱奇艺·纳逗 Pro、年轮 AI 等 6 家智能体平台战略签约。爱奇艺 AIGC（北京）国际创意中心迎来首批 13 位创作者入驻；潘家园公司与掌阅泡漫还将共创 60 集 AI 微短剧《记忆修复师》。",
+        "现场发布的扶持包括最高 10 万元 Token 支持，以及面向超级创作者、视听 OPC 公司和内容企业的叠加服务。创新中心负责人梁一帆说，AI 只是工具，好内容离不开人的创意。报道中的「国内首部」表述来自官方介绍的转述，10 万元是上限而不是普遍发放的现金。"
+      ],
+      "whyItMatters": "这是把具名 AI 影视项目、平台签约和创作者入驻放在同一场官方活动里，对国内创作者来说，看到的是项目和算力支持，而不是又一次空泛倡议。",
+      "caveats": [
+        "各「国内首部」说法来自报道转述官方介绍，本报未独立核实出品与许可文件。10 万元是 Token 支持上限。朝阳区文化产业营收等数字是区域背景，不是这次计划的拨款额。"
+      ],
+      "figures": [
+        "央广网报道时间为 11 月 20 日 20:40。十大项目包括《弈·1592》《奇谭：纸刃渡荒墟》《灵魂摆渡·浮生梦》系列、《生死传令》《心生万相》《走向世界的那一天》《圈马谷》《封神第一季：风起朝歌》《元龙》《我在风花雪月里等你》。签约平台 6 家；入驻创作者首批 13 人；共创短剧 60 集；Token 支持最高 10 万元。"
+      ],
+      "publishedAt": "2026-11-20T20:40:06+08:00",
+      "publishedAtNote": "采用最早核验到时分的央广网报道 2026-11-20 20:40:06。活动于当天举行。",
+      "sources": [
+        {
+          "name": "央广网",
+          "url": "https://www.cnr.cn/bj/sijh/20261120/t20261120_527878881.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795225340129317.html",
+          "role": "secondary"
+        },
+        {
+          "name": "中国网",
+          "url": "http://cul.china.com.cn/2026-11/21/content_43505275.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "中新社北京分社",
+          "url": "https://www.bj.chinanews.com.cn/news/2026/1120/104064.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-06.jpg",
+        "alt": "「AI赋能视听产业创新实践论坛」活动现场：舞台大屏写着「新视听·创无界」，台下坐满观众，有人举起手机拍照。",
+        "credit": "央广网该报道页公开的活动现场照片。",
+        "sourcePage": "https://www.cnr.cn/bj/sijh/20261120/t20261120_527878881.shtml",
+        "retrievedFrom": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2026/1120/dbb81270d257475aada1f4f45cef168111.jpg?auth=d54854f8ae991bcb161809c000134650&scale=1.48",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "WECHAT",
+      "headline": "微信短剧审核新规：12 月 1 日起单集最低 1 分钟，含 AI 内容须提交制作证明视频",
+      "standfirst": "这是微信短剧提审规则调整，不是即日起已经强制，也不等于「必须在作品上标注 AI」。",
+      "paragraphs": [
+        "IT之家、观点网和凤凰网科技报道，微信短剧内容中心 11 月 20 日发文，两项调整均从 12 月 1 日起生效：单集最低时长由 45 秒上调至 1 分钟，不足 1 分钟将无法通过提审；针对含 AI 生成内容的剧集，「AI 制作证明视频」由目前选填改为必填。视频须展示 AI 软件生成过程，包括资产列表、剧集列表、不同集和分镜的提示词，以及少量分镜片段，用于证明创作真实性、减少盗版。",
+        "官方建议创作者现在就附上该视频，以提高过审效率。本报未见微信公众号原文链接，以上为三家媒体对同一公告的一致转述。不能写成所有短视频平台的新规，也不能把 9 月已实施的微短剧标识要求写成这次的新内容。"
+      ],
+      "whyItMatters": "微信是国内短剧的重要入口，这两条硬规则会直接改变 12 月起 AI 短剧的单集时长和提审材料，创作者现在就要改生产节奏。",
+      "caveats": [
+        "未见微信官方原文 URL。规则 12 月 1 日才生效，现在仍是选填。只覆盖微信短剧提审，不是爱奇艺、抖音、快手或院线电影的新规。不要写成「必须对外标注 AI」。"
+      ],
+      "figures": [
+        "媒体首报时间为 11 月 20 日 14:04（IT之家）。单集最低时长由 45 秒调整为 1 分钟。凤凰网配发的提审页截图还写：可上传截图或视频；支持 PDF、JPG、JPEG、BMP、PNG、MP4；单个文件不超过 10MB，最多 3 个文件。"
+      ],
+      "publishedAt": "2026-11-20T14:04:06+08:00",
+      "publishedAtNote": "采用最早可核验时分的 IT之家稿 2026-11-20 14:04:06。官方公告落款为 11 月 20 日，原文 URL 未取到。",
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/029/883.htm",
+          "role": "primary"
+        },
+        {
+          "name": "观点网",
+          "url": "https://www.guandian.cn/m/show/630679",
+          "role": "secondary"
+        },
+        {
+          "name": "凤凰网科技",
+          "url": "https://original.ifeng.com/c/8yD7fD2Q7st",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-07.jpg",
+        "alt": "微信短剧提审页截图：AI 内容声明开关已打开，下方是 AI 制作证明的上传说明和「选择文件」按钮。",
+        "credit": "凤凰网科技该报道配发的提审页截图，不是通用 logo。",
+        "sourcePage": "https://original.ifeng.com/c/8yD7fD2Q7st",
+        "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_47/A6ADA02E36BFDEBB4D259CE3C759871383C43B18_size82_w1080_h390.png",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "TOPVIEW",
+      "headline": "Topview 推出 Video Relight 等工具，把 Film Studio 重新定位为保留真人表演、用 AI 改光线和机位",
+      "standfirst": "这是对已拍素材的新工具和混合制作说法，不是 Film Studio 今天才第一次上线。",
+      "paragraphs": [
+        "新加坡公司 Topview 于 11 月 19 日发布 Video Relight，以及从已有真人镜头生成新机位、添加 AI 群众、改时间天气、替换绿幕和分层编辑等功能，并把 Film Studio 重新定位为混合制作：保留真人表演，用 AI 改周围的光、机位和场景。CEO Jensen Wu 说，完全由 AI 生成的影片在好莱坞遇到阻力，收入「largely」限于 YouTube；他认为混合制作更容易进入主流发行。",
+        "Film Studio 已于今年 7 月上线。The Generated 写，公司展示案例仍全部是纯 AI 作品，且官方未公布新工具价格。所谓「世界首个」并不准确，Runway Aleph 和 Beeble SwitchLight 等更早就能改机位或重打光。不能写成已有好莱坞发行成交。"
+      ],
+      "whyItMatters": "它把争论从「要不要用 AI 演员」转到「真人表演能不能当通行证」，这会影响混合制作怎么卖给发行方，但目前仍是产品宣传，不是已经谈成的发行。",
+      "caveats": [
+        "Film Studio 并非 11 月 19 日首次上线。官方未公布价格，也未点名已签约的传统发行方。AWN 等部分报道把它写成平台发布，需与 7 月上线的既有产品区分。"
+      ],
+      "figures": [
+        "AWN 报道时间为 11 月 19 日 8:24am（按该站所在加州视为太平洋时间，合 11 月 20 日 00:24 亚洲/上海）。公司称注册用户超过 500 万，约 40% 在制作 AI 电影和短剧，每天约生成 100 万条视频；2025 年获 850 万美元 A 轮。Microdrama Summit 定于 2027 年 1 月 15 日在洛杉矶举行。"
+      ],
+      "publishedAt": "2026-11-20T00:24:00+08:00",
+      "publishedAtNote": "采用 AWN 标注的 Thursday, November 19, 2026 at 8:24am；该站位于加州，按太平洋时间换算。",
+      "sources": [
+        {
+          "name": "Animation World Network",
+          "url": "https://www.awn.com/news/topview-launches-film-studio-hybrid-ai-production-platform",
+          "role": "primary"
+        },
+        {
+          "name": "TVBEurope",
+          "url": "https://www.tvbeurope.com/artificial-intelligence/worlds-first-hybrid-film-production-platform-debuts",
+          "role": "secondary"
+        },
+        {
+          "name": "The Generated",
+          "url": "https://thegenerated.com/stories/topview-film-studio-hybrid-relight-20261119",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-08.jpg",
+        "alt": "Topview 产品演示图：九个画格展示同一场夜驾车戏的不同机位，分别标有 Source/Side、Front View、Top-down、Over-the-shoulder 等名称。",
+        "credit": "TVBEurope 该报道页公开的 Topview 产品演示图。",
+        "sourcePage": "https://www.tvbeurope.com/artificial-intelligence/worlds-first-hybrid-film-production-platform-debuts",
+        "retrievedFrom": "https://www.tvbeurope.com/wp-content/uploads/2026/11/Top-View-camera-angle.jpg",
+        "retrievedAt": "2026-11-21T12:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "GOSSIP GOBLIN",
+      "headline": "Gossip Goblin 放出《Gods Don't Give Gifts》新官方短片，并确认 12 月 2 日将在洛杉矶 Artist and the Machine 峰会演讲",
+      "standfirst": "这是新的官方片段和演讲日期，不是新的全球公映档期，也不要重写已经报道过的点映征集。",
+      "paragraphs": [
+        "Zack London（Gossip Goblin）于 11 月 21 日 00:26 亚洲/上海在官方账号放出约 149 秒的新短片，标题仍是《Gods Don't Give Gifts》，画面是一段中世纪风格的戏剧场面。同一窗口内，Artist and the Machine 发布访谈并写明他将于 12 月 2 日登上洛杉矶峰会舞台；Goblin 随后转发确认了这个日期。",
+        "本侧约 20:25 读取该主帖时，约有 3,089 个赞、156,278 次曝光。不要把 2027 年 1 月 22 日全球院线、12 月洛杉矶等地的提前场，或「把放映带到你的城市」再次写成新宣布。"
+      ],
+      "whyItMatters": "一部已经定档院线的 AI 长片又放出新片段，并确定创作者将在洛杉矶公开露面，这是创作者圈里今天最明确的一手新动作，但还不是档期变化。",
+      "caveats": [
+        "短片本身没有宣布新的城市、电影节或票房数字。12 月 2 日演讲由活动方与本人官方账号共同确认，未见贸易媒体另发稿。Rick Rubin 的具体原话未在这些帖中写出。"
+      ],
+      "figures": [
+        "官方短片发布于 2026-11-20T16:26:57Z（11 月 21 日 00:26 亚洲/上海），时长约 149 秒。本侧读取时约 3,089 个赞、195 次转帖、156,278 次曝光。演讲日期为 12 月 2 日。"
+      ],
+      "publishedAt": "2026-11-21T00:26:57+08:00",
+      "publishedAtNote": "采用官方 X 主帖 created_at 2026-11-20T16:26:57Z。",
+      "sources": [
+        {
+          "name": "Gossip Goblin 官方短片",
+          "url": "https://x.com/Gossip_Goblin/status/2123815371606012104",
+          "role": "primary"
+        },
+        {
+          "name": "Gossip Goblin 确认演讲日期",
+          "url": "https://x.com/Gossip_Goblin/status/2123876139617956129",
+          "role": "secondary"
+        },
+        {
+          "name": "Artist and the Machine",
+          "url": "https://x.com/artistatmachine/status/2123770355231621370",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-09.jpg",
+        "alt": "《Gods Don't Give Gifts》新官方短片中的一帧：红发女子身着镶嵌宝石的蓝色丝绒礼服，神情惊恐地向上看。",
+        "credit": "Gossip Goblin 官方账号该条视频的公开预览静帧，无播放键遮罩。",
+        "sourcePage": "https://x.com/Gossip_Goblin/status/2123815371606012104",
+        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2123815159617486848/img/3aDUYyn6eR-668qJ.jpg",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    },
+    {
+      "id": "2026-11-21-evening-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "HIGGSFIELD",
+      "headline": "Higgsfield 放出官方工作流：Claude 建了 2,538 件资产的迈阿密风小镇，GPU Harness 上 74 分钟渲染完成",
+      "standfirst": "这是今天的官方演示和教程，不是 GPU Harness 今天才首次发布。",
+      "paragraphs": [
+        "Higgsfield 于 11 月 21 日 04:15 亚洲/上海在官方博客发布教程，并在 X 上放出演示：Claude 在 Blender 里搭建一座迈阿密风格小镇，包含 2,538 件资产，再放到 Unreal Engine，用 Higgsfield GPU Harness 在约 74 分钟内完成渲染。官方帖写使用 8 张 GPU，并在画面上标明 NVIDIA RTX PRO 6000。",
+        "GPU Harness 本身已在 11 月 20 日 04:51 亚洲/上海由官方账号介绍，昨晚晚报未单列。不能把它写成今天才发布的新产品，也不能与 11 月 19 日已报的 Higgsfield MCP 2.0 混为一谈。渲染耗时和资产数量来自官方自己的测试。"
+      ],
+      "whyItMatters": "它展示的是「让智能体直接租用云 GPU、在 Unreal 里出片」的工作流，对已经在用代理做预演的人有参考价值，但数字尚未经第三方复测。",
+      "caveats": [
+        "产品介绍帖发于 11 月 19 日 20:50 UTC，不是今天的首发。74 分钟、2,538 件资产和每小时积分价格均为官方自述。促销折扣比例在不同官方帖里并不完全一致，不宜当作稳定报价。"
+      ],
+      "figures": [
+        "官方博客发布于 2026-11-20T20:15:23Z（11 月 21 日 04:15 亚洲/上海）。演示称 2,538 件资产、74 分钟、8 张 GPU。产品介绍帖为 2026-11-19T20:50:56Z（11 月 20 日 04:51 亚洲/上海）。"
+      ],
+      "publishedAt": "2026-11-21T04:15:23+08:00",
+      "publishedAtNote": "采用官方博客 publishedAt 2026-11-20T20:15:23.073Z。产品介绍帖更早，仅作背景。",
+      "sources": [
+        {
+          "name": "Higgsfield 官方博客",
+          "url": "https://higgsfield.ai/@higgsfield.studio/blogs/how-we-rendered-a-3d-modeled-city-in-unreal-engine-on-higgsfield-gpu",
+          "role": "primary"
+        },
+        {
+          "name": "Higgsfield 官方演示帖",
+          "url": "https://x.com/higgsfield_ai/status/2123905539063336984",
+          "role": "secondary"
+        },
+        {
+          "name": "Higgsfield GPU Harness 介绍帖",
+          "url": "https://x.com/higgsfield/status/2123519417610825890",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-21/evening-10.jpg",
+        "alt": "Higgsfield 官方演示画面：迈阿密风情摩天轮与棕榈树街道的三维场景，右上角写有 Higgsfield GPU Harness 和 NVIDIA RTX PRO 6000（X8），画面上标有灯光和建筑标签。",
+        "credit": "Higgsfield 官方博客教程封面图。",
+        "sourcePage": "https://higgsfield.ai/@higgsfield.studio/blogs/how-we-rendered-a-3d-modeled-city-in-unreal-engine-on-higgsfield-gpu",
+        "retrievedFrom": "https://cdn.higgsfield.ai/a9f89e47-9730-488a-b27e-37735813a52f_thumb.webp",
+        "retrievedAt": "2026-11-21T12:42:00Z"
+      }
+    }
+  ]
+}

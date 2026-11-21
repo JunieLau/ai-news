@@ -42,9 +42,9 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.equal(manifest.home.edition, "morning");
   assert.equal(manifest.home.issueDate, "2026-11-21");
   assert.equal(manifest.streams.morning.latest, "2026-11-21");
-  assert.equal(manifest.streams.evening.latest, "2026-11-20");
+  assert.equal(manifest.streams.evening.latest, "2026-11-21");
   assert.deepEqual(manifest.streams.morning.dates, ["2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18"]);
-  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-20", "2026-11-19", "2026-11-18"]);
+  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18"]);
 
   const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
   const morning = fs.readFileSync(path.join(out, "morning", "index.html"), "utf8");
@@ -55,7 +55,8 @@ test("the production build links originals, keeps the image gaps, and does not r
   const nov20Morning = fs.readFileSync(path.join(out, "morning", "2026-11-20", "index.html"), "utf8");
   const currentMorning = fs.readFileSync(path.join(out, "morning", "2026-11-21", "index.html"), "utf8");
   const nov19EveningPage = fs.readFileSync(path.join(out, "evening", "2026-11-19", "index.html"), "utf8");
-  const currentEvening = fs.readFileSync(path.join(out, "evening", "2026-11-20", "index.html"), "utf8");
+  const nov20EveningPage = fs.readFileSync(path.join(out, "evening", "2026-11-20", "index.html"), "utf8");
+  const currentEvening = fs.readFileSync(path.join(out, "evening", "2026-11-21", "index.html"), "utf8");
   const searchJs = fs.readFileSync(path.join(repo, "src", "search.js"), "utf8");
   const index = JSON.parse(fs.readFileSync(path.join(out, "search-index.json"), "utf8"));
 
@@ -106,10 +107,15 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(nov19EveningPage, /返回最新一期/);
   assert.match(nov19EveningPage, /media\/2026-11-19\/evening-01\.webp/);
   assert.match(nov19EveningPage, /Pika 发布 Enact/);
-  assert.match(currentEvening, /data-issue-date="2026-11-20"/);
+  assert.match(nov20EveningPage, /data-issue-date="2026-11-20"/);
+  assert.match(nov20EveningPage, /data-latest="false"/);
+  assert.match(nov20EveningPage, /返回最新一期/);
+  assert.match(nov20EveningPage, /media\/2026-11-20\/evening-01\.png/);
+  assert.match(nov20EveningPage, /可灵流水提升/);
+  assert.match(currentEvening, /data-issue-date="2026-11-21"/);
   assert.match(currentEvening, /data-latest="true"/);
-  assert.match(currentEvening, /media\/2026-11-20\/evening-01\.png/);
-  assert.match(currentEvening, /可灵流水提升/);
+  assert.match(currentEvening, /media\/2026-11-21\/evening-01\.jpg/);
+  assert.match(currentEvening, /Cliff Booth/);
   assert.doesNotMatch(currentEvening, /返回最新一期/);
   assert.doesNotMatch(evening, /返回最新一期/);
   const eveningIssue = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-18", "evening.json"), "utf8"));
@@ -189,8 +195,14 @@ test("the production build links originals, keeps the image gaps, and does not r
   for (const name of ["evening-01.png", "evening-02.jpg", "evening-03.jpg", "evening-04.jpg", "evening-05.png", "evening-06.jpg", "evening-07.png", "evening-08.webp", "evening-09.jpg", "evening-10.png"]) {
     assert.equal(fs.existsSync(path.join(out, "media", "2026-11-20", name)), true);
   }
+  const nov21Evening = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-21", "evening.json"), "utf8"));
+  assert.equal(nov21Evening.stories.length, 10);
+  assert.equal(nov21Evening.stories.every((story) => story.image.status === "archived" && story.image.file), true);
+  for (const name of ["evening-01.jpg", "evening-02.jpg", "evening-03.jpg", "evening-04.jpg", "evening-05.jpg", "evening-06.jpg", "evening-07.jpg", "evening-08.jpg", "evening-09.jpg", "evening-10.jpg"]) {
+    assert.equal(fs.existsSync(path.join(out, "media", "2026-11-21", name)), true);
+  }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
-  assert.equal(index.length, 65);
+  assert.equal(index.length, 75);
 
   const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
   assert.equal(found.length, 1);
