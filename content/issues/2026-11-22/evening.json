@@ -1,0 +1,205 @@
+{
+  "issueDate": "2026-11-22",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-22T21:34:26+08:00",
+  "retrievedThrough": "2026-11-22T21:34:26+08:00",
+  "slot": "20:00",
+  "slotNote": "晚报在档期后补发；所收发布日期由原始来源决定。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "这期从 11 月 22 日清晨更新的预告片配乐工具读起，再补录三条周末前后未报道的动效、数字人和素材分析工具。标题不把补录内容写成今天上线。",
+  "stories": [
+    {
+      "id": "2026-11-22-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "HUASHU MOTION",
+      "headline": "花叔 Motion 更新预告片配乐：按小节适配片长，并检查剪点有没有卡上节拍",
+      "standfirst": "开源项目 huashu-motion 0.6.0 支持用已有曲目配片，按整小节伸缩中段，尽量把音乐抬升对到片子的高潮。",
+      "paragraphs": [
+        "新版本允许导入自有或生成的音乐。工具会保留曲目开场和结尾，分析节拍、小节线和力度变化，从中段挑选稳定片段做衔接；若拼接造成突兀的响度变化，就放弃该方案。",
+        "配乐无法对齐高潮时，工具会提示影片需要移动多少拍。剪辑检查也能标出离拍的剪点。此前通过代码合成曲目的方式仍可作为后备。"
+      ],
+      "whyItMatters": "导演可以先决定哪一拍该揭示人物、切到全景或落标题卡，然后检查音乐和剪辑有没有在同一拍发力。",
+      "caveats": [
+        "这是预告片和动效的配乐编排工具，不是新视频生成模型。项目里的 11 首默认曲目为 AI 生成，实用时查许可；导入其他音乐也需确保权利。配图为原项目配乐流程示意，不是新版本的实测画面。"
+      ],
+      "figures": [
+        "版本 0.6.0；默认曲库 11 首。"
+      ],
+      "publishedAt": "2026-11-22T02:42:51+08:00",
+      "publishedAtNote": "GitHub 官方版本 API published_at 为 2026-11-21 18:42:51 UTC，已换算为北京时间。",
+      "sources": [
+        {
+          "name": "花叔 Motion 0.6.0 版本说明",
+          "url": "https://github.com/alchaincyf/huashu-motion/releases/tag/v0.6.0",
+          "role": "primary"
+        },
+        {
+          "name": "花叔 Motion 项目及演示",
+          "url": "https://github.com/alchaincyf/huashu-motion",
+          "role": "secondary"
+        },
+        {
+          "name": "GitHub 发布元数据",
+          "url": "https://api.github.com/repos/alchaincyf/huashu-motion/releases/tags/v0.6.0",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-04.jpg",
+        "alt": "花叔 Motion 项目演示定格，片段小窗按配乐谱面和爆发段标记排列",
+        "credit": "花叔 Motion v0.6.0 仓库自带配乐流程 GIF 静帧，非本版新增功能的实测",
+        "sourcePage": "https://github.com/alchaincyf/huashu-motion",
+        "retrievedFrom": "https://raw.githubusercontent.com/alchaincyf/huashu-motion/v0.6.0/docs/media/score-first.gif",
+        "retrievedAt": "2026-11-22T21:36:53+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "OPENMOTION",
+      "headline": "OpenMotion 更新 Cinema Studio：AI 重做的动效可以回到时间线上继续剪",
+      "standfirst": "开源工具 OpenMotion 发布 0.2.1，Cinema Studio 新增模板和生成预设。它的输出不止是一条成片，还可以保留可编辑工程。",
+      "paragraphs": [
+        "OpenMotion 可以将参考片拆成镜头、转场和声画节奏，再由 Claude Code、Codex 等智能体用 HTML、CSS 和 JavaScript 重建。创作者可以在 Studio 调镜头顺序和时间、替换素材，再导出 MP4。",
+        "这次更新重点是 Cinema Studio 的起步模板和生成预设，另加了可试玩的 Game Studio；参考片拆解和可编辑时间线不是这版才出现的功能。"
+      ],
+      "whyItMatters": "对需要反复试片头、字幕动画或节奏的创作者来说，素材和时间线留在工程里，比每次重新生成视频更容易改。",
+      "caveats": [
+        "这不是新的通用视频生成模型。第三方生成可能需要自带账户或 API 密钥；重做参考片不等于取得素材使用权。"
+      ],
+      "figures": [
+        "v0.2.1；官方列出 7 个工作区，包含 Cinema Studio。"
+      ],
+      "publishedAt": "2026-11-21T18:30:45+08:00",
+      "publishedAtNote": "GitHub 官方版本 API published_at 为 2026-11-21 10:30:45 UTC；已换算为北京时间。本期周末补录。",
+      "sources": [
+        {
+          "name": "OpenMotion 0.2.1 版本说明",
+          "url": "https://github.com/nexu-io/openmotion/releases/tag/v0.2.1",
+          "role": "primary"
+        },
+        {
+          "name": "OpenMotion 官方项目仓库",
+          "url": "https://github.com/nexu-io/openmotion",
+          "role": "secondary"
+        },
+        {
+          "name": "GitHub 发布元数据",
+          "url": "https://api.github.com/repos/nexu-io/openmotion/releases/tags/v0.2.1",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-01.jpg",
+        "alt": "OpenMotion 官方对比示意图，参考视频和重制视频显示在可编辑时间线之上",
+        "credit": "OpenMotion 项目仓库，简中 README 产品实拍与演示封面",
+        "sourcePage": "https://github.com/nexu-io/openmotion",
+        "retrievedFrom": "https://raw.githubusercontent.com/nexu-io/openmotion/main/docs/readme/capcut-claude-motion-cover.zh-CN.webp",
+        "retrievedAt": "2026-11-22T21:34:26+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "KYUTAI",
+      "headline": "Kyutai 公开 AURA：一张肖像加实时语音，边说边生成数字人口播",
+      "standfirst": "法国研究机构 Kyutai 公布两个音频驱动数字人模型，并开放权重与在线演示。",
+      "paragraphs": [
+        "与等整段音轨录完再合成不同，AURA 按小段接收语音并连续生成说话头像，不用预先听到后面的内容。研发团队还把它接到语音助手 Unmute，让用户和实时生成的数字人对话。",
+        "按团队在单张 H100 上的测试，1.3B 版在 576p 达 20.7 帧/秒，足够支持演示的 16 帧/秒播放；5B 版分辨率升到 720p，但吞吐约 9.7 帧/秒。"
+      ],
+      "whyItMatters": "如果目标是一个能回应观众的角色，重点从单条视频的画质变成了能否及时接话、开口时是否自然。",
+      "caveats": [
+        "这是说话头像，不是实时全身表演。帧率是团队测试；官方在线演示仍约有 1.2 秒视频滞后，两版权重均有非商业限制，不可直接视作可商用。"
+      ],
+      "figures": [
+        "约 1.2 秒演示滞后；576p / 20.7 帧每秒与 720p / 9.7 帧每秒，均为团队公开测试。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Kyutai 官方项目公告署期 2026-11-20，未公开时分；周末补录。",
+      "sources": [
+        {
+          "name": "Kyutai AURA 官方公告",
+          "url": "https://kyutai.org/aura/",
+          "role": "primary"
+        },
+        {
+          "name": "论文作者 AURA 项目页",
+          "url": "https://nathanielcohen3.github.io/aura_website/",
+          "role": "secondary"
+        },
+        {
+          "name": "Kyutai AURA 代码与模型许可",
+          "url": "https://github.com/kyutai-labs/aura",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-02.jpg",
+        "alt": "AURA 论文作者的示意图，展示多种参考肖像和音频驱动的说话头像生成结果",
+        "credit": "AURA 论文作者项目页的官方 teaser 示例；并非现场照片",
+        "sourcePage": "https://nathanielcohen3.github.io/aura_website/",
+        "retrievedFrom": "https://nathanielcohen3.github.io/aura_website/static/images/teaser_cr.png",
+        "retrievedAt": "2026-11-22T21:34:26+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "WECHAT VISION",
+      "headline": "腾讯微信视觉公开 WeMM-Video：看片时也听原声，输出的是分析而非新视频",
+      "standfirst": "中英双语模型既能只看画面，也能结合原声做文本问答、转写、概括和理解。",
+      "paragraphs": [
+        "微信视觉团队公开 WeMM-Video 的代码、权重和评测材料。官方示例把同一段阿波罗 11 号片段分两次输入：一次只问画面发生了什么，一次同时问画面和录音里说了什么。",
+        "已列出 2B、4B、9B 稠密版和 35B-A3B 混合专家版。产品输入可以包括文本、图片、音频和视频，输出都是文字。"
+      ],
+      "whyItMatters": "比只抽关键帧更适合查素材。比如要找一句台词与某个动作出现在一起的片段，可以把对话和画面交给同一个模型一起判断。",
+      "caveats": [
+        "不是视频生成器。团队公布的比较成绩不能替代自己的素材验证；代码采用 Apache 2.0，权重许可要按具体模型检查。"
+      ],
+      "figures": [
+        "4 个规模：2B、4B、9B 和 35B-A3B。"
+      ],
+      "publishedAt": "2026-11-20T00:58:15+08:00",
+      "publishedAtNote": "时间为 arXiv v1 记录 2026-11-19 16:58:15 UTC 换算北京；代码仓库许可标记 11 月 20 日，不等于同一时刻发布。周末补录。",
+      "sources": [
+        {
+          "name": "腾讯 WeMM-Video 官方仓库",
+          "url": "https://github.com/Tencent/WeMM-Video",
+          "role": "primary"
+        },
+        {
+          "name": "团队技术报告 arXiv:2611.26409",
+          "url": "https://arxiv.org/abs/2611.26409",
+          "role": "secondary"
+        },
+        {
+          "name": "腾讯 WeMM-Video 官方架构图",
+          "url": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-03.jpg",
+        "alt": "WeMM-Video 官方架构图，图像、视频帧与音频进入不同编码器，再由语言模型生成文字",
+        "credit": "腾讯微信视觉团队官方仓库架构图",
+        "sourcePage": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+        "retrievedFrom": "https://raw.githubusercontent.com/Tencent/WeMM-Video/main/assets/wemm-video-architecture.png",
+        "retrievedAt": "2026-11-22T21:34:26+08:00"
+      }
+    }
+  ]
+}

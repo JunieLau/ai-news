@@ -1,0 +1,152 @@
+{
+  "issueDate": "2026-11-22",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-22T21:34:42+08:00",
+  "retrievedThrough": "2026-11-22T10:00:00+08:00",
+  "slot": "10:00",
+  "slotNote": "补发；报道筛选窗口为北京时间 11 月 21 日 10:00 至 22 日 10:00。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期关注 AI 辅助数论证明的形式化核验、辅助驾驶世界模型的预告，以及长沙展示的 AI 防御应用。各条分别标明已经核验、即将发布和现场演示的区别。",
+  "stories": [
+    {
+      "id": "2026-11-22-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "LEAN MATHLIB",
+      "headline": "Lean 与 Mathlib 社区称，Claude 辅助的黎曼猜想形式化证明通过检查",
+      "standfirst": "这比作者单方面宣布多了一步核验，但不是克雷数学研究所认定，也不等同于学界已形成共识。",
+      "paragraphs": [
+        "11 月 21 日，Lean 与 Mathlib 社区发表联合声明，称团队检查了 Anthropic 数学研究人员 Levent Alpöge 发布的 Lean 证明：程序能够编译，经核对证明指向标准的形式化命题，并进行了独立的检查。Alpöge 此前在个人说明中介绍了自己如何与 Claude 合作，成果以约 1700 万行 Lean 代码公开。",
+        "联合声明还区分了广义版本的范围：检查的是狄利克雷 L 函数，不是所有其他类别的 L 函数。MIT 数学家 Andrew Sutherland 也公开了他执行的一系列核验及结果。"
+      ],
+      "whyItMatters": "AI 辅助研究的价值不只在于生成论证，也在于把论证交给独立的人和程序复核。此案能让人区分代码通过检查、数学解释可读，以及学术共同体认可这三件事。",
+      "caveats": [
+        "联合声明针对提交的形式化证明；不应写成 Claude 独立解题、克雷数学奖已颁发，或全部广义版本均已核验。"
+      ],
+      "figures": [
+        "约 1700 万行 Lean 代码"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Lean 社区博文显示 2026-11-21 13:55，未标出时区；《卫报》于 11 月 21 日 20:15 UTC 报道联合核验。11 月 20 日作者初次公告不作为本期的新动向。",
+      "sources": [
+        {
+          "name": "Lean 与 Mathlib 社区｜联合声明",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "role": "primary"
+        },
+        {
+          "name": "Levent Alpöge｜原始说明 PDF",
+          "url": "https://alpo.ge/remark.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "Andrew Sutherland（MIT）｜核验记录",
+          "url": "https://math.mit.edu/~drew/grh/",
+          "role": "secondary"
+        },
+        {
+          "name": "The Guardian｜联合声明报道",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-01.jpg",
+        "alt": "Levent Alpöge 公布的黎曼猜想说明文件首页",
+        "credit": "Levent Alpöge｜原始说明 PDF 首屏存档",
+        "sourcePage": "https://alpo.ge/remark.pdf",
+        "retrievedFrom": "https://alpo.ge/remark.pdf",
+        "retrievedAt": "2026-11-22T21:34:42+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "NIO",
+      "headline": "蔚来预告 11 月 25 日发布智能辅助驾驶世界模型 NWM 3.0",
+      "standfirst": "这次先公布发布日期与技术方向，尚未发布模型或量产计划。",
+      "paragraphs": [
+        "据 IT 之家 11 月 21 日报道，蔚来将于 11 月 25 日在 NIO IN 2026 蔚来创新科技日发布 NWM 3.0。公司预告涉及模型架构、闭环训练与跨域融合，用于探索物理世界中的智能辅助驾驶。",
+        "此前的 NWM 技术面向车辆传感器输入、道路场景的时序推演与轨迹决策。这也是同类技术与生成视频模型的一个区别：这里的预测要服务真实车辆的驾驶决策。"
+      ],
+      "whyItMatters": "世界模型正在从生成可看的场景走向支持现实决策。值得关注的不是宣布升级本身，而是发布后能否证明在长尾场景中的效果，以及怎样落到车端。",
+      "caveats": [
+        "技术细节、测试表现、首批适配车型与推送时间尚待披露；辅助驾驶不等于无人驾驶。"
+      ],
+      "figures": [
+        "11 月 25 日｜预定发布日"
+      ],
+      "publishedAt": "2026-11-21T16:33:30+08:00",
+      "publishedAtNote": "时间来自 IT 之家原文页；该页转述蔚来当日预告。",
+      "sources": [
+        {
+          "name": "IT之家｜蔚来 NWM 3.0 发布预告",
+          "url": "https://www.ithome.com/1/030/410.htm",
+          "role": "primary"
+        },
+        {
+          "name": "新浪科技｜蔚来 NWM 3.0 预告",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-21/doc-iniznxqa3365416.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-02.jpg",
+        "alt": "蔚来世界模型产品标识与中英文名称",
+        "credit": "IT之家报道所附 NIO World Model 产品图",
+        "sourcePage": "https://www.ithome.com/1/030/410.htm",
+        "retrievedFrom": "https://img.ithome.com/newsuploadfiles/2026/11/218dfb16-8198-4c9b-965a-ee24a59b5e25.jpg?x-bce-process=image/format,f_auto",
+        "retrievedAt": "2026-11-22T21:34:42+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-03",
+      "rank": 3,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "WORLD COMPUTING CONFERENCE",
+      "headline": "长沙世界计算大会展示两款面向 AI 应用的安全平台",
+      "standfirst": "安全计算论坛公开演示威胁检测、安全响应和风险防护，电力行业分享了在生产流程中部署这些防御的经验。",
+      "paragraphs": [
+        "11 月 21 日，2026 世界计算大会安全计算论坛在长沙国际会议中心举行。华声在线现场报道，论坛发布了行业安全计算应用成果，并展示两款产品：AI 安全平台和保护 AI 平台。",
+        "与会的电力行业代表介绍了将 AI 相关防御纳入生产流程的案例。论坛讨论的重点同时包括两方面：让 AI 帮助安全团队识别风险，以及怎样保护接入业务的大模型应用本身。"
+      ],
+      "whyItMatters": "AI 用于关键行业后，安全不仅是一次性评测，还涉及实际部署、监测和处置。公开展示可供行业观察，但效果仍需外部评估。",
+      "caveats": [
+        "来源披露的是论坛展示，未给出独立评测、产品定价或规模化部署数据。"
+      ],
+      "figures": [
+        "2 款安全平台现场亮相"
+      ],
+      "publishedAt": "2026-11-21T20:33:00+08:00",
+      "publishedAtNote": "华声在线页面标注 11 月 21 日 20:33；论坛为同日举行。",
+      "sources": [
+        {
+          "name": "华声在线｜记者现场报道",
+          "url": "https://hunan.voc.com.cn/mobile/news/202611/34316148.html",
+          "role": "primary"
+        },
+        {
+          "name": "湖南省人民政府｜大会安排",
+          "url": "https://www.hunan.gov.cn/hnszf/hnyw/zwdt/202611/t20261112_34099992.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-03.jpg",
+        "alt": "长沙国际会议中心安全计算论坛现场，屏幕显示论坛名称",
+        "credit": "徐行 / 华声在线（新湖南）",
+        "sourcePage": "https://hunan.voc.com.cn/mobile/news/202611/34316148.html",
+        "retrievedFrom": "https://img2.voc.com.cn/9/2026/11/21/0216620c3006b988032f4cf1a4ee37ec171148481795262539221.jpeg?pid=47305028",
+        "retrievedAt": "2026-11-22T21:34:42+08:00"
+      }
+    }
+  ]
+}

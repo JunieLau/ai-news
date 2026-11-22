@@ -39,12 +39,17 @@ test("the seeded 18 November issues validate and keep both streams on that date"
 test("the production build links originals, keeps the image gaps, and does not redirect", () => {
   const out = fs.mkdtempSync(path.join(os.tmpdir(), "ai-news-prod-"));
   const manifest = buildSite({ contentDir, outDir: out, base: "/ai-news" });
+  const issuesDir = path.join(contentDir, "issues");
+  const dates = Object.fromEntries(["morning", "evening"].map((edition) => [
+    edition,
+    fs.readdirSync(issuesDir).filter((date) => fs.existsSync(path.join(issuesDir, date, edition + ".json"))).sort().reverse(),
+  ]));
   assert.equal(manifest.home.edition, "morning");
-  assert.equal(manifest.home.issueDate, "2026-11-21");
-  assert.equal(manifest.streams.morning.latest, "2026-11-21");
-  assert.equal(manifest.streams.evening.latest, "2026-11-21");
-  assert.deepEqual(manifest.streams.morning.dates, ["2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18"]);
-  assert.deepEqual(manifest.streams.evening.dates, ["2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18"]);
+  assert.equal(manifest.home.issueDate, dates.morning[0]);
+  for (const edition of ["morning", "evening"]) {
+    assert.equal(manifest.streams[edition].latest, dates[edition][0]);
+    assert.deepEqual(manifest.streams[edition].dates, dates[edition]);
+  }
 
   const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
   const morning = fs.readFileSync(path.join(out, "morning", "index.html"), "utf8");
@@ -72,12 +77,13 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(css, /--paper-deep:\s*#fff/);
   assert.doesNotMatch(css, /#e7f4f8|#d5e8ef/);
   assert.match(home, /data-edition="morning"/);
-  assert.match(home, /data-issue-date="2026-11-21"/);
+  assert.ok(home.includes('data-issue-date="' + dates.morning[0] + '"'));
+  assert.ok(evening.includes('data-issue-date="' + dates.evening[0] + '"'));
   assert.match(home, /href="\/ai-news\/evening\/"/);
   assert.match(home, /href="\/ai-news\/morning\/"/);
   assert.match(home, /href="\/ai-news\/search\/"/);
-  assert.match(home, /125\.53/);
-  assert.match(morning, /cnbc\.com\/2026\/11\/20\/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis\.html/);
+  assert.match(currentMorning, /125\.53/);
+  assert.match(currentMorning, /cnbc\.com\/2026\/11\/20\/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis\.html/);
   assert.doesNotMatch(morning, /无存档图片/);
   assert.doesNotMatch(currentMorning, /无存档图片/);
   assert.match(nov19Morning, /每股 83 美元/);
@@ -113,10 +119,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.match(nov20EveningPage, /media\/2026-11-20\/evening-01\.png/);
   assert.match(nov20EveningPage, /可灵流水提升/);
   assert.match(currentEvening, /data-issue-date="2026-11-21"/);
-  assert.match(currentEvening, /data-latest="true"/);
+  assert.ok(currentEvening.includes('data-latest="' + (dates.evening[0] === "2026-11-21") + '"'));
   assert.match(currentEvening, /media\/2026-11-21\/evening-01\.jpg/);
   assert.match(currentEvening, /Cliff Booth/);
-  assert.doesNotMatch(currentEvening, /返回最新一期/);
+  assert.equal(/返回最新一期/.test(currentEvening), dates.evening[0] !== "2026-11-21");
   assert.doesNotMatch(evening, /返回最新一期/);
   const eveningIssue = JSON.parse(fs.readFileSync(path.join(contentDir, "issues", "2026-11-18", "evening.json"), "utf8"));
   assert.match(eveningIssue.editorsNote, /没有凑成 10 条/);
@@ -137,9 +143,9 @@ test("the production build links originals, keeps the image gaps, and does not r
   assert.doesNotMatch(dated, /这是本流最新一期/);
   assert.match(currentMorning, /data-page-role="issue"/);
   assert.match(currentMorning, /data-issue-date="2026-11-21"/);
-  assert.match(currentMorning, /data-latest="true"/);
+  assert.ok(currentMorning.includes('data-latest="' + (dates.morning[0] === "2026-11-21") + '"'));
   assert.match(currentMorning, /media\/2026-11-21\/morning-01\.jpg/);
-  assert.doesNotMatch(currentMorning, /返回最新一期/);
+  assert.equal(/返回最新一期/.test(currentMorning), dates.morning[0] !== "2026-11-21");
   assert.match(morning, /<h4>关键数字<\/h4>/);
   assert.match(morning, /<h4>需注意<\/h4>/);
   assert.doesNotMatch(morning, /需留意|class="figures"|class="caveats"|class="times"|<footer/);
@@ -202,7 +208,10 @@ test("the production build links originals, keeps the image gaps, and does not r
     assert.equal(fs.existsSync(path.join(out, "media", "2026-11-21", name)), true);
   }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
-  assert.equal(index.length, 75);
+  const expectedStories = ["morning", "evening"].flatMap((edition) =>
+    dates[edition].map((date) => JSON.parse(fs.readFileSync(path.join(issuesDir, date, edition + ".json"), "utf8")).stories.length)
+  ).reduce((total, length) => total + length, 0);
+  assert.equal(index.length, expectedStories);
 
   const found = filterStories(index, { query: "不打算让 Jensen 重任", edition: "morning" });
   assert.equal(found.length, 1);
