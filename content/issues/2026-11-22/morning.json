@@ -2,14 +2,74 @@
   "issueDate": "2026-11-22",
   "edition": "morning",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22T22:04:54+08:00",
-  "retrievedThrough": "2026-11-22T22:04:54+08:00",
+  "updatedAt": "2026-11-22T23:28:36+08:00",
+  "retrievedThrough": "2026-11-22T23:28:36+08:00",
   "slot": "10:00",
-  "slotNote": "本期补订，只收北京时间 11 月 22 日可证实首发、首次披露或实际发生的新进展。来源只标日期时不编造时分。",
+  "slotNote": "本期为 11 月 22 日早报补订。选题以北京时间当天 10:00 档期回溯，优先此前 24 小时，必要时延至 48 小时；页面更新时间记录实际补订时刻。",
   "title": "AI新闻速报",
-  "editorsNote": "本期按北京时间 11 月 22 日核查，只保留有当天原始来源的实质进展；核实 6 条，未用此前新闻凑满 10 条。",
+  "editorsNote": "按早报 24–48 小时新口径补入四条，合计 10 条。按实质影响和已有公开证据排序；末尾「建议发送」为编辑推荐，其余仍保留为备选。",
   "stories": [
     {
+      "id": "2026-11-22-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "LEAN MATHLIB",
+      "headline": "Lean 与 Mathlib 社区称，Claude 辅助的黎曼猜想形式化证明通过检查",
+      "standfirst": "这比作者单方面宣布多了一步核验，但不是克雷数学研究所认定，也不等同于学界已形成共识。",
+      "paragraphs": [
+        "11 月 21 日，Lean 与 Mathlib 社区发表联合声明，称团队检查了 Anthropic 数学研究人员 Levent Alpöge 发布的 Lean 证明：程序能够编译，经核对证明指向标准的形式化命题，并进行了独立的检查。Alpöge 此前在个人说明中介绍了自己如何与 Claude 合作，成果以约 1700 万行 Lean 代码公开。",
+        "联合声明还区分了广义版本的范围：检查的是狄利克雷 L 函数，不是所有其他类别的 L 函数。MIT 数学家 Andrew Sutherland 也公开了他执行的一系列核验及结果。"
+      ],
+      "whyItMatters": "AI 辅助研究的价值不只在于生成论证，也在于把论证交给独立的人和程序复核。此案能让人区分代码通过检查、数学解释可读，以及学术共同体认可这三件事。",
+      "caveats": [
+        "联合声明针对提交的形式化证明；不应写成 Claude 独立解题、克雷数学奖已颁发，或全部广义版本均已核验。"
+      ],
+      "figures": [
+        "约 1700 万行 Lean 代码"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Lean 与 Mathlib 联合声明显示 2026-11-21 13:55，页面未标时区；同一原文最迟于 11 月 21 日 14:36 UTC（北京时间 22:36）已被公开链接，独立媒体当日亦报道。11 月 20 日作者最初的公告不是本条新闻点。",
+      "sources": [
+        {
+          "name": "Lean 与 Mathlib 社区｜联合声明",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "role": "primary"
+        },
+        {
+          "name": "Levent Alpöge｜原始说明 PDF",
+          "url": "https://alpo.ge/remark.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "Andrew Sutherland（MIT）｜核验记录",
+          "url": "https://math.mit.edu/~drew/grh/",
+          "role": "secondary"
+        },
+        {
+          "name": "The Guardian｜联合声明报道",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+          "role": "secondary"
+        },
+        {
+          "name": "Hacker News｜联合声明公开链接时间",
+          "url": "https://news.ycombinator.com/front?day=2026-11-21",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-01.jpg",
+        "alt": "Levent Alpöge 公布的黎曼猜想说明文件首页",
+        "credit": "Levent Alpöge｜原始说明 PDF 首屏存档",
+        "sourcePage": "https://alpo.ge/remark.pdf",
+        "retrievedFrom": "https://alpo.ge/remark.pdf",
+        "retrievedAt": "2026-11-22T21:34:42+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-02",
+      "rank": 2,
       "tier": "send",
       "region": "海外",
       "kickerEn": "TOGETHER AI",
@@ -48,12 +108,63 @@
         "sourcePage": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
         "retrievedFrom": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b022ac06b3b148585570c47_OG-image_20261121-security-event-prompt-leakage2.png",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 1,
-      "id": "2026-11-22-morning-01"
+      }
     },
     {
+      "id": "2026-11-22-morning-03",
+      "rank": 3,
       "tier": "send",
+      "region": "海外",
+      "kickerEn": "ORACLE",
+      "headline": "甲骨文称，履行与 OpenAI 的算力合约所需资金已落实",
+      "standfirst": "甲骨文表示已拿到履行合约所需的资金，并称得州 Abilene 项目接近完工；这不代表整个园区已交付。",
+      "paragraphs": [
+        "甲骨文在美国当地 11 月 20 日的声明中表示，履行其与 OpenAI 签订的算力基础设施合同所需资金已经落实。路透报道将该声明与公司最近一轮融资联系起来。",
+        "公司称，得州 Abilene 项目已接近完工，后续还将交付采用英伟达 Rubin 芯片的新算力设施。声明没有逐项披露项目的合约、融资结构或交付日程。"
+      ],
+      "whyItMatters": "大型算力项目不仅要有订单，还要有愿意出资的资金方和建设进度。这次公告减少了其中一项不确定性，但机房、供电和设备交付仍是后续要看的事项。",
+      "caveats": [
+        "原文为公司声明。不能把公司另筹资金的总额全部归到这份合约，也不能把“接近完工”写成整体已经验收。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "甲骨文官网署期美国当地 11 月 20 日，未标时分；新浪转引消息于北京时间 11 月 21 日 06:08 刊出，路透英文报道同一早间刊出。",
+      "sources": [
+        {
+          "name": "甲骨文｜公司声明",
+          "url": "https://www.oracle.com/news/announcement/oracle-statement-2026-11-20/",
+          "role": "primary"
+        },
+        {
+          "name": "路透｜融资与算力合约报道",
+          "url": "https://www.streetinsider.com/Reuters/Oracle%2Bsays%2BOpenAI%2Binfrastructure%2Bdeal%2Bis%2Bfully%2Bfunded%2Bafter%2Bfinal%2Bcapital%2Braise/27382455.html",
+          "role": "secondary"
+        },
+        {
+          "name": "新浪财经｜中文披露时间",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwaq3607059.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "Abilene 数据中心社区资讯｜园区资料",
+          "url": "https://abileneaidatacenter.com/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-oracle-abilene.jpg",
+        "alt": "得州 Abilene 数据中心工地与建筑群的夕阳航拍资料照",
+        "credit": "Abilene AI Data Center 社区资讯网站｜园区资料照，非本次公告当天照片",
+        "sourcePage": "https://abileneaidatacenter.com/",
+        "retrievedFrom": "https://abileneaidatacenter.com/assets/stargate.png",
+        "retrievedAt": "2026-11-22T23:28:36+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-04",
+      "rank": 4,
+      "tier": "alternate",
       "region": "海外",
       "kickerEn": "TESLA",
       "headline": "特斯拉开始分批推送 FSD v15，预览新增道路实景式显示",
@@ -94,11 +205,11 @@
         "sourcePage": "https://techau.com.au/tesla-fsd-v15-is-rolling-out-with-new-reality-view-dramatic-capability-improvements/",
         "retrievedFrom": "https://techau.com.au/wp-content/uploads/2026/11/FSDv15-Visualisation-001000-1024x576.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 2,
-      "id": "2026-11-22-morning-02"
+      }
     },
     {
+      "id": "2026-11-22-morning-05",
+      "rank": 5,
       "tier": "send",
       "region": "国内",
       "kickerEn": "DATA SPACES",
@@ -137,12 +248,106 @@
         "sourcePage": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/20261122124728759725897_pc.html",
         "retrievedFrom": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/ff808081-a1f297f8-01a2-01959d3d-0078.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 3,
-      "id": "2026-11-22-morning-03"
+      }
     },
     {
-      "tier": "send",
+      "id": "2026-11-22-morning-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "WECHAT VISION",
+      "headline": "腾讯微信视觉公开 WeMM-Video：看片时也听原声，输出的是分析而非新视频",
+      "standfirst": "中英双语模型既能只看画面，也能结合原声做文本问答、转写、概括和理解。",
+      "paragraphs": [
+        "微信视觉团队公开 WeMM-Video 的代码、权重和评测材料。官方示例把同一段阿波罗 11 号片段分两次输入：一次只问画面发生了什么，一次同时问画面和录音里说了什么。",
+        "已列出 2B、4B、9B 稠密版和 35B-A3B 混合专家版。产品输入可以包括文本、图片、音频和视频，输出都是文字。"
+      ],
+      "whyItMatters": "比只抽关键帧更适合查素材。比如要找一句台词与某个动作出现在一起的片段，可以把对话和画面交给同一个模型一起判断。",
+      "caveats": [
+        "不是视频生成器。团队公布的比较成绩不能替代自己的素材验证；代码采用 Apache 2.0，权重许可要按具体模型检查。"
+      ],
+      "figures": [
+        "4 个规模：2B、4B、9B 和 35B-A3B。"
+      ],
+      "publishedAt": "2026-11-20T18:14:00+08:00",
+      "publishedAtNote": "微信官方账号发布公开公告的时间换算为北京时间 11 月 20 日 18:14。技术报告 v1 在此之前已公开；这是公开发布公告，不把较早的 arXiv 时间当本期新闻点。",
+      "sources": [
+        {
+          "name": "腾讯 WeMM-Video 官方仓库",
+          "url": "https://github.com/Tencent/WeMM-Video",
+          "role": "primary"
+        },
+        {
+          "name": "微信官方｜面向公众的发布公告",
+          "url": "https://x.com/Weixin_WeChat/status/2123721746604040268",
+          "role": "secondary"
+        },
+        {
+          "name": "团队技术报告 arXiv:2611.26409",
+          "url": "https://arxiv.org/abs/2611.26409",
+          "role": "secondary"
+        },
+        {
+          "name": "腾讯 WeMM-Video 官方架构图",
+          "url": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-03.jpg",
+        "alt": "WeMM-Video 官方架构图，图像、视频帧与音频进入不同编码器，再由语言模型生成文字",
+        "credit": "腾讯微信视觉团队官方仓库架构图",
+        "sourcePage": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+        "retrievedFrom": "https://raw.githubusercontent.com/Tencent/WeMM-Video/main/assets/wemm-video-architecture.png",
+        "retrievedAt": "2026-11-22T21:34:26+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "ROKAE",
+      "headline": "珞石机器人启动境内上市准备，已提交辅导备案申请",
+      "standfirst": "董事会同意推进拟在深圳证券交易所发行 A 股上市；这仍是准备阶段，不是获批。",
+      "paragraphs": [
+        "珞石机器人通过港交所披露，董事会同意推进境内首次公开发行人民币普通股并拟在深圳证券交易所上市的相关工作。公告称，公司已经向有关监管机构提交上市辅导备案申请。",
+        "珞石生产工业机器人和协作机器人，并展示过具身智能设备。公告没有给出拟募集金额、发行价格或上市日期。"
+      ],
+      "whyItMatters": "机器人企业的资金需求往往不止研发，还包括产线、交付和渠道。上市准备是否推进，要看后续辅导与交易所审核，而不是仅看董事会决议。",
+      "caveats": [
+        "境内上市方案仍可能调整；提交辅导备案申请不是交易所受理、审批通过或已经完成融资。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-20T21:53:00+08:00",
+      "publishedAtNote": "香港交易所发行人披露索引标注 11 月 20 日 21:53，香港与北京时间同为 UTC+8；公告未列秒。",
+      "sources": [
+        {
+          "name": "港交所｜珞石机器人发行人公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112001705.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "珞石机器人官网｜产品与展会资料",
+          "url": "https://www.rokae.com/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-rokae.jpg",
+        "alt": "2026 世界机器人大会现场的珞石展位，上有白色工业机械臂及人形机器人",
+        "credit": "珞石机器人官网｜2026 世界机器人大会展位资料照",
+        "sourcePage": "https://www.rokae.com/",
+        "retrievedFrom": "https://www.rokae.com/ueditor/php/upload/image/20260820/1787207308613758.jpg",
+        "retrievedAt": "2026-11-22T23:28:36+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-08",
+      "rank": 8,
+      "tier": "alternate",
       "region": "海外",
       "kickerEn": "PROJECT MAYA",
       "headline": "Project Maya 将 Inkling 2 Mini 本地运行门槛降到部分 8GB 显存卡",
@@ -180,12 +385,12 @@
         "sourcePage": "https://github.com/mw00/project-maya/tree/v1.1.73/docs/media/setup-tui",
         "retrievedFrom": "https://raw.githubusercontent.com/mw00/project-maya/v1.1.73/docs/media/setup-tui/07-dashboard.png",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 4,
-      "id": "2026-11-22-morning-04"
+      }
     },
     {
-      "tier": "send",
+      "id": "2026-11-22-morning-09",
+      "rank": 9,
+      "tier": "alternate",
       "region": "海外",
       "kickerEn": "PRIME INTELLECT",
       "headline": "Prime Intellect 更新开放训练框架，扩展混合专家和多轮训练",
@@ -221,12 +426,12 @@
         "sourcePage": "https://github.com/PrimeIntellect-ai/prime-rl/tree/v0.11.0",
         "retrievedFrom": "https://raw.githubusercontent.com/PrimeIntellect-ai/prime-rl/v0.11.0/docs/assets/architecture.png",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 5,
-      "id": "2026-11-22-morning-05"
+      }
     },
     {
-      "tier": "send",
+      "id": "2026-11-22-morning-10",
+      "rank": 10,
+      "tier": "alternate",
       "region": "国内",
       "kickerEn": "HARMONYOS",
       "headline": "华为部分 Mate 机型出现“小艺星芒”音色，可调音高和语速",
@@ -257,9 +462,8 @@
         "sourcePage": "https://m.ithome.com/html/1030519.htm",
         "retrievedFrom": "https://img.ithome.com/newsuploadfiles/2026/11/88eaf9cb-703e-4859-9275-7399834672ee.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 6,
-      "id": "2026-11-22-morning-06"
+      }
     }
-  ]
+  ],
+  "showSendShortlist": true
 }

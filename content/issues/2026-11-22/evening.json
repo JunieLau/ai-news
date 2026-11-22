@@ -2,14 +2,61 @@
   "issueDate": "2026-11-22",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22T22:04:54+08:00",
-  "retrievedThrough": "2026-11-22T22:04:54+08:00",
+  "updatedAt": "2026-11-22T23:28:36+08:00",
+  "retrievedThrough": "2026-11-22T23:28:36+08:00",
   "slot": "20:00",
-  "slotNote": "本期补订，只收北京时间 11 月 22 日可证实首发、首次披露或实际发生的新进展。来源只标日期时不编造时分。",
+  "slotNote": "本期为 11 月 22 日晚报补订。收录北京时间 11 月 22 日有可核实实质进展的 10 条；征集截止与首次公告时间区别标明。",
   "title": "AI电影与视频速报",
-  "editorsNote": "本期按北京时间 11 月 22 日核查，只保留当天电影、视频和制作工具的实质进展；核实 8 条，撤下 3 条更早的补录。",
+  "editorsNote": "按新的晚报口径补入创作者采访和赛事截止节点，合计 10 条。末尾「建议发送」为编辑推荐，其余仍保留为备选。",
   "stories": [
     {
+      "id": "2026-11-22-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "MANTIS SHORT DRAMA",
+      "headline": "单人制作的 AI 漫剧《重生螳螂》，累计播放据报道达 16 亿",
+      "standfirst": "中新网采访创作者白非空，披露了这部 96 集 AI 漫剧的新播放数字和制作过程。",
+      "paragraphs": [
+        "中新网 11 月 22 日采访《重生螳螂，觉醒无限吞噬进化》创作者白非空。报道称，该作累计播放量已达 16 亿；这次更新的是累积数据与作者采访，并不是作品今天上线。",
+        "据白非空自述，他用约六周独自完成 96 集，花约 4000 元购买工具会员和生成额度。一个动作镜头尝试了 12 次，这笔钱没有计入工时。"
+      ],
+      "whyItMatters": "AI 确实把一些制作成本从团队和设备转移到个人可以购买的工具上，但放大的是个人执行力，不等于省掉镜头取舍、剪辑和重复返工。",
+      "caveats": [
+        "16 亿为报道引用的累计播放量，不是独立观众人数或收入；4000 元为创作者自述的工具支出，并非完整成本。"
+      ],
+      "figures": [
+        "累计播放量据报道 16 亿",
+        "96 集｜约六周",
+        "工具花费约 4000 元（创作者自述）"
+      ],
+      "publishedAt": "2026-11-22T15:40:12+08:00",
+      "publishedAtNote": "中新网采访原文显示北京时间 11 月 22 日 15:40:12；作品与较早播放数据不算新发布。",
+      "sources": [
+        {
+          "name": "中新网｜记者采访创作者白非空",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-22/10736070.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "新浪看点｜同一采访转载",
+          "url": "https://kandian.sina.cn/article_1784473157_6a5ce645020041pkw.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-mantis.jpg",
+        "alt": "《重生螳螂》创作者白非空在户外桌边操作笔记本电脑",
+        "credit": "中新网｜该次采访所附创作者照片",
+        "sourcePage": "https://www.chinanews.com.cn/sh/2026/11-22/10736070.shtml",
+        "retrievedFrom": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/b356ee78-9654-43d5-823f-2c88ccdc3ba9_zsite.jpg",
+        "retrievedAt": "2026-11-22T23:28:36+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-02",
+      "rank": 2,
       "tier": "send",
       "region": "国内",
       "kickerEn": "TENCENT VIDEO",
@@ -51,52 +98,47 @@
         "sourcePage": "https://m.weibo.cn/2/detail/5367298732328320",
         "retrievedFrom": "https://wx3.sinaimg.cn/cmw960/006apDefly1ij7mf6bptpj30zk0k0wju.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 1,
-      "id": "2026-11-22-evening-01"
+      }
     },
     {
+      "id": "2026-11-22-evening-03",
+      "rank": 3,
       "tier": "send",
       "region": "海外",
-      "kickerEn": "POPNOW",
-      "headline": "PopNow 更新 3D 预演：角色摆姿和镜头视角可以在出图前确定",
-      "standfirst": "PopNow 11 月 22 日的更新把角色操作、镜头参数和分镜输出放进同一套影视预演流程。",
+      "kickerEn": "SHORTICAL",
+      "headline": "Shortical 披露 AI 短剧演员肖像授权细节，首例由双方直接签约",
+      "standfirst": "短剧平台 Shortical 的首个真实肖像授权案例是《Inevitable》：演员 Aki Avni 授权剧组制作他的数字化形象。采访披露了该单的签约方式和平台开放招募的进展。",
       "paragraphs": [
-        "创作者可以拖动控件给整个角色摆姿，再锁住关节，或给角色设定视线与触碰目标。相机可选传感器及画幅，再按焦距确定视野。分镜 PDF 新增 A4 和 Letter 版式。",
-        "同一批变更也涉及画布、视频剪辑和短剧工具。最值得导演关注的是在生成前把动作、走位与镜头方向先确定，而不是用一次次出图碰运气。"
+        "演员在戏里饰演自己，故事也是围绕把肖像授权给片商展开。Shortical 向 TechCrunch 说明，这单是与 Avni 直接约定，而非通过网站的公开肖像授权入口签约。",
+        "公司说，公开招募功能尚未促成新合同。CEO 也没有给出固定授权费或分成规则，表示不同项目会分别商议。"
       ],
-      "whyItMatters": "预演可给导演、美术和摄影一份共同的镜头参照，适合先核对轴线、视线和构图，再进入生成或实拍。",
+      "whyItMatters": "对制片团队来说，数字替身不是获得演员照片就能用。肖像使用的作品范围、期限和后续补偿需要在合同里写清。",
       "caveats": [
-        "配图是官方预演产品已有的追逐镜头示例，用来说明工作流程，不是本次新界面的截图。"
+        "《Inevitable》此前已在洛杉矶首映；本条报道的是当日公开采访的新披露，不是当天首映或平台当天上线。"
       ],
       "figures": [],
-      "publishedAt": null,
-      "publishedAtNote": "PopNow 官方更新日志将这批变更列于 2026 年 11 月 22 日；未公开小时及时区，不补造时间。",
+      "publishedAt": "2026-11-22T00:00:00+08:00",
+      "publishedAtNote": "TechCrunch 原始采访 11 月 21 日 08:00 PST 首发，换算至北京时间 11 月 22 日 00:00。",
       "sources": [
         {
-          "name": "PopNow｜11 月 22 日更新日志",
-          "url": "https://popnow.ai/changelog#previs-stage-three-1122",
+          "name": "TechCrunch｜演员与 Shortical CEO 原始采访",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
           "role": "primary"
-        },
-        {
-          "name": "PopNow Previs 产品与演示",
-          "url": "https://popnow.ai/previs",
-          "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-22/evening-popnow.jpg",
-        "alt": "PopNow 预演产品页展示的电影追逐镜头成片示例",
-        "credit": "PopNow Previs 官方产品页追逐镜头示例",
-        "sourcePage": "https://popnow.ai/previs",
-        "retrievedFrom": "https://media.popnow.ai/previs/hero/chase-final-58a0668e.webp",
+        "file": "2026-11-22/evening-shortical.jpg",
+        "alt": "Shortical 提供的 AI 短剧《Inevitable》主视觉海报",
+        "credit": "Shortical 供图，TechCrunch 原访谈刊载",
+        "sourcePage": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "retrievedFrom": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?w=1024",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 2,
-      "id": "2026-11-22-evening-02"
+      }
     },
     {
+      "id": "2026-11-22-evening-04",
+      "rank": 4,
       "tier": "send",
       "region": "海外",
       "kickerEn": "AFRICAN AI FILM FESTIVAL",
@@ -140,12 +182,53 @@
         "sourcePage": "https://www.financialcontent.com/article/marketersmedia-2026-10-3-african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala",
         "retrievedFrom": "https://storage.googleapis.com/mmstudio-images/gallery/LqyUbYl4ZOMAQz5uJfpPJTizrON2/89205110-1791045976-1.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 3,
-      "id": "2026-11-22-evening-03"
+      }
     },
     {
-      "tier": "send",
+      "id": "2026-11-22-evening-05",
+      "rank": 5,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "POPNOW",
+      "headline": "PopNow 更新 3D 预演：角色摆姿和镜头视角可以在出图前确定",
+      "standfirst": "PopNow 11 月 22 日的更新把角色操作、镜头参数和分镜输出放进同一套影视预演流程。",
+      "paragraphs": [
+        "创作者可以拖动控件给整个角色摆姿，再锁住关节，或给角色设定视线与触碰目标。相机可选传感器及画幅，再按焦距确定视野。分镜 PDF 新增 A4 和 Letter 版式。",
+        "同一批变更也涉及画布、视频剪辑和短剧工具。最值得导演关注的是在生成前把动作、走位与镜头方向先确定，而不是用一次次出图碰运气。"
+      ],
+      "whyItMatters": "预演可给导演、美术和摄影一份共同的镜头参照，适合先核对轴线、视线和构图，再进入生成或实拍。",
+      "caveats": [
+        "配图是官方预演产品已有的追逐镜头示例，用来说明工作流程，不是本次新界面的截图。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "PopNow 官方更新日志将这批变更列于 2026 年 11 月 22 日；未公开小时及时区，不补造时间。",
+      "sources": [
+        {
+          "name": "PopNow｜11 月 22 日更新日志",
+          "url": "https://popnow.ai/changelog#previs-stage-three-1122",
+          "role": "primary"
+        },
+        {
+          "name": "PopNow Previs 产品与演示",
+          "url": "https://popnow.ai/previs",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-popnow.jpg",
+        "alt": "PopNow 预演产品页展示的电影追逐镜头成片示例",
+        "credit": "PopNow Previs 官方产品页追逐镜头示例",
+        "sourcePage": "https://popnow.ai/previs",
+        "retrievedFrom": "https://media.popnow.ai/previs/hero/chase-final-58a0668e.webp",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-06",
+      "rank": 6,
+      "tier": "alternate",
       "region": "国内",
       "kickerEn": "WUHAN AIGC FORUM",
       "headline": "武汉举行 AIGC 短剧论坛，平台与制作方讨论产业规范",
@@ -181,48 +264,56 @@
         "sourcePage": "https://news.ifeng.com/c/8yGY0YmxF7o",
         "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_48/277130A64F9114FD843061DDBEDA4B666802A76D_size493_w1269_h715.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 4,
-      "id": "2026-11-22-evening-04"
+      }
     },
     {
-      "tier": "send",
-      "region": "海外",
-      "kickerEn": "SHORTICAL",
-      "headline": "Shortical 披露 AI 短剧演员肖像授权细节，首例由双方直接签约",
-      "standfirst": "短剧平台 Shortical 的首个真实肖像授权案例是《Inevitable》：演员 Aki Avni 授权剧组制作他的数字化形象。采访披露了该单的签约方式和平台开放招募的进展。",
+      "id": "2026-11-22-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "YOUKU CONTEST",
+      "headline": "鲸锐 AI 创作大赛 11 月 22 日截稿，主办方公布的奖金池为 1000 万元",
+      "standfirst": "虎鲸文娱主办、优酷独家展映；这一期记录的是征集截止节点，不是赛事新发布或奖项揭晓。",
       "paragraphs": [
-        "演员在戏里饰演自己，故事也是围绕把肖像授权给片商展开。Shortical 向 TechCrunch 说明，这单是与 Avni 直接约定，而非通过网站的公开肖像授权入口签约。",
-        "公司说，公开招募功能尚未促成新合同。CEO 也没有给出固定授权费或分成规则，表示不同项目会分别商议。"
+        "官方规则将征稿截止定为北京时间 11 月 22 日 23:59，并将入围公布排在 12 月 10 日。赛事先前公布总奖金池 1000 万元、单项最高 200 万元，尚未公布获奖者。",
+        "征集面向不少于 10 分钟的原创故事作品，不限 AI 工具，另有首发要求。主办方把评审、线下复选和后续展映结合起来。"
       ],
-      "whyItMatters": "对制片团队来说，数字替身不是获得演员照片就能用。肖像使用的作品范围、期限和后续补偿需要在合同里写清。",
+      "whyItMatters": "对能独立做完整叙事的创作者，这是一个有后续展映的渠道。首发和获奖作品独家展映条款，也会影响同期投其他平台和电影节。",
       "caveats": [
-        "《Inevitable》此前已在洛杉矶首映；本条报道的是当日公开采访的新披露，不是当天首映或平台当天上线。"
+        "奖金是规则所列总额，并非已发放；入围、复选及颁奖以主办方后续公告为准。"
       ],
-      "figures": [],
-      "publishedAt": "2026-11-22T00:00:00+08:00",
-      "publishedAtNote": "TechCrunch 原始采访 11 月 21 日 08:00 PST 首发，换算至北京时间 11 月 22 日 00:00。",
+      "figures": [
+        "征集截止：11 月 22 日 23:59（北京时间）",
+        "总奖金池 1000 万元｜单项最高 200 万元"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "北京时间 11 月 22 日 23:59 为官网规则所列截稿节点，不是原规则首发时刻。",
       "sources": [
         {
-          "name": "TechCrunch｜演员与 Shortical CEO 原始采访",
-          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "name": "虎鲸文娱／优酷｜现行赛程与原始规则",
+          "url": "https://jingrui-ai-competition.youku.com/?ch=pc_home&view=rules",
           "role": "primary"
+        },
+        {
+          "name": "中国证券报｜此前发布的征集计划",
+          "url": "https://www.cs.com.cn/ssgs/01/2026/09/20/detail_2026092010040474.html",
+          "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-22/evening-shortical.jpg",
-        "alt": "Shortical 提供的 AI 短剧《Inevitable》主视觉海报",
-        "credit": "Shortical 供图，TechCrunch 原访谈刊载",
-        "sourcePage": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-        "retrievedFrom": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?w=1024",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 5,
-      "id": "2026-11-22-evening-05"
+        "file": "2026-11-22/evening-youku-contest.jpg",
+        "alt": "鲸锐 AI 创作大赛官宣主视觉，虎鲸跃出蓝色水面，配有赛事名称与奖金说明",
+        "credit": "虎鲸文娱／优酷官网｜当届官方主视觉及标题图层",
+        "sourcePage": "https://jingrui-ai-competition.youku.com/?ch=pc_home&view=rules",
+        "retrievedFrom": "https://g.alicdn.com/youku_operation_fe/jingdong-ai-contest-react/0.0.9/assets/hero-kv-v129.jpg",
+        "retrievedAt": "2026-11-22T23:28:36+08:00"
+      }
     },
     {
-      "tier": "send",
+      "id": "2026-11-22-evening-08",
+      "rank": 8,
+      "tier": "alternate",
       "region": "海外",
       "kickerEn": "FREEVIDEO",
       "headline": "FreeVideo 更新：合并剪辑可放大，MOV 新增无损音频输出",
@@ -258,14 +349,48 @@
         "sourcePage": "https://freevideo-community.pages.dev/gallery",
         "retrievedFrom": "https://freevideo-community.pages.dev/gallery/freevideo-harbor-rain-hongkong-high.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 6,
-      "id": "2026-11-22-evening-06"
+      }
     },
     {
-      "id": "2026-11-22-evening-07",
-      "rank": 7,
-      "tier": "send",
+      "id": "2026-11-22-evening-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "CREATOR WORKFLOW",
+      "headline": "用游戏引擎导演 AI 预告片：Kevin Ngo 展示自己的搭建流程",
+      "standfirst": "创作者 Kevin Ngo 展示一段经自建游戏引擎制作的预告片，把镜头控制、3D 资产和音频分别交给不同工具。",
+      "paragraphs": [
+        "他在原帖说明，通过 Claude 控制游戏引擎，将引擎中的场景组织成镜头；参与制作的工具包括 GPT Image、Tripo、Meshy 和 ElevenLabs。",
+        "这是一条可供参考的创作流程，而不是新模型或通用软件发布。看点在于先建立可重复调整的场景和资产，再由创作者决定镜头与节奏。"
+      ],
+      "whyItMatters": "需要重复拍摄同一角色或场景时，保留资产和可调的镜头布置，比逐镜从零开始生视频更容易试出连续性。",
+      "caveats": [
+        "作者自行说明流程；效果不代表这些工具的普遍表现。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T02:50:14+08:00",
+      "publishedAtNote": "创作者 X 原帖时间由平台公开时间戳核对后换算为北京时间。",
+      "sources": [
+        {
+          "name": "Kevin Ngo｜原始演示与工具说明",
+          "url": "https://x.com/kevin_t_ngo/status/2124213815697158160",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-kevin.jpg",
+        "alt": "创作者 Kevin Ngo 在 X 上传的预告片视频封面",
+        "credit": "Kevin Ngo 原视频官方贴的缩略图",
+        "sourcePage": "https://x.com/kevin_t_ngo/status/2124213815697158160",
+        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2124213361152053248/img/_1ZpcxdvZ01YP8xm.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-10",
+      "rank": 10,
+      "tier": "alternate",
       "region": "国内",
       "kickerEn": "HUASHU MOTION",
       "headline": "花叔 Motion 更新预告片配乐：按小节适配片长，并检查剪点有没有卡上节拍",
@@ -309,42 +434,7 @@
         "retrievedFrom": "https://raw.githubusercontent.com/alchaincyf/huashu-motion/v0.6.0/docs/media/score-first.gif",
         "retrievedAt": "2026-11-22T21:36:53+08:00"
       }
-    },
-    {
-      "tier": "send",
-      "region": "海外",
-      "kickerEn": "CREATOR WORKFLOW",
-      "headline": "用游戏引擎导演 AI 预告片：Kevin Ngo 展示自己的搭建流程",
-      "standfirst": "创作者 Kevin Ngo 展示一段经自建游戏引擎制作的预告片，把镜头控制、3D 资产和音频分别交给不同工具。",
-      "paragraphs": [
-        "他在原帖说明，通过 Claude 控制游戏引擎，将引擎中的场景组织成镜头；参与制作的工具包括 GPT Image、Tripo、Meshy 和 ElevenLabs。",
-        "这是一条可供参考的创作流程，而不是新模型或通用软件发布。看点在于先建立可重复调整的场景和资产，再由创作者决定镜头与节奏。"
-      ],
-      "whyItMatters": "需要重复拍摄同一角色或场景时，保留资产和可调的镜头布置，比逐镜从零开始生视频更容易试出连续性。",
-      "caveats": [
-        "作者自行说明流程；效果不代表这些工具的普遍表现。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-22T02:50:14+08:00",
-      "publishedAtNote": "创作者 X 原帖时间由平台公开时间戳核对后换算为北京时间。",
-      "sources": [
-        {
-          "name": "Kevin Ngo｜原始演示与工具说明",
-          "url": "https://x.com/kevin_t_ngo/status/2124213815697158160",
-          "role": "primary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-kevin.jpg",
-        "alt": "创作者 Kevin Ngo 在 X 上传的预告片视频封面",
-        "credit": "Kevin Ngo 原视频官方贴的缩略图",
-        "sourcePage": "https://x.com/kevin_t_ngo/status/2124213815697158160",
-        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2124213361152053248/img/_1ZpcxdvZ01YP8xm.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      },
-      "rank": 8,
-      "id": "2026-11-22-evening-08"
     }
-  ]
+  ],
+  "showSendShortlist": true
 }

@@ -145,3 +145,23 @@ test("upsert appends a new date and leaves earlier issues untouched", () => {
   assert.match(archived, /返回最新一期/);
   assert.doesNotMatch(archived, /夹具：早报再新一日/);
 });
+
+test("recommendations appear only on opted-in issues and link to their ranked stories", () => {
+  const content = fs.mkdtempSync(path.join(os.tmpdir(), "ai-news-shortlist-content-"));
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), "ai-news-shortlist-out-"));
+  const old = fixtureIssue({ date: "2026-11-21", edition: "morning", headline: "夹具：无推荐区" });
+  const active = fixtureIssue({ date: "2026-11-22", edition: "morning", headline: "夹具：留在备选" });
+  active.showSendShortlist = true;
+  active.stories[0].tier = "alternate";
+  active.stories.push({ ...active.stories[0], id: "2026-11-22-morning-02", rank: 2, tier: "send", headline: "夹具：当前推荐" });
+  writeIssue(content, old);
+  writeIssue(content, active);
+  buildSite({ contentDir: content, outDir: out, base: "/ai-news" });
+  const changed = read(path.join(out, "morning", "2026-11-22", "index.html"));
+  const oldHtml = read(path.join(out, "morning", "2026-11-21", "index.html"));
+  const section = changed.match(/<section class="archive" aria-labelledby="send-shortlist-title">[\s\S]*?<\/section>/)?.[0];
+  assert.match(section, /建议发送/);
+  assert.match(section, /value="2"><a href="#s-2026-11-22-morning-02">02 · 夹具：当前推荐/);
+  assert.doesNotMatch(section, /夹具：留在备选/);
+  assert.doesNotMatch(oldHtml, /send-shortlist-title/);
+});

@@ -144,6 +144,9 @@ export function validateIssue(issue, options = {}) {
   if (!isNonEmptyString(issue.editorsNote) || issue.editorsNote.trim().length < 8) {
     errors.push(err("editors_note", `${where}editorsNote 太短`));
   }
+  if (issue.showSendShortlist !== undefined && typeof issue.showSendShortlist !== "boolean") {
+    errors.push(err("show_send_shortlist", `${where}showSendShortlist 必须是布尔值`));
+  }
   if (!Array.isArray(issue.stories) || issue.stories.length < 1) {
     errors.push(err("stories", `${where}stories 至少要有一条`));
     return errors;

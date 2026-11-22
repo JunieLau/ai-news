@@ -180,6 +180,18 @@ function pageShell({
 `;
 }
 
+function sendShortlist(issue, stories) {
+  if (issue.showSendShortlist !== true) return "";
+  const recommended = stories.filter((story) => story.tier === "send");
+  if (!recommended.length) return "";
+  const items = recommended.map((story) => `<li value="${story.rank}"><a href="#s-${escapeHtml(story.id)}">${String(story.rank).padStart(2, "0")} · ${escapeHtml(story.headline)}</a></li>`).join("");
+  return `
+      <section class="archive" aria-labelledby="send-shortlist-title">
+        <h2 id="send-shortlist-title" class="section-title"><span>建议发送</span><span class="en">EDITOR’S PICKS</span></h2>
+        <ol>${items}</ol>
+      </section>`;
+}
+
 export function renderIssuePage({ issue, stream, base, role }) {
   const meta = EDITIONS[issue.edition];
   const latestDate = stream[0]?.issueDate || "";
@@ -208,7 +220,7 @@ export function renderIssuePage({ issue, stream, base, role }) {
         <div class="col col-right">${right.map((story) => teaser(story, base)).join("")}</div>
       </section>
       <h2 class="section-title"><span>本期条目</span><span class="en">BY HEAT</span></h2>
-      <div class="stories">${stories.map((story) => storyArticle(story, issue, base)).join("")}</div>
+      <div class="stories">${stories.map((story) => storyArticle(story, issue, base)).join("")}</div>${sendShortlist(issue, stories)}
       <section class="archive" aria-labelledby="archive-title">
         <h2 id="archive-title" class="section-title"><span>历史目录</span><span class="en">ARCHIVE</span></h2>
         <ol>${archiveList(stream, issue.issueDate, base)}</ol>
