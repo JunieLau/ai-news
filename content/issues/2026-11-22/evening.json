@@ -2,16 +2,269 @@
   "issueDate": "2026-11-22",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22T21:34:26+08:00",
-  "retrievedThrough": "2026-11-22T21:34:26+08:00",
+  "updatedAt": "2026-11-22T22:04:54+08:00",
+  "retrievedThrough": "2026-11-22T22:04:54+08:00",
   "slot": "20:00",
-  "slotNote": "晚报在档期后补发；所收发布日期由原始来源决定。",
+  "slotNote": "本期补订，只收北京时间 11 月 22 日可证实首发、首次披露或实际发生的新进展。来源只标日期时不编造时分。",
   "title": "AI电影与视频速报",
-  "editorsNote": "这期从 11 月 22 日清晨更新的预告片配乐工具读起，再补录三条周末前后未报道的动效、数字人和素材分析工具。标题不把补录内容写成今天上线。",
+  "editorsNote": "本期按北京时间 11 月 22 日核查，只保留当天电影、视频和制作工具的实质进展；核实 8 条，撤下 3 条更早的补录。",
   "stories": [
     {
-      "id": "2026-11-22-evening-01",
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "TENCENT VIDEO",
+      "headline": "腾讯视频上线 AI 短剧《秦岭青铜诡事录2》",
+      "standfirst": "腾讯视频官方预告确认，《秦岭青铜诡事录2》于 11 月 22 日中午上线。作品延续秦岭探秘与奇诡冒险题材。",
+      "paragraphs": [
+        "腾讯发布了当天档期和观看入口。同期制作报道将它归为 AI 漫剧，属于有连续剧情的剧集，不是单张生成图或平台功能演示。",
+        "这是一则续作上线消息，不把第一季的播放表现或榜单成绩转写成第二季数据。"
+      ],
+      "whyItMatters": "AI 影像制作者可以观察这种系列作品如何延续角色、美术风格与单集节奏，以及如何在平台上面向传统剧集观众。",
+      "caveats": [
+        "目前不把未核实的第二季热度或制作成本写入报道。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T12:00:00+08:00",
+      "publishedAtNote": "12:00 为腾讯视频原始公告所载的当天上线时间，不是预告帖的发表时间。",
+      "sources": [
+        {
+          "name": "腾讯视频｜原始上线公告",
+          "url": "https://m.weibo.cn/2/detail/5367298732328320",
+          "role": "primary"
+        },
+        {
+          "name": "腾讯视频｜观看入口",
+          "url": "https://vv.qq.com/eu0zMwEC",
+          "role": "secondary"
+        },
+        {
+          "name": "澎湃新闻｜制作与行业背景",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34491948",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-qinling.jpg",
+        "alt": "腾讯视频发布的《秦岭青铜诡事录2》宣传画面",
+        "credit": "腾讯视频官方上线公告配图",
+        "sourcePage": "https://m.weibo.cn/2/detail/5367298732328320",
+        "retrievedFrom": "https://wx3.sinaimg.cn/cmw960/006apDefly1ij7mf6bptpj30zk0k0wju.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
       "rank": 1,
+      "id": "2026-11-22-evening-01"
+    },
+    {
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "POPNOW",
+      "headline": "PopNow 更新 3D 预演：角色摆姿和镜头视角可以在出图前确定",
+      "standfirst": "PopNow 11 月 22 日的更新把角色操作、镜头参数和分镜输出放进同一套影视预演流程。",
+      "paragraphs": [
+        "创作者可以拖动控件给整个角色摆姿，再锁住关节，或给角色设定视线与触碰目标。相机可选传感器及画幅，再按焦距确定视野。分镜 PDF 新增 A4 和 Letter 版式。",
+        "同一批变更也涉及画布、视频剪辑和短剧工具。最值得导演关注的是在生成前把动作、走位与镜头方向先确定，而不是用一次次出图碰运气。"
+      ],
+      "whyItMatters": "预演可给导演、美术和摄影一份共同的镜头参照，适合先核对轴线、视线和构图，再进入生成或实拍。",
+      "caveats": [
+        "配图是官方预演产品已有的追逐镜头示例，用来说明工作流程，不是本次新界面的截图。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "PopNow 官方更新日志将这批变更列于 2026 年 11 月 22 日；未公开小时及时区，不补造时间。",
+      "sources": [
+        {
+          "name": "PopNow｜11 月 22 日更新日志",
+          "url": "https://popnow.ai/changelog#previs-stage-three-1122",
+          "role": "primary"
+        },
+        {
+          "name": "PopNow Previs 产品与演示",
+          "url": "https://popnow.ai/previs",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-popnow.jpg",
+        "alt": "PopNow 预演产品页展示的电影追逐镜头成片示例",
+        "credit": "PopNow Previs 官方产品页追逐镜头示例",
+        "sourcePage": "https://popnow.ai/previs",
+        "retrievedFrom": "https://media.popnow.ai/previs/hero/chase-final-58a0668e.webp",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 2,
+      "id": "2026-11-22-evening-02"
+    },
+    {
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "AFRICAN AI FILM FESTIVAL",
+      "headline": "首届非洲 AI 电影节完成好莱坞展映活动",
+      "standfirst": "非洲 AI 电影节首届好莱坞活动在洛杉矶举行。按北京时间，活动从 11 月 22 日上午持续到中午。",
+      "paragraphs": [
+        "主办方活动页现标记为已结束。按公布流程，开场红毯后放映入选影片，随后进行颁奖环节。",
+        "主办方此前的正式入选方案披露，收到来自 45 个国家的 523 份投稿，选出 47 部。这里报道的是当天现场展映，不是入选名单当天公布。"
+      ],
+      "whyItMatters": "这是观察国际 AI 电影作品如何走进影院、建立跨地区观众的一次具体活动。",
+      "caveats": [
+        "未核到主办方公开的获奖名单，不推断具体作品获奖。"
+      ],
+      "figures": [
+        "523 份投稿、45 个国家；47 部正式入选。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "主办方活动页所列洛杉矶时间 11 月 21 日 18:00–21:00 PST，换算北京时间 11 月 22 日 10:00–13:00。活动时间并非报名页发布时间。",
+      "sources": [
+        {
+          "name": "主办方｜已结束活动与日程",
+          "url": "https://luma.com/mc7nl68k",
+          "role": "primary"
+        },
+        {
+          "name": "主办方｜正式入选资料",
+          "url": "https://africanaifilmfestival.org/selections",
+          "role": "secondary"
+        },
+        {
+          "name": "主办方新闻稿｜活动海报",
+          "url": "https://www.financialcontent.com/article/marketersmedia-2026-10-3-african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-hollywood.jpg",
+        "alt": "首届非洲 AI 电影节好莱坞活动官方海报",
+        "credit": "主办方随新闻稿分发的好莱坞活动海报",
+        "sourcePage": "https://www.financialcontent.com/article/marketersmedia-2026-10-3-african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala",
+        "retrievedFrom": "https://storage.googleapis.com/mmstudio-images/gallery/LqyUbYl4ZOMAQz5uJfpPJTizrON2/89205110-1791045976-1.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 3,
+      "id": "2026-11-22-evening-03"
+    },
+    {
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "WUHAN AIGC FORUM",
+      "headline": "武汉举行 AIGC 短剧论坛，平台与制作方讨论产业规范",
+      "standfirst": "11 月 22 日，武汉的 AIGC 短剧相关分论坛讨论从作品生产、平台协作到行业规范的问题。",
+      "paragraphs": [
+        "论坛有来自制作及平台侧的参与者，腾讯和字节跳动相关代表出现在会议报道中。活动讨论短剧制作和行业规范，不等于任何一家平台发布产品。",
+        "分论坛的参与规模与大会总规模不同，不把大会总人数当成这场短剧论坛的人数。"
+      ],
+      "whyItMatters": "AI 短剧进入规模化制作后，片方最需要弄清的不只是工具能力，还包括交付规范、素材权利和平台如何接收作品。",
+      "caveats": [
+        "这是会议上的讨论与交流，暂无证据表明当场发布正式行业标准。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "依据当日活动方信息和现场报道，论坛于北京时间 11 月 22 日举行；未把媒体发稿时分写成活动开始时分。",
+      "sources": [
+        {
+          "name": "活动方｜会议信息",
+          "url": "https://weibo.com/2/detail/5368147997889152",
+          "role": "primary"
+        },
+        {
+          "name": "凤凰网｜活动现场报道与照片",
+          "url": "https://news.ifeng.com/c/8yGY0YmxF7o",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-wuhan.jpg",
+        "alt": "武汉 AIGC 短剧论坛现场会议照片",
+        "credit": "活动现场照片，凤凰网报道刊载",
+        "sourcePage": "https://news.ifeng.com/c/8yGY0YmxF7o",
+        "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_48/277130A64F9114FD843061DDBEDA4B666802A76D_size493_w1269_h715.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 4,
+      "id": "2026-11-22-evening-04"
+    },
+    {
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "SHORTICAL",
+      "headline": "Shortical 披露 AI 短剧演员肖像授权细节，首例由双方直接签约",
+      "standfirst": "短剧平台 Shortical 的首个真实肖像授权案例是《Inevitable》：演员 Aki Avni 授权剧组制作他的数字化形象。采访披露了该单的签约方式和平台开放招募的进展。",
+      "paragraphs": [
+        "演员在戏里饰演自己，故事也是围绕把肖像授权给片商展开。Shortical 向 TechCrunch 说明，这单是与 Avni 直接约定，而非通过网站的公开肖像授权入口签约。",
+        "公司说，公开招募功能尚未促成新合同。CEO 也没有给出固定授权费或分成规则，表示不同项目会分别商议。"
+      ],
+      "whyItMatters": "对制片团队来说，数字替身不是获得演员照片就能用。肖像使用的作品范围、期限和后续补偿需要在合同里写清。",
+      "caveats": [
+        "《Inevitable》此前已在洛杉矶首映；本条报道的是当日公开采访的新披露，不是当天首映或平台当天上线。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T00:00:00+08:00",
+      "publishedAtNote": "TechCrunch 原始采访 11 月 21 日 08:00 PST 首发，换算至北京时间 11 月 22 日 00:00。",
+      "sources": [
+        {
+          "name": "TechCrunch｜演员与 Shortical CEO 原始采访",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-shortical.jpg",
+        "alt": "Shortical 提供的 AI 短剧《Inevitable》主视觉海报",
+        "credit": "Shortical 供图，TechCrunch 原访谈刊载",
+        "sourcePage": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "retrievedFrom": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?w=1024",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 5,
+      "id": "2026-11-22-evening-05"
+    },
+    {
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "FREEVIDEO",
+      "headline": "FreeVideo 更新：合并剪辑可放大，MOV 新增无损音频输出",
+      "standfirst": "FreeVideo 0.6.7 的实用变化集中在生成后交付：合并后的剪辑可执行放大处理，MOV 可选无损或未压缩音频。",
+      "paragraphs": [
+        "此前逐段完成的画面可先在工具内合并，再进行放大处理。MOV 的音频选项面向还要进入其他后期软件的交付流程。",
+        "在 Apple Silicon 上遇到内存不足时，程序也可自动用占用较低的方式重试。"
+      ],
+      "whyItMatters": "更适合把重心放在最后导出和后期接手的制作，而不只是看单段生成效果。",
+      "caveats": [
+        "配图是官方作品画廊，不代表这版新功能的对比实测。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "官方 GitHub 版本发布时间换算为北京时间 11 月 22 日 04:04；不写未经复核秒数。",
+      "sources": [
+        {
+          "name": "FreeVideo｜官方 0.6.7 版本说明",
+          "url": "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.6.7",
+          "role": "primary"
+        },
+        {
+          "name": "FreeVideo｜官方作品画廊",
+          "url": "https://freevideo-community.pages.dev/gallery",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-freevideo.jpg",
+        "alt": "FreeVideo 官方作品画廊中的香港雨夜港口成片示例",
+        "credit": "FreeVideo 官方画廊示例，非本版新增功能前后对比",
+        "sourcePage": "https://freevideo-community.pages.dev/gallery",
+        "retrievedFrom": "https://freevideo-community.pages.dev/gallery/freevideo-harbor-rain-hongkong-high.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 6,
+      "id": "2026-11-22-evening-06"
+    },
+    {
+      "id": "2026-11-22-evening-07",
+      "rank": 7,
       "tier": "send",
       "region": "国内",
       "kickerEn": "HUASHU MOTION",
@@ -58,148 +311,40 @@
       }
     },
     {
-      "id": "2026-11-22-evening-02",
-      "rank": 2,
       "tier": "send",
       "region": "海外",
-      "kickerEn": "OPENMOTION",
-      "headline": "OpenMotion 更新 Cinema Studio：AI 重做的动效可以回到时间线上继续剪",
-      "standfirst": "开源工具 OpenMotion 发布 0.2.1，Cinema Studio 新增模板和生成预设。它的输出不止是一条成片，还可以保留可编辑工程。",
+      "kickerEn": "CREATOR WORKFLOW",
+      "headline": "用游戏引擎导演 AI 预告片：Kevin Ngo 展示自己的搭建流程",
+      "standfirst": "创作者 Kevin Ngo 展示一段经自建游戏引擎制作的预告片，把镜头控制、3D 资产和音频分别交给不同工具。",
       "paragraphs": [
-        "OpenMotion 可以将参考片拆成镜头、转场和声画节奏，再由 Claude Code、Codex 等智能体用 HTML、CSS 和 JavaScript 重建。创作者可以在 Studio 调镜头顺序和时间、替换素材，再导出 MP4。",
-        "这次更新重点是 Cinema Studio 的起步模板和生成预设，另加了可试玩的 Game Studio；参考片拆解和可编辑时间线不是这版才出现的功能。"
+        "他在原帖说明，通过 Claude 控制游戏引擎，将引擎中的场景组织成镜头；参与制作的工具包括 GPT Image、Tripo、Meshy 和 ElevenLabs。",
+        "这是一条可供参考的创作流程，而不是新模型或通用软件发布。看点在于先建立可重复调整的场景和资产，再由创作者决定镜头与节奏。"
       ],
-      "whyItMatters": "对需要反复试片头、字幕动画或节奏的创作者来说，素材和时间线留在工程里，比每次重新生成视频更容易改。",
+      "whyItMatters": "需要重复拍摄同一角色或场景时，保留资产和可调的镜头布置，比逐镜从零开始生视频更容易试出连续性。",
       "caveats": [
-        "这不是新的通用视频生成模型。第三方生成可能需要自带账户或 API 密钥；重做参考片不等于取得素材使用权。"
+        "作者自行说明流程；效果不代表这些工具的普遍表现。"
       ],
-      "figures": [
-        "v0.2.1；官方列出 7 个工作区，包含 Cinema Studio。"
-      ],
-      "publishedAt": "2026-11-21T18:30:45+08:00",
-      "publishedAtNote": "GitHub 官方版本 API published_at 为 2026-11-21 10:30:45 UTC；已换算为北京时间。本期周末补录。",
+      "figures": [],
+      "publishedAt": "2026-11-22T02:50:14+08:00",
+      "publishedAtNote": "创作者 X 原帖时间由平台公开时间戳核对后换算为北京时间。",
       "sources": [
         {
-          "name": "OpenMotion 0.2.1 版本说明",
-          "url": "https://github.com/nexu-io/openmotion/releases/tag/v0.2.1",
+          "name": "Kevin Ngo｜原始演示与工具说明",
+          "url": "https://x.com/kevin_t_ngo/status/2124213815697158160",
           "role": "primary"
-        },
-        {
-          "name": "OpenMotion 官方项目仓库",
-          "url": "https://github.com/nexu-io/openmotion",
-          "role": "secondary"
-        },
-        {
-          "name": "GitHub 发布元数据",
-          "url": "https://api.github.com/repos/nexu-io/openmotion/releases/tags/v0.2.1",
-          "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-22/evening-01.jpg",
-        "alt": "OpenMotion 官方对比示意图，参考视频和重制视频显示在可编辑时间线之上",
-        "credit": "OpenMotion 项目仓库，简中 README 产品实拍与演示封面",
-        "sourcePage": "https://github.com/nexu-io/openmotion",
-        "retrievedFrom": "https://raw.githubusercontent.com/nexu-io/openmotion/main/docs/readme/capcut-claude-motion-cover.zh-CN.webp",
-        "retrievedAt": "2026-11-22T21:34:26+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-03",
-      "rank": 3,
-      "tier": "send",
-      "region": "海外",
-      "kickerEn": "KYUTAI",
-      "headline": "Kyutai 公开 AURA：一张肖像加实时语音，边说边生成数字人口播",
-      "standfirst": "法国研究机构 Kyutai 公布两个音频驱动数字人模型，并开放权重与在线演示。",
-      "paragraphs": [
-        "与等整段音轨录完再合成不同，AURA 按小段接收语音并连续生成说话头像，不用预先听到后面的内容。研发团队还把它接到语音助手 Unmute，让用户和实时生成的数字人对话。",
-        "按团队在单张 H100 上的测试，1.3B 版在 576p 达 20.7 帧/秒，足够支持演示的 16 帧/秒播放；5B 版分辨率升到 720p，但吞吐约 9.7 帧/秒。"
-      ],
-      "whyItMatters": "如果目标是一个能回应观众的角色，重点从单条视频的画质变成了能否及时接话、开口时是否自然。",
-      "caveats": [
-        "这是说话头像，不是实时全身表演。帧率是团队测试；官方在线演示仍约有 1.2 秒视频滞后，两版权重均有非商业限制，不可直接视作可商用。"
-      ],
-      "figures": [
-        "约 1.2 秒演示滞后；576p / 20.7 帧每秒与 720p / 9.7 帧每秒，均为团队公开测试。"
-      ],
-      "publishedAt": null,
-      "publishedAtNote": "Kyutai 官方项目公告署期 2026-11-20，未公开时分；周末补录。",
-      "sources": [
-        {
-          "name": "Kyutai AURA 官方公告",
-          "url": "https://kyutai.org/aura/",
-          "role": "primary"
-        },
-        {
-          "name": "论文作者 AURA 项目页",
-          "url": "https://nathanielcohen3.github.io/aura_website/",
-          "role": "secondary"
-        },
-        {
-          "name": "Kyutai AURA 代码与模型许可",
-          "url": "https://github.com/kyutai-labs/aura",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-02.jpg",
-        "alt": "AURA 论文作者的示意图，展示多种参考肖像和音频驱动的说话头像生成结果",
-        "credit": "AURA 论文作者项目页的官方 teaser 示例；并非现场照片",
-        "sourcePage": "https://nathanielcohen3.github.io/aura_website/",
-        "retrievedFrom": "https://nathanielcohen3.github.io/aura_website/static/images/teaser_cr.png",
-        "retrievedAt": "2026-11-22T21:34:26+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-04",
-      "rank": 4,
-      "tier": "send",
-      "region": "国内",
-      "kickerEn": "WECHAT VISION",
-      "headline": "腾讯微信视觉公开 WeMM-Video：看片时也听原声，输出的是分析而非新视频",
-      "standfirst": "中英双语模型既能只看画面，也能结合原声做文本问答、转写、概括和理解。",
-      "paragraphs": [
-        "微信视觉团队公开 WeMM-Video 的代码、权重和评测材料。官方示例把同一段阿波罗 11 号片段分两次输入：一次只问画面发生了什么，一次同时问画面和录音里说了什么。",
-        "已列出 2B、4B、9B 稠密版和 35B-A3B 混合专家版。产品输入可以包括文本、图片、音频和视频，输出都是文字。"
-      ],
-      "whyItMatters": "比只抽关键帧更适合查素材。比如要找一句台词与某个动作出现在一起的片段，可以把对话和画面交给同一个模型一起判断。",
-      "caveats": [
-        "不是视频生成器。团队公布的比较成绩不能替代自己的素材验证；代码采用 Apache 2.0，权重许可要按具体模型检查。"
-      ],
-      "figures": [
-        "4 个规模：2B、4B、9B 和 35B-A3B。"
-      ],
-      "publishedAt": "2026-11-20T00:58:15+08:00",
-      "publishedAtNote": "时间为 arXiv v1 记录 2026-11-19 16:58:15 UTC 换算北京；代码仓库许可标记 11 月 20 日，不等于同一时刻发布。周末补录。",
-      "sources": [
-        {
-          "name": "腾讯 WeMM-Video 官方仓库",
-          "url": "https://github.com/Tencent/WeMM-Video",
-          "role": "primary"
-        },
-        {
-          "name": "团队技术报告 arXiv:2611.26409",
-          "url": "https://arxiv.org/abs/2611.26409",
-          "role": "secondary"
-        },
-        {
-          "name": "腾讯 WeMM-Video 官方架构图",
-          "url": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-03.jpg",
-        "alt": "WeMM-Video 官方架构图，图像、视频帧与音频进入不同编码器，再由语言模型生成文字",
-        "credit": "腾讯微信视觉团队官方仓库架构图",
-        "sourcePage": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
-        "retrievedFrom": "https://raw.githubusercontent.com/Tencent/WeMM-Video/main/assets/wemm-video-architecture.png",
-        "retrievedAt": "2026-11-22T21:34:26+08:00"
-      }
+        "file": "2026-11-22/evening-kevin.jpg",
+        "alt": "创作者 Kevin Ngo 在 X 上传的预告片视频封面",
+        "credit": "Kevin Ngo 原视频官方贴的缩略图",
+        "sourcePage": "https://x.com/kevin_t_ngo/status/2124213815697158160",
+        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2124213361152053248/img/_1ZpcxdvZ01YP8xm.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      },
+      "rank": 8,
+      "id": "2026-11-22-evening-08"
     }
   ]
 }
