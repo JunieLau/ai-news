@@ -2,21 +2,21 @@
   "issueDate": "2026-11-22",
   "edition": "morning",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22T23:28:36+08:00",
-  "retrievedThrough": "2026-11-22T23:28:36+08:00",
+  "updatedAt": "2026-11-23T01:01:18+08:00",
+  "retrievedThrough": "2026-11-22T10:00:00+08:00",
   "slot": "10:00",
-  "slotNote": "本期为 11 月 22 日早报补订。选题以北京时间当天 10:00 档期回溯，优先此前 24 小时，必要时延至 48 小时；页面更新时间记录实际补订时刻。",
+  "slotNote": "本期为 11 月 22 日早报复核版。选题回溯至北京时间当天 10:00，更新时刻另记。",
   "title": "AI新闻速报",
-  "editorsNote": "按早报 24–48 小时新口径补入四条，合计 10 条。按实质影响和已有公开证据排序；末尾「建议发送」为编辑推荐，其余仍保留为备选。",
+  "editorsNote": "按新版标准复核原始出处、时间窗与前期报道，按事件热度排序。本期主版 10 条，推荐 4 条。未达主版门槛的内容留档，不凑数。",
   "stories": [
     {
       "id": "2026-11-22-morning-01",
       "rank": 1,
       "tier": "send",
       "region": "海外",
-      "kickerEn": "LEAN MATHLIB",
-      "headline": "Lean 与 Mathlib 社区称，Claude 辅助的黎曼猜想形式化证明通过检查",
-      "standfirst": "这比作者单方面宣布多了一步核验，但不是克雷数学研究所认定，也不等同于学界已形成共识。",
+      "kickerEn": "RESEARCH L1",
+      "headline": "黎曼猜想证明通过独立机器核验",
+      "standfirst": "Lean 社区确认了推理；克雷研究所尚未认定。",
       "paragraphs": [
         "11 月 21 日，Lean 与 Mathlib 社区发表联合声明，称团队检查了 Anthropic 数学研究人员 Levent Alpöge 发布的 Lean 证明：程序能够编译，经核对证明指向标准的形式化命题，并进行了独立的检查。Alpöge 此前在个人说明中介绍了自己如何与 Claude 合作，成果以约 1700 万行 Lean 代码公开。",
         "联合声明还区分了广义版本的范围：检查的是狄利克雷 L 函数，不是所有其他类别的 L 函数。MIT 数学家 Andrew Sutherland 也公开了他执行的一系列核验及结果。"
@@ -28,8 +28,8 @@
       "figures": [
         "约 1700 万行 Lean 代码"
       ],
-      "publishedAt": null,
-      "publishedAtNote": "Lean 与 Mathlib 联合声明显示 2026-11-21 13:55，页面未标时区；同一原文最迟于 11 月 21 日 14:36 UTC（北京时间 22:36）已被公开链接，独立媒体当日亦报道。11 月 20 日作者最初的公告不是本条新闻点。",
+      "publishedAt": "2026-11-21T21:55:00+08:00",
+      "publishedAtNote": "Lean 社区原文机器可读发布时间为 11 月 21 日 13:55 UTC，即北京时间 21:55；不是作者 11 月 20 日的首次公告。",
       "sources": [
         {
           "name": "Lean 与 Mathlib 社区｜联合声明",
@@ -55,6 +55,11 @@
           "name": "Hacker News｜联合声明公开链接时间",
           "url": "https://news.ycombinator.com/front?day=2026-11-21",
           "role": "secondary"
+        },
+        {
+          "name": "Lean 官方发布帖",
+          "url": "https://x.com/leanprover/status/2124159121645801562",
+          "role": "secondary"
         }
       ],
       "image": {
@@ -72,9 +77,276 @@
       "rank": 2,
       "tier": "send",
       "region": "海外",
-      "kickerEn": "TOGETHER AI",
-      "headline": "Together AI 披露部分推理请求提示词样本泄露",
-      "standfirst": "Together AI 通知客户，一批无服务器推理服务的历史提示词测试样本遭未授权下载。公司仍在核查涉及哪些客户。",
+      "kickerEn": "PRODUCT L2",
+      "headline": "特斯拉开始推送 FSD v15 早期版",
+      "standfirst": "新界面显示道路实景，仍需驾驶员监督。",
+      "paragraphs": [
+        "发行说明记录了面向这一批设备的软件版本。与此前界面相比，演示中的 Reality View 用接近实景的视图呈现路况和周边对象。",
+        "这是一轮软件的早期推送，而不是全市场、全部硬件同时更新。"
+      ],
+      "whyItMatters": "车机更直观地展示系统对道路的理解，有助于驾驶者知道系统看到了什么，但不代表它总能正确判断。",
+      "caveats": [
+        "FSD 仍为 Supervised（驾驶员监督）产品，不能当作完全自动驾驶；没有证据表明当天向中国用户普遍推送。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T03:24:32+08:00",
+      "publishedAtNote": "特斯拉官方 X 原帖的平台时间戳换算为北京时间。",
+      "sources": [
+        {
+          "name": "Tesla｜官方推送帖",
+          "url": "https://x.com/Tesla/status/2124222447855743019",
+          "role": "primary"
+        },
+        {
+          "name": "Tessie｜版本说明",
+          "url": "https://stats.tessie.com/versions/2026.38.6.11",
+          "role": "secondary"
+        },
+        {
+          "name": "techAU｜演示画面",
+          "url": "https://techau.com.au/tesla-fsd-v15-is-rolling-out-with-new-reality-view-dramatic-capability-improvements/",
+          "role": "secondary"
+        },
+        {
+          "name": "Electrek｜覆盖早期推送",
+          "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+          "role": "secondary"
+        },
+        {
+          "name": "Gizmodo｜报道界面变更",
+          "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-tesla.jpg",
+        "alt": "Tesla FSD v15 官方演示视频中的车机道路显示画面",
+        "credit": "Tesla 官方演示视频静帧，经 techAU 刊载",
+        "sourcePage": "https://techau.com.au/tesla-fsd-v15-is-rolling-out-with-new-reality-view-dramatic-capability-improvements/",
+        "retrievedFrom": "https://techau.com.au/wp-content/uploads/2026/11/FSDv15-Visualisation-001000-1024x576.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "MODEL L1",
+      "headline": "Inkling 2 Mini 开放模型权重",
+      "standfirst": "约 20GB 的模型可在部分笔记本本地运行。",
+      "paragraphs": [
+        "Thinking Machines Lab 公布 Inkling 2 Mini。模型共有 264 亿参数，每个文字片段通常只启用其中 34 亿；中间层可重复计算来做推理。",
+        "权重以 Apache 2.0 许可证提供，也可用 Tinker 托管推理或微调。Hugging Face 另提供从 4 位量化版本开始的本地部署选项。"
+      ],
+      "whyItMatters": "能运行较小的本地模型，让开发者可以在不上传文件的情况下试做编程和多模态任务。速度和显存仍取决于硬件、量化方式与上下文长度。",
+      "caveats": [
+        "成绩由厂商公布，不能理解为对所有场景或所有同级模型的保证。"
+      ],
+      "figures": [
+        "264 亿总参数",
+        "约 20GB 模型占用（厂商口径）"
+      ],
+      "publishedAt": "2026-11-21T04:10:34+08:00",
+      "publishedAtNote": "厂商原始发布帖为北京时间 11 月 21 日约 04:10；官方主站按美国当地 11 月 20 日署期。",
+      "sources": [
+        {
+          "name": "Thinking Machines Lab｜发布原文",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "role": "primary"
+        },
+        {
+          "name": "厂商原始公告",
+          "url": "https://x.com/thinkymachines/status/2123871643797995872",
+          "role": "secondary"
+        },
+        {
+          "name": "Hugging Face｜本地部署说明",
+          "url": "https://huggingface.co/blog/inkling2mini",
+          "role": "secondary"
+        },
+        {
+          "name": "VentureBeat｜独立报道",
+          "url": "https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-inkling.jpg",
+        "alt": "官方发布页的 MacBook 本地飞行模拟器演示截图",
+        "credit": "Thinking Machines Lab｜官方实录截图",
+        "sourcePage": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "retrievedFrom": "https://thinkingmachines.ai/_astro/planebench-demo3-poster.tVe46_31.jpg",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
+      "rank": 3,
+      "id": "2026-11-22-morning-03",
+      "tier": "send"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "POLICY L1",
+      "headline": "美众议院报告建议限制中国开放权重模型",
+      "standfirst": "两委员会建议部分联邦及关键系统禁用，尚非生效规定。",
+      "paragraphs": [
+        "美国众议院国土安全委员会与中国问题特别委员会发布联合调查，提出 12 项建议。讨论的范围包括联邦系统、处理联邦数据的承包业务和关键基础设施的高风险场景。",
+        "委员会列出 Airbnb 客服和 Cursor 编程产品等采用中国模型的例子，建议建立模型来源追踪标准。文件是政策建议，不等于已经强制这些公司下架模型。"
+      ],
+      "whyItMatters": "开源或开放权重的来源，可能不再只是技术和成本选择。涉及联邦采购或敏感基础设施的团队需要留意后续成文规则，而不是把报告当法律。",
+      "caveats": [
+        "委员会报告包含政策主张和其对安全风险的判断，不代表法院或独立技术评估结论。"
+      ],
+      "figures": [
+        "12 项政策建议"
+      ],
+      "publishedAt": "2026-11-20T22:53:59+08:00",
+      "publishedAtNote": "委员会官网机器可读原始时间为华盛顿 11 月 20 日 09:53:59，换算为北京时间 22:53:59。",
+      "sources": [
+        {
+          "name": "美国众议院｜正式发布",
+          "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+          "role": "primary"
+        },
+        {
+          "name": "两委员会｜调查报告全文",
+          "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2026.11.16-joint-report-prc-ai-models-signed-final-1.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "CNBC｜调查报道",
+          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+          "role": "secondary"
+        },
+        {
+          "name": "美国众议院｜公开发布时间记录",
+          "url": "https://homeland.house.gov/wp-json/wp/v2/posts/8787?_fields=date,date_gmt,link",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-house-report.jpg",
+        "alt": "美国众议院两委员会联合调查报告封面",
+        "credit": "美国众议院｜官方报告原件封面",
+        "sourcePage": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2026.11.16-joint-report-prc-ai-models-signed-final-1.pdf",
+        "retrievedFrom": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2026.11.16-joint-report-prc-ai-models-signed-final-1.pdf",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
+      "rank": 4,
+      "id": "2026-11-22-morning-04",
+      "tier": "send"
+    },
+    {
+      "id": "2026-11-22-morning-05",
+      "rank": 5,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "MODEL L1",
+      "headline": "腾讯开源能听也能看的视频理解模型",
+      "standfirst": "WeMM-Video 联合分析画面与原声，输出文本而非视频。",
+      "paragraphs": [
+        "微信视觉团队公开 WeMM-Video 的代码、权重和评测材料。官方示例把同一段阿波罗 11 号片段分两次输入：一次只问画面发生了什么，一次同时问画面和录音里说了什么。",
+        "已列出 2B、4B、9B 稠密版和 35B-A3B 混合专家版。产品输入可以包括文本、图片、音频和视频，输出都是文字。"
+      ],
+      "whyItMatters": "比只抽关键帧更适合查素材。比如要找一句台词与某个动作出现在一起的片段，可以把对话和画面交给同一个模型一起判断。",
+      "caveats": [
+        "不是视频生成器。团队公布的比较成绩不能替代自己的素材验证；代码采用 Apache 2.0，权重许可要按具体模型检查。"
+      ],
+      "figures": [
+        "4 个规模：2B、4B、9B 和 35B-A3B。"
+      ],
+      "publishedAt": "2026-11-20T18:14:00+08:00",
+      "publishedAtNote": "微信官方账号发布公开公告的时间换算为北京时间 11 月 20 日 18:14。技术报告 v1 在此之前已公开；这是公开发布公告，不把较早的 arXiv 时间当本期新闻点。",
+      "sources": [
+        {
+          "name": "腾讯 WeMM-Video 官方仓库",
+          "url": "https://github.com/Tencent/WeMM-Video",
+          "role": "primary"
+        },
+        {
+          "name": "微信官方｜面向公众的发布公告",
+          "url": "https://x.com/Weixin_WeChat/status/2123721746604040268",
+          "role": "secondary"
+        },
+        {
+          "name": "团队技术报告 arXiv:2611.26409",
+          "url": "https://arxiv.org/abs/2611.26409",
+          "role": "secondary"
+        },
+        {
+          "name": "腾讯 WeMM-Video 官方架构图",
+          "url": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+          "role": "secondary"
+        },
+        {
+          "name": "Promptowy｜模型资料独立解读",
+          "url": "https://promptowy.com/en/tencent-wemm-video-audio-video-models/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-03.jpg",
+        "alt": "WeMM-Video 官方架构图，图像、视频帧与音频进入不同编码器，再由语言模型生成文字",
+        "credit": "腾讯微信视觉团队官方仓库架构图",
+        "sourcePage": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
+        "retrievedFrom": "https://raw.githubusercontent.com/Tencent/WeMM-Video/main/assets/wemm-video-architecture.png",
+        "retrievedAt": "2026-11-22T21:34:26+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "CAPITAL L1",
+      "headline": "珞石机器人启动境内上市辅导",
+      "standfirst": "港交所公告披露已提交辅导备案申请，不等于获准上市。",
+      "paragraphs": [
+        "珞石机器人通过港交所披露，董事会同意推进境内首次公开发行人民币普通股并拟在深圳证券交易所上市的相关工作。公告称，公司已经向有关监管机构提交上市辅导备案申请。",
+        "珞石生产工业机器人和协作机器人，并展示过具身智能设备。公告没有给出拟募集金额、发行价格或上市日期。"
+      ],
+      "whyItMatters": "机器人企业的资金需求往往不止研发，还包括产线、交付和渠道。上市准备是否推进，要看后续辅导与交易所审核，而不是仅看董事会决议。",
+      "caveats": [
+        "境内上市方案仍可能调整；提交辅导备案申请不是交易所受理、审批通过或已经完成融资。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-20T21:53:00+08:00",
+      "publishedAtNote": "香港交易所发行人披露索引标注 11 月 20 日 21:53，香港与北京时间同为 UTC+8；公告未列秒。",
+      "sources": [
+        {
+          "name": "港交所｜珞石机器人发行人公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112001705.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "珞石机器人官网｜产品与展会资料",
+          "url": "https://www.rokae.com/",
+          "role": "secondary"
+        },
+        {
+          "name": "IPO 潜望｜发行背景",
+          "url": "https://cj.sina.com.cn/articles/view/6253680592/174bf97d001901plwo",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-rokae.jpg",
+        "alt": "2026 世界机器人大会现场的珞石展位，上有白色工业机械臂及人形机器人",
+        "credit": "珞石机器人官网｜2026 世界机器人大会展位资料照",
+        "sourcePage": "https://www.rokae.com/",
+        "retrievedFrom": "https://www.rokae.com/ueditor/php/upload/image/20260820/1787207308613758.jpg",
+        "retrievedAt": "2026-11-22T23:28:36+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "SECURITY L1",
+      "headline": "Together AI 披露部分提示词泄露",
+      "standfirst": "受影响的是部分历史推理请求样本，客户范围仍待核实。",
       "paragraphs": [
         "公司表示，部分用于测试的历史提示词样本原先存放在私有仓库。一个开发流程错误暴露了相关凭证，造成样本被未授权下载；公司说尚未发现此次事件之外的提示词泄露证据。",
         "事件发生后，Together AI 表示已加强开发流程的凭证检查，并把零数据保留（ZDR）设为新账户的默认选项。现有账户可自行查看设置。"
@@ -111,13 +383,59 @@
       }
     },
     {
-      "id": "2026-11-22-morning-03",
-      "rank": 3,
-      "tier": "send",
+      "region": "国内",
+      "kickerEn": "MODEL L1",
+      "headline": "腾讯开放旗舰模型混元 Hy4 权重",
+      "standfirst": "基础版、指令版及低精度版可下载，可自行部署。",
+      "paragraphs": [
+        "腾讯混元公开新一代旗舰 Hy4 的 Base、Instruct 和 FP8 版本。此前早报报道的是较小的 Hy4 flash，两者并非这次下载开放的同一组权重。",
+        "腾讯发布说明称支持长上下文和多语言，开放权重遵循 Tencent Hy License，不是 Apache 2.0；商用等具体条件以许可原文为准。"
+      ],
+      "whyItMatters": "开发者现在可以自行托管或微调旗舰版，而不只调用云端接口。实际资源要求和运行成本仍取决于硬件及所选版本。",
+      "caveats": [
+        "厂商评测是测试条件下的结果，不把榜单当普遍性能。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-20T11:41:00+08:00",
+      "publishedAtNote": "原始微信公众号面向公众发稿的北京时间为 11 月 20 日 11:41；公众号时间由同时段存档交叉核对。",
+      "sources": [
+        {
+          "name": "腾讯混元｜官方权重及许可",
+          "url": "https://huggingface.co/tencent/Hy4",
+          "role": "primary"
+        },
+        {
+          "name": "腾讯混元｜微信公众号首发",
+          "url": "https://mp.weixin.qq.com/s/M0TIIvCzizkLw7_A3MCSjA",
+          "role": "secondary"
+        },
+        {
+          "name": "腾讯混元｜官方 X 发布",
+          "url": "https://x.com/TencentHunyuan/status/2123625549147070538",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/morning-hy4.jpg",
+        "alt": "腾讯混元 Hy4 官方模型卡自测对比图（非独立评测）",
+        "credit": "腾讯混元｜官方模型卡图表",
+        "sourcePage": "https://huggingface.co/tencent/Hy4",
+        "retrievedFrom": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hy4/main/assets/benchmark.jpg",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
+      "rank": 8,
+      "id": "2026-11-22-morning-08",
+      "tier": "alternate"
+    },
+    {
+      "id": "2026-11-22-morning-09",
+      "rank": 9,
+      "tier": "alternate",
       "region": "海外",
-      "kickerEn": "ORACLE",
-      "headline": "甲骨文称，履行与 OpenAI 的算力合约所需资金已落实",
-      "standfirst": "甲骨文表示已拿到履行合约所需的资金，并称得州 Abilene 项目接近完工；这不代表整个园区已交付。",
+      "kickerEn": "INFRA L1",
+      "headline": "甲骨文称已落实与 OpenAI 合约资金",
+      "standfirst": "资金到位不等于数据中心已交付。",
       "paragraphs": [
         "甲骨文在美国当地 11 月 20 日的声明中表示，履行其与 OpenAI 签订的算力基础设施合同所需资金已经落实。路透报道将该声明与公司最近一轮融资联系起来。",
         "公司称，得州 Abilene 项目已接近完工，后续还将交付采用英伟达 Rubin 芯片的新算力设施。声明没有逐项披露项目的合约、融资结构或交付日程。"
@@ -162,239 +480,13 @@
       }
     },
     {
-      "id": "2026-11-22-morning-04",
-      "rank": 4,
+      "id": "2026-11-22-morning-10",
+      "rank": 10,
       "tier": "alternate",
       "region": "海外",
-      "kickerEn": "TESLA",
-      "headline": "特斯拉开始分批推送 FSD v15，预览新增道路实景式显示",
-      "standfirst": "特斯拉在官方账号表示，FSD v15 已开始早期推送。官方演示展示车机画面如何呈现车辆周边环境。",
-      "paragraphs": [
-        "发行说明记录了面向这一批设备的软件版本。与此前界面相比，演示中的 Reality View 用接近实景的视图呈现路况和周边对象。",
-        "这是一轮软件的早期推送，而不是全市场、全部硬件同时更新。"
-      ],
-      "whyItMatters": "车机更直观地展示系统对道路的理解，有助于驾驶者知道系统看到了什么，但不代表它总能正确判断。",
-      "caveats": [
-        "FSD 仍为 Supervised（驾驶员监督）产品，不能当作完全自动驾驶；没有证据表明当天向中国用户普遍推送。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-22T03:24:32+08:00",
-      "publishedAtNote": "特斯拉官方 X 原帖的平台时间戳换算为北京时间。",
-      "sources": [
-        {
-          "name": "Tesla｜官方推送帖",
-          "url": "https://x.com/Tesla/status/2124222447855743019",
-          "role": "primary"
-        },
-        {
-          "name": "Tessie｜版本说明",
-          "url": "https://stats.tessie.com/versions/2026.38.6.11",
-          "role": "secondary"
-        },
-        {
-          "name": "techAU｜演示画面",
-          "url": "https://techau.com.au/tesla-fsd-v15-is-rolling-out-with-new-reality-view-dramatic-capability-improvements/",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/morning-tesla.jpg",
-        "alt": "Tesla FSD v15 官方演示视频中的车机道路显示画面",
-        "credit": "Tesla 官方演示视频静帧，经 techAU 刊载",
-        "sourcePage": "https://techau.com.au/tesla-fsd-v15-is-rolling-out-with-new-reality-view-dramatic-capability-improvements/",
-        "retrievedFrom": "https://techau.com.au/wp-content/uploads/2026/11/FSDv15-Visualisation-001000-1024x576.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-05",
-      "rank": 5,
-      "tier": "send",
-      "region": "国内",
-      "kickerEn": "DATA SPACES",
-      "headline": "可信数据空间披露建设进度：高质量数据集和行业模型开始形成",
-      "standfirst": "央视 11 月 22 日报道，可信数据空间建设已形成一批可供特定行业使用的数据集和垂直模型。",
-      "paragraphs": [
-        "国家数据局转载的阶段性进度称，已建设 457 个高质量数据集、研发 136 个行业垂直模型。可信数据空间旨在让不同主体可在规则约束下使用数据，而不是无条件公开原始数据。",
-        "这组数字是阶段性建设成果，不能理解为同一天上线 457 个数据集，或者相关模型都已开放给公众。"
-      ],
-      "whyItMatters": "行业 AI 的瓶颈不只是算力，也包括是否能取得适用且有权使用的数据。数据共享机制决定模型能推进到哪些场景。",
-      "caveats": [
-        "报道未给出各模型性能、开放状态或可用范围；不把建设数量当作应用成效。"
-      ],
-      "figures": [
-        "457 个高质量数据集；136 个行业垂直模型。"
-      ],
-      "publishedAt": null,
-      "publishedAtNote": "央视原始视频页面标注 2026 年 11 月 22 日；版面按原始日期收录，不填未经核准的时分。",
-      "sources": [
-        {
-          "name": "央视｜11 月 22 日原始视频",
-          "url": "https://tv.cctv.com/2026/11/22/VIDEOTfVCGn1gYcS2CZotKCz261122.shtml",
-          "role": "primary"
-        },
-        {
-          "name": "国家数据局｜公开阶段进度",
-          "url": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/20261122124728759725897_pc.html",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/morning-data.jpg",
-        "alt": "国家数据局转载该进展报道时使用的报道画面",
-        "credit": "国家数据局同条期内进展报道配图",
-        "sourcePage": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/20261122124728759725897_pc.html",
-        "retrievedFrom": "https://www.nda.gov.cn/sjj/swdt/mtsy/1122/ff808081-a1f297f8-01a2-01959d3d-0078.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-06",
-      "rank": 6,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "WECHAT VISION",
-      "headline": "腾讯微信视觉公开 WeMM-Video：看片时也听原声，输出的是分析而非新视频",
-      "standfirst": "中英双语模型既能只看画面，也能结合原声做文本问答、转写、概括和理解。",
-      "paragraphs": [
-        "微信视觉团队公开 WeMM-Video 的代码、权重和评测材料。官方示例把同一段阿波罗 11 号片段分两次输入：一次只问画面发生了什么，一次同时问画面和录音里说了什么。",
-        "已列出 2B、4B、9B 稠密版和 35B-A3B 混合专家版。产品输入可以包括文本、图片、音频和视频，输出都是文字。"
-      ],
-      "whyItMatters": "比只抽关键帧更适合查素材。比如要找一句台词与某个动作出现在一起的片段，可以把对话和画面交给同一个模型一起判断。",
-      "caveats": [
-        "不是视频生成器。团队公布的比较成绩不能替代自己的素材验证；代码采用 Apache 2.0，权重许可要按具体模型检查。"
-      ],
-      "figures": [
-        "4 个规模：2B、4B、9B 和 35B-A3B。"
-      ],
-      "publishedAt": "2026-11-20T18:14:00+08:00",
-      "publishedAtNote": "微信官方账号发布公开公告的时间换算为北京时间 11 月 20 日 18:14。技术报告 v1 在此之前已公开；这是公开发布公告，不把较早的 arXiv 时间当本期新闻点。",
-      "sources": [
-        {
-          "name": "腾讯 WeMM-Video 官方仓库",
-          "url": "https://github.com/Tencent/WeMM-Video",
-          "role": "primary"
-        },
-        {
-          "name": "微信官方｜面向公众的发布公告",
-          "url": "https://x.com/Weixin_WeChat/status/2123721746604040268",
-          "role": "secondary"
-        },
-        {
-          "name": "团队技术报告 arXiv:2611.26409",
-          "url": "https://arxiv.org/abs/2611.26409",
-          "role": "secondary"
-        },
-        {
-          "name": "腾讯 WeMM-Video 官方架构图",
-          "url": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-03.jpg",
-        "alt": "WeMM-Video 官方架构图，图像、视频帧与音频进入不同编码器，再由语言模型生成文字",
-        "credit": "腾讯微信视觉团队官方仓库架构图",
-        "sourcePage": "https://github.com/Tencent/WeMM-Video/blob/main/assets/wemm-video-architecture.png",
-        "retrievedFrom": "https://raw.githubusercontent.com/Tencent/WeMM-Video/main/assets/wemm-video-architecture.png",
-        "retrievedAt": "2026-11-22T21:34:26+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-07",
-      "rank": 7,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "ROKAE",
-      "headline": "珞石机器人启动境内上市准备，已提交辅导备案申请",
-      "standfirst": "董事会同意推进拟在深圳证券交易所发行 A 股上市；这仍是准备阶段，不是获批。",
-      "paragraphs": [
-        "珞石机器人通过港交所披露，董事会同意推进境内首次公开发行人民币普通股并拟在深圳证券交易所上市的相关工作。公告称，公司已经向有关监管机构提交上市辅导备案申请。",
-        "珞石生产工业机器人和协作机器人，并展示过具身智能设备。公告没有给出拟募集金额、发行价格或上市日期。"
-      ],
-      "whyItMatters": "机器人企业的资金需求往往不止研发，还包括产线、交付和渠道。上市准备是否推进，要看后续辅导与交易所审核，而不是仅看董事会决议。",
-      "caveats": [
-        "境内上市方案仍可能调整；提交辅导备案申请不是交易所受理、审批通过或已经完成融资。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-20T21:53:00+08:00",
-      "publishedAtNote": "香港交易所发行人披露索引标注 11 月 20 日 21:53，香港与北京时间同为 UTC+8；公告未列秒。",
-      "sources": [
-        {
-          "name": "港交所｜珞石机器人发行人公告",
-          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112001705.pdf",
-          "role": "primary"
-        },
-        {
-          "name": "珞石机器人官网｜产品与展会资料",
-          "url": "https://www.rokae.com/",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/morning-rokae.jpg",
-        "alt": "2026 世界机器人大会现场的珞石展位，上有白色工业机械臂及人形机器人",
-        "credit": "珞石机器人官网｜2026 世界机器人大会展位资料照",
-        "sourcePage": "https://www.rokae.com/",
-        "retrievedFrom": "https://www.rokae.com/ueditor/php/upload/image/20260820/1787207308613758.jpg",
-        "retrievedAt": "2026-11-22T23:28:36+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-08",
-      "rank": 8,
-      "tier": "alternate",
-      "region": "海外",
-      "kickerEn": "PROJECT MAYA",
-      "headline": "Project Maya 将 Inkling 2 Mini 本地运行门槛降到部分 8GB 显存卡",
-      "standfirst": "Project Maya 1.1.73 扩展 Inkling 2 Mini 的硬件支持。项目称，满足条件的 Linux 电脑可在 8GB 显存的 NVIDIA 卡上运行该模型。",
-      "paragraphs": [
-        "工具将更常用的模型专家保留在显卡，其余放到主机内存里，由 GPU 和 CPU 分担运算。该配置另外约需 13GB 系统内存。",
-        "版本也增加了 V100、RTX 20 系列以及部分 Linux AMD 硬件的支持。具体能否运行仍要看硬件、系统和模型配置。"
-      ],
-      "whyItMatters": "本地模型不一定非要更换高显存卡才可尝试；可运行与可流畅生产是两回事。",
-      "caveats": [
-        "没有将特定显卡测得的速度推广到 8GB 配置；配图只展示项目设置界面。"
-      ],
-      "figures": [
-        "NVIDIA Linux 支持起点 8GB 显存；该配置约需 13GB 系统内存。"
-      ],
-      "publishedAt": null,
-      "publishedAtNote": "官方 GitHub 版本于北京时间 11 月 22 日 09:27 发布（此处不填未经复核的秒数）。",
-      "sources": [
-        {
-          "name": "Project Maya｜官方 v1.1.73 版本说明",
-          "url": "https://github.com/mw00/project-maya/releases/tag/v1.1.73",
-          "role": "primary"
-        },
-        {
-          "name": "Project Maya｜同版本设置界面图",
-          "url": "https://github.com/mw00/project-maya/tree/v1.1.73/docs/media/setup-tui",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/morning-maya.jpg",
-        "alt": "Project Maya 设置终端中的项目仪表盘",
-        "credit": "Project Maya v1.1.73 仓库设置界面",
-        "sourcePage": "https://github.com/mw00/project-maya/tree/v1.1.73/docs/media/setup-tui",
-        "retrievedFrom": "https://raw.githubusercontent.com/mw00/project-maya/v1.1.73/docs/media/setup-tui/07-dashboard.png",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-09",
-      "rank": 9,
-      "tier": "alternate",
-      "region": "海外",
-      "kickerEn": "PRIME INTELLECT",
-      "headline": "Prime Intellect 更新开放训练框架，扩展混合专家和多轮训练",
-      "standfirst": "Prime Intellect 发布 prime-rl 0.11.0，把更大混合专家模型的并行训练、多轮上下文与多模态支持纳入新版。",
+      "kickerEn": "TOOLS L1",
+      "headline": "Prime Intellect 扩展多轮模型训练",
+      "standfirst": "新版开源框架支持更大混合专家模型及多轮上下文。",
       "paragraphs": [
         "版本说明新增 Mega MoE 专家并行路径，并支持在多轮交互中保留已有的键值缓存。也新增 Qwen3.8 Flash Next 多模态支持。",
         "这些是训练框架的能力变化，不是 Prime Intellect 额外发布了一款基础模型。"
@@ -425,42 +517,6 @@
         "credit": "prime-rl 同版本仓库的框架架构图，不是新增功能测试",
         "sourcePage": "https://github.com/PrimeIntellect-ai/prime-rl/tree/v0.11.0",
         "retrievedFrom": "https://raw.githubusercontent.com/PrimeIntellect-ai/prime-rl/v0.11.0/docs/assets/architecture.png",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-morning-10",
-      "rank": 10,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "HARMONYOS",
-      "headline": "华为部分 Mate 机型出现“小艺星芒”音色，可调音高和语速",
-      "standfirst": "IT之家在部分华为 Mate 80、Mate 90 等机型观察到小艺助理开放“小艺星芒”音色。",
-      "paragraphs": [
-        "新增可用的音色提供音高和语速设置，不同机型和系统版本的可用情况仍以各自设备为准。",
-        "原本搭载 HarmonyOS 7 AI 先锋版的星芒手机还有系统级 AI 屏和专属形象。此次观察不代表其他首发功能同步开放。"
-      ],
-      "whyItMatters": "这是手机 AI 助理的语音定制扩展，不是一个新模型，也不等同于整套 AI 界面下放。",
-      "caveats": [
-        "报道是媒体的设备观察，不是华为同日发布的全量推送公告。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-22T07:35:28+08:00",
-      "publishedAtNote": "IT之家原文显示 11 月 22 日 07:35；站方滚动列表记录 07:35:28（北京时间）。报道当日观察，不把 11 月 20 日的手机发布算作今天。",
-      "sources": [
-        {
-          "name": "IT之家｜原始设备观察",
-          "url": "https://m.ithome.com/html/1030519.htm",
-          "role": "primary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/morning-huawei-voice.jpg",
-        "alt": "小艺语音选项与个性化调节界面",
-        "credit": "IT之家原文中的设备界面图",
-        "sourcePage": "https://m.ithome.com/html/1030519.htm",
-        "retrievedFrom": "https://img.ithome.com/newsuploadfiles/2026/11/88eaf9cb-703e-4859-9275-7399834672ee.jpg",
         "retrievedAt": "2026-11-22T22:04:54+08:00"
       }
     }

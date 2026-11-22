@@ -2,21 +2,128 @@
   "issueDate": "2026-11-22",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-22T23:28:36+08:00",
-  "retrievedThrough": "2026-11-22T23:28:36+08:00",
+  "updatedAt": "2026-11-23T01:01:18+08:00",
+  "retrievedThrough": "2026-11-22T20:00:00+08:00",
   "slot": "20:00",
-  "slotNote": "本期为 11 月 22 日晚报补订。收录北京时间 11 月 22 日有可核实实质进展的 10 条；征集截止与首次公告时间区别标明。",
+  "slotNote": "本期为 11 月 22 日晚报复核版。选题回溯至北京时间当天 20:00，更新时刻另记。",
   "title": "AI电影与视频速报",
-  "editorsNote": "按新的晚报口径补入创作者采访和赛事截止节点，合计 10 条。末尾「建议发送」为编辑推荐，其余仍保留为备选。",
+  "editorsNote": "按新版标准复核原始出处、时间窗与前期报道，按事件热度排序。本期主版 6 条，推荐 4 条。未达主版门槛的内容留档，不凑数。",
   "stories": [
     {
-      "id": "2026-11-22-evening-01",
+      "region": "海外",
+      "kickerEn": "RIGHTS L3",
+      "headline": "CAA 负责人吁美国限制未经授权的 AI 复制",
+      "standfirst": "这次是公开游说立法，不是美国已通过新法。",
+      "paragraphs": [
+        "好莱坞经纪机构 CAA 首席执行官 Bryan Lourd 在《纽约时报》署名撰文，呼吁美国国会通过 NO FAKES Act，保护个人的声音和肖像不被擅自制作或散布为数字复制品。",
+        "Variety 和 TheWrap 报道了这次诉求。所涉联邦法案此前已提出，这次没有新增生效日期，也不是个案裁决。"
+      ],
+      "whyItMatters": "演员与创作者能否事先同意、能否拒绝、谁来补偿，已是行业在谈的现实条款。对制作团队而言，授权范围和权利人必须在上线前讲清。",
+      "caveats": [
+        "本条是行业表态，不是立法完成或法律建议。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "署名原文按美国当地 11 月 21 日刊出；最早已复核的 Variety 报道为北京时间 11 月 22 日 01:10。",
+      "sources": [
+        {
+          "name": "Bryan Lourd｜《纽约时报》署名原文",
+          "url": "https://www.nytimes.com/2026/11/21/opinion/ai-clones-copyright-law.html",
+          "role": "primary"
+        },
+        {
+          "name": "Variety｜行业报道",
+          "url": "https://variety.com/2026/biz/news/caa-bryan-lourd-congress-no-fakes-act-ai-deepfakes-1236954989/",
+          "role": "secondary"
+        },
+        {
+          "name": "TheWrap｜行业报道",
+          "url": "https://www.thewrap.com/industry-news/tech/bryan-lourd-ai-cloning-no-fakes-act-congress/",
+          "role": "secondary"
+        },
+        {
+          "name": "美国国会｜原法案文本",
+          "url": "https://www.congress.gov/119/bills/hr2794/BILLS-119hr2794ih.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "Royal Television Society｜公开档案肖像",
+          "url": "https://rts.org.uk/person/bryan-lourd",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-lourd.jpg",
+        "alt": "CAA 首席执行官 Bryan Lourd 的活动档案肖像",
+        "credit": "Royal Television Society｜公开档案肖像",
+        "sourcePage": "https://rts.org.uk/person/bryan-lourd",
+        "retrievedFrom": "https://rts.org.uk/sites/default/files/bryan_lourd.png",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
       "rank": 1,
+      "id": "2026-11-22-evening-01",
+      "tier": "send"
+    },
+    {
+      "id": "2026-11-22-evening-02",
+      "rank": 2,
       "tier": "send",
       "region": "国内",
-      "kickerEn": "MANTIS SHORT DRAMA",
-      "headline": "单人制作的 AI 漫剧《重生螳螂》，累计播放据报道达 16 亿",
-      "standfirst": "中新网采访创作者白非空，披露了这部 96 集 AI 漫剧的新播放数字和制作过程。",
+      "kickerEn": "RELEASE L1",
+      "headline": "腾讯视频上线《秦岭青铜诡事录2》",
+      "standfirst": "AI 短剧续作上线，可直接观察平台如何做系列。",
+      "paragraphs": [
+        "腾讯发布了当天档期和观看入口。同期制作报道将它归为 AI 漫剧，属于有连续剧情的剧集，不是单张生成图或平台功能演示。",
+        "这是一则续作上线消息，不把第一季的播放表现或榜单成绩转写成第二季数据。"
+      ],
+      "whyItMatters": "AI 影像制作者可以观察这种系列作品如何延续角色、美术风格与单集节奏，以及如何在平台上面向传统剧集观众。",
+      "caveats": [
+        "目前不把未核实的第二季热度或制作成本写入报道。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T12:00:00+08:00",
+      "publishedAtNote": "12:00 为腾讯视频原始公告所载的当天上线时间，不是预告帖的发表时间。",
+      "sources": [
+        {
+          "name": "腾讯视频｜原始上线公告",
+          "url": "https://m.weibo.cn/2/detail/5367298732328320",
+          "role": "primary"
+        },
+        {
+          "name": "腾讯视频｜观看入口",
+          "url": "https://vv.qq.com/eu0zMwEC",
+          "role": "secondary"
+        },
+        {
+          "name": "澎湃新闻｜制作与行业背景",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34491948",
+          "role": "secondary"
+        },
+        {
+          "name": "ZNDS｜上线报道",
+          "url": "https://n.znds.com/article/69846.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-22/evening-qinling.jpg",
+        "alt": "腾讯视频发布的《秦岭青铜诡事录2》宣传画面",
+        "credit": "腾讯视频官方上线公告配图",
+        "sourcePage": "https://m.weibo.cn/2/detail/5367298732328320",
+        "retrievedFrom": "https://wx3.sinaimg.cn/cmw960/006apDefly1ij7mf6bptpj30zk0k0wju.jpg",
+        "retrievedAt": "2026-11-22T22:04:54+08:00"
+      }
+    },
+    {
+      "id": "2026-11-22-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "HIT L3",
+      "headline": "《重生螳螂》累计播放据报道达16亿",
+      "standfirst": "创作者称主要独立制作；16 亿是累计播放口径。",
       "paragraphs": [
         "中新网 11 月 22 日采访《重生螳螂，觉醒无限吞噬进化》创作者白非空。报道称，该作累计播放量已达 16 亿；这次更新的是累积数据与作者采访，并不是作品今天上线。",
         "据白非空自述，他用约六周独自完成 96 集，花约 4000 元购买工具会员和生成额度。一个动作镜头尝试了 12 次，这笔钱没有计入工时。"
@@ -55,66 +162,21 @@
       }
     },
     {
-      "id": "2026-11-22-evening-02",
-      "rank": 2,
-      "tier": "send",
-      "region": "国内",
-      "kickerEn": "TENCENT VIDEO",
-      "headline": "腾讯视频上线 AI 短剧《秦岭青铜诡事录2》",
-      "standfirst": "腾讯视频官方预告确认，《秦岭青铜诡事录2》于 11 月 22 日中午上线。作品延续秦岭探秘与奇诡冒险题材。",
-      "paragraphs": [
-        "腾讯发布了当天档期和观看入口。同期制作报道将它归为 AI 漫剧，属于有连续剧情的剧集，不是单张生成图或平台功能演示。",
-        "这是一则续作上线消息，不把第一季的播放表现或榜单成绩转写成第二季数据。"
-      ],
-      "whyItMatters": "AI 影像制作者可以观察这种系列作品如何延续角色、美术风格与单集节奏，以及如何在平台上面向传统剧集观众。",
-      "caveats": [
-        "目前不把未核实的第二季热度或制作成本写入报道。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-22T12:00:00+08:00",
-      "publishedAtNote": "12:00 为腾讯视频原始公告所载的当天上线时间，不是预告帖的发表时间。",
-      "sources": [
-        {
-          "name": "腾讯视频｜原始上线公告",
-          "url": "https://m.weibo.cn/2/detail/5367298732328320",
-          "role": "primary"
-        },
-        {
-          "name": "腾讯视频｜观看入口",
-          "url": "https://vv.qq.com/eu0zMwEC",
-          "role": "secondary"
-        },
-        {
-          "name": "澎湃新闻｜制作与行业背景",
-          "url": "https://www.thepaper.cn/newsDetail_forward_34491948",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-qinling.jpg",
-        "alt": "腾讯视频发布的《秦岭青铜诡事录2》宣传画面",
-        "credit": "腾讯视频官方上线公告配图",
-        "sourcePage": "https://m.weibo.cn/2/detail/5367298732328320",
-        "retrievedFrom": "https://wx3.sinaimg.cn/cmw960/006apDefly1ij7mf6bptpj30zk0k0wju.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-03",
-      "rank": 3,
+      "id": "2026-11-22-evening-04",
+      "rank": 4,
       "tier": "send",
       "region": "海外",
-      "kickerEn": "SHORTICAL",
-      "headline": "Shortical 披露 AI 短剧演员肖像授权细节，首例由双方直接签约",
-      "standfirst": "短剧平台 Shortical 的首个真实肖像授权案例是《Inevitable》：演员 Aki Avni 授权剧组制作他的数字化形象。采访披露了该单的签约方式和平台开放招募的进展。",
+      "kickerEn": "RIGHTS L3",
+      "headline": "后续：Shortical 披露演员肖像签约方式",
+      "standfirst": "此前已报道数字分身；这次新增的是双方直接签约细节。",
       "paragraphs": [
-        "演员在戏里饰演自己，故事也是围绕把肖像授权给片商展开。Shortical 向 TechCrunch 说明，这单是与 Avni 直接约定，而非通过网站的公开肖像授权入口签约。",
+        "11 月 18 日晚报已报道 Aki Avni 与数字分身对戏。此次 TechCrunch 对演员和 Shortical 负责人采访补充：这单肖像授权由双方直接签订，不是通过其公开招募入口成交。",
         "公司说，公开招募功能尚未促成新合同。CEO 也没有给出固定授权费或分成规则，表示不同项目会分别商议。"
       ],
       "whyItMatters": "对制片团队来说，数字替身不是获得演员照片就能用。肖像使用的作品范围、期限和后续补偿需要在合同里写清。",
       "caveats": [
-        "《Inevitable》此前已在洛杉矶首映；本条报道的是当日公开采访的新披露，不是当天首映或平台当天上线。"
+        "《Inevitable》此前已在洛杉矶首映；本条报道的是当日公开采访的新披露，不是当天首映或平台当天上线。",
+        "公开申请渠道与此次直接签约不是同一回事；合同金额未公开。"
       ],
       "figures": [],
       "publishedAt": "2026-11-22T00:00:00+08:00",
@@ -124,6 +186,16 @@
           "name": "TechCrunch｜演员与 Shortical CEO 原始采访",
           "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
           "role": "primary"
+        },
+        {
+          "name": "Shortical｜官方肖像授权申请入口",
+          "url": "https://shortical.com/license-your-face",
+          "role": "secondary"
+        },
+        {
+          "name": "Infinity Festival｜此前首映资料",
+          "url": "https://app.cindee.io/festival/infinityfestival/event/keynote-shortical-ai",
+          "role": "secondary"
         }
       ],
       "image": {
@@ -137,303 +209,113 @@
       }
     },
     {
-      "id": "2026-11-22-evening-04",
-      "rank": 4,
-      "tier": "send",
-      "region": "海外",
-      "kickerEn": "AFRICAN AI FILM FESTIVAL",
-      "headline": "首届非洲 AI 电影节完成好莱坞展映活动",
-      "standfirst": "非洲 AI 电影节首届好莱坞活动在洛杉矶举行。按北京时间，活动从 11 月 22 日上午持续到中午。",
+      "region": "国内",
+      "kickerEn": "HIT L3",
+      "headline": "《莞城人生》单日播放据报3亿",
+      "standfirst": "同一部 AI 漫剧也登上红果 AI 短剧榜第三。",
       "paragraphs": [
-        "主办方活动页现标记为已结束。按公布流程，开场红毯后放映入选影片，随后进行颁奖环节。",
-        "主办方此前的正式入选方案披露，收到来自 45 个国家的 523 份投稿，选出 47 部。这里报道的是当天现场展映，不是入选名单当天公布。"
+        "据 DataEye 剧查查 11 月 21 日榜，这部年代题材作品在抖音单日播放约 3 亿，11 月 11 日上线以来累计接近 20 亿。数字来自第三方追踪，未独立获得平台后台数据。",
+        "红果正式作品页可看 137 集，历史榜单记录显示同日其 AI 剧榜排名第三、显示热度 6786 万。红果热度不能与抖音播放量相加。"
       ],
-      "whyItMatters": "这是观察国际 AI 电影作品如何走进影院、建立跨地区观众的一次具体活动。",
+      "whyItMatters": "这次可确认的是，同一个漫剧项目在两个分发渠道都排到前列。对创作者来说，值得看的是两个平台的节奏、条目和分发方式，不是把流量数字当作收入。",
       "caveats": [
-        "未核到主办方公开的获奖名单，不推断具体作品获奖。"
+        "数据不是独立观看人数、票房或营收。"
       ],
       "figures": [
-        "523 份投稿、45 个国家；47 部正式入选。"
+        "约 3 亿单日播放（DataEye）",
+        "累计接近 20 亿（DataEye）",
+        "红果 AI 剧榜第 3"
       ],
-      "publishedAt": null,
-      "publishedAtNote": "主办方活动页所列洛杉矶时间 11 月 21 日 18:00–21:00 PST，换算北京时间 11 月 22 日 10:00–13:00。活动时间并非报名页发布时间。",
+      "publishedAt": "2026-11-21T11:38:00+08:00",
+      "publishedAtNote": "DataEye 榜单北京时间 11 月 21 日 11:38 发布；并非该剧首播日。",
       "sources": [
         {
-          "name": "主办方｜已结束活动与日程",
-          "url": "https://luma.com/mc7nl68k",
+          "name": "DataEye 剧查查｜原始榜单",
+          "url": "https://mp.weixin.qq.com/s/B0ZZOWPzoIYd3t7zUyD_uA",
           "role": "primary"
         },
         {
-          "name": "主办方｜正式入选资料",
-          "url": "https://africanaifilmfestival.org/selections",
+          "name": "DataEye 榜单原文备用读本",
+          "url": "https://duan.cn/items/g1ptosldq2rtxv0gkhra83srp",
           "role": "secondary"
         },
         {
-          "name": "主办方新闻稿｜活动海报",
-          "url": "https://www.financialcontent.com/article/marketersmedia-2026-10-3-african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala",
+          "name": "红果短剧｜官方作品页",
+          "url": "https://hongguoduanju.com/player/7705472484295855128",
+          "role": "secondary"
+        },
+        {
+          "name": "酷安热剧｜红果历史榜",
+          "url": "https://kuandre.com/drama/",
           "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-22/evening-hollywood.jpg",
-        "alt": "首届非洲 AI 电影节好莱坞活动官方海报",
-        "credit": "主办方随新闻稿分发的好莱坞活动海报",
-        "sourcePage": "https://www.financialcontent.com/article/marketersmedia-2026-10-3-african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala",
-        "retrievedFrom": "https://storage.googleapis.com/mmstudio-images/gallery/LqyUbYl4ZOMAQz5uJfpPJTizrON2/89205110-1791045976-1.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-05",
+        "file": "2026-11-22/evening-wancheng.jpg",
+        "alt": "《莞城人生》红果短剧作品封面",
+        "credit": "红果短剧｜作品官方封面",
+        "sourcePage": "https://hongguoduanju.com/player/7705472484295855128",
+        "retrievedFrom": "https://p3-novel.byteimg.com/novel-pic/670a331208214460ca2c15205e7f2179~tplv-shrink:640:0.image",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
       "rank": 5,
-      "tier": "alternate",
+      "id": "2026-11-22-evening-05",
+      "tier": "alternate"
+    },
+    {
       "region": "海外",
-      "kickerEn": "POPNOW",
-      "headline": "PopNow 更新 3D 预演：角色摆姿和镜头视角可以在出图前确定",
-      "standfirst": "PopNow 11 月 22 日的更新把角色操作、镜头参数和分镜输出放进同一套影视预演流程。",
+      "kickerEn": "MODEL L1",
+      "headline": "Kyutai 开放能跟声音实时动起来的模型",
+      "standfirst": "AURA 用原声和起始图生成画面，小版可实时运行。",
       "paragraphs": [
-        "创作者可以拖动控件给整个角色摆姿，再锁住关节，或给角色设定视线与触碰目标。相机可选传感器及画幅，再按焦距确定视野。分镜 PDF 新增 A4 和 Letter 版式。",
-        "同一批变更也涉及画布、视频剪辑和短剧工具。最值得导演关注的是在生成前把动作、走位与镜头方向先确定，而不是用一次次出图碰运气。"
+        "Kyutai 开放 AURA 代码与模型权重。给一张起始图和输入音频，模型持续产出与语音同步的动态画面。",
+        "官方在一张 H100 上测试，13 亿参数版输出 576p，约每秒 20.7 帧；更大的 50 亿参数版在 720p 约每秒 9.7 帧，未达该实验的实时目标。"
       ],
-      "whyItMatters": "预演可给导演、美术和摄影一份共同的镜头参照，适合先核对轴线、视线和构图，再进入生成或实拍。",
+      "whyItMatters": "直播虚拟角色或对话表演，可以把声音直接变成连续画面，不必等全段音频完成再生成。上述实时指标需要特定显卡，不能理解为普通电脑都能运行。",
       "caveats": [
-        "配图是官方预演产品已有的追逐镜头示例，用来说明工作流程，不是本次新界面的截图。"
+        "速度为官方研究测试，角色素材请先确认授权。"
       ],
-      "figures": [],
-      "publishedAt": null,
-      "publishedAtNote": "PopNow 官方更新日志将这批变更列于 2026 年 11 月 22 日；未公开小时及时区，不补造时间。",
+      "figures": [
+        "576p／约 20.7 帧每秒",
+        "单张 H100，官方实验"
+      ],
+      "publishedAt": "2026-11-20T23:06:46+08:00",
+      "publishedAtNote": "北京时间 11 月 20 日约 23:06 的官方原帖公开代码、权重及演示；更早的论文提交不是本条新闻时间。",
       "sources": [
         {
-          "name": "PopNow｜11 月 22 日更新日志",
-          "url": "https://popnow.ai/changelog#previs-stage-three-1122",
+          "name": "Kyutai｜官方 AURA 演示",
+          "url": "https://aura.kyutai.org/",
           "role": "primary"
         },
         {
-          "name": "PopNow Previs 产品与演示",
-          "url": "https://popnow.ai/previs",
+          "name": "Kyutai｜开源仓库",
+          "url": "https://github.com/kyutai-labs/aura",
+          "role": "secondary"
+        },
+        {
+          "name": "Kyutai｜原始发布帖",
+          "url": "https://x.com/kyutai_labs/status/2123795191417156022",
+          "role": "secondary"
+        },
+        {
+          "name": "研究团队｜论文及图表",
+          "url": "https://arxiv.org/html/2611.26540v1",
           "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-22/evening-popnow.jpg",
-        "alt": "PopNow 预演产品页展示的电影追逐镜头成片示例",
-        "credit": "PopNow Previs 官方产品页追逐镜头示例",
-        "sourcePage": "https://popnow.ai/previs",
-        "retrievedFrom": "https://media.popnow.ai/previs/hero/chase-final-58a0668e.webp",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-06",
+        "file": "2026-11-22/evening-aura.jpg",
+        "alt": "AURA 论文图 1 中单张 H100 的速度和质量对照图",
+        "credit": "Kyutai｜论文图 1，仅截取实测图表",
+        "sourcePage": "https://arxiv.org/html/2611.26540v1",
+        "retrievedFrom": "https://arxiv.org/html/2611.26540v1/teaser_v2.png",
+        "retrievedAt": "2026-11-23T01:01:18+08:00"
+      },
       "rank": 6,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "WUHAN AIGC FORUM",
-      "headline": "武汉举行 AIGC 短剧论坛，平台与制作方讨论产业规范",
-      "standfirst": "11 月 22 日，武汉的 AIGC 短剧相关分论坛讨论从作品生产、平台协作到行业规范的问题。",
-      "paragraphs": [
-        "论坛有来自制作及平台侧的参与者，腾讯和字节跳动相关代表出现在会议报道中。活动讨论短剧制作和行业规范，不等于任何一家平台发布产品。",
-        "分论坛的参与规模与大会总规模不同，不把大会总人数当成这场短剧论坛的人数。"
-      ],
-      "whyItMatters": "AI 短剧进入规模化制作后，片方最需要弄清的不只是工具能力，还包括交付规范、素材权利和平台如何接收作品。",
-      "caveats": [
-        "这是会议上的讨论与交流，暂无证据表明当场发布正式行业标准。"
-      ],
-      "figures": [],
-      "publishedAt": null,
-      "publishedAtNote": "依据当日活动方信息和现场报道，论坛于北京时间 11 月 22 日举行；未把媒体发稿时分写成活动开始时分。",
-      "sources": [
-        {
-          "name": "活动方｜会议信息",
-          "url": "https://weibo.com/2/detail/5368147997889152",
-          "role": "primary"
-        },
-        {
-          "name": "凤凰网｜活动现场报道与照片",
-          "url": "https://news.ifeng.com/c/8yGY0YmxF7o",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-wuhan.jpg",
-        "alt": "武汉 AIGC 短剧论坛现场会议照片",
-        "credit": "活动现场照片，凤凰网报道刊载",
-        "sourcePage": "https://news.ifeng.com/c/8yGY0YmxF7o",
-        "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_48/277130A64F9114FD843061DDBEDA4B666802A76D_size493_w1269_h715.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-07",
-      "rank": 7,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "YOUKU CONTEST",
-      "headline": "鲸锐 AI 创作大赛 11 月 22 日截稿，主办方公布的奖金池为 1000 万元",
-      "standfirst": "虎鲸文娱主办、优酷独家展映；这一期记录的是征集截止节点，不是赛事新发布或奖项揭晓。",
-      "paragraphs": [
-        "官方规则将征稿截止定为北京时间 11 月 22 日 23:59，并将入围公布排在 12 月 10 日。赛事先前公布总奖金池 1000 万元、单项最高 200 万元，尚未公布获奖者。",
-        "征集面向不少于 10 分钟的原创故事作品，不限 AI 工具，另有首发要求。主办方把评审、线下复选和后续展映结合起来。"
-      ],
-      "whyItMatters": "对能独立做完整叙事的创作者，这是一个有后续展映的渠道。首发和获奖作品独家展映条款，也会影响同期投其他平台和电影节。",
-      "caveats": [
-        "奖金是规则所列总额，并非已发放；入围、复选及颁奖以主办方后续公告为准。"
-      ],
-      "figures": [
-        "征集截止：11 月 22 日 23:59（北京时间）",
-        "总奖金池 1000 万元｜单项最高 200 万元"
-      ],
-      "publishedAt": null,
-      "publishedAtNote": "北京时间 11 月 22 日 23:59 为官网规则所列截稿节点，不是原规则首发时刻。",
-      "sources": [
-        {
-          "name": "虎鲸文娱／优酷｜现行赛程与原始规则",
-          "url": "https://jingrui-ai-competition.youku.com/?ch=pc_home&view=rules",
-          "role": "primary"
-        },
-        {
-          "name": "中国证券报｜此前发布的征集计划",
-          "url": "https://www.cs.com.cn/ssgs/01/2026/09/20/detail_2026092010040474.html",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-youku-contest.jpg",
-        "alt": "鲸锐 AI 创作大赛官宣主视觉，虎鲸跃出蓝色水面，配有赛事名称与奖金说明",
-        "credit": "虎鲸文娱／优酷官网｜当届官方主视觉及标题图层",
-        "sourcePage": "https://jingrui-ai-competition.youku.com/?ch=pc_home&view=rules",
-        "retrievedFrom": "https://g.alicdn.com/youku_operation_fe/jingdong-ai-contest-react/0.0.9/assets/hero-kv-v129.jpg",
-        "retrievedAt": "2026-11-22T23:28:36+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-08",
-      "rank": 8,
-      "tier": "alternate",
-      "region": "海外",
-      "kickerEn": "FREEVIDEO",
-      "headline": "FreeVideo 更新：合并剪辑可放大，MOV 新增无损音频输出",
-      "standfirst": "FreeVideo 0.6.7 的实用变化集中在生成后交付：合并后的剪辑可执行放大处理，MOV 可选无损或未压缩音频。",
-      "paragraphs": [
-        "此前逐段完成的画面可先在工具内合并，再进行放大处理。MOV 的音频选项面向还要进入其他后期软件的交付流程。",
-        "在 Apple Silicon 上遇到内存不足时，程序也可自动用占用较低的方式重试。"
-      ],
-      "whyItMatters": "更适合把重心放在最后导出和后期接手的制作，而不只是看单段生成效果。",
-      "caveats": [
-        "配图是官方作品画廊，不代表这版新功能的对比实测。"
-      ],
-      "figures": [],
-      "publishedAt": null,
-      "publishedAtNote": "官方 GitHub 版本发布时间换算为北京时间 11 月 22 日 04:04；不写未经复核秒数。",
-      "sources": [
-        {
-          "name": "FreeVideo｜官方 0.6.7 版本说明",
-          "url": "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.6.7",
-          "role": "primary"
-        },
-        {
-          "name": "FreeVideo｜官方作品画廊",
-          "url": "https://freevideo-community.pages.dev/gallery",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-freevideo.jpg",
-        "alt": "FreeVideo 官方作品画廊中的香港雨夜港口成片示例",
-        "credit": "FreeVideo 官方画廊示例，非本版新增功能前后对比",
-        "sourcePage": "https://freevideo-community.pages.dev/gallery",
-        "retrievedFrom": "https://freevideo-community.pages.dev/gallery/freevideo-harbor-rain-hongkong-high.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-09",
-      "rank": 9,
-      "tier": "alternate",
-      "region": "海外",
-      "kickerEn": "CREATOR WORKFLOW",
-      "headline": "用游戏引擎导演 AI 预告片：Kevin Ngo 展示自己的搭建流程",
-      "standfirst": "创作者 Kevin Ngo 展示一段经自建游戏引擎制作的预告片，把镜头控制、3D 资产和音频分别交给不同工具。",
-      "paragraphs": [
-        "他在原帖说明，通过 Claude 控制游戏引擎，将引擎中的场景组织成镜头；参与制作的工具包括 GPT Image、Tripo、Meshy 和 ElevenLabs。",
-        "这是一条可供参考的创作流程，而不是新模型或通用软件发布。看点在于先建立可重复调整的场景和资产，再由创作者决定镜头与节奏。"
-      ],
-      "whyItMatters": "需要重复拍摄同一角色或场景时，保留资产和可调的镜头布置，比逐镜从零开始生视频更容易试出连续性。",
-      "caveats": [
-        "作者自行说明流程；效果不代表这些工具的普遍表现。"
-      ],
-      "figures": [],
-      "publishedAt": "2026-11-22T02:50:14+08:00",
-      "publishedAtNote": "创作者 X 原帖时间由平台公开时间戳核对后换算为北京时间。",
-      "sources": [
-        {
-          "name": "Kevin Ngo｜原始演示与工具说明",
-          "url": "https://x.com/kevin_t_ngo/status/2124213815697158160",
-          "role": "primary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-kevin.jpg",
-        "alt": "创作者 Kevin Ngo 在 X 上传的预告片视频封面",
-        "credit": "Kevin Ngo 原视频官方贴的缩略图",
-        "sourcePage": "https://x.com/kevin_t_ngo/status/2124213815697158160",
-        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2124213361152053248/img/_1ZpcxdvZ01YP8xm.jpg",
-        "retrievedAt": "2026-11-22T22:04:54+08:00"
-      }
-    },
-    {
-      "id": "2026-11-22-evening-10",
-      "rank": 10,
-      "tier": "alternate",
-      "region": "国内",
-      "kickerEn": "HUASHU MOTION",
-      "headline": "花叔 Motion 更新预告片配乐：按小节适配片长，并检查剪点有没有卡上节拍",
-      "standfirst": "开源项目 huashu-motion 0.6.0 支持用已有曲目配片，按整小节伸缩中段，尽量把音乐抬升对到片子的高潮。",
-      "paragraphs": [
-        "新版本允许导入自有或生成的音乐。工具会保留曲目开场和结尾，分析节拍、小节线和力度变化，从中段挑选稳定片段做衔接；若拼接造成突兀的响度变化，就放弃该方案。",
-        "配乐无法对齐高潮时，工具会提示影片需要移动多少拍。剪辑检查也能标出离拍的剪点。此前通过代码合成曲目的方式仍可作为后备。"
-      ],
-      "whyItMatters": "导演可以先决定哪一拍该揭示人物、切到全景或落标题卡，然后检查音乐和剪辑有没有在同一拍发力。",
-      "caveats": [
-        "这是预告片和动效的配乐编排工具，不是新视频生成模型。项目里的 11 首默认曲目为 AI 生成，实用时查许可；导入其他音乐也需确保权利。配图为原项目配乐流程示意，不是新版本的实测画面。"
-      ],
-      "figures": [
-        "版本 0.6.0；默认曲库 11 首。"
-      ],
-      "publishedAt": "2026-11-22T02:42:51+08:00",
-      "publishedAtNote": "GitHub 官方版本 API published_at 为 2026-11-21 18:42:51 UTC，已换算为北京时间。",
-      "sources": [
-        {
-          "name": "花叔 Motion 0.6.0 版本说明",
-          "url": "https://github.com/alchaincyf/huashu-motion/releases/tag/v0.6.0",
-          "role": "primary"
-        },
-        {
-          "name": "花叔 Motion 项目及演示",
-          "url": "https://github.com/alchaincyf/huashu-motion",
-          "role": "secondary"
-        },
-        {
-          "name": "GitHub 发布元数据",
-          "url": "https://api.github.com/repos/alchaincyf/huashu-motion/releases/tags/v0.6.0",
-          "role": "secondary"
-        }
-      ],
-      "image": {
-        "status": "archived",
-        "file": "2026-11-22/evening-04.jpg",
-        "alt": "花叔 Motion 项目演示定格，片段小窗按配乐谱面和爆发段标记排列",
-        "credit": "花叔 Motion v0.6.0 仓库自带配乐流程 GIF 静帧，非本版新增功能的实测",
-        "sourcePage": "https://github.com/alchaincyf/huashu-motion",
-        "retrievedFrom": "https://raw.githubusercontent.com/alchaincyf/huashu-motion/v0.6.0/docs/media/score-first.gif",
-        "retrievedAt": "2026-11-22T21:36:53+08:00"
-      }
+      "id": "2026-11-22-evening-06",
+      "tier": "alternate"
     }
   ],
   "showSendShortlist": true
