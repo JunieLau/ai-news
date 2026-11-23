@@ -2,17 +2,120 @@
   "issueDate": "2026-11-23",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-23T14:42:10.937Z",
+  "updatedAt": "2026-11-23T14:54:18.166Z",
   "retrievedThrough": "2026-11-23T20:00:00+08:00",
   "slot": "20:00",
   "slotNote": "本期以北京时间 11 月 23 日 20:00 截稿，随后补刊。",
   "title": "AI电影与视频速报",
-  "editorsNote": "本期发布已核实事实、通过评分且配图可用的 2 条。其余候选留档，不以无关图片或旧消息凑数。",
+  "editorsNote": "11月23日晚报增补版：发布8条，按已核实热度排序，前4条推荐。两张为导演资料照，另六张据原始来源制作并标注。",
   "showSendShortlist": true,
   "stories": [
     {
-      "id": "2026-11-23-evening-01",
+      "region": "国内",
+      "kickerEn": "POLICY L1",
+      "headline": "红果10月拦截或下架逾1.2万部AI剧",
+      "standfirst": "多数在上线前被拦下，不能把总数都当作已播剧下架。",
+      "paragraphs": [
+        "红果短剧的10月治理公告称，平台共拦截或下架12,323部AI剧、91部真人剧，多数在审核时就被拦下，部分在上线后回查下架。",
+        "另有一组针对儿童相关负面情节的处置数据，涉及253部AI剧、12部真人剧；公告未说明两组数字是否重合。"
+      ],
+      "whyItMatters": "对短剧团队来说，能生成并不等于能上线。儿童角色与情节、片名和素材权利，值得在交片前就做一轮核查。",
+      "caveats": [
+        "未公布送审总数、拦截率或上线前后的分项数量。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [
+        "12,323 部 AI 剧、91 部真人剧，均为拦截及下架合计。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "红果官方署名公告；京报转载页显示 11 月 22 日北京时间 08:33，不当作平台首发钟点。",
+      "sources": [
+        {
+          "name": "红果短剧｜10月治理公告（京报转载原文）",
+          "url": "https://news.bjd.com.cn/2026/11/22/12039323.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "北京日报客户端｜红果官方账号署名原文",
+          "url": "https://xinwen.bjd.com.cn/content/s6b02383de4b039a8e2f3e689.html",
+          "role": "secondary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据红果公告绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-hongguo.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-hongguo.webp",
+        "alt": "红果十月内容审核数据：12,323部AI剧、91部真人剧，多数在上线前被拦截",
+        "credit": "AI NEWS 编辑制图｜据红果公告绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-hongguo.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-hongguo.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
       "rank": 1,
+      "id": "2026-11-23-evening-01",
+      "tier": "send"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "DISTRIBUTION L3",
+      "headline": "GASP周榜前六均为ReelShort AI剧",
+      "standfirst": "这份第三方榜单中，第一名一周增加约2700万次播放计数。",
+      "paragraphs": [
+        "GASP追踪1,748部剧在11月15日至22日期间的公开播放计数。增量榜前六均为该榜标注的ReelShort AI剧。",
+        "榜首《Mommy, Wolfless Daddy Is Really the King》增加约2700万；第二名《Roaming the World Untamed》增加约1600万。"
+      ],
+      "whyItMatters": "在这份抽样榜里，AI短剧已经能拿到明显的观看增量。要判断这种表现能否持续，还要看多周走势和付费数据。",
+      "caveats": [
+        "播放计数增量不是独立观众数、付费转化或市场份额。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [
+        "GASP：1,748 部被追踪；前六单周增量约为 2700 万、1600 万、1500 万、1200 万、1200 万、790 万。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "GASP 周榜按 11 月 22 日标注，未披露发布钟点。",
+      "sources": [
+        {
+          "name": "GASP｜11月22日短剧增量榜",
+          "url": "https://gasptv.com/charts/2026-11-22/",
+          "role": "primary"
+        },
+        {
+          "name": "ReelShort｜榜首作品官方播放页",
+          "url": "https://www.reelshort.com/en/embed/6aecc242e59077996401ef59-cjxowvpif9",
+          "role": "secondary"
+        },
+        {
+          "name": "ShorStory｜当日行业观察",
+          "url": "https://news.shorstory.com/zh/articles/daily-2026-11-23/",
+          "role": "secondary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据GASP 周榜数据绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-reelshort.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-reelshort.webp",
+        "alt": "GASP 周榜前六的播放计数增长：27、16、15、12、12、7.9百万次",
+        "credit": "AI NEWS 编辑制图｜据GASP 周榜数据绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-reelshort.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-reelshort.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
+      "rank": 2,
+      "id": "2026-11-23-evening-02",
+      "tier": "send"
+    },
+    {
+      "id": "2026-11-23-evening-03",
+      "rank": 3,
       "tier": "send",
       "region": "海外",
       "kickerEn": "RIGHTS L3",
@@ -64,9 +167,103 @@
       }
     },
     {
-      "id": "2026-11-23-evening-02",
-      "rank": 2,
-      "tier": "send",
+      "region": "海外",
+      "kickerEn": "WORKFLOW L3",
+      "headline": "《SNTIENT 2.0》为何放弃AI城市背景",
+      "standfirst": "城市背景改用Unreal和LED墙，生成式AI留给开场梦境。",
+      "paragraphs": [
+        "制作团队在《Creative Bloq》的访谈中说，曾试着生成用于LED墙的荒废城市背景，但分辨率和画面质感不够，最终回到已搭好的Unreal Engine城市。室内舱体则是实景搭建。",
+        "开场中角色漂浮在水里的梦境是独立制作的，使用了生成式工具。两段影像没有套用同一个流程。"
+      ],
+      "whyItMatters": "要把背景摆到镜头前当作真实布景，先测试摄影机从LED墙上拍到的效果；适合梦境的工具不一定适合需要分辨率和现场可控性的主场景。",
+      "caveats": [
+        "这是制作方法复盘，不是影片新发布，也不是通用工具测评。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-21T22:00:00+08:00",
+      "publishedAtNote": "原始采访报道 11 月 21 日 14:00 UTC。",
+      "sources": [
+        {
+          "name": "Creative Bloq｜制作团队访谈",
+          "url": "https://www.creativebloq.com/news/how-sntient-2-0-put-a-ruined-city-outside-a-bedroom-sized-set",
+          "role": "primary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据Creative Bloq 访谈绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-sntient.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-sntient.webp",
+        "alt": "SNTIENT 2.0 工作流：城市背景改用 Unreal 和 LED，开场梦境另外用生成式AI",
+        "credit": "AI NEWS 编辑制图｜据Creative Bloq 访谈绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-sntient.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-sntient.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
+      "rank": 4,
+      "id": "2026-11-23-evening-04",
+      "tier": "send"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "RIGHTS L2",
+      "headline": "《闪灵二人组》澄清AI只用于部分宣传画面",
+      "standfirst": "12月1日计划续更的是原有有声漫画，不是新AI动画。",
+      "paragraphs": [
+        "日漫《GetBackers 奪還屋》有声漫画运营方表示，11月18日公开的宣传视频部分画面使用了生成式AI动画，并为由此产生的误解道歉。",
+        "运营方说，正片仍沿用原漫画分格配上演员配音与音效，没有把正片改成生成式动画的计划。"
+      ],
+      "whyItMatters": "宣传片先于正片见观众。如果两者的素材和制作方法不同，最好在宣传时就写清，而不是等观众误以为正片也改了。",
+      "caveats": [
+        "声明没有披露具体模型、训练素材或演员授权细节。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T11:00:03+08:00",
+      "publishedAtNote": "运营方 X 原帖 11 月 22 日 03:00:03 UTC；电击在线同日刊发报道。",
+      "sources": [
+        {
+          "name": "GetBackers 有声漫画运营方｜澄清原帖",
+          "url": "https://x.com/reclaim_00/status/2124337084572082571",
+          "role": "primary"
+        },
+        {
+          "name": "电击在线｜报道及声明",
+          "url": "https://dengekionline.com/article/202611/94739",
+          "role": "secondary"
+        },
+        {
+          "name": "ORICON NEWS｜交叉报道",
+          "url": "https://news.livedoor.com/article/detail/32874681/",
+          "role": "secondary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据运营方公告绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-getbackers.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-getbackers.webp",
+        "alt": "GetBackers 时间线：11月18日预告、11月22日澄清、12月1日计划恢复有声漫画",
+        "credit": "AI NEWS 编辑制图｜据运营方公告绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-getbackers.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-getbackers.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
+      "rank": 5,
+      "id": "2026-11-23-evening-05",
+      "tier": "alternate"
+    },
+    {
+      "id": "2026-11-23-evening-06",
+      "rank": 6,
+      "tier": "alternate",
       "region": "海外",
       "kickerEn": "PRODUCTION L3",
       "headline": "《龙之战》新版首支预告未做实拍",
@@ -113,6 +310,109 @@
         "retrievedFrom": "https://upload.wikimedia.org/wikipedia/commons/3/32/%EC%8B%AC%ED%98%95%EB%9E%98_%EB%82%98%EB%8A%94_%EA%B0%80%EC%88%98%EB%8B%A4_%ED%8C%A8%EB%9F%AC%EB%94%94_%EB%82%98%EB%8A%94_%EA%B0%9C%EA%B7%B8%EB%A7%A8%EC%9D%B4%EB%8B%A4_%282%29.jpg",
         "retrievedAt": "2026-11-23T14:42:10.937Z"
       }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "FESTIVAL L1",
+      "headline": "RTV电影节公布三部最佳AI影片",
+      "standfirst": "三部作品同获评审奖，官方没排第一、第二、第三。",
+      "paragraphs": [
+        "首届RTV国际电影节线上单元公布三部最佳AI影片：《Chosen by You》（Alexey Utkin）、《THE YIELD》（Johnny Fine）与《ZERO》（Romman，中国）。",
+        "主办方称，全节共收到来自85个国家和地区的767部作品，覆盖短片、纪录片、动画等类别。"
+      ],
+      "whyItMatters": "对想看独立AI短片的人，三部获奖作比一个泛泛的电影节报道更有用，也可以从名单追踪不同地区的创作者。",
+      "caveats": [
+        "767是全节投稿数，不是AI单元投稿数；观众选择奖不在这三部评审获奖片之列。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [
+        "3 部最佳 AI 影片；全节 767 份投稿，来自 85 个国家和地区。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "主办方新闻稿标注 11 月 22 日发布、温哥华 11 月 21 日落款，未给出钟点。",
+      "sources": [
+        {
+          "name": "RTV｜2026评审获奖名单",
+          "url": "https://rtv.com/2026/awards",
+          "role": "primary"
+        },
+        {
+          "name": "RTV｜评审结果与征片数据",
+          "url": "https://rtv.com/2026/news/festival-awards",
+          "role": "secondary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据RTV 官方获奖名单绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-rtv.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-rtv.webp",
+        "alt": "RTV 三部最佳AI影片并列获奖，无名次：Chosen by You、THE YIELD、ZERO",
+        "credit": "AI NEWS 编辑制图｜据RTV 官方获奖名单绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-rtv.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-rtv.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
+      "rank": 7,
+      "id": "2026-11-23-evening-07",
+      "tier": "alternate"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "FESTIVAL L1",
+      "headline": "尼日利亚短片获非洲AI电影节大奖",
+      "standfirst": "《The Day They Took Our Light》拿下首届全场大奖。",
+      "paragraphs": [
+        "African AI Film Festival官方名单显示，尼日利亚导演Adekunle Bryan Oyetunde的《The Day They Took Our Light》获全场大奖。首届活动在洛杉矶举行。",
+        "获最佳AI短片的是Ibrahima Sagna的《The Princess and the Serpent》，与全场大奖是两个奖项。"
+      ],
+      "whyItMatters": "获奖名单提供了直接看作品和追踪创作者的入口，也能看到非洲及其侨民创作者如何用AI讲本地故事，而不只比拼生成画面。",
+      "caveats": [
+        "洛杉矶颁奖活动为当地11月21日；主办方获奖页没有标注上传钟点。",
+        "配图为本报根据原始来源所作的资料图或示意图，并非官方图片。"
+      ],
+      "figures": [
+        "主办方征片数据：收到 523 部来自 45 个国家的投稿，选出 47 部。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "洛杉矶 11 月 21 日活动，换算为北京 11 月 22 日；获奖页面上传时间未列。",
+      "sources": [
+        {
+          "name": "African AI Film Festival｜官方获奖名单",
+          "url": "https://africanaifilmfestival.org/winners",
+          "role": "primary"
+        },
+        {
+          "name": "African AI Film Festival｜征片与入选公告",
+          "url": "https://africanaifilmfestival.org/press",
+          "role": "secondary"
+        },
+        {
+          "name": "The Nollywood Reporter｜获奖片导演访谈",
+          "url": "https://thenollywoodreporter.com/news/adekunle-bryan-oyetunde-ai-filmmaking-african-stories/",
+          "role": "secondary"
+        },
+        {
+          "name": "AI NEWS 编辑制图｜据电影节官方获奖名单绘制",
+          "url": "https://junielau.com/ai-news/media/2026-11-23/evening-aai-ff.webp",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-aai-ff.webp",
+        "alt": "首届非洲AI电影节全场大奖：《The Day They Took Our Light》，导演Adekunle Bryan Oyetunde",
+        "credit": "AI NEWS 编辑制图｜据电影节官方获奖名单绘制",
+        "sourcePage": "https://junielau.com/ai-news/media/2026-11-23/evening-aai-ff.webp",
+        "retrievedFrom": "https://junielau.com/ai-news/media/2026-11-23/evening-aai-ff.webp",
+        "retrievedAt": "2026-11-23T14:54:18.166Z"
+      },
+      "rank": 8,
+      "id": "2026-11-23-evening-08",
+      "tier": "alternate"
     }
   ]
 }
