@@ -1,0 +1,495 @@
+{
+  "issueDate": "2026-11-23",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-23T10:13:19+08:00",
+  "retrievedThrough": "2026-11-23T10:00:00+08:00",
+  "slot": "10:00",
+  "slotNote": "按北京时间 10:00 截稿，页面更新时刻另记。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期含 10 条，按事件热度与证据评分排序，前 4 条为建议发送。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-23-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "PRODUCT L2",
+      "headline": "蚂蚁阿福上线医务人员电脑工作台",
+      "standfirst": "工作台与手机端同步，医务人员可试用临床参考资料库至年底。",
+      "paragraphs": [
+        "蚂蚁阿福发布面向医生、护士等专业用户的电脑端工作台，并接入临床参考资料库 UpToDate。公司称，工作台提供 12 项研究及文书类工具，手机和电脑的内容可同步。",
+        "经平台认证的医生、护士和药师可试用 UpToDate 接入至 12 月 31 日。此次更新主要面向医务工作，不是向患者开放的诊断功能。"
+      ],
+      "whyItMatters": "临床助手能否被日常使用，取决于它能否接上可靠参考资料和既有工作习惯。新增工作台的看点在资料与文书流程，不在于替代医生。",
+      "caveats": [
+        "产品能力及试用条件以官方实际开通范围为准；不是临床疗效证据。"
+      ],
+      "figures": [
+        "12 项研究和文书工具（公司口径）",
+        "专业用户试用至 12 月 31 日"
+      ],
+      "publishedAt": "2026-11-22T15:57:00+08:00",
+      "publishedAtNote": "蚂蚁阿福认证账号原帖时刻；36氪 15:30 已有现场消息。",
+      "sources": [
+        {
+          "name": "蚂蚁阿福｜认证账号公告",
+          "url": "https://www.sina.cn/news/detail/5368083168101399.html",
+          "role": "primary"
+        },
+        {
+          "name": "澎湃新闻｜产品与试用报道",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34534030",
+          "role": "secondary"
+        },
+        {
+          "name": "雷科技｜现场与产品报道",
+          "url": "https://www.leikeji.com/article/80701",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-01.jpg",
+        "alt": "蚂蚁阿福医务版发布活动现场",
+        "credit": "雷科技｜医务版及电脑工作台现场报道",
+        "sourcePage": "https://www.leikeji.com/article/80701",
+        "retrievedFrom": "https://img.leikeji.com/resource/img/06be059fecd84947bf15e1a40b876178.webp",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "SECURITY L1",
+      "headline": "后续：OpenRouter 下架 3 家推理供应商",
+      "standfirst": "另有 125 个端点被取消零数据留存资格，部分是预防性处理。",
+      "paragraphs": [
+        "上期报道了 Together AI 披露的提示词泄露。这次的新动作来自推理聚合平台 OpenRouter：平台称已下架 3 家供应商、取消 125 个端点的零数据留存资格，并通知了有可能受影响的客户。",
+        "零数据留存指供应商不保存请求正文和模型输出。OpenRouter 表示，研究没有显示其自有系统被入侵。平台没有公开列出全部被下架的供应商，也没有把 125 个端点都认定为发生泄露。"
+      ],
+      "whyItMatters": "同一个模型经不同供应商运行，数据留存政策不一定一样。团队需要核对实际使用的推理线路，而不是只核对模型名称。",
+      "caveats": [
+        "下架和资格调整是平台披露的处置；125 并不是已确认泄露的端点数。"
+      ],
+      "figures": [
+        "3 家供应商下架",
+        "125 个端点失去零数据留存资格"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "平台原文 11 月 22 日；同日已见 Hacker News 原始讨论。未把论坛入库时间当官方发布时刻。",
+      "sources": [
+        {
+          "name": "OpenRouter｜平台处置公告",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "role": "primary"
+        },
+        {
+          "name": "The Hacker News｜独立报道",
+          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+          "role": "secondary"
+        },
+        {
+          "name": "Hacker News｜原帖讨论",
+          "url": "https://news.ycombinator.com/item?id=50595554",
+          "role": "secondary"
+        },
+        {
+          "name": "Dragos｜供应商数据留存调查",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-02.jpg",
+        "alt": "研究团队用于复核供应商数据处理的控制台",
+        "credit": "Dragos｜调查原文图 6，非 OpenRouter 处置面板",
+        "sourcePage": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+        "retrievedFrom": "https://dragos-production-dragos.s3.us-west-2.amazonaws.com/brightspot/2c/b2/8ee5d66a4e74800c4153576d5a49/figure-6-console-overview.png",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "POLICY L2",
+      "headline": "韩国教育部长就高考防作弊争议辞职",
+      "standfirst": "总统接受辞呈，并要求厘清限制考题拍摄、传输的法律依据。",
+      "paragraphs": [
+        "11 月 22 日，韩国总统府发言人确认，总统李在明接受教育部长崔教镇的辞呈。争议来自高考前仓促调整防作弊措施：考试主管部门面临如何在阻止拍题外传的同时避免临时安排扰乱考试的压力。",
+        "总统府当天另公布后续指示，包括研究限制试卷拍摄和传输的法律依据、检查其他考试的应对办法，以及研究用试卷标记追查泄题来源。"
+      ],
+      "whyItMatters": "考场面对的不只是检测 AI 答案，更是如何管理设备、试卷和传输。事件显示，规则越靠近考试日才调整，执行和公平都越难保证。",
+      "caveats": [
+        "不要把涉嫌电子设备违规的数字说成已查实使用 AI 的人数。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T11:45:33+08:00",
+      "publishedAtNote": "早期 Daegu MBC 12:45:33 KST，换算北京时间；总统府同日说明是官方后续政策，不等同辞职稿。",
+      "sources": [
+        {
+          "name": "韩联社｜引述总统府发言人",
+          "url": "https://en.yna.co.kr/view/AEN20261122001051315",
+          "role": "primary"
+        },
+        {
+          "name": "韩国总统府｜考题保密与后续指示",
+          "url": "https://www.president.go.kr/social-media/96DfUYVL",
+          "role": "secondary"
+        },
+        {
+          "name": "Daegu MBC｜早期报道",
+          "url": "https://dgmbc.com/NewsArticle/874697",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-03.jpg",
+        "alt": "韩国教育部长崔教镇资料照",
+        "credit": "韩联社｜报道所附崔教镇照片",
+        "sourcePage": "https://en.yna.co.kr/view/AEN20261122001051315",
+        "retrievedFrom": "https://img5.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001051315_02_i_P4.jpg",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "RESEARCH L1",
+      "headline": "OpenAI 披露预训练数据，提议共同设置研发上限",
+      "standfirst": "首席科学家建议：监测手段跟不上时，各家实验室先别跨线。",
+      "paragraphs": [
+        "OpenAI 首席科学家雅库布·帕霍茨基公开了几代模型在同一份内部留出代码集上的对数困惑度，即模型预测下一个词元的误差尺度。GPT‑3.5 约为 0.99，GPT‑4 约为 0.91；他称实验室在约 0.76 的模型上观察到明显的数学能力跃升。",
+        "他建议前沿实验室先建立可比较的测量体系，再约定哪些能力门槛要等到监测工具过关才能跨越。公开数据在同一口径内可比，但不同实验室的数据与训练方法不同。"
+      ],
+      "whyItMatters": "与其等新模型在某个测试上刷出高分，这项提议试图用预训练的可量化进展来提前触发安全评估。能否跨实验室公平比较，仍是关键前提。",
+      "caveats": [
+        "这是一项提议，不是已通过的行业协议；0.68–0.70 是作者对未来能力的推测区间，不是议定上限。"
+      ],
+      "figures": [
+        "0.99（GPT‑3.5）",
+        "0.91（GPT‑4）",
+        "约 0.76（作者描述的数学能力跃升观察点）"
+      ],
+      "publishedAt": "2026-11-23T01:03:00+08:00",
+      "publishedAtNote": "官方文章标注 11 月 22 日；北京时间取作者 X 发布帖的 17:03 UTC，不冒充页面自带钟点。",
+      "sources": [
+        {
+          "name": "OpenAI｜首席科学家原文",
+          "url": "https://openai.com/index/perplexity-and-intelligence/",
+          "role": "primary"
+        },
+        {
+          "name": "Jakub Pachocki｜发布帖",
+          "url": "https://x.com/merettm/status/2124549218995949967",
+          "role": "secondary"
+        },
+        {
+          "name": "Reuters｜独立报道",
+          "url": "https://www.reuters.com/business/openai-scientist-proposes-industry-ai-limits-tied-model-intelligence-metric-2026-11-22/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-04.jpg",
+        "alt": "OpenAI 文章专属封面",
+        "credit": "OpenAI｜《Perplexity and Intelligence》文章封面",
+        "sourcePage": "https://openai.com/index/perplexity-and-intelligence/",
+        "retrievedFrom": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?fit=fill&h=900&w=1600",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-05",
+      "rank": 5,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "INDUSTRY L3",
+      "headline": "英国 AI 乳腺筛查试验启动首批招募",
+      "standfirst": "剑桥率先招募；研究比较 AI 辅助读片与现有流程，尚未公布结果。",
+      "paragraphs": [
+        "据 BBC 和《独立报》报道，剑桥大学医院已开始为 EDITH 试验招募首批参与者。英国卫生研究管理局的方案计划覆盖约 30 家筛查中心、约 66 万名女性。",
+        "试验比较现行流程与两种 AI 辅助方式。每张乳腺 X 光片仍至少由一名 NHS 专业人员判读。媒体报道中的近 70 万是约数，不是已招募人数。"
+      ],
+      "whyItMatters": "在真实筛查流程里做对照，才能知道 AI 是否减轻读片负担，以及会不会漏诊或带来更多不必要的复查。",
+      "caveats": [
+        "这是试验开始招募，不是 NHS 全国部署或证实 AI 能更早诊断。"
+      ],
+      "figures": [
+        "约 66 万人（试验登记计划）",
+        "约 30 家筛查中心"
+      ],
+      "publishedAt": "2026-11-23T07:45:00+08:00",
+      "publishedAtNote": "《独立报》11 月 22 日 23:45 GMT，BBC 11 月 23 日 00:49 UTC 独立报道；实际首位入组日期未公开。",
+      "sources": [
+        {
+          "name": "The Independent｜引述 NHS 的招募报道",
+          "url": "https://www.independent.co.uk/news/uk/home-news/ai-breast-cancer-screening-nhs-b3089444.html",
+          "role": "primary"
+        },
+        {
+          "name": "BBC｜独立医疗报道",
+          "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo",
+          "role": "secondary"
+        },
+        {
+          "name": "英国卫生研究管理局｜研究登记",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/edith/",
+          "role": "secondary"
+        },
+        {
+          "name": "剑桥大学医院｜共同负责人官方资料",
+          "url": "https://www.cuh.nhs.uk/staff-directory/prof-fiona-gilbert/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-05.jpg",
+        "alt": "EDITH 试验共同负责人菲奥娜·吉尔伯特的官方肖像",
+        "credit": "剑桥大学医院｜研究共同负责人资料照，非筛查现场",
+        "sourcePage": "https://www.cuh.nhs.uk/staff-directory/prof-fiona-gilbert/",
+        "retrievedFrom": "https://media.cuh.nhs.uk/images/Fiona_Gilbert_2.6fe49c8c.fill-480x480.jpg",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "INFRA L1",
+      "headline": "后续：美国财长称仍在等英伟达回答芯片销售问题",
+      "standfirst": "贝森特称已与英伟达临时管理层、董事和律师接触，尚未得到所需答复。",
+      "paragraphs": [
+        "此前报道了英伟达股价波动及监管审查消息。11 月 22 日，贝森特在 CBS 采访中说，美国政府仍在等英伟达解释先进芯片对华销售有关问题，已与公司临时管理层、董事及律师接触。",
+        "他表示政府要弄清谁负责合规以及哪些环节可能有问题。关于公司是否违规或是否换帅，他没有宣布结论。"
+      ],
+      "whyItMatters": "新进展是财长公开确认问询尚未完结，不是新一轮芯片禁令。采购方需要区分行政问询和已经生效的出口要求。",
+      "caveats": [
+        "不把采访中的指控写成监管认定，也不把采访解读成黄仁勋将复职。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-23T01:41:00+08:00",
+      "publishedAtNote": "CBS 采访逐字稿更新 11 月 22 日 12:41 EST；采访在美国当地当天播出。",
+      "sources": [
+        {
+          "name": "CBS｜贝森特采访逐字稿",
+          "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/",
+          "role": "primary"
+        },
+        {
+          "name": "InvestingLive｜采访后续报道",
+          "url": "https://investinglive.com/stocks/bessent-leaves-door-open-to-huang-return-at-nvidia-a-week-after-urging-an-outside-ceo/",
+          "role": "secondary"
+        },
+        {
+          "name": "美国财政部｜贝森特官方资料",
+          "url": "https://home.treasury.gov/about/general-information/officials/scott-bessent",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-06.jpg",
+        "alt": "美国财政部长斯科特·贝森特官方肖像",
+        "credit": "美国财政部｜资料照，非 CBS 采访画面",
+        "sourcePage": "https://home.treasury.gov/about/general-information/officials/scott-bessent",
+        "retrievedFrom": "https://home.treasury.gov/system/files/136/Secretary_Bessent.jpg",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "INFRA L1",
+      "headline": "韩国蔚山 SK AI 数据中心 A 栋施工完成约 71%",
+      "standfirst": "韩国总统现场听取进度，第一阶段目标是 2027 年底投运。",
+      "paragraphs": [
+        "韩国总统李在明走访蔚山 SK AI 数据中心。总统府发布的现场资料显示，A 栋施工进度约 71%，计划在 2027 年底投入运营。",
+        "这是 SK 在高密度 AI 算力基础设施上的实体交付进展。SK 集团提出的更长期算力目标不是蔚山这一栋楼当前的容量。"
+      ],
+      "whyItMatters": "新数据中心从签约到可用通常相隔数年。可量化的工程节点比远期容量愿景更有助于判断算力何时能交付。",
+      "caveats": [
+        "71% 指 A 栋施工进度，不代表整个项目已完成或可用。"
+      ],
+      "figures": [
+        "A 栋约 71%",
+        "2027 年底投运目标"
+      ],
+      "publishedAt": "2026-11-21T13:38:00+08:00",
+      "publishedAtNote": "11 月 21 日公开现场行程 11:00 KST；刊载时刻取韩联社 14:38 KST。",
+      "sources": [
+        {
+          "name": "韩国总统府｜现场简报",
+          "url": "https://www.president.go.kr/videos/shZPSTtz",
+          "role": "primary"
+        },
+        {
+          "name": "韩国政府政策新闻｜视察报道",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976223",
+          "role": "secondary"
+        },
+        {
+          "name": "韩国总统府｜现场图库",
+          "url": "https://www.president.go.kr/photos/president/i0w8djIg",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-07.jpg",
+        "alt": "韩国总统李在明走访蔚山 SK AI 数据中心施工现场",
+        "credit": "韩国总统府｜11 月 21 日现场照片",
+        "sourcePage": "https://www.president.go.kr/photos/president/i0w8djIg",
+        "retrievedFrom": "https://www.president.go.kr/images/2026/11/1795250582773_1_0.jpg",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "POLICY L1",
+      "headline": "中医师资格认证中心否认给大模型测评",
+      "standfirst": "中心称未提供官方试题或给任何大模型背书。",
+      "paragraphs": [
+        "国家中医药管理局中医师资格认证中心在「中医药考试」公众号发声明：中心没有与任何大模型企业合作，也没有进行相关测试或认证。",
+        "中心称，市面上以历年真题、官方真题等名义出售或用于测评的材料并非其提供，要求相关主体停止暗示获得官方测评或背书的宣传。"
+      ],
+      "whyItMatters": "医疗大模型即使在自选考试题上拿到高分，也不能把自测宣传成官方认证，更不能用它代替对临床可靠性的验证。",
+      "caveats": [
+        "声明没有评估特定产品的诊断能力，也不表示所有第三方自测一律无效。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "认证中心原声明发于 11 月 21 日晚；北京日报 11 月 22 日凌晨全文转录。",
+      "sources": [
+        {
+          "name": "中医师资格认证中心｜声明原图，北京日报全文转录",
+          "url": "https://xinwen.bjd.com.cn/content/s6b01c141e4b0e42f8f0332d8.html",
+          "role": "primary"
+        },
+        {
+          "name": "澎湃新闻｜独立报道",
+          "url": "https://m.thepaper.cn/newsDetail_forward_34530585",
+          "role": "secondary"
+        },
+        {
+          "name": "证券时报｜声明与报道",
+          "url": "https://finance.sina.com.cn/wm/2026-11-22/doc-inizqmrn9128328.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-08.jpg",
+        "alt": "中医师资格认证中心官方声明首页截屏",
+        "credit": "中医药考试公众号／北京日报转录｜认证中心声明",
+        "sourcePage": "https://xinwen.bjd.com.cn/content/s6b01c141e4b0e42f8f0332d8.html",
+        "retrievedFrom": "https://mmbiz.qpic.cn/mmbiz_png/GBEWlxJpicyxibayQe7epTe24aicz7uHMVMw2bpibFchy9fR775blmqnMX6L85Pf5PibxsoN3AWBhE0lGS7y15c2GJx1DITywjsmwSGxRh2W3e1o/640?from=appmsg&wx_fmt=png",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "POLICY L1",
+      "headline": "中新欢迎对照各自 AI 治理框架",
+      "standfirst": "双方把治理要求的对照列入合作议题，未宣布互认或新协定。",
+      "paragraphs": [
+        "11 月 21 日，新加坡总理黄循财与中国国务院总理李强在北京会面。新加坡外交部同日读出称，两国领导人欢迎双方开展人工智能治理框架的对照工作。",
+        "中方通报也把人工智能列在可拓展的合作领域。框架对照是把双方要求逐项理解清楚，不等于一地评估结果可以在另一地自动适用。"
+      ],
+      "whyItMatters": "对于两地经营的团队，未来如果有具体对照文件，可能更容易判断合规检查里的共同项和差异。现阶段不能据此省略本地要求。",
+      "caveats": [
+        "没有看到双方签署互认协议或宣布实施日期。"
+      ],
+      "figures": [],
+      "publishedAt": null,
+      "publishedAtNote": "新加坡 MFA 明确记载会面与公告日期为 11 月 21 日，未标出地图细节的具体发布时刻；中方同日会面原稿为 16:33:15 北京。",
+      "sources": [
+        {
+          "name": "新加坡外交部｜正式会晤通报",
+          "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/prime-minister-and-minister-for-finance-lawrence-wong-s-meeting-with-premier-of-the-state-council-of-the-people-s-republic-of-china-li-qiang-in-beijing--21-november-2026/",
+          "role": "primary"
+        },
+        {
+          "name": "新华社｜北京会面及照片",
+          "url": "https://www.news.cn/politics/leaders/20261121/b18a111d97ab4ad195f235623e51bdd9/c.html",
+          "role": "secondary"
+        },
+        {
+          "name": "新加坡总理公署｜访华图库",
+          "url": "https://www.pmo.gov.sg/photos/visit-to-the-peoples-republic-of-china-nov-2026/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-09.jpg",
+        "alt": "黄循财与李强在北京会面",
+        "credit": "新加坡数码发展及新闻部／Ngau Kai Yan｜11 月 21 日当天会面现场",
+        "sourcePage": "https://www.pmo.gov.sg/photos/visit-to-the-peoples-republic-of-china-nov-2026/",
+        "retrievedFrom": "https://isomer-user-content.by.gov.sg/157/3759f6d6-3905-45e3-baf1-dccc731072ba/KAI61449.png",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    },
+    {
+      "id": "2026-11-23-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "PRODUCT L1",
+      "headline": "DeepSeek Harness 公开任务树与评审工作台",
+      "standfirst": "编码代理把任务、卡点和代码评审放进同一个可追踪的界面。",
+      "paragraphs": [
+        "DeepSeek 发布 Harness 预览版 dsh-v0.2.3-alpha.1。发行说明列出实验性的任务树时间线、面向 GitHub 和 GitLab 的共享评审界面，以及包括飞书、企业微信和腾讯文档在内的可选连接。",
+        "任务树面向多步骤工作：开发者可以区分哪些步骤在进行、被阻塞或已经完成，而不必只靠对话来推断。"
+      ],
+      "whyItMatters": "多步编码代理除了会写代码，还得让团队看得懂做了什么、卡在哪里，以及何时应由人接手。",
+      "caveats": [
+        "是 alpha 预览，不等于全量上线；外部服务仍需单独授权。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-22T11:19:36+08:00",
+      "publishedAtNote": "GitHub 不可变发布记录 03:19:36 UTC。",
+      "sources": [
+        {
+          "name": "DeepSeek｜GitHub 预览发行说明",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.1",
+          "role": "primary"
+        },
+        {
+          "name": "DeepSeek｜Harness 产品界面",
+          "url": "https://www.deepseek.com/harness",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/morning-10.jpg",
+        "alt": "DeepSeek Harness 的任务轨迹界面",
+        "credit": "DeepSeek｜Harness 官方产品界面，非该 alpha 独有截图",
+        "sourcePage": "https://www.deepseek.com/harness",
+        "retrievedFrom": "https://www.deepseek.com/harness/images/feat-trace-zh.webp",
+        "retrievedAt": "2026-11-23T10:13:19+08:00"
+      }
+    }
+  ]
+}
