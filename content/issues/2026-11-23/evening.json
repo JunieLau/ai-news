@@ -1,0 +1,118 @@
+{
+  "issueDate": "2026-11-23",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-23T14:42:10.937Z",
+  "retrievedThrough": "2026-11-23T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "本期以北京时间 11 月 23 日 20:00 截稿，随后补刊。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期发布已核实事实、通过评分且配图可用的 2 条。其余候选留档，不以无关图片或旧消息凑数。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-23-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "RIGHTS L3",
+      "headline": "哈拉里披露《未知者》一镜使用 AI 换脸",
+      "standfirst": "导演确认用在蕾雅·赛杜的一个替身镜头，不是整部片。",
+      "paragraphs": [
+        "据《Variety》现场报道，导演亚瑟·哈拉里在马拉喀什电影节谈到，片中蕾雅·赛杜饰演的角色与自己的分身接吻。剧组先拍了替身表演，再用 AI 换脸工具完成一个镜头。",
+        "哈拉里说效果有人操作。公开报道没有披露所用模型或演员授权条款。"
+      ],
+      "whyItMatters": "即便整部片以真人拍摄为主，制作团队也可以具体说明 AI 用在哪个镜头、做了什么，不必把整部片笼统贴成「AI 制作」或「没有用 AI」。",
+      "caveats": [
+        "配图是导演的 2023 年资料照，不是电影节现场或涉事镜头。"
+      ],
+      "figures": [
+        "公开披露范围：1 个镜头。"
+      ],
+      "publishedAt": "2026-11-22T23:02:00+08:00",
+      "publishedAtNote": "《Variety》现场报道发于美国中部时间 11 月 22 日 09:02。",
+      "sources": [
+        {
+          "name": "Variety｜马拉喀什现场原报道",
+          "url": "https://variety.com/2026/film/festivals/the-unknown-director-deepfake-tool-lea-seydoux-kissing-scene-1236955267/",
+          "role": "primary"
+        },
+        {
+          "name": "马拉喀什国际电影节｜导演对谈",
+          "url": "https://marrakech-festival.com/en/conversation/arthur-harari/",
+          "role": "secondary"
+        },
+        {
+          "name": "Wikimedia Commons｜导演资料照",
+          "url": "https://commons.wikimedia.org/wiki/File:Arthur_Harari_2023.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "照片许可｜CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-harari.jpg",
+        "alt": "导演亚瑟·哈拉里，2023 年资料照",
+        "credit": "ManoSolo13241324 / Wikimedia Commons / CC BY-SA 4.0。缩放，无裁切。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Arthur_Harari_2023.jpg",
+        "retrievedFrom": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Arthur_Harari_2023.jpg",
+        "retrievedAt": "2026-11-23T14:42:10.937Z"
+      }
+    },
+    {
+      "id": "2026-11-23-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "PRODUCTION L3",
+      "headline": "《龙之战》新版首支预告未做实拍",
+      "standfirst": "预告用 AI 制作；正片仍计划结合 AI 和实拍。",
+      "paragraphs": [
+        "韩国导演沈炯来在 YTN 首发《D-WAR: NEW HOPE》预告。YTN 报道，这支预告没有实拍，团队用 AI 重做原版未能充分呈现的古代入侵、大规模战斗和怪兽动作。",
+        "项目与 Higgsfield 合作。YTN 报道，重制正片计划结合 AI 和实拍，目标是 2027 年 2 月在韩国等市场上映，尚非确认档期。"
+      ],
+      "whyItMatters": "经典类型片可以先用生成技术把原版没有实现的场面拍成预告，但预告的制作方式并不能说明正片也会采用相同流程。",
+      "caveats": [
+        "配图是导演的舞台资料照，不是新版预告截图。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-23T06:10:00+08:00",
+      "publishedAtNote": "YTN Star 首发报道发于韩国时间 11 月 23 日 07:10。",
+      "sources": [
+        {
+          "name": "YTN Star｜预告首发报道",
+          "url": "https://m.star.ytn.co.kr/ent_view.php?key=202611230710586867&s_mcd=0117",
+          "role": "primary"
+        },
+        {
+          "name": "YTN｜导演访谈",
+          "url": "https://www.ytn.co.kr/_ln/0117_202611230700126895",
+          "role": "secondary"
+        },
+        {
+          "name": "Wikimedia Commons｜导演资料照",
+          "url": "https://commons.wikimedia.org/wiki/File:%EC%8B%AC%ED%98%95%EB%9E%98_%EB%82%98%EB%8A%94_%EA%B0%80%EC%88%98%EB%8B%A4_%ED%8C%A8%EB%9F%AC%EB%94%94_%EB%82%98%EB%8A%94_%EA%B0%9C%EA%B7%B8%EB%A7%A8%EC%9D%B4%EB%8B%A4_(2).jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "照片许可｜CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-23/evening-shim.jpg",
+        "alt": "导演沈炯来在舞台上的资料照",
+        "credit": "Wooris，Sangjinhwa 裁切 / Wikimedia Commons / CC BY-SA 3.0。原裁切版。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%EC%8B%AC%ED%98%95%EB%9E%98_%EB%82%98%EB%8A%94_%EA%B0%80%EC%88%98%EB%8B%A4_%ED%8C%A8%EB%9F%AC%EB%94%94_%EB%82%98%EB%8A%94_%EA%B0%9C%EA%B7%B8%EB%A7%A8%EC%9D%B4%EB%8B%A4_(2).jpg",
+        "retrievedFrom": "https://upload.wikimedia.org/wikipedia/commons/3/32/%EC%8B%AC%ED%98%95%EB%9E%98_%EB%82%98%EB%8A%94_%EA%B0%80%EC%88%98%EB%8B%A4_%ED%8C%A8%EB%9F%AC%EB%94%94_%EB%82%98%EB%8A%94_%EA%B0%9C%EA%B7%B8%EB%A7%A8%EC%9D%B4%EB%8B%A4_%282%29.jpg",
+        "retrievedAt": "2026-11-23T14:42:10.937Z"
+      }
+    }
+  ]
+}
