@@ -1,0 +1,535 @@
+{
+  "issueDate": "2026-11-24",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-24T10:10:52+08:00",
+  "retrievedThrough": "2026-11-24T10:00:00+08:00",
+  "slot": "10:00",
+  "slotNote": "按北京时间 11 月 24 日 10:00 截稿；页面发布时间另记。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期 10 条，按独立来源热度和双轮证据评分排序，前 4 条为建议发送。图片为有署名的相关资料照，并非新闻现场。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "CHIPS L1",
+      "headline": "后续：英伟达董事会恢复黄仁勋职务",
+      "standfirst": "黄仁勋恢复三项职务，但董事会调查仍在继续。",
+      "paragraphs": [
+        "上期报道，美国财长贝森特称仍在等英伟达解释先进芯片对华销售问题。英伟达 11 月 23 日披露：董事会已于 22 日一致决定恢复黄仁勋的总裁、首席执行官和董事职务，当天生效。科莱特·克雷斯继续担任执行副总裁兼首席财务官。",
+        "公司表示，董事会在听取美国政府高层意见后自行作出风险判断；董事会独立调查还在继续，公司也计划聘任首席合规官。"
+      ],
+      "whyItMatters": "人事复位解决了谁领导公司，但没有解决需要监管机构回答的问题。芯片出口许可和调查进展要分开看。",
+      "caveats": [
+        "不是政府准许出口，也不是调查结束。"
+      ],
+      "figures": [
+        "恢复三项职务：总裁、CEO、董事"
+      ],
+      "publishedAt": "2026-11-23T21:57:54+08:00",
+      "publishedAtNote": "采用 SEC 接收时刻；董事会决定已于美国当地 22 日生效。",
+      "sources": [
+        {
+          "name": "SEC｜英伟达 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+          "role": "primary"
+        },
+        {
+          "name": "英伟达｜董事会公告",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "role": "secondary"
+        },
+        {
+          "name": "美联社｜独立报道",
+          "url": "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_the_%E2%80%9CU.S._Leadership_in_AI%E2%80%9D_discussion,_Stanford_University,_2026.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-24-morning-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-01.webp",
+        "alt": "黄仁勋于 2026 年 4 月在斯坦福出席活动的资料照，非董事会现场",
+        "credit": "Anders Eidesvik / Wikimedia Commons · CC BY 4.0（资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_the_%E2%80%9CU.S._Leadership_in_AI%E2%80%9D_discussion,_Stanford_University,_2026.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Jensen_Huang_at_the_%E2%80%9CU.S._Leadership_in_AI%E2%80%9D_discussion%2C_Stanford_University%2C_2026.jpg/500px-Jensen_Huang_at_the_%E2%80%9CU.S._Leadership_in_AI%E2%80%9D_discussion%2C_Stanford_University%2C_2026.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CAPITAL L1",
+      "headline": "CrowdStrike 拟全股票收购 Zscaler",
+      "standfirst": "交易估值约 439 亿美元，试图把设备和网络安全放到同一平台。",
+      "paragraphs": [
+        "美国网络安全公司 CrowdStrike 与 Zscaler 11 月 23 日宣布签署最终协议。按 11 月 20 日收盘价计算，交易企业价值约 439 亿美元，Zscaler 股东每股将获 1.135 股 CrowdStrike 股票。",
+        "买方拟把 Zscaler 的网络访问管控接入 Falcon。交易仍需监管机构和 Zscaler 股东批准，交割前两家公司独立运营。"
+      ],
+      "whyItMatters": "AI 智能体开始直接访问企业数据和工具，安全团队也要管它能连到哪里。这笔交易让终端安全厂商进入网络管控，但不代表产品已经整合。",
+      "caveats": [
+        "签署协议，不是资产已经交割。"
+      ],
+      "figures": [
+        "约 439 亿美元企业价值",
+        "每股 Zscaler 换 1.135 股 CrowdStrike"
+      ],
+      "publishedAt": "2026-11-23T18:39:00+08:00",
+      "publishedAtNote": "采用已可核的路透报道时刻；公司联合公告同日。",
+      "sources": [
+        {
+          "name": "SEC｜联合交易公告",
+          "url": "https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/d115803dex991.htm",
+          "role": "primary"
+        },
+        {
+          "name": "美联社｜独立报道",
+          "url": "https://apnews.com/article/cf5a66aaa14f98763eabfb767ff8727c",
+          "role": "secondary"
+        },
+        {
+          "name": "CrowdStrike｜交割条件",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Jay_Chaudhry.png",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-24-morning-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-02.webp",
+        "alt": "Zscaler 创始人兼首席执行官 Jay Chaudhry 的资料照，非签约现场",
+        "credit": "BluBayou / Wikimedia Commons · CC0 1.0（资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jay_Chaudhry.png",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Jay_Chaudhry.png/960px-Jay_Chaudhry.png",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "MODEL L1",
+      "headline": "智谱向编程订阅用户开放 GLM-5.4",
+      "standfirst": "编程模型可处理视觉输入，通用 API 和权重尚未开放。",
+      "paragraphs": [
+        "智谱 11 月 23 日向 GLM Coding Plan 订阅用户开放 GLM-5.4。这是公司首个采用循环 Transformer 的旗舰模型。按官方技术说明，模型会重复运行同一组层，而不是简单增加一组新的层。",
+        "这次更新给编程模型增加了处理视觉输入的能力。智谱的 AutoClaw 已集成；TRAE 也在中国客户端宣布接入，限 Pro+ 及以上。"
+      ],
+      "whyItMatters": "开发者现在可以试着把截图等视觉线索交给编程助手，而不必先全部转写成文字。公开 API 和可下载权重仍未发布，因此不是全面开放。",
+      "caveats": [
+        "官方展示的是视觉理解和编程，不是生成图像或视频。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-23T12:18:45+08:00",
+      "publishedAtNote": "采用 Z.ai 产品负责人宣布订阅开放的社交帖时刻，技术博文当天稍晚发布。",
+      "sources": [
+        {
+          "name": "智谱 AutoClaw｜订阅接入",
+          "url": "https://autoclaw.z.ai/en/blog/model/GLM-5.4/",
+          "role": "primary"
+        },
+        {
+          "name": "Z.ai｜GLM-5.4 技术公告",
+          "url": "https://z.ai/blog/glm-5.4",
+          "role": "secondary"
+        },
+        {
+          "name": "IT之家｜上线与界面报道",
+          "url": "https://www.ithome.com/1/030/809.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "TRAE｜客户端接入通知",
+          "url": "https://forum.trae.cn/t/topic/605274",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%A8%81%E6%96%B0%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%BB%88_Vision_International_-_panoramio.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-24-morning-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-03.webp",
+        "alt": "智谱公开办公地址所在的北京楼宇，2011 年资料照，非 GLM 界面",
+        "credit": "Bohao Zhao / Wikimedia Commons · CC BY 3.0（楼宇资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%A8%81%E6%96%B0%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%BB%88_Vision_International_-_panoramio.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E5%A8%81%E6%96%B0%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%BB%88_Vision_International_-_panoramio.jpg/960px-%E5%A8%81%E6%96%B0%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%BB%88_Vision_International_-_panoramio.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CHIPS L1",
+      "headline": "亚马逊签约买下 Decart 芯片优化技术",
+      "standfirst": "亚马逊还将吸纳研发团队，未宣布收购整家公司。",
+      "paragraphs": [
+        "亚马逊 11 月 23 日宣布，已签协议购买 Decart Optimization Stack 背后的专有技术，并计划引入联合创始人及研发团队。亚马逊从 2025 年起已与团队在 Trainium 芯片上合作。",
+        "目标是把编排、软件与自研芯片一起优化，让模型部署和运行更省算力。官方没有公布交易价格，也未披露新的性能测量结果。"
+      ],
+      "whyItMatters": "云厂商争的不只是谁能买到更多芯片，还包括谁能把模型在自家芯片上跑得更有效率。此次签约是控制这项能力的动作，不是客户立即降价。",
+      "caveats": [
+        "技术与团队交易，不是宣布收购 Decart 整家公司。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-23T22:21:00+08:00",
+      "publishedAtNote": "采用 Calcalist 的 14:21 UTC 独立报道时刻；亚马逊公告同日，仅标日期。",
+      "sources": [
+        {
+          "name": "亚马逊｜交易范围说明",
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+          "role": "primary"
+        },
+        {
+          "name": "Calcalist｜技术与团队交易报道",
+          "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_2018.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-24-morning-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-04.webp",
+        "alt": "亚马逊西雅图总部园区 Amazon Spheres 的 2018 年资料照，非签约现场",
+        "credit": "Andy Li / Wikimedia Commons · CC0 1.0（资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_2018.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Amazon_Spheres_2018.jpg/500px-Amazon_Spheres_2018.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CAPITAL L1",
+      "headline": "客服智能体 Sierra 拟融资 17.5 亿美元",
+      "standfirst": "两家机构共同领投，融资估值为 300 亿美元。",
+      "paragraphs": [
+        "Sierra 两位联合创始人 11 月 23 日披露，公司正在筹集 17.5 亿美元，估值 300 亿美元。Greenoaks 和 Lightspeed Venture Partners 共同领投，多家以往领投方跟投。",
+        "Sierra 给企业做客服智能体，称主要按问题解决等结果收费，而非按词元计费。公司自报年度经常性收入运行率已超过 4 亿美元。"
+      ],
+      "whyItMatters": "客服 AI 能否把工单处理完，比发了多少条消息更有商业意义。这轮估值是资本对该模式的押注，不等于已经证明客户的投资回报。",
+      "caveats": [
+        "原文说正在募资，未披露全部交割完成；年度经常性收入运行率不等于实际到账收入。"
+      ],
+      "figures": [
+        "融资 17.5 亿美元",
+        "估值 300 亿美元"
+      ],
+      "publishedAt": "2026-11-23T22:43:00+08:00",
+      "publishedAtNote": "采用 TechCrunch 14:43 UTC 的报道时刻；创始人公告只标日期。",
+      "sources": [
+        {
+          "name": "Sierra｜创始人融资公告",
+          "url": "https://sierra.ai/blog/series-f-30b",
+          "role": "primary"
+        },
+        {
+          "name": "TechCrunch｜独立报道",
+          "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2024_D2_Bret_Taylor-3.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-24-morning-05",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-05.webp",
+        "alt": "Sierra 联合创始人 Bret Taylor 出席 TechCrunch Disrupt 2024，非本轮融资现场",
+        "credit": "Katelyn Tucker / Slava Blazer Photography via TechCrunch · CC BY 2.0（资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2024_D2_Bret_Taylor-3.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/TechCrunch_Disrupt_2024_D2_Bret_Taylor-3.jpg/960px-TechCrunch_Disrupt_2024_D2_Bret_Taylor-3.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "MODEL L1",
+      "headline": "GPT-6.2 Sol 开始进入普通 ChatGPT",
+      "standfirst": "这次更新的是普通聊天页，不是 Work 或 Codex。",
+      "paragraphs": [
+        "OpenAI 11 月 23 日宣布，将 GPT-6.2 Sol 的聊天版本逐步推向 ChatGPT 的 Plus、Pro、Business 与 Enterprise 用户。企业用户还要看管理员设置。此前 11 月 17 日宣布的 API 与 Work/Codex 预览不是这次普通聊天更新。",
+        "OpenAI 在自家聊天环境对照测试中报告，图像理解得分从 47.4% 提高到 71.7%，复杂指令遵循从 62.5% 提高到 78.1%。这不是所有任务的准确率。"
+      ],
+      "whyItMatters": "如果你习惯在普通聊天里给模型看图或交代多条规则，可以用自己的旧任务做对照。是否已经可用，以账户实际显示为准。",
+      "caveats": [
+        "成绩来自 OpenAI 内部测试；尚不能推断个人账户已收到。"
+      ],
+      "figures": [
+        "图像理解 47.4% → 71.7%（官方内部测试）",
+        "复杂指令遵循 62.5% → 78.1%（同口径）"
+      ],
+      "publishedAt": "2026-11-24T03:04:31+08:00",
+      "publishedAtNote": "采用 @ChatGPT 社交公告时刻；与账户实际开通时间不同。",
+      "sources": [
+        {
+          "name": "OpenAI｜ChatGPT 更新说明",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "role": "primary"
+        },
+        {
+          "name": "OpenAI｜GPT-6.2 Chat 系统卡",
+          "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt/gpt-6-2-chatgpt.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "MacRumors｜独立报道",
+          "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 6,
+      "id": "2026-11-24-morning-06",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-06.webp",
+        "alt": "OpenAI 在旧金山 1515 Third Street 的 2025 年办公楼资料照",
+        "credit": "Coolcaesar / Wikimedia Commons · CC BY 4.0（资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/960px-1515_Third_Street.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "MODEL L1",
+      "headline": "后续：蚂蚁开放两款医疗模型权重",
+      "standfirst": "两个模型可下载供开发与研究，不等于临床验证完成。",
+      "paragraphs": [
+        "上期报道蚂蚁阿福向医务人员推出电脑工作台。11 月 23 日，蚂蚁正式宣布另一项变化：开放 LingSante-3.1-air-VL 和 LingSante-3.1-flash 两款模型权重，两份模型库均标注 MIT 许可。",
+        "前者定位于图文等多模态任务，后者面向复杂医疗推理和工作流。从现有模型卡可以核对下载与用途，但不能由跑分推出诊疗安全性。"
+      ],
+      "whyItMatters": "研究团队现在可以在自己的测试环境做适配和评估。开权重与取得临床使用证据是两件不同的事。",
+      "caveats": [
+        "模型仅作开发和研究参考，不可据此给出个人诊断。"
+      ],
+      "figures": [
+        "2 款可下载模型",
+        "模型仓库均标注 MIT"
+      ],
+      "publishedAt": "2026-11-23T15:10:00+08:00",
+      "publishedAtNote": "采用 Business Wire 自发行方新闻稿的分发时刻；技术博客有更早日历日期。",
+      "sources": [
+        {
+          "name": "inclusionAI｜开放权重技术公告",
+          "url": "https://developer.ant-ling.com/en/blogs/lingsante-3.1-flash",
+          "role": "primary"
+        },
+        {
+          "name": "蚂蚁集团｜开放权重公告",
+          "url": "https://www.antgroup.com/en/news-media/press-releases/1795402800000",
+          "role": "secondary"
+        },
+        {
+          "name": "inclusionAI｜Air-VL 权重与模型卡",
+          "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
+          "role": "secondary"
+        },
+        {
+          "name": "inclusionAI｜Flash 权重与模型卡",
+          "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Ant_A_Space,_Hangzhou,_2021-12-02.jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 7,
+      "id": "2026-11-24-morning-07",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-07.webp",
+        "alt": "蚂蚁集团杭州 A 空间，2021 年资料照，非本次发布现场",
+        "credit": "Siyuwj / Wikimedia Commons · CC BY-SA 4.0（资料图，转 WebP，沿用同一许可）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ant_A_Space,_Hangzhou,_2021-12-02.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ant_A_Space%2C_Hangzhou%2C_2021-12-02.jpg/960px-Ant_A_Space%2C_Hangzhou%2C_2021-12-02.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "POLICY L1",
+      "headline": "联合国与巴巴多斯倡议制定 AI 风险框架",
+      "standfirst": "峰会提出一年内制定框架，并呼吁为能力建设基金筹资。",
+      "paragraphs": [
+        "11 月 23 日闭幕时，联合国秘书长和巴巴多斯总理发布《布里奇敦 AI 安全行动呼吁》，建议各国在一年内制定一套有独立监督的 AI 风险管理框架。",
+        "主办方提出为全球 AI 能力建设基金募集约 30 亿美元的初始目标。行动呼吁同时强调跨境报告、独立评估和本地语言能力，没有宣告资金已经到账。"
+      ],
+      "whyItMatters": "同一款模型在不同语言和地区的风险未必相同。这份呼吁把测试能力和资金问题放到一起，但仍需各国把倡议变成制度和预算。",
+      "caveats": [
+        "非约束性行动呼吁；不是已设立基金、已拨款或有约束力的新规则。"
+      ],
+      "figures": [
+        "1 年：倡议的制定周期",
+        "约 30 亿美元：建议筹资目标"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "官方发布材料标注 11 月 23 日闭幕；不把新闻会时程当作声明发布时间。",
+      "sources": [
+        {
+          "name": "联合国与巴巴多斯峰会｜闭幕通稿",
+          "url": "https://bridgetownaisummit.bb/wp-content/uploads/2026/11/PRESS-RELEASE-Bridgetown-Special-Summit-on-AI-Safety.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "CMC｜独立现场报道",
+          "url": "https://www.cananews.com/bridgetown-summit-on-ai-safety-ends-on-optimistic-note/",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG",
+          "role": "secondary"
+        }
+      ],
+      "rank": 8,
+      "id": "2026-11-24-morning-08",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-08.webp",
+        "alt": "巴巴多斯布里奇敦 2012 年城市资料照，非峰会现场",
+        "credit": "P.Lechien / Wikimedia Commons · CC0 1.0（城市资料图，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bridgetown_aerial.JPG/500px-Bridgetown_aerial.JPG",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "INFRA L1",
+      "headline": "Applied Digital 签下 18 年算力租约",
+      "standfirst": "约 54 亿美元为基础租期合同收入，不是现在收到的款项。",
+      "paragraphs": [
+        "美国数据中心运营商 Applied Digital 11 月 23 日披露，与一家未具名的投资级超大规模客户签署 18 年租约，涉及 150 兆瓦关键 IT 容量。公司预计基础租期合同收入约 54 亿美元。",
+        "项目预期最早于 2028 年上半年开始交付，取决于建设、电力安排和监管批准。延长期还没有确定，不计入这一基础金额。"
+      ],
+      "whyItMatters": "大额长期合同能支持新数据中心融资，但签约并不等于算力已经通电。评估项目时，应把合同金额、建设与交付分开。",
+      "caveats": [
+        "客户与项目地点未公开；资料图不是本次项目。"
+      ],
+      "figures": [
+        "150 兆瓦容量",
+        "18 年基础租期",
+        "约 54 亿美元基础期合同收入"
+      ],
+      "publishedAt": "2026-11-23T21:00:00+08:00",
+      "publishedAtNote": "采用发行方新闻稿 13:00 UTC；不是设施开工或通电时间。",
+      "sources": [
+        {
+          "name": "Applied Digital｜签约公告",
+          "url": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with",
+          "role": "primary"
+        },
+        {
+          "name": "路透｜经 WMBD 发布的报道",
+          "url": "https://wmbdradio.com/2026/11/23/applied-digital-signs-5-4-billion-ai-data-center-lease-with-hyperscaler/",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 9,
+      "id": "2026-11-24-morning-09",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-09.webp",
+        "alt": "真实数据中心服务器机柜资料照，非 Applied Digital 此次租约项目",
+        "credit": "Carl Lender / Wikimedia Commons · CC BY 2.0（行业资料图，非本次机房，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/960px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "SECURITY L1",
+      "headline": "Anthropic 公测企业零留存方案",
+      "standfirst": "合资格企业可把加密记录放在自己控制的云存储中。",
+      "paragraphs": [
+        "Anthropic 11 月 23 日宣布，企业前沿安全防护服务从私测转入面向合资格企业的公测。公司在 9 月已披露方案，此次变化是扩大开放范围。",
+        "按官方说明，提示词和模型输出送到客户自己的云存储，自动化安全系统在那里做跨请求检查。Anthropic 会收到安全案件的元数据和沟通信息，供应商不保留原始对话副本。"
+      ],
+      "whyItMatters": "对有严格数据管控要求的企业，变化是把记录保管权与安全监测拆开。它不是任何地方都不保存数据，也不会自动改变个人 Claude 账户的设置。",
+      "caveats": [
+        "适用于已开通的企业配置，平台和功能范围有限；客户承担云存储费用。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-24T02:15:52+08:00",
+      "publishedAtNote": "采用 @claudeai 公测帖时刻；美国仍为 11 月 23 日。",
+      "sources": [
+        {
+          "name": "Anthropic｜公测公告",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+          "role": "primary"
+        },
+        {
+          "name": "Anthropic｜平台范围与限制",
+          "url": "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/overview",
+          "role": "secondary"
+        },
+        {
+          "name": "Google Cloud｜平台预览说明",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/enterprise-frontier-safeguards",
+          "role": "secondary"
+        },
+        {
+          "name": "配图来源与授权",
+          "url": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023_(cropped).jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 10,
+      "id": "2026-11-24-morning-10",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/morning-10.webp",
+        "alt": "Anthropic 首席执行官 Dario Amodei 的 2023 年伦敦资料照，非此次公测现场",
+        "credit": "Simon Walker / No 10 Downing Street · CC BY 2.0（原档已裁，转 WebP）",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023_(cropped).jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Dario_Amodei_in_2023_%28cropped%29.jpg/500px-Dario_Amodei_in_2023_%28cropped%29.jpg",
+        "retrievedAt": "2026-11-24T10:10:52+08:00"
+      }
+    }
+  ]
+}
