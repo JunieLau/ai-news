@@ -1,0 +1,244 @@
+{
+  "issueDate": "2026-11-24",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-24T12:01:04+00:00",
+  "retrievedThrough": "2026-11-24T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "北京时间 11 月 24 日 20:00 截稿；发布时间另记。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期 4 条。新闻依来源热度和双轮评分排序；末条为工具动态。资料照和官方配图在图注标明。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "OSCARS L1",
+      "headline": "后续：AI 长片未列入奥斯卡动画资格名单",
+      "standfirst": "这不是提名结果，也不等于奥斯卡全面禁用 AI。",
+      "paragraphs": [
+        "此前我们报道过奥斯卡对 AI 表演与剧本的规则。美国电影艺术与科学学院 11 月 23 日公布 38 部有资格参评最佳动画长片的影片，《Gods Don’t Give Gifts》未在名单中。",
+        "据 IndieWire 报道，动画分部执行委员会认定该片不符合学院对动画的定义。现行规则要求画面中的运动由人创作或操控；制片方表示打算申诉，尚未确认递交。"
+      ],
+      "whyItMatters": "做生成式动画，有必要尽早核对具体奖项的资格要求。判断的重点不只是用没用 AI，也在于画面运动是怎么做出来的。",
+      "caveats": [
+        "片单只证实名单未收录该片；对委员会判断和申诉计划的描述来自采访报道。"
+      ],
+      "figures": [
+        "38 部：本届最佳动画长片参评资格名单数量"
+      ],
+      "publishedAt": "2026-11-23T21:42:00Z",
+      "publishedAtNote": "采用 IndieWire 原始报道时间；学院同日公布资格名单。",
+      "sources": [
+        {
+          "name": "美国电影艺术与科学学院｜资格名单公告",
+          "url": "https://press.oscars.org/news/animated-documentary-and-international-feature-films-eligible-99th-oscarsr-announced",
+          "role": "primary"
+        },
+        {
+          "name": "学院｜本届完整规则，第七条",
+          "url": "https://www.oscars.org/sites/oscars/files/2026-05/99th_oscars_complete_rules.pdf?VersionId=84FilOcTNI7wpFAxl56.8xesZyP5.UWl",
+          "role": "secondary"
+        },
+        {
+          "name": "IndieWire｜当事人采访",
+          "url": "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/",
+          "role": "secondary"
+        },
+        {
+          "name": "CC BY-SA 4.0｜配图许可",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "role": "secondary"
+        },
+        {
+          "name": "Fred Cherrygarden / Wikimedia Commons，CC BY-SA 4.0，2025 年资料照，缩放并转 WebP，沿用原许可。",
+          "url": "https://commons.wikimedia.org/wiki/File:Academy_Museum_of_Motion_Pictures_(February_2025).jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-24-evening-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-01.webp",
+        "alt": "美国电影艺术与科学学院电影博物馆外观，非评审现场或影片剧照",
+        "credit": "Fred Cherrygarden / Wikimedia Commons，CC BY-SA 4.0，2025 年资料照，缩放并转 WebP，沿用原许可。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Academy_Museum_of_Motion_Pictures_(February_2025).jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Academy_Museum_of_Motion_Pictures_%28February_2025%29.jpg/960px-Academy_Museum_of_Motion_Pictures_%28February_2025%29.jpg",
+        "retrievedAt": "2026-11-24T12:01:04+00:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "DISTRIBUTION L2",
+      "headline": "两部真实犯罪纪录片将改剪成竖屏剧",
+      "standfirst": "英国发行商把纪录片交给竖屏平台，试探旧片的新发行方式。",
+      "paragraphs": [
+        "英国纪录片发行商 Dogwoof 与竖屏平台 Tattle TV 11 月 23 日宣布，将《The Family I Had》和《The Fear of 13》重新剪成手机竖屏系列，由 EMC Media Labs 用 AI 辅助改编。",
+        "两部作品会先在 Tattle TV 推出，预览计划于 12 月 2 日在 Content London 展示，正式上线日期未公布。现有披露说的是重新剪辑已有纪录片，不是用 AI 补造真实案件画面。"
+      ],
+      "whyItMatters": "过去竖屏剧多靠新拍内容，纪录片也能试用这种发行方式。值得看的是改剪怎么保留证词和上下文，以及平台能否让旧片触达新观众。",
+      "caveats": [
+        "未披露模型、具体人工审核流程或新的上线日期。"
+      ],
+      "figures": [
+        "2 部原纪录片",
+        "12 月 2 日为计划预览，不是上线日"
+      ],
+      "publishedAt": "2026-11-23T10:59:00Z",
+      "publishedAtNote": "采用 Dogwoof 官方帖时间；为合作宣布，不是成片上线。",
+      "sources": [
+        {
+          "name": "Dogwoof｜合作公告",
+          "url": "https://x.com/Dogwoof/status/2124820109097402488",
+          "role": "primary"
+        },
+        {
+          "name": "Dogwoof｜官方 LinkedIn",
+          "url": "https://uk.linkedin.com/company/dogwoof",
+          "role": "secondary"
+        },
+        {
+          "name": "Drop Media｜发行合作细节",
+          "url": "https://www.dropmedia.co.uk/tattle-tv-and-dogwoof-adapt-true-crime-documentaries-for-vertical-viewing/",
+          "role": "secondary"
+        },
+        {
+          "name": "Deadline｜首发报道",
+          "url": "https://deadline.com/2026/11/dogwoof-tattle-tv-microdrama-family-i-had-fear-of-13-1237231454/",
+          "role": "secondary"
+        },
+        {
+          "name": "First Run Features 发行商媒体资料室，《The Fear of 13》原片宣传图；缩放并转 WebP。",
+          "url": "https://firstrunfeatures.com/press_hv.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-24-evening-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-02.webp",
+        "alt": "《The Fear of 13》原纪录片的发行宣传图，不是新竖屏版画面",
+        "credit": "First Run Features 发行商媒体资料室，《The Fear of 13》原片宣传图；缩放并转 WebP。",
+        "sourcePage": "https://firstrunfeatures.com/press_hv.html",
+        "retrievedFrom": "https://firstrunfeatures.com/presskits/boxart/fearof13_flat.jpg",
+        "retrievedAt": "2026-11-24T12:01:04+00:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "RELEASE L2",
+      "headline": "深圳 AI 长片《奇妙连接》宣布上线",
+      "standfirst": "芒果TV电影频道给出上线时间，主创仍负责剧本与画面。",
+      "paragraphs": [
+        "11 月 23 日，芒果TV电影频道宣布，约 90 分钟的《奇妙连接》当晚 22 时在芒果TV上线。中新社同日报道还提到深圳卫视和湖南卫视；深圳方面发布了预告片。",
+        "据中新社报道，片子没有进行传统的实景拍摄，团队仍负责实地采风、构思故事和画面设计，再用生成式 AI 制作影像。"
+      ],
+      "whyItMatters": "长片案例进入电视与流媒体发行渠道，比单条生成片段更值得关注。但目前没有公开收视或成本数据，不能据此判断商业表现。",
+      "caveats": [
+        "可核实平台公告与预告，未独立核实正片播放或各卫视实际播出时段。"
+      ],
+      "figures": [
+        "片长约 90 分钟",
+        "芒果TV公告时间：11 月 23 日 22:00（北京时间）"
+      ],
+      "publishedAt": "2026-11-23T15:00:00+08:00",
+      "publishedAtNote": "采用芒果TV电影频道公告时间；当晚 22 时是公告列出的上线时间。",
+      "sources": [
+        {
+          "name": "芒果TV电影频道｜官方上线公告",
+          "url": "https://www.sina.cn/news/detail/5368431231895355.html",
+          "role": "primary"
+        },
+        {
+          "name": "中国新闻网｜制作与发行报道",
+          "url": "https://www.chinanews.com.cn/cul/2026/11-23/10736480.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "读特｜影片预告",
+          "url": "https://www.dutenews.com/n/video/60136524",
+          "role": "secondary"
+        },
+        {
+          "name": "CC0 1.0｜配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "role": "secondary"
+        },
+        {
+          "name": "Fumikas Sagisavas / Wikimedia Commons，CC0 1.0，2025 年深圳资料照，缩放并转 WebP。",
+          "url": "https://commons.wikimedia.org/wiki/File:Skyline_in_Shenzhen_(20250327).jpg",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-24-evening-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-03.webp",
+        "alt": "影片制作项目所在城市深圳的天际线资料照，非影片剧照",
+        "credit": "Fumikas Sagisavas / Wikimedia Commons，CC0 1.0，2025 年深圳资料照，缩放并转 WebP。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skyline_in_Shenzhen_(20250327).jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Skyline_in_Shenzhen_%2820250327%29.jpg/960px-Skyline_in_Shenzhen_%2820250327%29.jpg",
+        "retrievedAt": "2026-11-24T12:01:04+00:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "TOOLS L1",
+      "headline": "Maxon 推出两套供 AI 代理调度的许可",
+      "standfirst": "三维和合成软件各有独立许可，艺术家可继续在前台工作。",
+      "paragraphs": [
+        "德国软件公司 Maxon 11 月 23 日宣布发售 Cinema 4D 和 Autograph 的 Agentic 许可，起价分别为每月 49 美元和 29 美元。前者含 Redshift 渲染器。",
+        "这不是给现有软件首次加上 AI 接口，而是为后台运行单独授权。每份许可一次运行一个实例；艺术家可留在自己的主程序里，而由代理在独立实例执行支持的任务。"
+      ],
+      "whyItMatters": "可以先用测试场景试跑批量材质或图层变化，把最终审片留给人。接入第三方 AI 前要核对它的收费和素材处理方式，尤其是客户项目。",
+      "caveats": [
+        "价格是各许可证起价，不含第三方 AI 费用，也不承诺提供云端算力。"
+      ],
+      "figures": [
+        "Cinema 4D：49 美元/月起",
+        "Autograph：29 美元/月起"
+      ],
+      "publishedAt": "2026-11-23T16:20:00Z",
+      "publishedAtNote": "采用公司新闻稿的发布时刻；厂商称可订购。",
+      "sources": [
+        {
+          "name": "Maxon｜产品发布公告",
+          "url": "https://www.maxon.net/en/article/maxon-announces-agentic-licenses-for-cinema-4d-and-autograph",
+          "role": "primary"
+        },
+        {
+          "name": "Maxon｜规格与常见问题",
+          "url": "https://www.maxon.net/en/solutions/agentic",
+          "role": "secondary"
+        },
+        {
+          "name": "Creative Bloq｜主管采访",
+          "url": "https://www.creativebloq.com/news/every-3d-artist-should-have-an-ai-assistant-maxon-says-as-it-launches-new-tools-and-agentic-licences",
+          "role": "secondary"
+        },
+        {
+          "name": "Maxon 官方新闻配图，授权见品牌资源页；缩放并转 WebP。",
+          "url": "https://www.maxon.net/en/about-maxon/branding",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-24-evening-04",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-04.webp",
+        "alt": "Maxon 发布的 Autograph 官方界面配图，并非此次后台实例的实测",
+        "credit": "Maxon 官方新闻配图，授权见品牌资源页；缩放并转 WebP。",
+        "sourcePage": "https://www.maxon.net/en/about-maxon/branding",
+        "retrievedFrom": "https://maxonnetassets.maxon.net/images/Products/Autograph/MCP-Autograph.jpg",
+        "retrievedAt": "2026-11-24T12:01:04+00:00"
+      }
+    }
+  ]
+}
