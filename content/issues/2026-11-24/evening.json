@@ -2,12 +2,12 @@
   "issueDate": "2026-11-24",
   "edition": "evening",
   "timezone": "Asia/Shanghai",
-  "updatedAt": "2026-11-24T12:01:04+00:00",
+  "updatedAt": "2026-11-24T14:19:17+00:00",
   "retrievedThrough": "2026-11-24T20:00:00+08:00",
   "slot": "20:00",
   "slotNote": "北京时间 11 月 24 日 20:00 截稿；发布时间另记。",
   "title": "AI电影与视频速报",
-  "editorsNote": "本期 4 条。新闻依来源热度和双轮评分排序；末条为工具动态。资料照和官方配图在图注标明。",
+  "editorsNote": "本期复核后共 8 条主版新闻，另有 1 条工具动态。图片均注明来源，资料照不是新闻现场。",
   "showSendShortlist": true,
   "stories": [
     {
@@ -70,6 +70,129 @@
     },
     {
       "region": "海外",
+      "kickerEn": "FILM FESTIVAL L3",
+      "headline": "印度电影节公布五部 AI 短片入围",
+      "standfirst": "入围作品含地方喜剧、民俗恐怖和无对白动画。",
+      "paragraphs": [
+        "11 月 23 日，Women in Film India 与 Google Flow 的影像征集公布五部入围短片，并在印度国际电影节果阿会场设展映活动。根据现场报道，活动收到超过 800 人报名；这是报名人数，不是交片数。",
+        "《Variety》公布的作品包括围绕孟买街头小吃展开的影像随笔、泰米尔语黑色喜剧《Kuli》和印地语民俗恐怖片《Sikkal》。主办方对送件作品有营销、托管和展示授权条款，范围不限于获奖者。"
+      ],
+      "whyItMatters": "地方语言和具体生活细节也能支撑 AI 短片进电影节。报名类似活动时，除了看奖金，也值得核对送件后主办方能怎样使用作品。",
+      "caveats": [
+        "五部为入围作品，不是三项奖金的获奖名单。"
+      ],
+      "figures": [
+        "5 部短片入围",
+        "超过 800 人报名，来自现场讲话"
+      ],
+      "publishedAt": "2026-11-23T08:14:00Z",
+      "publishedAtNote": "采用 Variety 报道的时间；展映活动于印度当地 11 月 23 日。",
+      "sources": [
+        {
+          "name": "Variety｜入围名单一手报道",
+          "url": "https://variety.com/2026/film/festivals/ai-films-kerala-andaman-islands-google-flow-filmathon-iffi-1236955693/",
+          "role": "primary"
+        },
+        {
+          "name": "Women in Film India｜竞赛与授权条款",
+          "url": "https://womeninfilmindia.org/filmathon1/",
+          "role": "secondary"
+        },
+        {
+          "name": "印度报业托拉斯｜现场报道",
+          "url": "https://www.theweek.in/wire-updates/national/2026/11/24/ai-can-transform-filmmaking-but-not-replace-human-creativity-goa-cm-at-iffi.amp.html",
+          "role": "secondary"
+        },
+        {
+          "name": "CC BY-SA 4.0｜配图许可",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "role": "secondary"
+        },
+        {
+          "name": "Salman Ansari / Wikimedia Commons，CC BY-SA 4.0，资料照，缩放并转 WebP，沿用原许可。",
+          "url": "https://commons.wikimedia.org/wiki/File:Gunnet_Monga.jpg",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-iffi.webp",
+        "alt": "Women in Film India 创办人 Guneet Monga Kapoor 的 2018 年资料照，非本次展映现场",
+        "credit": "Salman Ansari / Wikimedia Commons，CC BY-SA 4.0，资料照，缩放并转 WebP，沿用原许可。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gunnet_Monga.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Gunnet_Monga.jpg/500px-Gunnet_Monga.jpg",
+        "retrievedAt": "2026-11-24T14:19:17+00:00"
+      },
+      "rank": 2,
+      "id": "2026-11-24-evening-02",
+      "tier": "send"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "AUDIENCE L3",
+      "headline": "ReelShort AI 动画连续两周登顶",
+      "standfirst": "第三方榜单估算《The Mermaid’s Tear》单周 6,490 万次播放。",
+      "paragraphs": [
+        "此前本报报道的是 GASP 的播放增量榜。这次是另一套统计：Owl & Co 经《好莱坞报道者》发布的竖屏剧榜单，将 ReelShort 的《The Mermaid’s Tear》列为 11 月 16–22 日第一名，比前一周的 5,660 万次播放增加约 15%。",
+        "ReelShort 官方页把它列为 55 集的 AI 生成原创动画。这是同一部剧连续两期登顶，而非平台全站播放。"
+      ],
+      "whyItMatters": "同一部 AI 动画持续占据这套榜单，比单周冲高更能说明它在该统计范围内留住了注意力。但榜单不能回答观众有没有付钱，或制作方是否赚钱。",
+      "caveats": [
+        "6,490 万是第三方周播放量口径，不是独立观众、付费人数或收入，不与 GASP 数据相加。"
+      ],
+      "figures": [
+        "6,490 万次：11 月 16–22 日第三方周播放估算",
+        "5,660 万次：同口径前一周"
+      ],
+      "publishedAt": "2026-11-23T14:38:29Z",
+      "publishedAtNote": "采用 Hollywood Reporter 公布榜单的官方帖时间。",
+      "sources": [
+        {
+          "name": "The Hollywood Reporter｜榜单发布",
+          "url": "https://x.com/THR/status/2124875238970098130",
+          "role": "primary"
+        },
+        {
+          "name": "Vertical Drama TV｜榜单数据",
+          "url": "https://www.verticaldrama.tv/top/",
+          "role": "secondary"
+        },
+        {
+          "name": "Vertical Drama TV｜前一周数据",
+          "url": "https://www.verticaldrama.tv/shows/the-mermaid-s-tear/",
+          "role": "secondary"
+        },
+        {
+          "name": "ReelShort｜剧集官方页",
+          "url": "https://www.reelshort.com/movie/the-mermaid-s-tear-6ae05732c3f25f52170eb58b",
+          "role": "secondary"
+        },
+        {
+          "name": "Unsplash｜配图许可",
+          "url": "https://unsplash.com/license",
+          "role": "secondary"
+        },
+        {
+          "name": "Annette Batista Day / Unsplash，题材实拍，非剧照，缩放并转 WebP。",
+          "url": "https://unsplash.com/photos/green-mermaid-tail-under-water-op5zrC8iaDQ",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-mermaid.webp",
+        "alt": "真人水下摄影：绿色人鱼尾巴，题材资料照，非动画剧照",
+        "credit": "Annette Batista Day / Unsplash，题材实拍，非剧照，缩放并转 WebP。",
+        "sourcePage": "https://unsplash.com/photos/green-mermaid-tail-under-water-op5zrC8iaDQ",
+        "retrievedFrom": "https://images.unsplash.com/photo-1533431557381-51a6546cf7ce",
+        "retrievedAt": "2026-11-24T14:19:17+00:00"
+      },
+      "rank": 3,
+      "id": "2026-11-24-evening-03",
+      "tier": "send"
+    },
+    {
+      "region": "海外",
       "kickerEn": "DISTRIBUTION L2",
       "headline": "两部真实犯罪纪录片将改剪成竖屏剧",
       "standfirst": "英国发行商把纪录片交给竖屏平台，试探旧片的新发行方式。",
@@ -114,8 +237,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 2,
-      "id": "2026-11-24-evening-02",
+      "rank": 4,
+      "id": "2026-11-24-evening-04",
       "tier": "send",
       "image": {
         "status": "archived",
@@ -173,9 +296,9 @@
           "role": "secondary"
         }
       ],
-      "rank": 3,
-      "id": "2026-11-24-evening-03",
-      "tier": "send",
+      "rank": 5,
+      "id": "2026-11-24-evening-05",
+      "tier": "alternate",
       "image": {
         "status": "archived",
         "file": "2026-11-24/evening-03.webp",
@@ -185,6 +308,175 @@
         "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Skyline_in_Shenzhen_%2820250327%29.jpg/960px-Skyline_in_Shenzhen_%2820250327%29.jpg",
         "retrievedAt": "2026-11-24T12:01:04+00:00"
       }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "BUSINESS L1",
+      "headline": "Anamana 披露半月逾百万美元流水",
+      "standfirst": "数据含移动端内购毛额与广告，不是财报收入。",
+      "paragraphs": [
+        "11 月 23 日，Gamehaus 披露，新加坡 AI 微短剧平台 Anamana 在 11 月 1–15 日的总流水超过 100 万美元。公司给出的日均数字从 7 月约 4,400 美元增至 11 月上半月约 6.9 万美元。",
+        "这组未经审计的数据合计了移动端内购和广告，内购未扣平台费与退款，并不包含网页付款。Gamehaus 此前签约拟取得平台母公司 Techforge 的多数股权，本次公告没有宣布交割。"
+      ],
+      "whyItMatters": "这为 AI 微短剧的变现提供一个有具体口径的案例。但平台流水、净收入、制作方分成是三件不同的事，不能用流水判断盈利。",
+      "caveats": [
+        "金额为 Gamehaus 引述的内部数据，未经独立财务核验；并购非本次完成。"
+      ],
+      "figures": [
+        "超过 100 万美元：11 月 1–15 日移动端总流水",
+        "约 6.9 万美元：同期日均"
+      ],
+      "publishedAt": "2026-11-23T13:30:00Z",
+      "publishedAtNote": "采用发行人新闻稿 08:30 ET。",
+      "sources": [
+        {
+          "name": "Gamehaus｜半月流水公告",
+          "url": "https://ir.gamehaus.com/2026-11-23-Anamana-Surpasses-1-Million-in-Half-Month-Aggregate-Gross-Bookings-as-Daily-Average-Grows-15x",
+          "role": "primary"
+        },
+        {
+          "name": "SEC｜此前收购协议披露",
+          "url": "https://www.sec.gov/Archives/edgar/data/2000530/000149315226049887/form6-k.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "SEC｜Gamehaus 申报办公所在地",
+          "url": "https://www.sec.gov/Archives/edgar/data/2000530/000149315226044775/form20-f.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "Anamana｜平台与创作者生态",
+          "url": "https://anamana.com/",
+          "role": "secondary"
+        },
+        {
+          "name": "CC BY-SA 2.5｜配图许可",
+          "url": "https://creativecommons.org/licenses/by-sa/2.5/",
+          "role": "secondary"
+        },
+        {
+          "name": "《Zhangjiang Hi-Tech Park.jpg》· Baycrest（Wikipedia 用户），CC BY-SA 2.5；2008 年地区资料照，缩放并转 WebP，沿用原许可。",
+          "url": "https://commons.wikimedia.org/wiki/File:Zhangjiang_Hi-Tech_Park.jpg",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-zhangjiang.webp",
+        "alt": "发布方 Gamehaus 所在的上海张江地区资料照，非公司办公楼或作品画面",
+        "credit": "《Zhangjiang Hi-Tech Park.jpg》· Baycrest（Wikipedia 用户），CC BY-SA 2.5；2008 年地区资料照，缩放并转 WebP，沿用原许可。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhangjiang_Hi-Tech_Park.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Zhangjiang_Hi-Tech_Park.jpg/960px-Zhangjiang_Hi-Tech_Park.jpg",
+        "retrievedAt": "2026-11-24T14:19:17+00:00"
+      },
+      "rank": 6,
+      "id": "2026-11-24-evening-06",
+      "tier": "alternate"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "WORKFLOW L2",
+      "headline": "Runway 用三维底稿还原古罗马场景",
+      "standfirst": "先把建筑与镜头放进三维软件，再生成节庆画面。",
+      "paragraphs": [
+        "Runway 11 月 23 日发布案例：用 GPT-6.2 Astra 依据历史图纸构建万神殿，用 Blender 规划镜头运动，再让 Runway 把三维底稿变成古罗马节庆场面。其官方文档另有 ChatGPT 中使用 Runway 的说明。",
+        "这次值得看的不是一个新版本，而是怎么把场景和摄影分开控制：先在可编辑的三维底稿里定建筑结构和机位，再把镜头逐个转成最终画面。"
+      ],
+      "whyItMatters": "同一空间要拍几个镜头时，可以尝试先搭个简化场景，别每个镜头都从文字重新生成。空间和运动是否准确，仍应按原参考逐镜对照。",
+      "caveats": [
+        "厂商演示未给出可独立复核的全成本或历史准确性；不把演示当成插件首发。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-23T15:54:00Z",
+      "publishedAtNote": "采用 Runway 演示帖时刻，非插件首发日期。",
+      "sources": [
+        {
+          "name": "Runway｜万神殿制作演示",
+          "url": "https://x.com/runwayml/status/2124894381249585505",
+          "role": "primary"
+        },
+        {
+          "name": "Runway｜ChatGPT 插件说明",
+          "url": "https://runway.com/mcp/gpt-astra",
+          "role": "secondary"
+        },
+        {
+          "name": "CC0｜配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "role": "secondary"
+        },
+        {
+          "name": "Demetrios Karatassos / Wikimedia Commons，CC0；万神殿实拍，缩放并转 WebP。",
+          "url": "https://commons.wikimedia.org/wiki/File:Pantheon_front.jpg",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-pantheon.webp",
+        "alt": "意大利罗马万神殿的实地资料照，不是 Runway 生成画面",
+        "credit": "Demetrios Karatassos / Wikimedia Commons，CC0；万神殿实拍，缩放并转 WebP。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pantheon_front.jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Pantheon_front.jpg/960px-Pantheon_front.jpg",
+        "retrievedAt": "2026-11-24T14:19:17+00:00"
+      },
+      "rank": 7,
+      "id": "2026-11-24-evening-07",
+      "tier": "alternate"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "VIRAL FILM L2",
+      "headline": "鱼缸史诗短片累计逾 63 万观看",
+      "standfirst": "用 1960 年代史诗片的镜头拍一场水族箱起义。",
+      "paragraphs": [
+        "导演 Zack London（Gossip Goblin）11 月 22 日在 YouTube 发布《Fishbowl Spartacus》。短片把古罗马角斗士叙事搬进鱼缸，用鲜艳的老式史诗片色彩和严肃的场面调度制造反差，片长约两分半。",
+        "11 月 24 日补编核验时，YouTube 原帖显示累计 633,618 次观看、21,299 个赞。本报不把其他平台的播放或镜像数据加进来。"
+      ],
+      "whyItMatters": "这条片子好记的地方不是用了什么模型，而是一句话就能说清它的反差：最小的空间，拍最壮烈的起义。想做社交短片，可以先用这个标准检验自己的故事钩子。",
+      "caveats": [
+        "数字为补编时的原帖累计快照，不是首日播放；和本期所报同一导演的奥斯卡资格事件是不同作品。"
+      ],
+      "figures": [
+        "633,618 次：YouTube 原帖累计观看",
+        "21,299：原帖点赞快照"
+      ],
+      "publishedAt": "2026-11-22T16:06:53Z",
+      "publishedAtNote": "采用 YouTube 原帖发布时间，互动为 11 月 24 日晚在原帖核对。",
+      "sources": [
+        {
+          "name": "Gossip Goblin｜YouTube 原片",
+          "url": "https://www.youtube.com/shorts/UEkxU8dCqd4",
+          "role": "primary"
+        },
+        {
+          "name": "AI Film History｜独立作品档案",
+          "url": "https://aifilmhistory.org/entry/fishbowl-spartacus",
+          "role": "secondary"
+        },
+        {
+          "name": "CC0｜配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "role": "secondary"
+        },
+        {
+          "name": "Van Der Meulen Christofle / Wikimedia Commons，CC0；历史题材实拍，缩放并转 WebP。",
+          "url": "https://commons.wikimedia.org/wiki/File:Mosa%C3%AFque_(Gladiateurs)_(Villa_Borghese).jpg",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-24/evening-fishbowl.webp",
+        "alt": "博尔盖塞收藏的古罗马角斗士马赛克实拍，题材资料照，非影片画面",
+        "credit": "Van Der Meulen Christofle / Wikimedia Commons，CC0；历史题材实拍，缩放并转 WebP。",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mosa%C3%AFque_(Gladiateurs)_(Villa_Borghese).jpg",
+        "retrievedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mosa%C3%AFque_%28Gladiateurs%29_%28Villa_Borghese%29.jpg/960px-Mosa%C3%AFque_%28Gladiateurs%29_%28Villa_Borghese%29.jpg",
+        "retrievedAt": "2026-11-24T14:19:17+00:00"
+      },
+      "rank": 8,
+      "id": "2026-11-24-evening-08",
+      "tier": "alternate"
     },
     {
       "region": "海外",
@@ -227,8 +519,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 4,
-      "id": "2026-11-24-evening-04",
+      "rank": 9,
+      "id": "2026-11-24-evening-09",
       "tier": "alternate",
       "image": {
         "status": "archived",
