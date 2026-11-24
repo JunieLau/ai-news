@@ -45,8 +45,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Anders Eidesvik / Wikimedia Commons · CC BY 4.0（资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_the_%E2%80%9CU.S._Leadership_in_AI%E2%80%9D_discussion,_Stanford_University,_2026.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
           "role": "secondary"
         }
       ],
@@ -99,8 +104,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "BluBayou / Wikimedia Commons · CC0 1.0（资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Jay_Chaudhry.png",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
           "role": "secondary"
         }
       ],
@@ -155,8 +165,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Bohao Zhao / Wikimedia Commons · CC BY 3.0（楼宇资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:%E5%A8%81%E6%96%B0%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%BB%88_Vision_International_-_panoramio.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/3.0/",
           "role": "secondary"
         }
       ],
@@ -201,8 +216,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Andy Li / Wikimedia Commons · CC0 1.0（资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_2018.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
           "role": "secondary"
         }
       ],
@@ -250,8 +270,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Katelyn Tucker / Slava Blazer Photography via TechCrunch · CC BY 2.0（资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2024_D2_Bret_Taylor-3.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/2.0/",
           "role": "secondary"
         }
       ],
@@ -304,8 +329,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Coolcaesar / Wikimedia Commons · CC BY 4.0（资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
           "role": "secondary"
         }
       ],
@@ -363,8 +393,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Siyuwj / Wikimedia Commons · CC BY-SA 4.0（资料图，转 WebP，沿用同一许可）",
           "url": "https://commons.wikimedia.org/wiki/File:Ant_A_Space,_Hangzhou,_2021-12-02.jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
           "role": "secondary"
         }
       ],
@@ -412,8 +447,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "P.Lechien / Wikimedia Commons · CC0 1.0（城市资料图，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
           "role": "secondary"
         }
       ],
@@ -462,8 +502,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Carl Lender / Wikimedia Commons · CC BY 2.0（行业资料图，非本次机房，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/2.0/",
           "role": "secondary"
         }
       ],
@@ -513,8 +558,13 @@
           "role": "secondary"
         },
         {
-          "name": "配图来源与授权",
+          "name": "Simon Walker / No 10 Downing Street · CC BY 2.0（原档已裁，转 WebP）",
           "url": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023_(cropped).jpg",
+          "role": "secondary"
+        },
+        {
+          "name": "查看配图许可",
+          "url": "https://creativecommons.org/licenses/by/2.0/",
           "role": "secondary"
         }
       ],
