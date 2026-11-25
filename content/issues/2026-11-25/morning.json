@@ -36,7 +36,7 @@
           "role": "primary"
         },
         {
-          "name": "戴尔｜第三季度财报演示",
+          "name": "戴尔｜第三季度财报演示（配图：戴尔投资者关系｜财报演示截图）",
           "url": "https://investors.delltechnologies.com/_assets/_0f9cfb12d02468203f5253ccbb5d12d8/delltechnologies/db/3576/34781/pdf/Q3_FY27_Performance_Review.pdf",
           "role": "secondary"
         }
@@ -75,7 +75,7 @@
       "publishedAtNote": "采用《联邦公报》文件页尾的公开查阅提交时间；正式刊登日期另列。",
       "sources": [
         {
-          "name": "美国《联邦公报》｜BIS 最终规则",
+          "name": "美国《联邦公报》｜BIS 最终规则（配图：美国《联邦公报》｜公开文件截图）",
           "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
           "role": "primary"
         },
@@ -129,6 +129,11 @@
           "name": "英国竞争和市场管理局｜发布声明",
           "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
           "role": "secondary"
+        },
+        {
+          "name": "配图：Meta｜英国上市发布图",
+          "url": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?fit=960%2C720",
+          "role": "secondary"
         }
       ],
       "rank": 3,
@@ -178,6 +183,11 @@
           "name": "文心｜预览版官方说明",
           "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
           "role": "secondary"
+        },
+        {
+          "name": "配图：百度文心｜预览版资料图，非此次权重公告",
+          "url": "https://ernie.baidu.com/research-assets/ernie-5-5-flash-preview/benchmark-results-final.png",
+          "role": "secondary"
         }
       ],
       "rank": 4,
@@ -226,6 +236,11 @@
           "name": "Danijar Hafner｜创始人公告",
           "url": "https://x.com/danijar/status/2124911019562811820",
           "role": "secondary"
+        },
+        {
+          "name": "配图：Embo｜公司公告配图",
+          "url": "https://embo.com/images/posts/introducing-embo/banner.jpg",
+          "role": "secondary"
         }
       ],
       "rank": 5,
@@ -265,6 +280,11 @@
           "name": "Cognition｜模型发布与测评",
           "url": "https://cognition.com/blog/swe-2-1",
           "role": "primary"
+        },
+        {
+          "name": "配图：Cognition｜产品发布图",
+          "url": "https://cognition.com/images/swe-2-1/cover.jpg",
+          "role": "secondary"
         }
       ],
       "rank": 6,
@@ -301,6 +321,11 @@
           "name": "Anthropic｜安装 Artifacts 指南",
           "url": "https://claude.com/resources/articles/install-as-app",
           "role": "primary"
+        },
+        {
+          "name": "配图：Anthropic｜操作演示截图",
+          "url": "https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png",
+          "role": "secondary"
         }
       ],
       "rank": 7,
@@ -344,6 +369,11 @@
         {
           "name": "Market Chameleon｜发布资讯",
           "url": "https://marketchameleon.com/Overview/AAOI/Summary/",
+          "role": "secondary"
+        },
+        {
+          "name": "配图：AOI 新闻室｜协议发布图",
+          "url": "https://newsroom.ao-inc.com/assets/Uploads/LTA_Nov-24-Medium__FocusFillWyIwLjAwIiwiMC4wMCIsMTE3MCw0NDdd.png",
           "role": "secondary"
         }
       ],
@@ -394,6 +424,11 @@
           "name": "Workday｜首席执行官肖像来源",
           "url": "https://www.workday.com/en-us/company/about-workday/leadership/aneel-bhusri.html",
           "role": "secondary"
+        },
+        {
+          "name": "配图：Workday｜资料照，并非财报现场",
+          "url": "https://www.workday.com/content/dam/web/zz/images/headshots/wday-portraits-exec-aneel-bhusri.png",
+          "role": "secondary"
         }
       ],
       "rank": 9,
@@ -437,6 +472,11 @@
         {
           "name": "北京国际科技创新中心｜上线报道",
           "url": "https://www.ncsti.gov.cn/kjdt/kjrd/202611/t20261124_265182.html",
+          "role": "secondary"
+        },
+        {
+          "name": "配图：中国气象局｜官方发布帖配图",
+          "url": "https://wx2.sinaimg.cn/middle/002jiQKGly1ijc1cs4wxwj60se0ibdna02.jpg",
           "role": "secondary"
         }
       ],
