@@ -95,6 +95,41 @@ export function weekdayName(isoDate) {
   }).format(dt);
 }
 
+export const MAX_SEQUENCE = 9;
+
+// 同一天同一版次的第二期（及以后）用 sequence 标出；缺省即第 1 期。
+export function issueSequence(issue) {
+  return issue && Number.isInteger(issue.sequence) ? issue.sequence : 1;
+}
+
+// 地址与 id 用的期号：第 1 期就是日期本身，第 2 期起是「日期-序号」，如 2026-11-25-2。
+export function issueKey(issue) {
+  const n = issueSequence(issue);
+  return n > 1 ? `${issue.issueDate}-${n}` : issue.issueDate;
+}
+
+export function issueFileStem(issue) {
+  const n = issueSequence(issue);
+  return n > 1 ? `${issue.edition}-${n}` : issue.edition;
+}
+
+export function parseIssueFileStem(stem) {
+  const match = /^(morning|evening)(?:-([2-9]))?$/.exec(stem);
+  if (!match) return null;
+  return { edition: match[1], sequence: match[2] ? Number(match[2]) : 1 };
+}
+
+export function issueLabel(issue) {
+  const base = `${formatChineseDate(issue.issueDate)} ${weekdayName(issue.issueDate)}`;
+  const n = issueSequence(issue);
+  return n > 1 ? `${base} · ${Number(issue.issueDate.slice(8, 10))}-${n}` : base;
+}
+
+export function compareIssuesDesc(a, b) {
+  if (a.issueDate !== b.issueDate) return a.issueDate < b.issueDate ? 1 : -1;
+  return issueSequence(b) - issueSequence(a);
+}
+
 function err(code, message) {
   return { code, message };
 }
@@ -121,6 +156,12 @@ export function validateIssue(issue, options = {}) {
   }
   if (options.fileEdition && issue.edition !== options.fileEdition) {
     errors.push(err("file_edition", `${where}文件名 ${options.fileEdition} 与 edition ${issue.edition} 不一致`));
+  }
+  if (issue.sequence !== undefined && (!Number.isInteger(issue.sequence) || issue.sequence < 2 || issue.sequence > MAX_SEQUENCE)) {
+    errors.push(err("sequence", `${where}sequence 只在同日第二期起填写，必须是 2 到 ${MAX_SEQUENCE} 的整数`));
+  }
+  if (options.fileSequence !== undefined && issueSequence(issue) !== options.fileSequence) {
+    errors.push(err("file_sequence", `${where}文件名期号 ${options.fileSequence} 与 sequence ${issueSequence(issue)} 不一致`));
   }
   if (issue.timezone !== "Asia/Shanghai") {
     errors.push(err("timezone", `${where}timezone 必须是 Asia/Shanghai`));
@@ -161,7 +202,7 @@ export function validateIssue(issue, options = {}) {
       return;
     }
     const expectedId = isValidDate(issue.issueDate) && EDITIONS[issue.edition] && Number.isInteger(story.rank)
-      ? `${issue.issueDate}-${issue.edition}-${String(story.rank).padStart(2, "0")}`
+      ? `${issueKey(issue)}-${issue.edition}-${String(story.rank).padStart(2, "0")}`
       : null;
     if (!isNonEmptyString(story.id) || (expectedId && story.id !== expectedId)) {
       errors.push(err("story_id", `${at} id 必须是 ${expectedId || "日期-版次-序号"}`));
@@ -297,7 +338,13 @@ export function validateIssue(issue, options = {}) {
 export function validateCorpus(issues) {
   const errors = [];
   const seen = new Map();
+  const slots = new Set();
   for (const issue of issues) {
+    if (issue && isValidDate(issue.issueDate) && EDITIONS[issue.edition]) {
+      const slot = `${issue.edition}/${issueKey(issue)}`;
+      if (slots.has(slot)) errors.push(err("duplicate_issue", `期号重复：${slot}`));
+      slots.add(slot);
+    }
     for (const story of issue.stories || []) {
       if (!story?.id) continue;
       if (seen.has(story.id)) {
@@ -322,7 +369,9 @@ export function loadIssues(contentDir) {
     if (!fs.statSync(folder).isDirectory()) continue;
     for (const name of fs.readdirSync(folder).sort()) {
       if (!name.endsWith(".json")) continue;
-      const fileEdition = name.slice(0, -5);
+      const stem = name.slice(0, -5);
+      const parsed = parseIssueFileStem(stem);
+      const fileEdition = parsed ? parsed.edition : stem;
       const file = path.join(folder, name);
       let issue;
       try {
@@ -331,14 +380,15 @@ export function loadIssues(contentDir) {
         errors.push(err("json", `${file}: ${error.message}`));
         continue;
       }
-      if (fileEdition !== "morning" && fileEdition !== "evening") {
-        errors.push(err("file_edition", `${file} 文件名必须是 morning.json 或 evening.json`));
+      if (!parsed) {
+        errors.push(err("file_edition", `${file} 文件名必须是 morning.json、evening.json，或同日第二期起的 morning-2.json、evening-2.json`));
       }
       errors.push(...validateIssue(issue, {
         mediaDir: path.join(contentDir, "media"),
         file,
         folderDate,
         fileEdition,
+        fileSequence: parsed ? parsed.sequence : undefined,
       }));
       if (issue && typeof issue === "object") issues.push(issue);
     }
@@ -359,7 +409,7 @@ export function storiesInOrder(issue) {
 export function streamIssues(issues, edition) {
   return issues
     .filter((issue) => issue.edition === edition)
-    .sort((a, b) => compareDateDesc(a.issueDate, b.issueDate));
+    .sort(compareIssuesDesc);
 }
 
 export function tierLabel(tier) {
