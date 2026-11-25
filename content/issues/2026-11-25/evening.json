@@ -1,0 +1,477 @@
+{
+  "issueDate": "2026-11-25",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-25T12:02:05+00:00",
+  "retrievedThrough": "2026-11-25T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "北京时间 11 月 25 日 20:00 截稿。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期共 10 条主版新闻，六条建议发送。无可信配图的条目已说明原因，不影响上架。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "国内",
+      "kickerEn": "AI VIDEO L1",
+      "headline": "三呆科技发布 4800 亿参数 MAGI-2，单次可生成 30 秒带声视频",
+      "standfirst": "新模型能在一次生成里安排切镜，并同时制作画面、对白和环境声。",
+      "paragraphs": [
+        "三呆科技在 11 月 24 日发布 MAGI-2 正式版。它和 8 月的研究预览版不是同一个规模：总参数从约 1140 亿增至 4800 亿，实际运行时约激活 280 亿。官方称单次最多生成 30 秒、25 帧每秒的有声视频，输出可经超分处理达到 1080p。",
+        "做一场戏时，可以给模型最多 20 个图像、视频或音频参考，用时间点描述在哪里切镜头，也可指定修改已有片段。目前 Higgsfield 已提供在线入口，模型开发方仍是三呆科技。"
+      ],
+      "whyItMatters": "先做有声分镜或短场景时，创作者有机会在同一版里判断镜头顺序和声音节奏，不用等后期才知道剪接是否成立。",
+      "caveats": [
+        "正式版完整权重尚未发布；高速运动连续性和复杂声音分层仍是官方列出的短板。"
+      ],
+      "figures": [
+        "4800 亿总参数",
+        "最长 30 秒",
+        "最多 20 个混合参考"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Sand.ai 官方页面标注 11 月 24 日，未提供时分。",
+      "sources": [
+        {
+          "name": "Sand.ai｜技术发布与原始样片",
+          "url": "https://sand.ai/blog/magi-2",
+          "role": "primary"
+        },
+        {
+          "name": "Higgsfield｜托管产品规格",
+          "url": "https://higgsfield.ai/magi-2-intro",
+          "role": "secondary"
+        },
+        {
+          "name": "IT之家｜中文报道",
+          "url": "https://www.ithome.com/1/032/124.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "Pandaily｜发布报道",
+          "url": "https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-25-evening-01",
+      "tier": "send",
+      "image": {
+        "status": "gap",
+        "gapReason": "目前仅核到模型生成样片与发布物料，未找到符合本期标准的现场或产品照片。"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "TV SLATE L1",
+      "headline": "浙江卫视把 10 档 AI 综艺列进 2027 片单，另有 5 部 AI 中剧",
+      "standfirst": "《王牌对王牌》将有 AI 特别版，但真人常规版也仍在同一份片单上。",
+      "paragraphs": [
+        "浙江卫视 11 月 24 日公布 2027 年节目计划，把 AI 综艺和 AI 中剧列成独立板块。10 档综艺除了《AI王牌特别版》，还有萌宠向的《喵喵旅行团》、推理向的《异闻核查》等；5 部中剧包括《白蛇传说·霜火同行》和《永劫无间：轮回前夜》。",
+        "在同一份片单里，常规版《王牌对王牌10》《奔跑吧15》等仍然在列。新节目并不是把所有真人综艺换成 AI，而是电视台同时押注两种做法，想看 AI 能不能撑起一档节目，而不只是在某个环节做特效。"
+      ],
+      "whyItMatters": "过去最容易刷到的是 AI 漫剧和演示片，这回连熟悉的电视 IP 也要试。如果两版都播出，观众就能直接比较同一个节目招牌下的两种做法。",
+      "caveats": [
+        "目前是片单，不是播出表；AI 具体参与哪些工序、最终成片和各档期仍待确认。"
+      ],
+      "figures": [
+        "10 档 AI 综艺",
+        "5 部 AI 中剧"
+      ],
+      "publishedAt": "2026-11-24T13:00:00+08:00",
+      "publishedAtNote": "用浙江卫视认证账号的片单发布时间；另有媒体报道活动。",
+      "sources": [
+        {
+          "name": "浙江卫视署名｜发布活动原文；配图：浙江卫视，流媒体网刊载",
+          "url": "https://lmtw.com/mzw/content/detail/id/260429/keyword_id/-1",
+          "role": "primary"
+        },
+        {
+          "name": "浙江卫视｜认证账号发布原片单",
+          "url": "https://sina.cn/news/detail/5368763387216063.html",
+          "role": "secondary"
+        },
+        {
+          "name": "镜周刊｜节目与讨论报道",
+          "url": "https://www.mirrormedia.mg/story/20261124edi080",
+          "role": "secondary"
+        },
+        {
+          "name": "游民星空｜片单报道",
+          "url": "https://www.gamersky.com/news/202611/2252882.shtml",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-25-evening-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-02.jpg",
+        "alt": "浙江卫视 Z 动力 2027 年开源共创发布活动现场的舞台",
+        "credit": "浙江卫视，流媒体网刊载",
+        "sourcePage": "https://lmtw.com/mzw/content/detail/id/260429/keyword_id/-1",
+        "retrievedFrom": "https://img.lmtw.com/m/d/file/dvb/dongtai/20261125/fd935dacaad71caa464ffaa3ef968d41.jpg",
+        "retrievedAt": "2026-11-25T12:02:05+00:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "THEATRICAL L1",
+      "headline": "138 分钟 AI 科幻长片《拉斐尔》在韩国开画，团队逐镜打磨 14 个月",
+      "standfirst": "生成画面进入院线，但交付靠的是长时间的逐镜制作。",
+      "paragraphs": [
+        "科幻动作片《拉斐尔》（Raphael）于 11 月 25 日在韩国商业影院开画。金堤市地平线影院列出当天场次，片长 138 分钟，分级为 15 岁以上；乐天院线也有排片。影片由 Mateo AI Studio 与 MBC C&I AI Contents Lab 制作，양익준、문신우、정주원共同执导。",
+        "故事发生在灾难后的 2050 年：一个按统治者年轻样貌制造的战斗机器人遇见了本该被系统排除的人。片方说，废墟、追逐和群战等镜头由生成式 AI 参与制作，团队花了约一年两个月逐镜调整。"
+      ],
+      "whyItMatters": "它让观众有机会在大银幕上看到 AI 参与制作的长片，也让人能直接判断，连续两小时的人物表演和动作戏是否站得住。",
+      "caveats": [
+        "14 个月来自制作方描述；排片不等于票房或全国满堂，也不是一键生成。"
+      ],
+      "figures": [
+        "138 分钟",
+        "韩国 11 月 25 日开画"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "韩国影院标注开画日 11 月 25 日，未将某一场次当作首映时间。",
+      "sources": [
+        {
+          "name": "金堤市地平线影院｜当日上映信息",
+          "url": "https://cinema.gimje.go.kr/",
+          "role": "primary"
+        },
+        {
+          "name": "Mateo AI Studio｜制作与发行动作",
+          "url": "https://www.mateoaistudio.com/press/20",
+          "role": "secondary"
+        },
+        {
+          "name": "bntnews｜开画报道",
+          "url": "https://www.bntnews.co.kr/article/view/bnt202611250244",
+          "role": "secondary"
+        },
+        {
+          "name": "Moviebara｜首日场次",
+          "url": "https://moviebara.com/movie/284084",
+          "role": "secondary"
+        },
+        {
+          "name": "JIBS 济州放送｜制作人员与开画报道",
+          "url": "https://www.jibstv.com/news/replay/viewNewsReplayDetail/2026112417564310509",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-25-evening-03",
+      "tier": "send",
+      "image": {
+        "status": "gap",
+        "gapReason": "已找到影片生成画面与海报，未核实到与首日放映直接相关的真实照片。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CREATOR FORMAT L1",
+      "headline": "Gary Vee 开了 AI 分身账号，计划连续一年每天挑一条观众提问",
+      "standfirst": "观众留言决定哪条问题可能变成一支公开短视频，但答案仍由团队写。",
+      "paragraphs": [
+        "美国创业内容创作者 Gary Vaynerchuk 与 HeyGen 于 11 月 24 日宣布推出 @hey_garyvee，在 Instagram 和 TikTok 收集问题，计划连续 12 个月每天选一条，由授权的 AI 分身用提问者的语言回应。分身来自 Gary 本人录制的素材，节目方表示每支视频会标记为 AI。",
+        "这不是点击后立即回答的聊天机器人。Gary 的团队每天挑题、撰写并审批答案，再让分身出镜。活动条款也明确，入选问题和用户名可不付费地出现在公开视频里，付费推广或其他用途需另获许可。"
+      ],
+      "whyItMatters": "它把评论区变成了下一集的选题入口。观众参与的是公开栏目，而团队仍然得为台词和选题负责。",
+      "caveats": [
+        "一年是计划，不是已经发出的集数；留言不保证入选。"
+      ],
+      "figures": [
+        "计划 12 个月",
+        "每天拟选 1 题"
+      ],
+      "publishedAt": "2026-11-24T09:15:00-05:00",
+      "publishedAtNote": "HeyGen 新闻稿发布时间。",
+      "sources": [
+        {
+          "name": "HeyGen｜原始发布",
+          "url": "https://www.prnewswire.com/news-releases/gary-vaynerchuk-partners-with-heygen-to-launch-ai-avatar-powered-social-channel-302948881.html",
+          "role": "primary"
+        },
+        {
+          "name": "HeyGen｜节目运作与留言条款",
+          "url": "https://www.heygen.com/heygaryvee",
+          "role": "secondary"
+        },
+        {
+          "name": "Benzinga｜报道",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63576195/gary-vee-launches-personal-ai-avatar-brings-gary-in-your-pocket-to-fans-ask-me-something-and-get-an-answer",
+          "role": "secondary"
+        },
+        {
+          "name": "Gary Vaynerchuk 官方媒体资料，人物肖像",
+          "url": "https://garyvaynerchuk.com/press/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-25-evening-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-04.jpg",
+        "alt": "Gary Vaynerchuk 本人官方媒体肖像，非 AI 分身",
+        "credit": "Gary Vaynerchuk 官方媒体资料，人物肖像",
+        "sourcePage": "https://garyvaynerchuk.com/press/",
+        "retrievedFrom": "https://garyvaynerchuk.com/images/press-live-1.jpg",
+        "retrievedAt": "2026-11-25T12:02:05+00:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "SHORT DRAMA DATA L1",
+      "headline": "DataEye 称抖音 10 月上新 5.68 万部 AI 剧，破亿的不到 1%",
+      "standfirst": "片源和观看都在增长，但播放量更加集中在少数作品上。",
+      "paragraphs": [
+        "DataEye 研究院 11 月 24 日发布 10 月国内 AI 剧、漫剧报告。按其抖音端原生口径，新剧约 5.68 万部，环比增加 9.54%；这些剧当月累计新增播放约 2808 亿次，比上月高 34.18%。其中只有 539 部播放破亿，约占当月新剧的 0.95%。",
+        "研究机构还发现，播放量超过 5000 万的 1072 部新剧，拿走约三分之二的新增播放。同期，报告追踪的红果上榜剧数量和峰值热度反而都比上月低。抖音播放量和红果热度不是一个尺度，不能放在一起相加。"
+      ],
+      "whyItMatters": "同一个月有更多剧可看，却不意味着每部剧都更容易被看到。对创作者来说，总播放上涨和单部作品能否活下来，是两件事。",
+      "caveats": [
+        "数据来自 DataEye 监测，不是平台财务披露；5000 万是研究方估算的参考线，不代表实际回本。"
+      ],
+      "figures": [
+        "5.68 万部新剧",
+        "539 部播放过亿",
+        "0.95% 破亿率"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "报告署名 DataEye 研究院，流媒体网发布页标注 11 月 24 日，无时分。",
+      "sources": [
+        {
+          "name": "DataEye研究院｜署名原创报告全文",
+          "url": "https://lmtw.com/mzw/content/detail/id/260388",
+          "role": "primary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-25-evening-05",
+      "tier": "send",
+      "image": {
+        "status": "gap",
+        "gapReason": "已核对研究原文，只有数据图表，未拿到与统计事件直接相关的实拍图。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "COPYRIGHT L1",
+      "headline": "迪士尼等与 Midjourney 再交锋，美国法官听取图库版权争议",
+      "standfirst": "听证讨论的是平台是否鼓励用户生成侵权画面，不是判定生成图都侵权。",
+      "paragraphs": [
+        "美国加州中区联邦法院于当地 11 月 23 日安排听审 Midjourney 的书面裁决动议。迪士尼、环球和华纳兄弟等权利方主张，平台公开图库的展示方式在鼓励用户生成带有受保护角色的图像，Midjourney 则试图缩小这部分诉讼。",
+        "据出庭报道的 Law360，法官 John A. Kronstadt 在听证上表示倾向让权利方继续主张这一理论，并质疑能否仅凭双方的诉辩文件就判断图库实际如何运作。法院排期确认了动议和听证；法官言论来自现场记者，不是法院签发的裁决。"
+      ],
+      "whyItMatters": "对喜欢把熟悉角色拿来混剪或二创的观众，这场争议的看点不只在模型怎么训练，也在平台怎样展示和引导别人再做一遍。",
+      "caveats": [
+        "这仍是程序阶段，截稿未核到就该动议作出的最终裁定，也不是对任何具体视频的侵权认定。"
+      ],
+      "figures": [
+        "案号 2:25-cv-05275",
+        "听证所涉动议 Dkt. 139"
+      ],
+      "publishedAt": "2026-11-23T20:59:00-05:00",
+      "publishedAtNote": "采用 Law360 现场报道发布时间；听证为 11 月 23 日 09:00 PST。",
+      "sources": [
+        {
+          "name": "加州中区联邦法院｜听证排期原件",
+          "url": "https://apps.cacd.uscourts.gov/JpsApi/File/c2463a61-a67c-4633-e7fc-08df47598050",
+          "role": "primary"
+        },
+        {
+          "name": "Law360｜庭审原始报道",
+          "url": "https://www.law360.com/technology/articles/2558866/midjourney-fights-uphill-to-trim-studios-ai-infringement-suit",
+          "role": "secondary"
+        }
+      ],
+      "rank": 6,
+      "id": "2026-11-25-evening-06",
+      "tier": "alternate",
+      "image": {
+        "status": "gap",
+        "gapReason": "未核到该次听证的现场图片，不使用法院文件截图或无关大楼照片。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "FILMATHON L1",
+      "headline": "Google Flow 印度短片赛公布三甲，民俗恐怖片《Sikkal》获首奖",
+      "standfirst": "五部入围作品现在可以从官方页面观看，三项奖金合计 240 万卢比。",
+      "paragraphs": [
+        "Google 11 月 24 日公开了与 Women in Film India 合办的 Filmathon 获奖结果。Promita Banerjee 的民俗恐怖片《Sikkal》获第一，讲一个哥哥如何面对亡妹的幻影；Syam Manohar 的泰米尔语黑色喜剧《Kuli》第二，Nikhil Shinde 的动画《Pedals of Joy》第三。",
+        "按主办方公布的规则，三项税前奖金分别为 120 万、80 万和 40 万卢比。前一期已报道五部作品入围，这回新信息是名次和官方观看入口。其余影片是围绕孟买街头小吃展开的影像随笔和一部无对白动画。"
+      ],
+      "whyItMatters": "这五部短片能直接对照看。同一款生成工具做出来的，不只有看起来很贵的画面，也可以是地方语言、日常生活和具体的情感。",
+      "caveats": [
+        "这三个奖是 Filmathon 自设奖项，不是印度国际电影节主竞赛奖；奖金按规则列示。"
+      ],
+      "figures": [
+        "3 部获奖",
+        "5 部可看",
+        "共 240 万卢比税前奖金"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Google 官方结果页标注 11 月 24 日，未给时分；果阿展映与公告分开。",
+      "sources": [
+        {
+          "name": "Google Labs｜获奖名单与五部影片；配图：Google 官方活动照片",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/",
+          "role": "primary"
+        },
+        {
+          "name": "Women in Film India｜奖项规则",
+          "url": "https://womeninfilmindia.org/filmathon1/",
+          "role": "secondary"
+        },
+        {
+          "name": "Indian Broadcasting World｜结果报道",
+          "url": "https://www.indianbroadcastingworld.com/google-flow-showcases-five/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 7,
+      "id": "2026-11-25-evening-07",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-07.png",
+        "alt": "Google Flow 与 Women in Film India 在果阿活动的舞台合影",
+        "credit": "Google 官方活动照片",
+        "sourcePage": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/",
+        "retrievedFrom": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_WIF_x_Google_Flow.max-1440x810.png",
+        "retrievedAt": "2026-11-25T12:02:05+00:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "VIDEO WORKFLOW L1",
+      "headline": "Canva 把可编辑视频接进 ChatGPT 和 Claude，生成后能继续剪",
+      "standfirst": "对话里的产品简介可以变成视频草稿，不必只拿到一个扁平的成片文件。",
+      "paragraphs": [
+        "Canva 11 月 23 日宣布，符合使用条件的用户可在 ChatGPT 或 Claude 中，通过 Canva 的连接器从创意简报生成能继续编辑的视频。用户可以先提供产品照片、品牌标志和拍摄要求，查看并调整镜头计划，然后再让 Canva 结合视频模型和模板生成初稿。",
+        "Canva 公布的例子包括开箱、产品演示和虚拟试穿，调用模型包括字节跳动的 Seedance 2.5。生成后可进入 Canva 编辑器做更深调整，不必因为改一段镜头或一行字就从头生成整条片。"
+      ],
+      "whyItMatters": "这次值得留意的是交付物变成了可接着剪的草稿。小团队可以先把结构拿去讨论，把重做预算留给真的需要重拍或重生成的那几个镜头。",
+      "caveats": [
+        "视频生成受 Canva 套餐、地区和额度影响；发布说明不代表所有 ChatGPT 或 Claude 账户都能打开。"
+      ],
+      "figures": [
+        "接入 2 个对话平台",
+        "包含 Seedance 2.5"
+      ],
+      "publishedAt": "2026-11-23T18:01:00Z",
+      "publishedAtNote": "采用 Canva 官方社媒发布时分，官网正文标注 11 月 23 日。",
+      "sources": [
+        {
+          "name": "Canva｜发布与操作示例",
+          "url": "https://www.canva.com/newsroom/news/canva-mcp-video-generation/",
+          "role": "primary"
+        },
+        {
+          "name": "Canva｜官方发布帖",
+          "url": "https://x.com/canva/status/2124926205313081394",
+          "role": "secondary"
+        },
+        {
+          "name": "Canva Developers｜接口变更日志",
+          "url": "https://www.canva.dev/docs/apps/rest-apis/changelog/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 8,
+      "id": "2026-11-25-evening-08",
+      "tier": "alternate",
+      "image": {
+        "status": "gap",
+        "gapReason": "官方配图是工具界面与生成演示，未核到直接相关的新闻实拍照片。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "PLAYABLES L1",
+      "headline": "Higgsfield 因游戏工作室担忧复制而撤下链接导入，可玩广告仍可导出",
+      "standfirst": "新披露的是入口被撤下，不是这个功能刚刚首发。",
+      "paragraphs": [
+        "GamesBeat 11 月 23 日报道，Higgsfield 在游戏工作室担忧复制和授权问题后，移除了可玩广告工具的 App Store、Google Play 链接导入。公司 10 月 25 日就发布过 Playable Ads；这次新信息是撤掉了哪种输入，以及团队在采访里说明的编辑与分发方式。",
+        "现有流程仍能让创作者上传有权限的素材，从已有创意继续改玩法、难度或机位，导出上限 5 MB 的 HTML 广告文件，再交给广告网络。普通 Playable Games 和企业级广告导出是两种权限，官方示例可在浏览器试玩。"
+      ],
+      "whyItMatters": "它不只是把广告做得更像游戏，而是让观众先玩一下再决定要不要下载。能逐项改玩法的工作流也更接近剪版本，而不是每次从零做一条。",
+      "caveats": [
+        "报道未注明链接导入具体何日下线；没有独立证据证明它降低多少成本或提升转化。"
+      ],
+      "figures": [
+        "HTML 导出上限 5 MB",
+        "可玩广告导出面向企业计划"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "采访报道页面标注 11 月 23 日，明确区分于 10 月首发及未核到的撤除日期。",
+      "sources": [
+        {
+          "name": "GamesBeat｜当事团队现场采访与调整披露",
+          "url": "https://gamesbeat.com/higgsfield-launches-playable-game-ads-built-with-ai/",
+          "role": "primary"
+        },
+        {
+          "name": "Higgsfield｜10 月原始发布",
+          "url": "https://higgsfield.ai/blog/higgsfield-playable-ads-and-games",
+          "role": "secondary"
+        },
+        {
+          "name": "Higgsfield｜官方可玩例子",
+          "url": "https://higgsfield.ai/playable-intro",
+          "role": "secondary"
+        }
+      ],
+      "rank": 9,
+      "id": "2026-11-25-evening-09",
+      "tier": "send",
+      "image": {
+        "status": "gap",
+        "gapReason": "可试玩演示有官方图片，未确认与本次调整直接相关的新闻照片。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "DIRECTOR NOTES L1",
+      "headline": "英国导演拆解 111 分钟 AI 长片：先做整片声音读本，再按镜头回补",
+      "standfirst": "他没有把剧本交给模型，也没有一次生成几十个镜头再挑。",
+      "paragraphs": [
+        "英国导演 Perry Bhandal 11 月 23 日在行业刊物 Broadcast 公开复盘《Okay, It’s Time To Go》。这部反乌托邦长片已在其制作公司网站上线；新披露的是他如何组织 111 分钟的表演和剪辑，而不是电影在当天首映。",
+        "他自己写剧本，再挑角色对应的声音，把整部剧本先读成一版完整音轨，借此找出对白节奏和情绪不对的地方。之后按场景布置人物、道具和机位，逐镜制作；在常规剪辑软件里看到缺了反应或角度，再补生成所需素材。"
+      ],
+      "whyItMatters": "对于小团队，最容易借鉴的不是某款模型，而是先解决演员说话和故事节奏，再生成镜头。花掉最多的也可能不是积分，而是导演的时间。",
+      "caveats": [
+        "成本与流程是导演一手自述，不等于独立审计或每部片都能照搬的制作预算。"
+      ],
+      "figures": [
+        "111 分钟",
+        "逐镜制作与常规非线性剪辑"
+      ],
+      "publishedAt": "2026-11-23T15:41:00Z",
+      "publishedAtNote": "采用导演在 Broadcast 发表复盘的时间；长片本身此前已上线。",
+      "sources": [
+        {
+          "name": "Perry Bhandal｜在 Broadcast 发表的第一人称制作复盘",
+          "url": "https://www.broadcastnow.co.uk/industry-opinions/ai-filmmaking-how-director-perry-bhandal-works-solo-using-gen-ai-tools/5222709.article",
+          "role": "primary"
+        },
+        {
+          "name": "Kirlian Pictures｜片长及发行页",
+          "url": "https://www.kirlianpictures.com/okay-its-time-to-go",
+          "role": "secondary"
+        }
+      ],
+      "rank": 10,
+      "id": "2026-11-25-evening-10",
+      "tier": "alternate",
+      "image": {
+        "status": "gap",
+        "gapReason": "出品方有影片画面，但未核到与复盘或制作直接相关的真实照片。"
+      }
+    }
+  ]
+}
