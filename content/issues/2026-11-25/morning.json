@@ -1,0 +1,457 @@
+{
+  "issueDate": "2026-11-25",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-25T10:02:00+08:00",
+  "retrievedThrough": "2026-11-25T10:00:00+08:00",
+  "slot": "10:00",
+  "slotNote": "按北京时间 11 月 25 日 10:00 取材；发布与核对时间另计。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期 10 条，按事件报道热度和双轮编辑评分编排；前 4 条为建议发送。公告和财报配图均标注来源。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "CHIPS L1",
+      "headline": "戴尔 AI 服务器待交订单达 1323 亿美元",
+      "standfirst": "季度 AI 服务器收入约 220 亿美元，同比增 291%。",
+      "paragraphs": [
+        "戴尔 11 月 24 日发布 2027 财年第三季度业绩。公司披露，当季 AI 优化服务器订单 602 亿美元、AI 优化服务器收入约 220 亿美元，季末此类订单积压 1323 亿美元。",
+        "公司将本财年 AI 服务器营收预期提高到约 780 亿美元。这是指戴尔本财年业务，而不是自然年行业规模。"
+      ],
+      "whyItMatters": "服务器订单和实际交付是两个不同信号。两项同时增长更能说明客户的算力需求，但订单积压并不代表收入已入账。",
+      "caveats": [
+        "订单积压不等于已确认营收；全年数据是公司指引。"
+      ],
+      "figures": [
+        "602 亿美元季度订单",
+        "1323 亿美元积压订单"
+      ],
+      "publishedAt": "2026-11-25T05:00:00+08:00",
+      "publishedAtNote": "美国市场收盘时段发布；北京时间 25 日。",
+      "sources": [
+        {
+          "name": "戴尔｜财报及监管附件",
+          "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "role": "primary"
+        },
+        {
+          "name": "戴尔｜第三季度财报演示",
+          "url": "https://investors.delltechnologies.com/_assets/_0f9cfb12d02468203f5253ccbb5d12d8/delltechnologies/db/3576/34781/pdf/Q3_FY27_Performance_Review.pdf",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-25-morning-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-01.webp",
+        "alt": "戴尔第三季度财报演示中的 AI 优化服务器页",
+        "credit": "戴尔投资者关系｜财报演示截图",
+        "sourcePage": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+        "retrievedFrom": "https://investors.delltechnologies.com/_assets/_0f9cfb12d02468203f5253ccbb5d12d8/delltechnologies/db/3576/34781/pdf/Q3_FY27_Performance_Review.pdf",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "POLICY L1",
+      "headline": "美国将东南亚七家实体列入出口管制名单",
+      "standfirst": "涉马来西亚、新加坡和泰国，相关出口许可原则上拒绝。",
+      "paragraphs": [
+        "美国商务部工业与安全局（BIS）的最终规则把位于马来西亚、新加坡和泰国的七家实体加入实体清单，包括新加坡 Apex Enterprise Solutions。文件 11 月 23 日在美国提交公开查阅，安排 25 日刊登。",
+        "相关限制适用于受《出口管理条例》管辖的物项。规则给出许可要求及原则上拒绝的审查口径；马来西亚投资、贸易及工业部另发声明确认。"
+      ],
+      "whyItMatters": "卖方、转售商和海外机房都需要留意买家身份。规则展示了芯片管制向跨境采购链延伸，但列名不是刑事定罪。",
+      "caveats": [
+        "列入名单不等于指控已经在法院证实，也不等于三国整体遭禁运。"
+      ],
+      "figures": [
+        "七家实体",
+        "三个东南亚市场"
+      ],
+      "publishedAt": "2026-11-24T05:15:00+08:00",
+      "publishedAtNote": "采用《联邦公报》文件页尾的公开查阅提交时间；正式刊登日期另列。",
+      "sources": [
+        {
+          "name": "美国《联邦公报》｜BIS 最终规则",
+          "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "马来西亚投资、贸易及工业部｜声明",
+          "url": "https://www.miti.gov.my/miti/resources/Media%20Release/THE_ADDITION_OF_MALAYSIAN_ENTITIES_TO_THE_US_ENTITY_LIST_-_UNDER_BUREAU_OF_INDUSTRY_AND_SECURITY_OF_THE_US_DEPARTMENT_OF_COMMERCE.pdf",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-25-morning-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-02.webp",
+        "alt": "美国《联邦公报》披露的东南亚七家实体列名规则首页",
+        "credit": "美国《联邦公报》｜公开文件截图",
+        "sourcePage": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+        "retrievedFrom": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "AGENT L1",
+      "headline": "Meta 在英国分批开放个人智能体 Muse",
+      "standfirst": "英国成年用户可免费使用，覆盖手机、网页和 WhatsApp。",
+      "paragraphs": [
+        "Meta 11 月 24 日宣布，将 Muse 向英国成年用户分批开放。公司把它定位为能在用户授权下协助处理计划和任务的个人智能体，入口包括 iOS、Android、网页和 WhatsApp。",
+        "英国信息专员办公室与竞争和市场管理局分别对此次发布发表声明。上线是逐步开放，不代表所有英国用户都在第一天获得入口。"
+      ],
+      "whyItMatters": "智能体不只在独立应用里竞争，也开始进入已有通讯入口。能接触哪些信息、在哪一步需要许可，同样决定用户能不能放心委托任务。",
+      "caveats": [
+        "不把监管部门发声明等同于背书。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-24T14:00:40+08:00",
+      "publishedAtNote": "采用 Meta 发布页元数据。",
+      "sources": [
+        {
+          "name": "Meta｜英国发布公告",
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+          "role": "primary"
+        },
+        {
+          "name": "英国信息专员办公室｜发布声明",
+          "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-muse/",
+          "role": "secondary"
+        },
+        {
+          "name": "英国竞争和市场管理局｜发布声明",
+          "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-25-morning-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-03.webp",
+        "alt": "Meta 发布 Muse 英国版时使用的品牌图",
+        "credit": "Meta｜英国上市发布图",
+        "sourcePage": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+        "retrievedFrom": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?fit=960%2C720",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "MODEL L1",
+      "headline": "百度开放文心 5.5 Flash 预览版权重",
+      "standfirst": "三种构建可下载；Apache 2.0 覆盖这次开放的预览版。",
+      "paragraphs": [
+        "百度把 ERNIE 5.5 Flash Preview 权重放上 Hugging Face，并在 11 月 24 日确认开放。模型卡列出 2800 亿总参数、每次约 140 亿参数激活，标称支持约百万词元的文本上下文。",
+        "默认版本、全 FP8 版本和 BF16 版本分别提供。11 月 11 日的预览版介绍不是这次动作；这次新增的是公开可下载权重。"
+      ],
+      "whyItMatters": "团队现在可自行部署和微调预览模型，不必只通过 API 使用。模型总规模依然不小，公开不等于可在普通电脑上运行。",
+      "caveats": [
+        "许可信息以具体权重仓库为准；不是正式版全面开放。"
+      ],
+      "figures": [
+        "2800 亿总参数",
+        "140 亿激活参数"
+      ],
+      "publishedAt": "2026-11-23T17:00:29+08:00",
+      "publishedAtNote": "采用 Hugging Face 官方仓库创建时间；公开确认在 24 日。",
+      "sources": [
+        {
+          "name": "百度官方模型卡｜权重与许可",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+          "role": "primary"
+        },
+        {
+          "name": "Hugging Face｜仓库时间元数据",
+          "url": "https://huggingface.co/api/models/baidu/ERNIE-5.5-Flash-Preview",
+          "role": "secondary"
+        },
+        {
+          "name": "文心｜预览版官方说明",
+          "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-25-morning-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-04.webp",
+        "alt": "百度早前发布的文心 5.5 Flash 预览版官方测试图",
+        "credit": "百度文心｜预览版资料图，非此次权重公告",
+        "sourcePage": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+        "retrievedFrom": "https://ernie.baidu.com/research-assets/ernie-5-5-flash-preview/benchmark-results-final.png",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CAPITAL L1",
+      "headline": "机器人世界模型公司 Embo 获 1.1 亿美元种子轮",
+      "standfirst": "a16z 参与，团队计划从视频和机器人的真实操作中训练。",
+      "paragraphs": [
+        "Embo 11 月 23 日首次公开介绍公司，并与投资方 a16z 同日公布 1.1 亿美元种子轮。",
+        "团队计划先从大量网络视频预训练，再用机器人真实操作和强化学习改进。其世界模型用来模拟不同场景，让机器人练习动作；公司未公布可供第三方复现的同期部署结果。"
+      ],
+      "whyItMatters": "这轮资金押注的是怎样用更多样的经验教会机器人做事，并不是机器人已经可以稳定适应陌生现场。",
+      "caveats": [
+        "融资不是量产、客户订单或实测效果。"
+      ],
+      "figures": [
+        "1.1 亿美元种子轮"
+      ],
+      "publishedAt": "2026-11-24T01:00:40+08:00",
+      "publishedAtNote": "采用创始人发布原帖的时间。",
+      "sources": [
+        {
+          "name": "Embo｜公司与种子轮公告",
+          "url": "https://embo.com/introducing-embo",
+          "role": "primary"
+        },
+        {
+          "name": "a16z｜投资公告",
+          "url": "https://a16z.com/announcement/investing-in-embo/",
+          "role": "secondary"
+        },
+        {
+          "name": "Danijar Hafner｜创始人公告",
+          "url": "https://x.com/danijar/status/2124911019562811820",
+          "role": "secondary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-25-morning-05",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-05.webp",
+        "alt": "Embo 创立与种子轮公告原图",
+        "credit": "Embo｜公司公告配图",
+        "sourcePage": "https://embo.com/introducing-embo",
+        "retrievedFrom": "https://embo.com/images/posts/introducing-embo/banner.jpg",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "MODEL L1",
+      "headline": "Devin 上线编程模型 SWE-2.1",
+      "standfirst": "新模型在其官方终端任务测试中较上一代明显上升。",
+      "paragraphs": [
+        "Cognition 11 月 24 日推出 SWE-2.1，已进入 Devin Cloud、桌面端和命令行。公司称它基于 Kimi K3，以强化学习进行后训练。",
+        "同一篇官方报告中，Terminal-Bench 4.1 得分从 SWE-2 的 24.2 升至 50.0；FrontierCode 2.0 从 24.1 升至 41.3。"
+      ],
+      "whyItMatters": "编程智能体不只要写出代码，还要在终端里把任务跑完。真实项目能否复现这一增幅，仍应看团队自己的测试。",
+      "caveats": [
+        "分数是 Cognition 报告的测评，不等于用户仓库成功率。"
+      ],
+      "figures": [
+        "Terminal-Bench 4.1：50.0 对 24.2",
+        "FrontierCode 2.0：41.3 对 24.1"
+      ],
+      "publishedAt": "2026-11-25T03:07:36+08:00",
+      "publishedAtNote": "采用 Cognition 官方发布帖时间。",
+      "sources": [
+        {
+          "name": "Cognition｜模型发布与测评",
+          "url": "https://cognition.com/blog/swe-2-1",
+          "role": "primary"
+        }
+      ],
+      "rank": 6,
+      "id": "2026-11-25-morning-06",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-06.webp",
+        "alt": "Cognition 的 SWE-2.1 官方发布图",
+        "credit": "Cognition｜产品发布图",
+        "sourcePage": "https://cognition.com/blog/swe-2-1",
+        "retrievedFrom": "https://cognition.com/images/swe-2-1/cover.jpg",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "PRODUCT L1",
+      "headline": "Claude 生成的小工具可装到电脑桌面",
+      "standfirst": "Mac 和 Windows 用户可试用，安装不等于离线运行。",
+      "paragraphs": [
+        "Anthropic 11 月 24 日宣布公测：Claude 生成的交互式内容 Artifacts 可以安装成 Mac 或 Windows 应用，有独立的图标和窗口。安装入口在 Claude 桌面端的分享菜单。",
+        "应用运行仍需联网并登录 Claude。部分功能需要额外权限；官方提醒不会预先审核安装的应用，不应给不可信工具完整权限。"
+      ],
+      "whyItMatters": "自己做的计算器、内部面板或互动原型，不必每次都回到聊天窗口打开。但这不等于应用可以离开 Claude 独立分发。",
+      "caveats": [
+        "Docs、Slides 和 Sheets 等类型不支持这种安装方式。"
+      ],
+      "figures": [],
+      "publishedAt": "2026-11-25T03:47:54+08:00",
+      "publishedAtNote": "采用 Anthropic 开发者账号发布帖时间。",
+      "sources": [
+        {
+          "name": "Anthropic｜安装 Artifacts 指南",
+          "url": "https://claude.com/resources/articles/install-as-app",
+          "role": "primary"
+        }
+      ],
+      "rank": 7,
+      "id": "2026-11-25-morning-07",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-07.webp",
+        "alt": "Claude 将 Artifact 安装为桌面应用的官方界面",
+        "credit": "Anthropic｜操作演示截图",
+        "sourcePage": "https://claude.com/resources/articles/install-as-app",
+        "retrievedFrom": "https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "INFRA L1",
+      "headline": "AOI 签下约 22 亿美元最低光器件采购承诺",
+      "standfirst": "客户未具名，两类产品的采购承诺分不同年份执行。",
+      "paragraphs": [
+        "美国光器件供应商 AOI 11 月 24 日宣布与一家现有大型数据中心客户签订多年协议，对方承诺 2027 年至少采购约 15 亿美元的 800G 光模块，2028–2029 年至少采购约 7 亿美元的激光二极管。",
+        "AOI 另称该客户预计还会需要更多产品，但超出最低承诺的需求并不受协议保证。"
+      ],
+      "whyItMatters": "AI 机房除了买芯片，还要用高速光连接把大量服务器连起来。这笔协议把部分预期需求变成有明示金额的多年采购承诺。",
+      "caveats": [
+        "两项最低承诺合计约 22 亿美元；不是当期营收。"
+      ],
+      "figures": [
+        "800G 光模块约 15 亿美元",
+        "激光二极管约 7 亿美元"
+      ],
+      "publishedAt": "2026-11-24T20:00:00+08:00",
+      "publishedAtNote": "采用发布资讯记录的美国东部 07:00。",
+      "sources": [
+        {
+          "name": "AOI｜多年采购协议",
+          "url": "https://newsroom.ao-inc.com/news-releases/aoi-announces-multi-year-long-term-agreement-with-tier-1-hyperscale-datacenter-customer/",
+          "role": "primary"
+        },
+        {
+          "name": "Market Chameleon｜发布资讯",
+          "url": "https://marketchameleon.com/Overview/AAOI/Summary/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 8,
+      "id": "2026-11-25-morning-08",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-08.webp",
+        "alt": "AOI 随多年采购协议公布的光器件配图",
+        "credit": "AOI 新闻室｜协议发布图",
+        "sourcePage": "https://newsroom.ao-inc.com/news-releases/aoi-announces-multi-year-long-term-agreement-with-tier-1-hyperscale-datacenter-customer/",
+        "retrievedFrom": "https://newsroom.ao-inc.com/assets/Uploads/LTA_Nov-24-Medium__FocusFillWyIwLjAwIiwiMC4wMCIsMTE3MCw0NDdd.png",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "EARNINGS L1",
+      "headline": "Workday 新增 AI 年度合约近 1.5 亿美元",
+      "standfirst": "公司称同比逾三倍，超过 2200 家核心客户买过 AI 产品。",
+      "paragraphs": [
+        "Workday 于美国东部时间 11 月 24 日公布截至 10 月 31 日的季度业绩。首席执行官 Aneel Bhusri 称，当季 AI 产品新增年度合约价值近 1.5 亿美元，超过上年同期三倍。",
+        "公司称，购买至少一款 AI 产品的核心客户超过 2200 家，较上季度近增四分之一。这与公司当季 27.05 亿美元总营收是不同口径。"
+      ],
+      "whyItMatters": "与只披露功能上线相比，合约价值能反映部分企业付费意愿。但购买和部署、合约与营收之间仍有距离。",
+      "caveats": [
+        "新增年度合约价值不是确认收入；购买不等于已部署。"
+      ],
+      "figures": [
+        "近 1.5 亿美元新增年度 AI 合约价值",
+        "2200 多家核心客户购买过 AI 产品"
+      ],
+      "publishedAt": "2026-11-25T05:01:00+08:00",
+      "publishedAtNote": "采用公司新闻稿时间。",
+      "sources": [
+        {
+          "name": "Workday｜公司财报新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/workday-announces-fiscal-2027-third-quarter-financial-results-302949793.html",
+          "role": "primary"
+        },
+        {
+          "name": "SEC｜财报附件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000057/wday-10312026x991.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "Workday｜首席执行官肖像来源",
+          "url": "https://www.workday.com/en-us/company/about-workday/leadership/aneel-bhusri.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 9,
+      "id": "2026-11-25-morning-09",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-09.webp",
+        "alt": "Workday 首席执行官 Aneel Bhusri 的官方肖像",
+        "credit": "Workday｜资料照，并非财报现场",
+        "sourcePage": "https://www.prnewswire.com/news-releases/workday-announces-fiscal-2027-third-quarter-financial-results-302949793.html",
+        "retrievedFrom": "https://www.workday.com/content/dam/web/zz/images/headshots/wday-portraits-exec-aneel-bhusri.png",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "APPLICATION L1",
+      "headline": "气象智能体「诸葛」向专业机构开放",
+      "standfirst": "可调取气象数据和工具，首批开放有机构范围限制。",
+      "paragraphs": [
+        "中国气象局与上海人工智能实验室在雄安公布 ZHU·GE「诸葛」气象智能体，将气象部门的数据能力与研究智能体联通。按发布材料，平台接入约 10 PB 公开数据、1 PB 授权气象数据和 5000 多个代码工具。",
+        "开放对象起初为气象相关机构和教育联盟等专业群体，不是面向个人的公开天气应用。"
+      ],
+      "whyItMatters": "专业模型的价值不只在回答问题，还在能否找到可信数据、调用现有计算工具，并让人检查中间步骤。",
+      "caveats": [
+        "接入能力不等于气象预报的准确率已提高。"
+      ],
+      "figures": [
+        "约 10 PB 公开数据",
+        "5000 多个代码工具"
+      ],
+      "publishedAt": "2026-11-23T12:57:00+08:00",
+      "publishedAtNote": "采用中国气象局公开发帖时间。",
+      "sources": [
+        {
+          "name": "中国气象局｜官方发布帖",
+          "url": "https://www.sina.cn/news/detail/5368400264036393.html",
+          "role": "primary"
+        },
+        {
+          "name": "北京国际科技创新中心｜上线报道",
+          "url": "https://www.ncsti.gov.cn/kjdt/kjrd/202611/t20261124_265182.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 10,
+      "id": "2026-11-25-morning-10",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/morning-10.webp",
+        "alt": "中国气象局发布「诸葛」气象智能体时的附图",
+        "credit": "中国气象局｜官方发布帖配图",
+        "sourcePage": "https://www.sina.cn/news/detail/5368400264036393.html",
+        "retrievedFrom": "https://wx2.sinaimg.cn/middle/002jiQKGly1ijc1cs4wxwj60se0ibdna02.jpg",
+        "retrievedAt": "2026-11-25T10:02:00+08:00"
+      }
+    }
+  ]
+}
