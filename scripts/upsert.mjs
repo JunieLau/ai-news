@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateIssue } from "./lib.mjs";
+import { issueFileStem, issueSequence, validateIssue } from "./lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -31,9 +31,10 @@ export function upsertIssueFromFile(file, { contentDir, replace = false } = {}) 
     file,
     folderDate: issue.issueDate,
     fileEdition: issue.edition,
+    fileSequence: issueSequence(issue),
   });
   if (errors.length) return { ok: false, errors };
-  const dest = path.join(contentDir, "issues", issue.issueDate, `${issue.edition}.json`);
+  const dest = path.join(contentDir, "issues", issue.issueDate, `${issueFileStem(issue)}.json`);
   if (fs.existsSync(dest) && !replace) {
     return { ok: false, errors: [{ code: "exists", message: `已存在 ${dest}。追加新日期即可；要改同一期请显式加 --replace` }] };
   }

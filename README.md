@@ -67,6 +67,8 @@ content/media/YYYY-MM-DD/<图片文件>
 
 一个日期目录里最多两个文件：`morning.json`、`evening.json`。目录名必须等于里面的 `issueDate`。文件名必须等于 `edition`。
 
+同一天同一版次需要另出一期时（例如 11 月 25 日早报的「25-2」），不要覆盖第一期，另建 `morning-2.json`（或 `evening-2.json`），并在 JSON 里写 `"sequence": 2`。这一期的地址是 `/morning/2026-11-25-2/`，条目 id 写成 `2026-11-25-2-morning-01`，图片可放在同一日期目录，如 `content/media/2026-11-25/morning-2-01.jpg`。`sequence` 只能是 2 到 9，必须和文件名一致；第一期不写 `sequence`。同一天里期号大的一期排在前面，成为该流的最新一期；第一期的地址和内容保持不变。
+
 构建还会写出 `dist/manifest.json`。`streams.morning.dates` 和 `streams.evening.dates` 都是从新到旧。`home` 永远指向早报流的最新日期；早报还没有期刊时是 `null`。
 
 ## 期刊字段

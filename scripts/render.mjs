@@ -3,13 +3,16 @@ import {
   escapeHtml,
   formatChineseDate,
   hostname,
+  compareIssuesDesc,
+  issueKey,
+  issueLabel,
+  issueSequence,
   joinBase,
   orderedSources,
   primarySource,
   shanghaiClock,
   storiesInOrder,
   tierLabel,
-  weekdayName,
 } from "./lib.mjs";
 
 function safeHref(url) {
@@ -102,12 +105,13 @@ function storyArticle(story, issue, base) {
   </article>`;
 }
 
-function archiveList(stream, currentDate, base) {
+function archiveList(stream, currentKey, base) {
   return stream.map((issue) => {
-    const href = joinBase(base, `${issue.edition}/${issue.issueDate}/`);
-    const label = `${formatChineseDate(issue.issueDate)} ${weekdayName(issue.issueDate)}`;
-    const mark = issue.issueDate === currentDate ? "在读" : "打开这一期";
-    return `<li data-archive-date="${escapeHtml(issue.issueDate)}"><a href="${escapeHtml(href)}">${escapeHtml(label)}</a><span class="mark">${mark}</span></li>`;
+    const key = issueKey(issue);
+    const href = joinBase(base, `${issue.edition}/${key}/`);
+    const label = issueLabel(issue);
+    const mark = key === currentKey ? "在读" : "打开这一期";
+    return `<li data-archive-date="${escapeHtml(key)}"><a href="${escapeHtml(href)}">${escapeHtml(label)}</a><span class="mark">${mark}</span></li>`;
   }).join("");
 }
 
@@ -194,16 +198,17 @@ function sendShortlist(issue, stories) {
 
 export function renderIssuePage({ issue, stream, base, role }) {
   const meta = EDITIONS[issue.edition];
-  const latestDate = stream[0]?.issueDate || "";
-  const isLatest = issue.issueDate === latestDate;
+  const latestDate = stream[0] ? issueKey(stream[0]) : "";
+  const currentKey = issueKey(issue);
+  const isLatest = currentKey === latestDate;
   const stories = storiesInOrder(issue);
   const lead = stories[0];
   const side = stories.slice(1, 5);
   const left = side.filter((_, index) => index % 2 === 0);
   const right = side.filter((_, index) => index % 2 === 1);
-  const dateLine = `${formatChineseDate(issue.issueDate)} ${weekdayName(issue.issueDate)}`;
+  const dateLine = issueLabel(issue);
   const returnHref = joinBase(base, `${issue.edition}/`);
-  const datedHref = joinBase(base, `${issue.edition}/${issue.issueDate}/`);
+  const datedHref = joinBase(base, `${issue.edition}/${currentKey}/`);
   const canonical = role === "home"
     ? joinBase(base, "")
     : role === "latest"
@@ -212,7 +217,7 @@ export function renderIssuePage({ issue, stream, base, role }) {
   const statusLine = isLatest
     ? ""
     : `<p class="return"><a href="${escapeHtml(returnHref)}">返回最新一期</a></p>`;
-  const stack = `<span class="stream-name">${escapeHtml(meta.nav)}</span><span>${meta.nav === "电影晚报" ? "电影与视频" : "综合"}</span><span>亚洲/上海</span><span>${escapeHtml(issue.issueDate.replaceAll("-", "."))}</span>`;
+  const stack = `<span class="stream-name">${escapeHtml(meta.nav)}</span><span>${meta.nav === "电影晚报" ? "电影与视频" : "综合"}</span><span>亚洲/上海</span><span>${escapeHtml(issue.issueDate.replaceAll("-", ".") + (issueSequence(issue) > 1 ? `-${issueSequence(issue)}` : ""))}</span>`;
   const main = `${statusLine}
       <section class="front" aria-label="头版">
         <div class="col col-lead">${teaser(lead, base, true)}</div>
@@ -223,7 +228,7 @@ export function renderIssuePage({ issue, stream, base, role }) {
       <div class="stories">${stories.map((story) => storyArticle(story, issue, base)).join("")}</div>${sendShortlist(issue, stories)}
       <section class="archive" aria-labelledby="archive-title">
         <h2 id="archive-title" class="section-title"><span>历史目录</span><span class="en">ARCHIVE</span></h2>
-        <ol>${archiveList(stream, issue.issueDate, base)}</ol>
+        <ol>${archiveList(stream, currentKey, base)}</ol>
       </section>`;
   return pageShell({
     base,
@@ -232,7 +237,7 @@ export function renderIssuePage({ issue, stream, base, role }) {
     canonical,
     role,
     edition: issue.edition,
-    issueDate: issue.issueDate,
+    issueDate: currentKey,
     latest: isLatest,
     streamLatest: latestDate,
     dateline: escapeHtml(dateLine),
@@ -338,6 +343,8 @@ export function buildSearchIndex(issues, base) {
       items.push({
         id: story.id,
         issueDate: issue.issueDate,
+        issueKey: issueKey(issue),
+        sequence: issueSequence(issue),
         edition: issue.edition,
         editionLabel: meta.nav,
         rank: story.rank,
@@ -347,7 +354,7 @@ export function buildSearchIndex(issues, base) {
         headline: story.headline,
         standfirst: story.standfirst,
         text,
-        issueHref: `${joinBase(base, `${issue.edition}/${issue.issueDate}/`)}#s-${story.id}`,
+        issueHref: `${joinBase(base, `${issue.edition}/${issueKey(issue)}/`)}#s-${story.id}`,
         sources: orderedSources(story).map((source) => ({
           name: source.name,
           url: source.url,
@@ -358,6 +365,7 @@ export function buildSearchIndex(issues, base) {
   }
   items.sort((a, b) => {
     if (a.issueDate !== b.issueDate) return a.issueDate < b.issueDate ? 1 : -1;
+    if (a.sequence !== b.sequence) return b.sequence - a.sequence;
     if (a.edition !== b.edition) return a.edition === "morning" ? -1 : 1;
     return a.rank - b.rank;
   });
@@ -369,8 +377,8 @@ export function buildManifest(issues, base) {
   for (const edition of Object.keys(EDITIONS)) {
     const dated = issues
       .filter((issue) => issue.edition === edition)
-      .map((issue) => issue.issueDate)
-      .sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
+      .sort(compareIssuesDesc)
+      .map((issue) => issueKey(issue));
     streams[edition] = {
       latest: dated[0] || null,
       dates: dated,

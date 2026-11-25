@@ -42,7 +42,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   const issuesDir = path.join(contentDir, "issues");
   const dates = Object.fromEntries(["morning", "evening"].map((edition) => [
     edition,
-    fs.readdirSync(issuesDir).filter((date) => fs.existsSync(path.join(issuesDir, date, edition + ".json"))).sort().reverse(),
+    fs.readdirSync(issuesDir).flatMap((date) => fs.readdirSync(path.join(issuesDir, date))
+      .map((name) => new RegExp(`^${edition}(?:-([2-9]))?\\.json$`).exec(name))
+      .filter(Boolean)
+      .map((match) => (match[1] ? `${date}-${match[1]}` : date))).sort().reverse(),
   ]));
   assert.equal(manifest.home.edition, "morning");
   assert.equal(manifest.home.issueDate, dates.morning[0]);
@@ -209,7 +212,10 @@ test("the production build links originals, keeps the image gaps, and does not r
   }
   assert.equal(fs.existsSync(path.join(out, ".nojekyll")), true);
   const expectedStories = ["morning", "evening"].flatMap((edition) =>
-    dates[edition].map((date) => JSON.parse(fs.readFileSync(path.join(issuesDir, date, edition + ".json"), "utf8")).stories.length)
+    dates[edition].map((key) => {
+      const [, date, seq] = /^(\d{4}-\d{2}-\d{2})(?:-(\d))?$/.exec(key);
+      return JSON.parse(fs.readFileSync(path.join(issuesDir, date, `${edition}${seq ? `-${seq}` : ""}.json`), "utf8")).stories.length;
+    })
   ).reduce((total, length) => total + length, 0);
   assert.equal(index.length, expectedStories);
 

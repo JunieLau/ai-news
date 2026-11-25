@@ -21,7 +21,7 @@ function resultItem(item) {
     return `<li><a class="source" href="${escapeAttr(source.url)}" target="_blank" rel="noopener noreferrer">${escapeText(prefix + source.name)}</a></li>`;
   }).join("");
   return `<li>
-    <p class="kicker"><span class="num">${String(item.rank).padStart(2, "0")}</span><span class="en">${escapeText(item.kickerEn)}</span><span class="meta">${escapeText(item.issueDate)} · ${escapeText(item.editionLabel)} · ${escapeText(item.tierLabel)}</span></p>
+    <p class="kicker"><span class="num">${String(item.rank).padStart(2, "0")}</span><span class="en">${escapeText(item.kickerEn)}</span><span class="meta">${escapeText(item.issueKey || item.issueDate)} · ${escapeText(item.editionLabel)} · ${escapeText(item.tierLabel)}</span></p>
     <h3><a class="headline" href="${escapeAttr(primary.url)}" target="_blank" rel="noopener noreferrer">${escapeText(item.headline)}</a></h3>
     <p class="standfirst">${escapeText(item.standfirst)}</p>
     <p class="jump"><a href="${escapeAttr(item.issueHref)}">本期位置</a></p>

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadIssues, streamIssues } from "./lib.mjs";
+import { issueKey, loadIssues, streamIssues } from "./lib.mjs";
 import {
   buildManifest,
   buildSearchIndex,
@@ -71,7 +71,7 @@ export function buildSite({ contentDir, outDir, base = "/ai-news" }) {
     }
     for (const issue of stream) {
       writeFile(
-        path.join(outDir, edition, issue.issueDate, "index.html"),
+        path.join(outDir, edition, issueKey(issue), "index.html"),
         renderIssuePage({ issue, stream, base, role: "issue" }),
       );
     }
@@ -86,7 +86,7 @@ export function buildSite({ contentDir, outDir, base = "/ai-news" }) {
   const urls = [""];
   for (const edition of ["morning", "evening"]) {
     urls.push(`${edition}/`);
-    for (const issue of streams[edition]) urls.push(`${edition}/${issue.issueDate}/`);
+    for (const issue of streams[edition]) urls.push(`${edition}/${issueKey(issue)}/`);
   }
   urls.push("search/");
   const body = urls.map((rel) => {
