@@ -1,0 +1,537 @@
+{
+  "issueDate": "2026-11-25",
+  "sequence": 2,
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-25T20:45:00+08:00",
+  "retrievedThrough": "2026-11-25T20:40:00+08:00",
+  "slot": "20:00",
+  "slotNote": "这是 11 月 25 日晚报的第二期（25-2），按北京时间 11 月 25 日 20:40 取材；同日第一期保留原样，不覆盖。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期 10 条，取材窗口为北京时间 11 月 23 日 20:00 至 25 日 20:40，按事件的独立来源数和时间衰减排序；6 条建议发送。每条都配当事方官方图片或新闻现场照片。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "NETFLIX",
+      "headline": "Fincher 新片《Cliff Booth》今日 IMAX 上映，被指大量用 AI，Netflix 仍未回应",
+      "standfirst": "首映前的「AI 画面」指控还在发酵，Fincher 在新采访里依然没有正面回答。",
+      "paragraphs": [
+        "由 Brad Pitt 主演、Tarantino 编剧的《The Further Mis-Adventures of Cliff Booth》11 月 25 日在 IMAX 上映，12 月 23 日上 Netflix。媒体场后，YouTuber 导演 Patrick Tomasso 等观众称片中有「大公司里最明目张胆的 AI 画面」，也有影评人认为那只是做得差的 CGI。",
+        "Netflix 至今没有确认或否认用过生成式 AI。Fincher 在 Dazed 新采访里被直接问到时，只反问记者是否觉得影片缺乏创意，并说不懂 Kling、Seedance 2.0 和 2.5 的区别就无从深谈。"
+      ],
+      "whyItMatters": "这是顶级导演、一线明星和流媒体巨头第一次因「疑似 AI 画面」在院线首映当天被集体追问。观众开始逐帧挑 AI，片方说不说清楚哪些镜头用了什么，会直接影响口碑和票房。",
+      "caveats": [
+        "目前没有任何一方指出具体哪几场用了生成式 AI；指控来自观众和影评，不是片方披露。"
+      ],
+      "figures": [
+        "11 月 25 日 IMAX 上映",
+        "12 月 23 日上 Netflix"
+      ],
+      "publishedAt": "2026-11-24T18:15:00Z",
+      "publishedAtNote": "采用 The Verge 报道时间（北京时间 11 月 25 日 02:15）；Dazed 采访发布于 11 月 24 日 16:10 UTC。",
+      "sources": [
+        {
+          "name": "The Verge｜观众指控与 Netflix 态度",
+          "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+          "role": "primary"
+        },
+        {
+          "name": "Dazed｜Fincher 采访",
+          "url": "https://www.dazeddigital.com/film-tv/article/71410/1/david-fincher-the-further-mis-adventures-of-cliff-booth-film-interview-ai",
+          "role": "secondary"
+        },
+        {
+          "name": "TheWrap｜上映日期与片尾字幕报道",
+          "url": "https://www.thewrap.com/creative-content/movies/david-fincher-cliff-booth-ai-criticism/",
+          "role": "secondary"
+        },
+        {
+          "name": "The A.V. Club｜报道",
+          "url": "https://www.avclub.com/david-fincher-netflix-cliff-booth-ai-accusations-allegations",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-25-2-evening-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-01.jpg",
+        "alt": "Netflix 官方剧照：Brad Pitt 饰演的 Cliff Booth 坐在办公桌后",
+        "credit": "Netflix 官方剧照，经 The Verge 刊载",
+        "sourcePage": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+        "retrievedFrom": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "LIONSGATE PLAY",
+      "headline": "Lionsgate Play 让 AI 演员 Yug R.Ai 主演神话剧《Eklavya》，与 Google 签长期合作",
+      "standfirst": "这是 Lionsgate Play 第一部由 AI 演员领衔的原创剧，也是一整批 AI 原创剧的第一部。",
+      "paragraphs": [
+        "Lionsgate Play 创始人兼 CEO Rohit Jain 宣布，取材自《摩诃婆罗多》的剧集《Eklavya》已开拍，主角由公司推出的 AI 演员 Yug R.Ai 出演，导演是 Netflix 剧《Heeramandi》的 Vibhu Puri。剧集 2027 年在 Lionsgate Play 应用内的 Tiger TV 独播，并提供多种印度及国际语言版本。",
+        "制作使用 Google 的 AI 技术，这部剧也是双方长期制作合作的开端。片方说，印度神话题材过去常因预算被缩水，「AI 改变了这一点」。"
+      ],
+      "whyItMatters": "带着片厂品牌的流媒体平台，开始把 AI 演员放在主角位、而不只是做特效。观众很快会在正式剧集里看到「没有真人主演」的作品，演员与工会的争议也会随之升温。",
+      "caveats": [
+        "目前只有首张海报，未公布集数预算和上线日期；Yug R.Ai 由哪些真人参与表演也未披露。"
+      ],
+      "figures": [
+        "2027 年上线",
+        "Google 长期合作"
+      ],
+      "publishedAt": "2026-11-25T06:15:00Z",
+      "publishedAtNote": "采用 Deadline 独家报道时间（北京时间 11 月 25 日 14:15）。",
+      "sources": [
+        {
+          "name": "Deadline｜独家报道",
+          "url": "https://deadline.com/2026/11/lionsgate-play-eklavya-ai-series-tiger-tv-1237232555/",
+          "role": "primary"
+        },
+        {
+          "name": "Variety｜报道",
+          "url": "https://variety.com/2026/global/asia/lionsgate-play-ai-actor-eklavya-ai-led-original-1236957605/",
+          "role": "secondary"
+        },
+        {
+          "name": "The Indian Express｜报道",
+          "url": "https://indianexpress.com/article/entertainment/web-series/eklavya-artificial-intelligence-series-ai-actor-yug-rai-lionsgate-play-10977684/",
+          "role": "secondary"
+        },
+        {
+          "name": "The Economic Times｜报道",
+          "url": "https://economictimes.indiatimes.com/industry/media/entertainment/lionsgate-play-announces-ai-led-original-series-eklavya-introduces-ai-actor-yug-r-ai/articleshow/136152942.cms",
+          "role": "secondary"
+        },
+        {
+          "name": "Deadline｜Rohit Jain 官方肖像（配图来源）",
+          "url": "https://deadline.com/2026/10/rohit-jain-tiger-tv-1237156538/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-25-2-evening-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-02.png",
+        "alt": "Lionsgate Play 创始人兼 CEO Rohit Jain 的官方肖像，非剧集画面",
+        "credit": "Lionsgate Play 官方肖像，经 Deadline 刊载",
+        "sourcePage": "https://deadline.com/2026/10/rohit-jain-tiger-tv-1237156538/",
+        "retrievedFrom": "https://deadline.com/wp-content/uploads/2026/10/Mr.-Rohit-Jain-Founder-CEO-Lionsgate-Play-1.png",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "KOREA",
+      "headline": "138 分钟 AI 长片《Raphael》登陆韩国乐天影院，团队逐镜打磨 14 个月",
+      "standfirst": "生成式 AI 长片进入韩国商业院线，片长超过两小时。",
+      "paragraphs": [
+        "韩国科幻片《Raphael》（라파엘）11 月 25 日在乐天影院开画，片长 138 分钟、15 岁以上观看。影片由 Mateo AI Studio 与 MBC C&I AI 内容实验室用生成式 AI 制作，讲 2050 年一个按独裁者年轻样貌造出的战争机器人逐渐觉醒人性。",
+        "韩联社报道，团队用 AI 和修图软件花了 1 年 2 个月保持画面一致；影片今年曾受邀在戛纳电影市场的 Kling AI 大会上展示。"
+      ],
+      "whyItMatters": "观众可以买票检验：两个多小时的 AI 长片，人物表演和动作戏能否撑住一整场。成绩好坏都会影响亚洲片方是否跟进 AI 长片院线发行。",
+      "caveats": [
+        "14 个月是制作方说法；有排片不等于票房，首周数据尚未公布。"
+      ],
+      "figures": [
+        "138 分钟",
+        "制作 1 年 2 个月",
+        "11 月 25 日开画"
+      ],
+      "publishedAt": "2026-11-24T13:44:25+09:00",
+      "publishedAtNote": "采用韩联社开画报道时间（北京时间 11 月 24 日 12:44）；开画日为 11 月 25 日。",
+      "sources": [
+        {
+          "name": "韩联社｜开画报道",
+          "url": "https://www.yna.co.kr/view/AKR20261124107300005",
+          "role": "primary"
+        },
+        {
+          "name": "Mateo AI Studio｜乐天影院开画与海报公告",
+          "url": "https://www.mateoaistudio.com/press/22",
+          "role": "secondary"
+        },
+        {
+          "name": "济州 MBC｜开画报道",
+          "url": "https://jejumbc.com/NewsArticle/875180",
+          "role": "secondary"
+        },
+        {
+          "name": "济民日报｜报道",
+          "url": "https://www.jemin.com/news/articleView.html?idxno=848182",
+          "role": "secondary"
+        },
+        {
+          "name": "MTN｜导演访谈（配图来源）",
+          "url": "https://news.mtn.co.kr/article/2026111116260974407",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-25-2-evening-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-03.jpg",
+        "alt": "《Raphael》三位导演在工作室接受采访的照片",
+        "credit": "MTN 머니투데이방송 新闻照",
+        "sourcePage": "https://news.mtn.co.kr/article/2026111116260974407",
+        "retrievedFrom": "https://files.mtn.co.kr/article-asset/2026/11/11/0357371a-1a44-4792-9b86-c494bf0b922b.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "ZHEJIANG TV",
+      "headline": "浙江卫视 2027 片单列入 10 档 AI 综艺和 5 部 AI 中剧，含《王牌》AI 特别版",
+      "standfirst": "省级卫视第一次把 AI 综艺、AI 中剧单列成板块，真人常规版仍在同一份片单上。",
+      "paragraphs": [
+        "浙江卫视 11 月 24 日公布 2027 年节目计划，AI 综艺和 AI 中剧成为独立板块。10 档综艺包括《AI王牌特别版》、萌宠向《喵喵旅行团》、推理向《异闻核查》等；5 部中剧包括《白蛇传说·霜火同行》《永劫无间：轮回前夜》。",
+        "《王牌对王牌10》《奔跑吧15》等真人常规版仍然在列，电视台是两条路同时押注。"
+      ],
+      "whyItMatters": "AI 内容从短剧、漫剧走进上星综艺和熟悉的电视 IP。如果两版都播，观众能直接比较同一招牌下 AI 版和真人版的差别。",
+      "caveats": [
+        "这是片单，不是播出表；AI 参与哪些工序、档期均待确认。"
+      ],
+      "figures": [
+        "10 档 AI 综艺",
+        "5 部 AI 中剧"
+      ],
+      "publishedAt": "2026-11-24T13:00:00+08:00",
+      "publishedAtNote": "采用浙江卫视认证账号发布片单的时间。",
+      "sources": [
+        {
+          "name": "浙江卫视｜发布活动原文（流媒体网刊载，配图来源）",
+          "url": "https://lmtw.com/mzw/content/detail/id/260429/keyword_id/-1",
+          "role": "primary"
+        },
+        {
+          "name": "浙江卫视｜认证账号原片单",
+          "url": "https://sina.cn/news/detail/5368763387216063.html",
+          "role": "secondary"
+        },
+        {
+          "name": "镜周刊｜报道",
+          "url": "https://www.mirrormedia.mg/story/20261124edi080",
+          "role": "secondary"
+        },
+        {
+          "name": "游民星空｜报道",
+          "url": "https://www.gamersky.com/news/202611/2252882.shtml",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-25-2-evening-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-04.jpg",
+        "alt": "浙江卫视 Z 动力 2027 年开源共创发布活动现场的舞台",
+        "credit": "浙江卫视，流媒体网刊载",
+        "sourcePage": "https://lmtw.com/mzw/content/detail/id/260429/keyword_id/-1",
+        "retrievedFrom": "https://img.lmtw.com/m/d/file/dvb/dongtai/20261125/fd935dacaad71caa464ffaa3ef968d41.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "DISRUPT",
+      "headline": "TBWA 澳洲 AI 电影节揭晓：入围片平均提示词降 12%，Midjourney 跌到第九",
+      "standfirst": "Nano Banana 和 Seedance 成为入围作品最常用的工具。",
+      "paragraphs": [
+        "TBWA\\Australia 主办、Google 等赞助的第二届 DISRUPT AI 电影节公布结果：Jamin Tasker 四分钟短片《Everything Soft》从 45 部入围片中夺得 Grand Prix，另颁学生、短片、长片三个奖。报名数创新高，澳洲参赛者中 40% 是第一次拍片。",
+        "同步发布的报告显示，入围片平均用提示词从 1,357 次降到 1,197 次。去年不在榜上的 Google Nano Banana 和 Seedance 成为最常用工具，去年第一的 Midjourney 跌至并列第九，ElevenLabs 这类专用工具也进入前列。"
+      ],
+      "whyItMatters": "获奖者靠的不是多跑几百次生成，而是知道什么该要、什么该删。对创作者，这份数据说明工具每年都在换，判断力才是稳定的竞争力。",
+      "caveats": [
+        "数据为主办方汇总的匿名统计，只覆盖入围作品。"
+      ],
+      "figures": [
+        "45 部入围",
+        "提示词 1,357→1,197（-12%）",
+        "40% 首次拍片"
+      ],
+      "publishedAt": "2026-11-25T12:30:19+11:00",
+      "publishedAtNote": "采用 Campaign Brief 报道时间（北京时间 11 月 25 日 09:30）。",
+      "sources": [
+        {
+          "name": "Campaign Brief｜获奖与报告数据（配图来源）",
+          "url": "https://campaignbrief.com/jamin-taskers-everything-soft-film-wins-grand-prix-at-tbwaaustralias-disrupt-ai-film-festival/",
+          "role": "primary"
+        },
+        {
+          "name": "DISRUPT｜官方获奖名单",
+          "url": "https://daiff.com.au/2026-winners",
+          "role": "secondary"
+        },
+        {
+          "name": "B&T｜报道",
+          "url": "https://www.bandt.com.au/jamin-tasker-wins-grand-prix-at-tbwas-disrupt-ai-film-festival/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-25-2-evening-05",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-05.jpg",
+        "alt": "DISRUPT 颁奖现场大屏显示 Grand Prix 得主《Everything Soft》",
+        "credit": "DISRUPT 颁奖现场照，经 Campaign Brief 刊载",
+        "sourcePage": "https://campaignbrief.com/jamin-taskers-everything-soft-film-wins-grand-prix-at-tbwaaustralias-disrupt-ai-film-festival/",
+        "retrievedFrom": "https://campaignbrief.com/wp-content/uploads/2026/11/Disrupt2026_EXPMedia-361.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "SAND.AI",
+      "headline": "三呆科技发布 4800 亿参数 MAGI-2，一次生成 30 秒带声视频",
+      "standfirst": "一次生成里同时安排切镜、对白和环境声。",
+      "paragraphs": [
+        "三呆科技（Sand.ai）11 月 24 日发布 MAGI-2 正式版：总参数 4800 亿、运行时约激活 280 亿，单次最长生成 30 秒、25 帧每秒的有声视频，可输出 1080p。一场戏可放最多 20 个图像、视频或音频参考，并用时间点指定在哪里切镜头。",
+        "IT之家报道，1080p 价格约每秒 0.5 元；Higgsfield 已提供在线入口。"
+      ],
+      "whyItMatters": "做短场景时，画面和声音能在同一版里一起看，创作者更早判断剪接和节奏是否成立，不必等到后期。",
+      "caveats": [
+        "完整权重尚未开放；高速运动连续性和复杂声音分层是官方列出的短板。"
+      ],
+      "figures": [
+        "4800 亿参数",
+        "最长 30 秒",
+        "最多 20 个参考",
+        "1080p 约 0.5 元/秒"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Sand.ai 官方页面标注 11 月 24 日，未提供时分。",
+      "sources": [
+        {
+          "name": "Sand.ai｜官方技术发布（配图来源）",
+          "url": "https://sand.ai/blog/magi-2",
+          "role": "primary"
+        },
+        {
+          "name": "IT之家｜价格与中文报道",
+          "url": "https://www.ithome.com/1/032/124.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "Higgsfield｜托管入口",
+          "url": "https://higgsfield.ai/magi-2-intro",
+          "role": "secondary"
+        },
+        {
+          "name": "Pandaily｜报道",
+          "url": "https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned",
+          "role": "secondary"
+        }
+      ],
+      "rank": 6,
+      "id": "2026-11-25-2-evening-06",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-06.webp",
+        "alt": "Sand.ai 官方 MAGI-2 发布主视觉",
+        "credit": "Sand.ai 官方发布页主视觉",
+        "sourcePage": "https://sand.ai/blog/magi-2",
+        "retrievedFrom": "https://static.magi.world/media/website/6c8334773b98eca3de5b02c0460740cef8802c111e173bd32de5a1f1f4d3d884.webp",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "HEYGEN",
+      "headline": "Gary Vee 用 HeyGen 开 AI 分身账号，计划一年 365 天每天回答一位观众",
+      "standfirst": "观众留言决定选题，但答案仍由团队写、审。",
+      "paragraphs": [
+        "创业网红 Gary Vaynerchuk 与 HeyGen 11 月 24 日推出 @hey_garyvee，在 Instagram 和 TikTok 收集提问，计划连续 12 个月每天选一条，由他授权的 AI 分身用提问者的语言回答，每支视频标注为 AI。",
+        "团队每天挑题、写答案并审批后才让分身出镜；入选问题和用户名可被无偿用于公开视频。"
+      ],
+      "whyItMatters": "头部网红把「本人出镜」部分交给授权分身，评论区直接变成选题会。更多创作者可能照做，观众要习惯分辨真人和分身。",
+      "caveats": [
+        "一年是计划，不是已发集数；留言不保证入选。"
+      ],
+      "figures": [
+        "计划 12 个月",
+        "每天 1 条"
+      ],
+      "publishedAt": "2026-11-24T09:15:00-05:00",
+      "publishedAtNote": "HeyGen 新闻稿发布时间（北京时间 11 月 24 日 22:15）。",
+      "sources": [
+        {
+          "name": "HeyGen｜新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/gary-vaynerchuk-partners-with-heygen-to-launch-ai-avatar-powered-social-channel-302948881.html",
+          "role": "primary"
+        },
+        {
+          "name": "HeyGen｜节目页与留言条款",
+          "url": "https://www.heygen.com/heygaryvee",
+          "role": "secondary"
+        },
+        {
+          "name": "Benzinga｜报道",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63576195/gary-vee-launches-personal-ai-avatar-brings-gary-in-your-pocket-to-fans-ask-me-something-and-get-an-answer",
+          "role": "secondary"
+        },
+        {
+          "name": "Gary Vaynerchuk 官方媒体资料（配图来源）",
+          "url": "https://garyvaynerchuk.com/press/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 7,
+      "id": "2026-11-25-2-evening-07",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-07.jpg",
+        "alt": "Gary Vaynerchuk 本人官方媒体肖像，非 AI 分身",
+        "credit": "Gary Vaynerchuk 官方媒体资料",
+        "sourcePage": "https://garyvaynerchuk.com/press/",
+        "retrievedFrom": "https://garyvaynerchuk.com/images/press-live-1.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "MOVIEFLOW",
+      "headline": "MovieFlow 称首批 10 部 AI 院线长片 2027 年清明档起上映，约 50 天一部",
+      "standfirst": "继博纳《三星堆：未来往事》票房遇冷，又一家公司押注 AI 长片院线。",
+      "paragraphs": [
+        "国王互娱 CEO 梁巍 11 月 25 日在广州 2026 粤港澳大湾区文化产业投资大会路演时说，公司已联合伙伴发起 AI 影视制片计划：首批 10 部院线长片（含实拍加 AI、动画）从 2027 年清明、五一档起陆续上映，每 50 到 60 天一部，2028 年底前完成，已储备《端脑》《画皮》等 IP。",
+        "他披露 MovieFlow 平台上线以来营收超 150 万元、用户 140 万，并预计明年 AI 在实拍影视剧中的渗透率达 50% 到 80%。"
+      ],
+      "whyItMatters": "国内首部 AI 院线片刚证明「能上映不等于能卖票」，这批片能否按期上映、有没有人买票，是 AI 长片能不能走进院线的下一个检验。",
+      "caveats": [
+        "上映计划和渗透率均为公司自述，片单与档期未经发行方确认。"
+      ],
+      "figures": [
+        "首批 10 部",
+        "每 50–60 天一部",
+        "平台营收超 150 万元"
+      ],
+      "publishedAt": "2026-11-25T17:26:18+08:00",
+      "publishedAtNote": "采用羊城晚报·羊城派原创报道时间；10 部片计划出自同日 21 世纪经济报道（16:37，经新浪财经转载）。",
+      "sources": [
+        {
+          "name": "羊城晚报·羊城派｜梁巍采访（原创）",
+          "url": "https://ycpai.ycwb.com/content/ikimvjjtin/content_54356722.html",
+          "role": "primary"
+        },
+        {
+          "name": "21世纪经济报道｜路演报道（新浪财经转载，配图来源）",
+          "url": "https://finance.sina.com.cn/roll/2026-11-25/doc-inizxxxz9431444.shtml",
+          "role": "secondary"
+        }
+      ],
+      "rank": 8,
+      "id": "2026-11-25-2-evening-08",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-08.jpg",
+        "alt": "梁巍在 2026 粤港澳大湾区文化产业投资大会人工智能路演专场上演讲",
+        "credit": "21世纪经济报道路演现场照，经新浪财经转载",
+        "sourcePage": "https://finance.sina.com.cn/roll/2026-11-25/doc-inizxxxz9431444.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/spider20261125/699/w900h599/20261125/aac7-78ccc7a7a9add65764e0973564e9bd6c.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "INTELLIFLICKS",
+      "headline": "印度 AI 长片《Maharaja in Denims》定档 2027 年 4 月，因工具换代重做三遍、花费逾 50 万美元",
+      "standfirst": "从 Midjourney、Runway 一路换到 Veo、Kling、Seedance 和 Higgsfield。",
+      "paragraphs": [
+        "Variety 独家报道，改编自 Khushwant Singh 小说的生成式 AI 长片《Maharaja in Denims》计划 2027 年 4 月 Baisakhi 节前上映，联合出品方考虑先走院线。出品方 Intelliflicks 由 Singh 与前 Microsoft 副总裁 Gurdeep Pall 创立。",
+        "Singh 说，制作从 2024 年开始，工具不断换代，整部片的静帧重做了三遍；近一小时内容重做三次，成本因此升到 50 万美元以上，不含宣发。"
+      ],
+      "whyItMatters": "AI 长片并不天然便宜：工具每半年一变，追新就要返工。想拍长片的团队，要先算清楚「什么时候锁定工具」。",
+      "caveats": [
+        "成本为出品方自述，未经审计；院线发行尚在考虑中。"
+      ],
+      "figures": [
+        "逾 50 万美元",
+        "重做 3 遍",
+        "2027 年 4 月"
+      ],
+      "publishedAt": "2026-11-25T12:17:16+00:00",
+      "publishedAtNote": "采用 Variety 独家报道时间（北京时间 11 月 25 日 20:17）。",
+      "sources": [
+        {
+          "name": "Variety｜独家报道",
+          "url": "https://variety.com/2026/film/news/generative-ai-feature-maharaja-in-denims-april-2027-release-1236957865/",
+          "role": "primary"
+        },
+        {
+          "name": "Intelliflicks｜官网（配图来源）",
+          "url": "https://www.intelliflicks.com/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 9,
+      "id": "2026-11-25-2-evening-09",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-09.jpg",
+        "alt": "Intelliflicks 联合创始人 Gurdeep Pall 的官方照片，非影片画面",
+        "credit": "Intelliflicks 官网照片",
+        "sourcePage": "https://www.intelliflicks.com/",
+        "retrievedFrom": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=772,fit=crop/YbNyNMO6PVUvOVOq/guest_gurdeep_pall-YZ9X90jbLGHG9q14.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "SEEDANCE",
+      "headline": "中国创作者 Foyege《哈利·波特》AI 二创播放约 3000 万，单集成本 500–1600 元却一分未赚",
+      "standfirst": "全系列只用 Seedance 2.5 一个模型，版权问题让它无法变现。",
+      "paragraphs": [
+        "凤凰网科技 11 月 25 日独家采访中，创作者 Foyege 透露，他把马尔福改写成女生的《哈利·波特》AI 二创系列累计播放约 3000 万，单集消耗约 4 万积分，折合生成费用 500 到 1600 元，全程只用 Seedance 2.5。",
+        "积分大多花在反复生成表演上。走红后，Hollywood 制片人 PJ Accetturo 主动邀约合作，但因版权问题，这个系列至今没有收入。"
+      ],
+      "whyItMatters": "一个人、每集千元级就能做出千万播放的剧，但用别人的 IP 做得再火也赚不到钱。原创 IP 才是 AI 创作者变现的门槛。",
+      "caveats": [
+        "播放量和成本为创作者自述；生成费用不含他每天十几小时的人工。"
+      ],
+      "figures": [
+        "约 3000 万播放",
+        "单集 500–1600 元",
+        "约 4 万积分/集"
+      ],
+      "publishedAt": "2026-11-25T13:21:58+08:00",
+      "publishedAtNote": "凤凰网科技独家报道发布时间。",
+      "sources": [
+        {
+          "name": "凤凰网科技｜独家采访（配图来源）",
+          "url": "https://original.ifeng.com/c/8yL42GQoU6E",
+          "role": "primary"
+        },
+        {
+          "name": "凤凰网科技｜对话长文",
+          "url": "https://ishare.ifeng.com/c/s/v004lt7HLCeurXbywJwJbckby2JA--jhe9Gmcl--UgHZu0bBo__",
+          "role": "secondary"
+        }
+      ],
+      "rank": 10,
+      "id": "2026-11-25-2-evening-10",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-25/evening-2-10.jpg",
+        "alt": "Foyege《哈利·波特》AI 二创系列画面（创作者作品画面，AI 生成）",
+        "credit": "Foyege 作品画面，经凤凰网科技刊载",
+        "sourcePage": "https://original.ifeng.com/c/8yL42GQoU6E",
+        "retrievedFrom": "https://x0.ifengimg.com/ucms/2026_48/CA85D30394D8A93E49F5915B08C27AAACC1C2867_size67_w1206_h657.jpg",
+        "retrievedAt": "2026-11-25T20:40:00+08:00"
+      }
+    }
+  ]
+}
