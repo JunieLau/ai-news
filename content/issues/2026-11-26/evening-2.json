@@ -1,0 +1,359 @@
+{
+  "issueDate": "2026-11-26",
+  "sequence": 2,
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-26T20:50:00+08:00",
+  "retrievedThrough": "2026-11-26T20:40:00+08:00",
+  "slot": "20:00",
+  "slotNote": "这是 11 月 26 日晚报的第二期（26-2），按北京时间 11 月 26 日 20:40 取材；同日第一期保留原样，不覆盖。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期 8 条，取材窗口为北京时间 11 月 24 日 20:30 至 26 日 20:40，按事件的独立来源数和时间衰减排序；5 条建议发送。已和同日第一期及 11 月 24、25 日各期晚报去重。窗口里够格、且能配上真实相关图片的事件只有 8 件，没有凑满 10 条。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "Disney",
+      "tier": "send",
+      "headline": "迪士尼 CTO 强推统一 AI 工具，两位技术主管离开，有经理宁可拿买断也不配合",
+      "standfirst": "TheWrap 独家：新任 CTO Karandeep Anand 要把各业务线的 AI 流程收成一套标准，内部阻力已经公开。",
+      "paragraphs": [
+        "TheWrap 11 月 25 日报道，CEO Josh D’Amaro 给 9 月从 Character.AI 加盟的 CTO Karandeep Anand 很大权限，要求各业务线放弃各自的流程，统一使用同一套 AI 工具和工作流。近几周，主管 Office of Technology Enablement 的 Jamie Voris 已离职，Walt Disney Studios CTO Eddie Drake 选择提前退休；知情人称，一些基层主管宁愿接受买断，也不愿按新规执行。",
+        "报道还称，迪士尼已要求管理层按每年节省 20% 成本来规划，下一轮裁员可能被用来让各部门就范。迪士尼方面的消息人士否认存在对峙，称「用裁员强推集中式 AI」是对公司策略的误读。"
+      ],
+      "whyItMatters": "全球最大的内容公司之一，正从「各片厂自己试 AI」转向「总部统一推 AI」。这会决定动画、特效和后期团队今后用什么工具、留下多少人，其他片厂很可能跟进。",
+      "figures": [
+        "Anand 上任约两个月；管理层被要求按每年节省 20% 成本规划；State of AI 引述的迪士尼目标是到 2029 财年每年削减 30 亿美元成本。"
+      ],
+      "caveats": [
+        "离职原因、买断和裁员用途都来自匿名知情人；Voris 与 Drake 离开的具体原因未获证实，迪士尼发言人拒绝置评。"
+      ],
+      "publishedAt": "2026-11-25T14:00:00Z",
+      "publishedAtNote": "TheWrap 页面发布时间 11 月 25 日 06:00 PT（北京时间 11 月 25 日 22:00）。",
+      "sources": [
+        {
+          "name": "TheWrap｜独家报道",
+          "url": "https://www.thewrap.com/industry-news/business/disney-ceo-josh-dmaro-ai-strategy-cto-karandeep-anand-exclusive/",
+          "role": "primary"
+        },
+        {
+          "name": "State of AI｜跟进与成本目标",
+          "url": "https://www.thestateofai.com/news/disney-ai-mandates-executive-departures-buyouts",
+          "role": "secondary"
+        },
+        {
+          "name": "Business Chief｜跟进",
+          "url": "https://businesschief.com/news/disney-ceo-josh-damaro-centralises-ai-and-meets-resistance",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-01.jpg",
+        "alt": "TheWrap 为这篇报道制作的配图：迪士尼 CEO Josh D’Amaro 与迪士尼城堡标识",
+        "credit": "TheWrap 原文配图（Chris Smith/TheWrap），即该页 og:image 原图",
+        "sourcePage": "https://www.thewrap.com/industry-news/business/disney-ceo-josh-dmaro-ai-strategy-cto-karandeep-anand-exclusive/",
+        "retrievedFrom": "https://www.thewrap.com/wp-content/uploads/2026/11/112326-Disney-Image-v3.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 1,
+      "id": "2026-11-26-2-evening-01"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "Warner Bros.",
+      "tier": "send",
+      "headline": "Warner Bros. 确认 13 次版权警告，热门 AI 二创「Malfoid」频道被 YouTube 封停",
+      "standfirst": "把 Draco Malfoy 改成女孩的 AI 动画正火，片方在 HBO《Harry Potter》剧集开播前数周出手。",
+      "paragraphs": [
+        "Dexerto、The A.V. Club 等美国时间 11 月 24 日报道，用 AI 动画演绎「Malfoid」（女版 Draco Malfoy）的 YouTube 频道 Next Realm Studios 收到 13 次版权警告后被终止，频道约 1.3 万订阅。Warner Bros. 反盗版与品牌保护副总裁 Ahassim Rashid 在 11 月 9 日的邮件中确认：「这些通知是真实的，由 WB 发出。」",
+        "创作者 Holland 说他不与片方对抗，只希望公布非商业同人内容的边界，并发起 Change.org 请愿，已有 1000 多人联署。Katechon Studio、JA Vazquez、Galakushi 等同类频道也报告视频被删，但 Warner Bros. 没有确认这些是否同为其所为。"
+      ],
+      "whyItMatters": "AI 让粉丝几天就能做出像样的「番外动画」，这次片方明确用版权警告清理整个频道。对所有拿大 IP 做 AI 二创、靠播放赚钱的账号，这是一条清楚的红线。",
+      "figures": [
+        "13 次版权警告；频道约 1.3 万订阅；请愿 1000 多人联署；WB 确认邮件日期为 11 月 9 日。"
+      ],
+      "caveats": [
+        "最早披露此事的 That Park Place 发稿时间未能核实；「Malfoid」一名源自贬义网络用语。Vidu 官方账号 11 月 26 日仍在预告直播制作新一集 Malfoid。"
+      ],
+      "publishedAt": "2026-11-24T21:24:23Z",
+      "publishedAtNote": "采用 Dexerto 发布时间（北京时间 11 月 25 日 05:24）；A.V. Club 为 11 月 24 日 22:33 UTC。",
+      "sources": [
+        {
+          "name": "Dexerto｜报道",
+          "url": "https://www.dexerto.com/youtube/harry-potter-youtuber-loses-entire-channel-after-warner-bros-copyright-strikes-malfoid-videos-3431119/",
+          "role": "primary"
+        },
+        {
+          "name": "The A.V. Club｜报道",
+          "url": "https://www.avclub.com/warner-bros-orders-copyright-strikes-against-malfoid-youtubers",
+          "role": "secondary"
+        },
+        {
+          "name": "Vidu 官方 X｜Malfoid 直播预告",
+          "url": "https://x.com/ViduAI_official/status/2125756432117022879",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-02.jpg",
+        "alt": "Dexerto 刊出的 Malfoid 同人 AI 动画画面：金发女版 Draco Malfoy 站在霍格沃茨城堡前",
+        "credit": "Dexerto 原文 og:image（涉事 Malfoid 同人 AI 动画画面）",
+        "sourcePage": "https://www.dexerto.com/youtube/harry-potter-youtuber-loses-entire-channel-after-warner-bros-copyright-strikes-malfoid-videos-3431119/",
+        "retrievedFrom": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/24/Malfoid-harry-potter-youtube.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 2,
+      "id": "2026-11-26-2-evening-02"
+    },
+    {
+      "region": "国内",
+      "kickerEn": "Beijing",
+      "tier": "send",
+      "headline": "北京报告：今年前三季度微短剧上线 49 万部，AI 微短剧占九成以上",
+      "standfirst": "2026 北京国际视听大会发布的行业报告称，全国微短剧用户突破 8.5 亿，市场进入千亿量级。",
+      "paragraphs": [
+        "11 月 26 日，北京网络视听节目服务协会在 2026 北京国际视听大会产业高质量发展论坛上发布《北京市微短剧产业发展报告》。报告称，全国微短剧累计用户突破 8.5 亿；2026 年前三季度上线 49 万部，其中 AI 微短剧占 90% 以上，真人短剧、AI 短剧和 AI 漫剧并存。",
+        "报告还称，2025 年北京微短剧产值约占全国六成，年增速 74.2%，并判断未来两到三年行业将走向精品化、大众化和国际化。"
+      ],
+      "whyItMatters": "AI 已经不是短剧的补充，而是主力产能：十部新剧里九部以上用 AI 做。接下来平台和监管关心的是质量和版权，不再是能不能做出来。",
+      "figures": [
+        "前三季度上线 49 万部；AI 微短剧占 90% 以上；用户 8.5 亿；2025 年北京产值约占全国 60%，年增 74.2%。"
+      ],
+      "caveats": [
+        "「占 90% 以上」是协会报告口径，未公布统计方法。产量大不等于赚钱：解放日报同日的调查里，一部投入 3000 元的漫剧获 8 万次播放，平台分成只有 300 元。"
+      ],
+      "publishedAt": "2026-11-26T19:51:00+08:00",
+      "publishedAtNote": "中国新闻网稿件时间 11 月 26 日 19:51；解放日报调查经人民网 11 月 26 日 17:57 转载。",
+      "sources": [
+        {
+          "name": "中国新闻网｜报告发布",
+          "url": "https://www.chinanews.com.cn/cul/2026/11-26/10738333.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "人民网上海（解放日报）｜AI 视频团队调查",
+          "url": "http://sh.people.com.cn/n2/2026/1126/c350122-41762135.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-03.jpg",
+        "alt": "2026 北京国际视听大会产业高质量发展论坛现场，发言人站在讲台前，背景屏幕展示微短剧数据",
+        "credit": "主办方供图，经中国新闻网刊载",
+        "sourcePage": "https://www.chinanews.com.cn/cul/2026/11-26/10738333.shtml",
+        "retrievedFrom": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/83760e47-6d92-473b-b13a-726397496df5_zsite.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 3,
+      "id": "2026-11-26-2-evening-03"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "Cineplex",
+      "tier": "send",
+      "headline": "多伦多珠宝商把 AI 生成的「复仇者」式广告放进影院预告时段，观众以为是新片预告",
+      "standfirst": "近三分钟的 AI 超级英雄短片夹在电影预告之间播放，有观众呼吁 Cineplex 撤下。",
+      "paragraphs": [
+        "NOW Toronto 11 月 25 日报道，多伦多老牌珠宝回收商 Oliver Jewellery 的新广告以 Marvel《Avengers: Doomsday》预告为样板，让创始人 Russell Oliver 和儿子们化身超级英雄拯救多伦多。全片 2 分 47 秒，画面看起来几乎全由 AI 生成，在多伦多多家 Cineplex 影院的预告时段播放，也在部分电视频道播出。",
+        "不少观众说一度以为是真预告或《Doomsday》新片段，社交平台上出现「让它停下」「AI 垃圾不该进影院」等批评，有人号召向 Cineplex 投诉。"
+      ],
+      "whyItMatters": "AI 生成的「伪预告」已经从手机屏幕进入影院大银幕的付费广告时段。观众对院线里出现 AI 画面容忍度很低，影院今后可能要对这类广告做标注或审核。",
+      "figures": [
+        "广告时长 2 分 47 秒；Oliver Jewellery 创立于 1971 年。"
+      ],
+      "caveats": [
+        "「几乎全由 AI 生成」是报道根据画面所作判断，品牌方和 Cineplex 在报道中没有回应。"
+      ],
+      "publishedAt": "2026-11-25T11:00:00Z",
+      "publishedAtNote": "NOW Toronto 页面发布时间（北京时间 11 月 25 日 19:00）。",
+      "sources": [
+        {
+          "name": "NOW Toronto｜报道",
+          "url": "https://nowtoronto.com/news/torontos-iconic-cashman-sparks-backlash-with-new-ad/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-04.jpg",
+        "alt": "Oliver Jewellery 广告画面：Russell Oliver 身穿超级英雄战衣伸出手掌",
+        "credit": "广告画面（Courtesy: Oliver Jewellery/YouTube），NOW Toronto 原文 og:image",
+        "sourcePage": "https://nowtoronto.com/news/torontos-iconic-cashman-sparks-backlash-with-new-ad/",
+        "retrievedFrom": "https://nowtoronto.com/wp-content/uploads/2026/11/Russel-Oliver-Jewellery.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 4,
+      "id": "2026-11-26-2-evening-04"
+    },
+    {
+      "region": "国内",
+      "kickerEn": "Metaso",
+      "tier": "send",
+      "headline": "秘塔上线「全民开机」：输入一段故事，最长直出 15 分钟 AI 短片",
+      "standfirst": "不写提示词，AI 助理导演用选择题对齐风格和画幅，编剧、美术、摄制、剪辑一条龙。",
+      "paragraphs": [
+        "量子位 11 月 25 日报道，秘塔 AI 推出全流程 AI 虚拟剧组「全民开机」（metaso.cn/kaiji）。用户像写备忘录一样输入故事，系统自动改编剧本、给分镜打分并修补，再并发生成角色、场景和道具，批量摄制后一键出片，最长 15 分钟。",
+        "关键节点用卡片选择：内置 12 种电影风格和 16:9、9:16、1:1 三种画幅，也可以点「都听你的」全自动推进。自带剪辑室可改单个镜头；付费可调用 Seedance 2.5 重做全片，不用这项功能则限时免费。成片可发到内置的「片海」社区。"
+      ],
+      "whyItMatters": "多数 AI 视频工具在拼画质和参数，「全民开机」把编剧到剪辑的整条流程藏到后台，让不懂镜头语言的普通人也能拿一个故事出片。短剧小团队会更看重它的速度。",
+      "figures": [
+        "单片最长 15 分钟；12 种风格预设；3 种画幅。"
+      ],
+      "caveats": [
+        "评测作者也提到定妆照会出错、一次成片仍需微调；15 分钟是官方上限，实际质量取决于故事和人工干预。"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "量子位文章页标注 11 月 25 日，无具体钟点；同日 ITBear 等跟进。",
+      "sources": [
+        {
+          "name": "量子位｜上手报道",
+          "url": "https://www.qbitai.com/2026/11/512727.html",
+          "role": "primary"
+        },
+        {
+          "name": "ITBear｜报道",
+          "url": "https://www.itbear.com.cn/html/2026-11/1596658.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-05.png",
+        "alt": "「全民开机」首页截图：标语「把任何故事，拍成电影」和故事输入框",
+        "credit": "量子位文章内产品截图",
+        "sourcePage": "https://www.qbitai.com/2026/11/512727.html",
+        "retrievedFrom": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-32.png",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 5,
+      "id": "2026-11-26-2-evening-05"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "Editroom",
+      "tier": "alternate",
+      "headline": "开源剪辑软件 Editroom 走红：可以手剪，也可以交给 Claude、ChatGPT 剪",
+      "standfirst": "设计师 Robbie Tilton 免费开源发布，发布帖两天约 24 万次浏览、5000 多次收藏。",
+      "paragraphs": [
+        "11 月 24 日，Robbie Tilton 在 X 上发布自己做的 Mac 剪辑软件 Editroom，说因为 iMovie 不好用、Resolve 太复杂、Premiere 太重才自己动手。软件按 MIT 协议免费开源，安装包约 7.5 MB，支持实时 4K、调色与 LUT、变速、按画面内容和台词搜索素材。",
+        "用户输入一句要求，可选 Claude、ChatGPT 或 Mac 本地模型来剪，每一步都能撤销；Claude 和 ChatGPT 还能通过 MCP 直接在时间线上操作。GitHub 上两天内连发多个版本，11 月 26 日已到 v1.0.7。"
+      ],
+      "whyItMatters": "AI 进剪辑台不再只靠大厂插件：一个免费、几 MB 的开源软件就能让 AI 代理动时间线。独立创作者的粗剪成本会继续往下掉。",
+      "figures": [
+        "安装包约 7.5 MB；发布帖约 23.9 万次浏览、3374 赞、5021 次收藏（北京时间 11 月 26 日 20:20 查询）；11 月 26 日发布 v1.0.7。"
+      ],
+      "caveats": [
+        "目前只有 Mac 版；AI 剪辑效果多为作者和用户演示，没有系统评测。"
+      ],
+      "publishedAt": "2026-11-24T15:22:25Z",
+      "publishedAtNote": "X 原帖 created_at（北京时间 11 月 24 日 23:22）。",
+      "sources": [
+        {
+          "name": "Robbie Tilton｜X 发布帖",
+          "url": "https://x.com/robbietilton/status/2125248682710954080",
+          "role": "primary"
+        },
+        {
+          "name": "GitHub｜Editroom 仓库",
+          "url": "https://github.com/robbietilton/Editroom",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-06.jpg",
+        "alt": "Editroom 剪辑界面：素材库、预览窗口和多轨时间线",
+        "credit": "Robbie Tilton 发布帖视频的官方缩略图（无播放键）",
+        "sourcePage": "https://x.com/robbietilton/status/2125248682710954080",
+        "retrievedFrom": "https://pbs.twimg.com/amplify_video_thumb/2125247574374522880/img/4WcEH2tq_zV6CLyt.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 6,
+      "id": "2026-11-26-2-evening-06"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CapCut",
+      "tier": "alternate",
+      "headline": "CapCut 首轮全球创作者活动在伦敦收官，Outernet 办 AI 数字艺术展",
+      "standfirst": "继新加坡、洛杉矶之后的最后一站，展出 CapCut 创作者影片和 AI 艺术团体 Obvious 的作品。",
+      "paragraphs": [
+        "11 月 26 日，CapCut World London 在伦敦 Tottenham Court Road 旁的 Outernet 举行。免费开放的数字艺术展「The Unimagined」把创作者影片和 Obvious 等欧洲艺术家的作品铺满场馆屏幕墙和天幕。Obvious 2018 年的《Portrait of Edmond de Belamy》以 43.25 万美元在佳士得成交，是首件在大型拍卖行售出的 AI 作品。",
+        "活动还有产品演示、创作者对谈和颁奖。动画导演 Phil Nibbelink 分享他在《Angie》里如何把手绘分镜和 AI 辅助制作结合起来。"
+      ],
+      "whyItMatters": "AI 视频工具的竞争，正从模型参数延伸到创作者社群和线下活动。CapCut 三站巡回收官，说明字节在海外押注把剪辑用户转成 AI 创作者。",
+      "figures": [
+        "三站：新加坡、洛杉矶、伦敦；Obvious 作品 2018 年成交价 43.25 万美元。"
+      ],
+      "caveats": [
+        "信息主要来自 CapCut 官方新闻稿和官方账号，现场规模和参与人数未公布。"
+      ],
+      "publishedAt": "2026-11-25T15:16:23Z",
+      "publishedAtNote": "EZ Newswire 新闻稿时间（北京时间 11 月 25 日 23:16）；活动于伦敦时间 11 月 26 日举行，CapCut 官方 X 同日发帖。",
+      "sources": [
+        {
+          "name": "CapCut World｜EZ Newswire 新闻稿",
+          "url": "https://www.eznewswire.com/newsroom/capcut-the-unimagined-exhibition-outernet-london",
+          "role": "primary"
+        },
+        {
+          "name": "CapCut 官方 X｜活动收官帖",
+          "url": "https://x.com/capcutapp/status/2125913970276012444",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-07.jpg",
+        "alt": "CapCut World 活动场地入口，粉色通道印有 CapCut 标识和 WORLD 字样",
+        "credit": "CapCut World 新闻稿配图，经 EZ Newswire 发布",
+        "sourcePage": "https://www.eznewswire.com/newsroom/capcut-the-unimagined-exhibition-outernet-london",
+        "retrievedFrom": "https://cdn.prod.website-files.com/69f07dfe586d46e0e5d9da26/6b070a0199ac2e6ff6fe9b24_11530.jpeg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 7,
+      "id": "2026-11-26-2-evening-07"
+    },
+    {
+      "region": "海外",
+      "kickerEn": "Movity",
+      "tier": "alternate",
+      "headline": "摄影师自建 Vimeo 替代平台 Movity，公共推荐流排除以生成式 AI 为主的作品",
+      "standfirst": "只收经认证的影人作品，主打按关键帧、色调和台词搜片。",
+      "paragraphs": [
+        "CineD 11 月 25 日报道，摄影指导兼导演 Arkadiy Kreslov 推出视频托管与作品集平台 Movity，可按关键帧、色调和台词搜索影片；H.265 码率最高为 Vimeo 的三倍，Pro 档支持 4K，可直接上传 ProRes 母版，并提供 Vimeo 片库迁移工具。",
+        "其公共推荐流只接受经认证的影人，并排除主要由生成式 AI 制作的作品。Kreslov 年少时曾受 ELIZA 作者、后来的 AI 批评者 Joseph Weizenbaum 指导。"
+      ],
+      "whyItMatters": "AI 内容涌入各大平台之后，「人做的作品」开始被单独筛选、单独展示。对靠作品集接活的摄影师和导演，这类平台可能成为新的信任标签。",
+      "figures": [
+        "码率最高为 Vimeo 的 3 倍；Pro 档 4K；分发网络覆盖 330 多个城市。"
+      ],
+      "caveats": [
+        "码率等数字为公司自述；如何认定「主要由 AI 制作」，报道没有给出审核细则。"
+      ],
+      "publishedAt": "2026-11-25T14:07:27Z",
+      "publishedAtNote": "CineD 页面发布时间（北京时间 11 月 25 日 22:07）。",
+      "sources": [
+        {
+          "name": "CineD｜报道",
+          "url": "https://www.cined.com/movity-video-platform-launched-a-vimeo-alternative-with-frame-level-search-h-265-4k-streaming-ai-made-work-excluded/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-2-08.jpg",
+        "alt": "Movity 官方封面：大字 MOVITY 和平台作品浏览界面",
+        "credit": "Movity 官方封面图，经 CineD 刊载（该页 og:image）",
+        "sourcePage": "https://www.cined.com/movity-video-platform-launched-a-vimeo-alternative-with-frame-level-search-h-265-4k-streaming-ai-made-work-excluded/",
+        "retrievedFrom": "https://www.cined.com/content/uploads/2026/11/Cover-with-logo.jpg",
+        "retrievedAt": "2026-11-26T20:40:00+08:00"
+      },
+      "rank": 8,
+      "id": "2026-11-26-2-evening-08"
+    }
+  ]
+}
