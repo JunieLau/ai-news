@@ -1,0 +1,424 @@
+{
+  "issueDate": "2026-11-26",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-26T09:50:00+08:00",
+  "retrievedThrough": "2026-11-26T09:40:00+08:00",
+  "slot": "10:00",
+  "slotNote": "本期按 10:00 档期在对话里手动编发，取材截至北京时间 11 月 26 日 09:40。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期 9 条，取材窗口为北京时间 11 月 24 日 09:00 至 26 日 09:40，按事件的独立来源数和时间衰减排序；6 条为建议发送。已和 11 月 25 日两期早报、两期晚报去重。配图均为新闻现场照片或当事方官方图片。窗口里够格的事件只有 9 件，没有凑满 10 条。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "MARKETS",
+      "headline": "AI 股盘中暴跌：纳指 100 一度较高点跌 20%，Anthropic 跌破发行价",
+      "standfirst": "英伟达盘中跌 8.5%，软银东京跌 14%，甲骨文、Alphabet 等的违约保险价格创纪录。",
+      "paragraphs": [
+        "美东时间 11 月 25 日，AI 概念股开盘后集中抛售，下午才收复大半跌幅。纳斯达克 100 指数盘中一度比 10 月 6 日的收盘纪录低 20%，碰到熊市线，收盘跌 0.6%。英伟达盘中跌 8.5%，收跌 3.9%。上周刚上市的 Anthropic 最低到 73.85 美元，比 83 美元的发行价低 11%，收在 82.19 美元，仍低于发行价。",
+        "东京盘中，OpenAI 大股东软银跌 14%。甲骨文、Alphabet、SpaceX 和 CoreWeave 的五年期信用违约互换利差都创了纪录。戴尔第三次上调全年预期，股价盘中照样跌 5.7%。路透把原因归为三点：投资者担心靠借债建的数据中心迟迟不回本，民主党中期选举获胜可能让监管变严，新关税和通胀数据又添了压力。"
+      ],
+      "whyItMatters": "AI 公司越来越靠借钱扩建算力。股价和债券同时报警，说明市场开始怀疑这笔钱能不能按时赚回来。这会影响 AI 产品还能不能一直降价、免费额度还能不能给得这么大。",
+      "caveats": [
+        "这是单日行情，收盘前已大幅反弹，还不能说熊市已经确认。"
+      ],
+      "figures": [
+        "纳指 100 盘中较高点跌 20%",
+        "英伟达盘中跌 8.5%",
+        "Anthropic 盘中低于发行价 11%",
+        "软银跌 14%"
+      ],
+      "publishedAt": "2026-11-26T06:27:00+08:00",
+      "publishedAtNote": "采用 Yahoo Finance 转载路透收盘稿的页面发布时间（2026-11-25 22:27 UTC）。",
+      "sources": [
+        {
+          "name": "Reuters｜收盘稿（Yahoo Finance 转载）（配图：Reuters 新闻照片，经 Yahoo Finance 转载）",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-rout-deepens-damage-222733772.html",
+          "role": "primary"
+        },
+        {
+          "name": "Reuters｜AI 公司信用违约互换利差走阔（Investing.com 转载）",
+          "url": "https://www.investing.com/news/stock-market-news/ai-credit-default-swap-spreads-widen-on-unease-over-cash-flow-5049729",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-26-morning-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-01.jpg",
+        "alt": "纽约证券交易所交易大厅里，一名交易员抬头看行情屏幕",
+        "credit": "Reuters 新闻照片，经 Yahoo Finance 转载",
+        "sourcePage": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-rout-deepens-damage-222733772.html",
+        "retrievedFrom": "https://media.zenfs.com/en/reuters.com/cabdb5bf7f4ca109fda0e71b2cfa90d3.jpg_up.jpg",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "SPACEX",
+      "headline": "FCC 批准 SpaceX 发射 100 万颗卫星，在太空建 AI 数据中心",
+      "standfirst": "美国历史上第一次批准太空数据中心星座，名叫 Starmind。",
+      "paragraphs": [
+        "美国联邦通信委员会（FCC）11 月 25 日宣布，批准 Elon Musk 旗下 SpaceX 部署最多 100 万个在轨计算模块，组成名为 Starmind 的星座。卫星用太阳能供电，在轨道上处理 AI 计算任务，再把结果传回地面。FCC 主席 Brendan Carr 称，这是美国历史上第一次批准太空数据中心。",
+        "按许可要求，SpaceX 最晚 2033 年 11 月开始部署，2035 年 11 月前要发射 10%（10 万颗），2038 年 11 月前要到 50%。路透指出，目前全球在轨卫星只有约 1.7 万颗。BBC 报道，SpaceX 计划明年发射第一颗 Starmind 卫星；Musk 在 X 上回应「非常感谢」。"
+      ],
+      "whyItMatters": "美国各地居民越来越反对在家门口建数据中心，耗电和用水是主要原因。把算力搬上太空成了大公司正式下注的方向，Google 和 Blue Origin 也在研究同类方案。",
+      "caveats": [
+        "申请数量往往高于实际发射量，Amazon 的卫星部门等对手质疑 SpaceX 根本发不完 100 万颗。"
+      ],
+      "figures": [
+        "最多 100 万颗",
+        "2035 年前 10 万颗",
+        "目前在轨约 1.7 万颗"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "FCC 新闻稿只写 2026 年 11 月 25 日，没有钟点。",
+      "sources": [
+        {
+          "name": "FCC｜新闻稿（PDF）",
+          "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/blt3284fad4ee39d97e/6b071287af911015536d731d/FCC_Authorizes_1_Million_Satellites_for_Data_Centers_in_Space_PR_11-25-2026.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "BBC｜报道（配图：Getty Images 新闻照片，经 BBC 报道使用）",
+          "url": "https://www.bbc.com/news/articles/cwp836l8n1jgo",
+          "role": "secondary"
+        },
+        {
+          "name": "Reuters｜报道（Investing.com 转载）",
+          "url": "https://www.investing.com/news/stock-market-news/us-authorizes-spacex-to-deploy-1-million-satellites-for-data-centers-in-space-5051261",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-26-morning-02",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-02.jpg",
+        "alt": "SpaceX Starship 火箭从发射塔旁升空",
+        "credit": "Getty Images 新闻照片，经 BBC 报道使用",
+        "sourcePage": "https://www.bbc.com/news/articles/cwp836l8n1jgo",
+        "retrievedFrom": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "CHARACTER.AI",
+      "headline": "42 位州总检察长出手，阻止 Character.AI 拍卖 2100 万账户的私密聊天",
+      "standfirst": "破产中的 Character.AI 计划 12 月 1 日拍卖平台和用户数据，其中 210 多万个账户属于未成年人。",
+      "paragraphs": [
+        "11 月 25 日，美国 42 位州和特区总检察长向破产法院提出反对，要求驳回 Character.AI 的资产出售方案。要卖的东西包括 2100 多万个美国账户的聊天记录、IP 地址和位置信息，其中 210 多万个账户登记为未成年人。记录里有 AI 角色和孩子的性暗示对话，也有用户向假扮医生、心理咨询师的聊天机器人倾诉自残、进食障碍和自杀念头的内容。",
+        "按现在的条款，买家不必遵守 Character.AI 原来的隐私政策，也不必响应删除请求，还可以转卖。目前唯一公开的竞买方 Smirks and Pangs Acquisition LLC 11 月 13 日才成立，第二天就被选为起拍买家，投资人身份没有公开。Character.AI 今年 10 月申请破产保护，此前曾对用户承诺「不出售个人信息」。"
+      ],
+      "whyItMatters": "人们对聊天机器人说的话，往往比搜索记录还私密。公司倒闭时这些记录归谁，这是第一次被摆到法庭上。结果会影响所有 AI 陪伴类产品的用户。",
+      "caveats": [
+        "这是各州提交的反对意见，法院还没有裁决，拍卖是否如期进行仍未确定。"
+      ],
+      "figures": [
+        "42 位总检察长",
+        "2100 万个美国账户",
+        "210 万个未成年人账户",
+        "12 月 1 日拍卖"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "科罗拉多州总检察长新闻稿日期为 2026 年 11 月 25 日；TechCrunch 报道发布于 2026-11-25 17:35 UTC。",
+      "sources": [
+        {
+          "name": "科罗拉多州总检察长｜新闻稿",
+          "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+          "role": "primary"
+        },
+        {
+          "name": "TechCrunch｜报道（配图：Character.AI 官方产品图，经 TechCrunch 使用）",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+          "role": "secondary"
+        },
+        {
+          "name": "加州总检察长｜新闻稿",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-26-morning-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-03.jpg",
+        "alt": "三部手机屏幕显示 Character.AI 的语音通话界面",
+        "credit": "Character.AI 官方产品图，经 TechCrunch 使用",
+        "sourcePage": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "retrievedFrom": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "XPENG",
+      "headline": "小鹏人形机器人 IRON 首次公开亮相，2027 年 1 月进入硬件量产",
+      "standfirst": "明年一季度先到小鹏门店当导购，二季度正式发布。",
+      "paragraphs": [
+        "小鹏汽车 11 月 25 日在广州举办第八届科技日，发布打通汽车和机器人的图灵物理 AI 架构（VLA 3.0）。人形机器人 IRON 登台演讲并和观众互动。何小鹏说，IRON 正进入上市前最后阶段，预计 2027 年 1 月进入硬件量产，一季度在小鹏门店当导购，二季度正式对外发布。",
+        "IRON 全身 76 个自由度、1500 多个触觉点，由三颗自研图灵 AI 芯片在本机运行大模型。小鹏还宣布：Robotaxi 已拿到广州 L4 示范运营资格，年底前在部分区域试运营，首款商用车型 YOYO-01 定在 2027 年；自称 VLA 2.0 上车后，国内车险出险率下降 13.93%。"
+      ],
+      "whyItMatters": "人形机器人行业多半还停在展示阶段。小鹏给出了量产月份和第一份具体岗位，明年一季度就能看到机器人能不能在门店里真正接待顾客。",
+      "caveats": [
+        "量产时间、出险率等数字都是小鹏自己公布的，机器人售价还没有公布。"
+      ],
+      "figures": [
+        "76 个自由度",
+        "1500 多个触觉点",
+        "2027 年 1 月量产",
+        "出险率降 13.93%（小鹏自报）"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "小鹏官方新闻稿只写 2026 年 11 月 25 日；中新网报道发布于 2026-11-25 21:32。",
+      "sources": [
+        {
+          "name": "小鹏汽车｜官方新闻稿（配图：小鹏汽车官方新闻稿配图）",
+          "url": "https://www.xpeng.com/news/01a212b0d830a1e838d68a02a2110174",
+          "role": "primary"
+        },
+        {
+          "name": "中国新闻网｜报道",
+          "url": "https://www.chinanews.com/cj/2026/11-25/10737811.shtml",
+          "role": "secondary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-26-morning-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-04.jpg",
+        "alt": "小鹏科技日现场，何小鹏与人形机器人 IRON 站在台上，台下观众举手机拍摄",
+        "credit": "小鹏汽车官方新闻稿配图",
+        "sourcePage": "https://www.xpeng.com/news/01a212b0d830a1e838d68a02a2110174",
+        "retrievedFrom": "https://s-cdn.xpeng.com/commoncms/prod/2026-11-25/c4c0a69170df4faa97f6111a4cdcc7b0.jpg?name=news261125",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "UAE",
+      "headline": "阿联酋内阁拍板：一半政务交给 AI 智能体，8 万公务员要培训",
+      "standfirst": "政府智能体 Mira 明年 3 月对所有办事的人开放。",
+      "paragraphs": [
+        "阿联酋内阁 11 月 25 日在副总统兼总理 Sheikh Mohammed bin Rashid 主持下开会，批准一份智能体 AI 战略：把 50% 的政府运作、服务和流程改由智能体支撑，培训 8 万名联邦公务员，办事和制定政策的时间至少缩短一半。内阁同时批准统一平台 FedAI，供各部门在政府自有的安全设施里开发和运行 AI 系统。",
+        "政府办事智能体 Mira 将从 2027 年 3 月起对所有使用联邦政府服务的人开放，所有联邦机构都要在规定期限内把服务接进来。Sheikh Mohammed 说，以后人们可以用自己的语言、自己的话跟政府办事。官方称这是全球第一份政府智能体 AI 战略。"
+      ],
+      "whyItMatters": "这是第一次有国家政府给智能体定下「一半政务」的硬指标。普通人办证、缴费以后可能先跟 AI 对话，而不是先排队，各国都会盯着它跑不跑得通。",
+      "caveats": [
+        "50%、时间减半等都是目标，官方没有公布按部门的时间表和考核办法。"
+      ],
+      "figures": [
+        "50% 政务由智能体支撑",
+        "培训 8 万名公务员",
+        "Mira 2027 年 3 月上线"
+      ],
+      "publishedAt": "2026-11-25T17:43:51+08:00",
+      "publishedAtNote": "采用 The National 页面的发布时间（2026-11-25 09:43 UTC）。",
+      "sources": [
+        {
+          "name": "The National｜报道（配图：Sheikh Mohammed 官方 X 账号照片，经 The National 使用）",
+          "url": "https://www.thenationalnews.com/news/uae/2026/11/25/uae-approves-fedai-platform-to-build-fastest-and-most-efficient-government/",
+          "role": "primary"
+        },
+        {
+          "name": "阿联酋通讯社 WAM｜内阁公告",
+          "url": "https://www.wam.ae/en/article/c3fmbd5-uae-cabinet-chaired-mohammed-bin-rashid-approves",
+          "role": "secondary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-26-morning-05",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-05.jpg",
+        "alt": "Sheikh Mohammed bin Rashid 主持阿联酋内阁会议",
+        "credit": "Sheikh Mohammed 官方 X 账号照片，经 The National 使用",
+        "sourcePage": "https://www.thenationalnews.com/news/uae/2026/11/25/uae-approves-fedai-platform-to-build-fastest-and-most-efficient-government/",
+        "retrievedFrom": "https://www.thenationalnews.com/resizer/v2/QVI3PT3AXZDSLDJ5PSM7IL656U.jpg?auth=2376563377068c02c973cf1513a205bcd5e9f99c26465782236bfb883f7cee13&focal=1045%2C764&width=1200&height=630",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "NIO",
+      "headline": "蔚来李斌：AI 能给汽车业多创造 1.2 万亿美元，NWM 3.0 接管降 40%",
+      "standfirst": "蔚来内部已上线 7500 多个智能体，累计运行 290 万次。",
+      "paragraphs": [
+        "蔚来 11 月 25 日举办第三届 NIO IN 创新科技日。李斌说，全球汽车产业规模约 7 万亿到 9 万亿美元，AI 如果能多创造 15% 的价值，就是 1.2 万亿美元以上。他称智能电动车是最有价值的物理 AI。蔚来自己已上线 7500 多个智能体，累计运行 290 万次，研发人效提升 13%，库存周转加快 23%。",
+        "同场发布的世界模型 NWM 3.0 加入了时间维度的压缩，序列长度缩短 6 倍，综合训练效率比 NWM 2.5 提高 5 倍。蔚来称，在复杂场景里人工接管的次数减少 40.38%。座舱系统 NOMI Intelligence 4.0 改由大模型直接决定主任务，再调用车辆功能去执行。"
+      ],
+      "whyItMatters": "和小鹏同一天，又一家新势力把 AI 放在了比造车更靠前的位置。车主最直接的感受是辅助驾驶少被打断，语音助手能自己把一串事情办完。",
+      "caveats": [
+        "1.2 万亿美元是李斌的推算，接管次数下降等效果是蔚来自测，没有第三方数据。"
+      ],
+      "figures": [
+        "1.2 万亿美元（李斌推算）",
+        "7500 多个智能体",
+        "接管次数降 40.38%（蔚来自测）"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "车东西报道写「11 月 25 日消息」，没有钟点。",
+      "sources": [
+        {
+          "name": "车东西｜现场报道（配图：车东西现场照片）",
+          "url": "https://chedongxi.com/p/380480.html",
+          "role": "primary"
+        },
+        {
+          "name": "界面新闻｜AI 早报",
+          "url": "https://www.jiemian.com/article/15373721.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 6,
+      "id": "2026-11-26-morning-06",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-06.jpg",
+        "alt": "蔚来科技日现场，李斌站在台上演讲，身后大屏写着「汽车产业是最大的AI应用产业」",
+        "credit": "车东西现场照片",
+        "sourcePage": "https://chedongxi.com/p/380480.html",
+        "retrievedFrom": "https://oss.zhidx.com/04b30768a113694ded23a3f80505632e/6b077680/uploads/2026/11/6b06c984dabe1_6b06c984d7a0e_6b06c984d79a0_10T.png",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "WALMART",
+      "headline": "沃尔玛向 Meta 智能体 Muse 开放黑五下单，AI 可以替你一路买到付款",
+      "standfirst": "通过沃尔玛的 Agent Gateway，用户可以给智能体设消费上限、逐单审批。",
+      "paragraphs": [
+        "沃尔玛 11 月 24 日宣布，即日起顾客可以在 Meta 的个人智能体 Muse 里直接买沃尔玛的黑色星期五折扣商品。比如说一句「找一台 500 美元以下的黑五电视」，Muse 会把清单交给沃尔玛的 Agent Gateway，由沃尔玛挑货、组购物车，在对话里付款。",
+        "用户要先登录沃尔玛账号，建一个 Agent Profile，可以设消费上限，可以要求每单先审批，也能查哪些订单是智能体下的。价格、Walmart+ 免运费和退货政策都照常适用。沃尔玛称，Gateway 不会把顾客更多的购物记录交给第三方，以后还会接入更多应用和智能体。"
+      ],
+      "whyItMatters": "全美最大零售商在一年最大的购物季把下单权交给 AI 智能体，「让 AI 替我买东西」开始走进普通人的日常。",
+      "caveats": [
+        "沃尔玛没有公布有多少人在用，也没有公布智能体下单出错时怎么处理。"
+      ],
+      "figures": [
+        "可设消费上限",
+        "可逐单审批"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "沃尔玛官方新闻页写 2026 年 11 月 24 日，没有钟点。",
+      "sources": [
+        {
+          "name": "Walmart｜官方新闻（配图：沃尔玛官方新闻配图）",
+          "url": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse",
+          "role": "primary"
+        },
+        {
+          "name": "TechCrunch｜报道",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 7,
+      "id": "2026-11-26-morning-07",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-07.jpg",
+        "alt": "圣诞树旁，一名顾客在手机上用 Muse 浏览沃尔玛商品",
+        "credit": "沃尔玛官方新闻配图",
+        "sourcePage": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse",
+        "retrievedFrom": "https://corporate.walmart.com/content/dam/corporate/images/newsroom/2026/11/shop-with-muse-from-meta/shop-with-muse-from-meta-card.webp",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "ALIBABA",
+      "headline": "阿里千问 Go 向所有人免费开放 AI 代打电话，订包间、找快递都能办",
+      "standfirst": "继字节「小豆」之后，阿里把 AI 代打电话做成了免费功能。",
+      "paragraphs": [
+        "阿里旗下智能体千问 Go 11 月 25 日起向所有用户免费开放代打电话服务。用户告诉千问打给谁、要办什么，授权后千问就会替你打过去，比如给餐厅订包间、问酒店有没有捡到遗失物品、问快递员送到哪了，再把结果告诉你。也可以提前设好时间，让它定时去打。",
+        "按阿里的说法，每次代打都要用户授权，通话时 AI 会主动说明自己是 AI 助手，系统还会筛查和拦截有风险的外呼请求。前一天，字节的个人智能体「小豆」刚开启邀请制公测，也主打代打电话。"
+      ],
+      "whyItMatters": "不想打电话、怕跟陌生人沟通的人，可以把这些小事交给 AI 办。接电话的店家也会越来越常听到「我是 AI 助手」。",
+      "caveats": [
+        "阿里没有公布支持哪些号码、有没有次数上限，也没有公布接通率。"
+      ],
+      "figures": [
+        "免费",
+        "需用户授权"
+      ],
+      "publishedAt": "2026-11-25T11:12:07+08:00",
+      "publishedAtNote": "采用 IT之家报道的发布时间。",
+      "sources": [
+        {
+          "name": "IT之家｜报道（配图：阿里千问官方宣传图，经 IT之家报道使用）",
+          "url": "https://www.ithome.com/1/031/977.htm",
+          "role": "primary"
+        },
+        {
+          "name": "界面新闻｜AI 早报",
+          "url": "https://www.jiemian.com/article/15373721.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 8,
+      "id": "2026-11-26-morning-08",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-08.jpg",
+        "alt": "千问 Go 宣传图：几条代打电话的请求对话气泡",
+        "credit": "阿里千问官方宣传图，经 IT之家报道使用",
+        "sourcePage": "https://www.ithome.com/1/031/977.htm",
+        "retrievedFrom": "https://img.ithome.com/newsuploadfiles/2026/11/020d5eed-ea09-49f2-b63e-f409f8451ed8.png",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "DEEPMIND",
+      "headline": "Google DeepMind 让 AI 读质谱认分子，准确率从不到 4% 升到约 97%",
+      "standfirst": "给 Antigravity 装上质谱技能包后，轻量的 Gemini 3.8 Flash 也追平了旗舰模型。",
+      "paragraphs": [
+        "Google DeepMind 11 月 25 日为编程智能体平台 Antigravity 推出 Mass Spec Skills，这是一组和分析化学家一起做的技能包，让 Gemini 调用成熟的质谱分析工具，查公开化学数据库，帮科学家从串联质谱数据里认出分子。",
+        "在 100 个化合物的测试里，模型只看峰值列表时，识别准确率都低于 4%；只给联网权限时，旗舰模型漏掉四分之一到三分之一，轻量模型漏掉四分之三以上。装上技能包后，Gemini 3.8 Flash、Gemini 4 Argon 和 Gemini 4 Carbon 三个模型都在约 97% 的尝试中认对并核实了分子，Flash 生成的 token 还减少了将近四分之三。"
+      ],
+      "whyItMatters": "这说明给 AI 配上专业工具，比单纯换更大的模型更管用。药物和环境检测这类实验室工作有望更快拿到结果。",
+      "caveats": [
+        "测试只用了已收录在数据库里的 100 个化合物；对全新分子，智能体只能缩小范围，还不能直接给出完整结构。"
+      ],
+      "figures": [
+        "不到 4% → 约 97%",
+        "100 个化合物测试"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "DeepMind 博客写 2026 年 11 月 25 日，没有钟点。",
+      "sources": [
+        {
+          "name": "Google DeepMind｜官方博客（配图：Google DeepMind 官方博客配图）",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+          "role": "primary"
+        }
+      ],
+      "rank": 9,
+      "id": "2026-11-26-morning-09",
+      "tier": "alternate",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/morning-09.jpg",
+        "alt": "Antigravity 中 Mass Spec Skills 的运行界面，显示分子结构和证据表",
+        "credit": "Google DeepMind 官方博客配图",
+        "sourcePage": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+        "retrievedFrom": "https://lh3.googleusercontent.com/05L6anjVe9-5UuaQUuZcHq4gTVgYtSp_vzPsKnDPJG6yA2wDwbxG1TzDyscUw59HefkHA06VguB-NmGKIiYlFiltIJEUIwIMfatFqhbWKxKZHpYwfA=w1440",
+        "retrievedAt": "2026-11-26T01:30:00Z"
+      }
+    }
+  ]
+}
