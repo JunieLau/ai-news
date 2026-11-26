@@ -1,0 +1,256 @@
+{
+  "issueDate": "2026-11-26",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-26T12:00:56.137Z",
+  "retrievedThrough": "2026-11-26T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "北京时间 11 月 26 日 20:00 档。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期共 5 条主版新闻，5 条建议发送。未核实的播放数字、旧闻和常规工具动态不凑数。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "region": "海外",
+      "kickerEn": "HOLLYWOOD L1",
+      "headline": "大卫·芬奇证实《Cliff Booth》用 AI 对口型，把不同条的表演剪到一起",
+      "standfirst": "这次确认的不是整场戏由 AI 生成，而是后期能把两条真人表演合在一起。",
+      "paragraphs": [
+        "在 11 月 25 日公开的《The Big Picture》访谈里，大卫·芬奇说，剪辑师如果喜欢其中一条的神态、但更喜欢另一条的台词，可以先保留选中的画面，必要时再让 AI 调整嘴部动作，对上选中的真人录音。这个制作细节补上了上一期只有争议、没有确认的部分。",
+        "Netflix 同日确认，布拉德·皮特主演、昆汀·塔伦蒂诺编剧的影片已进入两周 IMAX 放映窗口，12 月 23 日上线 Netflix。芬奇另外设想，将来还可从实拍主镜头推导更多机位，但他谈的是未来做法，不是这部片已经如此拍。"
+      ],
+      "whyItMatters": "过去选一条就得连取那一条的表情和台词；现在后期能分别挑。对演员来说，观众最后看到的，可能是几次表演拼成的一次。",
+      "caveats": [
+        "这段访谈没有核实观众指出的其他疑似生成镜头，也没有给出全片使用 AI 的比例。"
+      ],
+      "figures": [
+        "11 月 25 日 IMAX 开画",
+        "12 月 23 日上线 Netflix"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "The Ringer 标示 11 月 25 日；确认入选的新信息是导演对口型说明。",
+      "sources": [
+        {
+          "name": "The Ringer｜芬奇访谈原音",
+          "url": "https://www.theringer.com/podcasts/the-big-picture/2026/11/25/the-further-mis-adventures-of-cliff-booth-is-a-fascinating-fincher-and-tarantino-cocktail-with-david-fincher",
+          "role": "primary"
+        },
+        {
+          "name": "Variety｜访谈引述",
+          "url": "https://au.variety.com/2026/film/global/david-fincher-explains-ai-use-cliff-booth-42928/",
+          "role": "secondary"
+        },
+        {
+          "name": "TheWrap｜报道与伦敦放映现场图",
+          "url": "https://www.thewrap.com/culture-lifestyle/culture/david-fincher-ai-filmmaking-cliff-booth/",
+          "role": "secondary"
+        },
+        {
+          "name": "Netflix Tudum｜上线档期",
+          "url": "https://www.netflix.com/tudum/articles/david-fincher-new-film-release-date",
+          "role": "secondary"
+        }
+      ],
+      "rank": 1,
+      "id": "2026-11-26-evening-01",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-01.jpg",
+        "alt": "大卫·芬奇在伦敦 BFI IMAX 的《Cliff Booth》特别放映现场",
+        "credit": "Dave Benett/Getty Images for Netflix，经 TheWrap 刊载",
+        "sourcePage": "https://www.thewrap.com/culture-lifestyle/culture/david-fincher-ai-filmmaking-cliff-booth/",
+        "retrievedFrom": "https://www.thewrap.com/wp-content/uploads/2026/11/David-Fincher-2026.jpg?fit=bounds&height=557&width=990",
+        "retrievedAt": "2026-11-26T12:00:56.137Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "MICRODRAMA L1",
+      "headline": "全球短剧收入预计达 200 亿美元，海外新上架约 75% 是 AI 剧",
+      "standfirst": "AI 把片库铺满了，但六家被跟踪的平台里，有五家头部仍以真人剧为主。",
+      "paragraphs": [
+        "研究机构 Media Partners Asia 在 11 月 26 日公开报告摘要，预计 2026 年全球微短剧收入为 200 亿美元，同比增长 24%，其中中国约占 152 亿。这里算的是观众、广告主和品牌支付的总金额，不是平台或制作方的利润。",
+        "另一组数据更值得创作者留意：研究机构估算，中国以外独立短剧应用的新上架条目中约 75% 是 AI 内容，但六家被跟踪平台里，有五家的前 50 名仍以真人剧为主。中国以外，营销还吃掉约 56% 的收入。"
+      ],
+      "whyItMatters": "AI 降低了做一部剧的成本，却没有自动降低让观众打开它、看下去的成本。上架总量和榜单表现是两件事。",
+      "caveats": [
+        "同一作品可按语言和平台重复记为上架条目；75% 不是全球播放份额或收入份额。"
+      ],
+      "figures": [
+        "200 亿美元",
+        "同比 +24%",
+        "海外新上架约 75% 为 AI"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "MPA 经 AVIA 于 11 月 26 日发布研究摘要。",
+      "sources": [
+        {
+          "name": "Media Partners Asia 经 AVIA｜公开摘要",
+          "url": "https://avia.org/micro-drama-revenue-reaches-us20-0-billion-in-2026-profit-margins-outside-china-remain-thin-media-partners-asia-report-finds/",
+          "role": "primary"
+        },
+        {
+          "name": "Media Partners Asia｜报告原页",
+          "url": "https://www.media-partners-asia.com/reports/the-micro-drama-economy-2026",
+          "role": "secondary"
+        },
+        {
+          "name": "The Generated｜榜单口径及研究限制",
+          "url": "https://thegenerated.com/stories/ai-microdrama-listings-75-percent-live-action-charts",
+          "role": "secondary"
+        },
+        {
+          "name": "Moneycontrol｜行业报道",
+          "url": "https://www.moneycontrol.com/world/microdramas-rake-in-20-billion-as-world-gloms-on-to-quick-hits-article-14089291.html",
+          "role": "secondary"
+        }
+      ],
+      "rank": 2,
+      "id": "2026-11-26-evening-02",
+      "tier": "send",
+      "image": {
+        "status": "gap",
+        "gapReason": "报告入口有封面和图表，未确认可用且直接相关的真实照片，因此不使用文件截图代替。"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "ADVERTISING L1",
+      "headline": "连续两年做 AI 节日广告后，可口可乐确认美国新片回到真人实拍",
+      "standfirst": "可口可乐确认《Enjoy Joy》没用生成式 AI，但没有宣布放弃这项技术。",
+      "paragraphs": [
+        "美国版节日广告并非今天才上线。真正的新信息是，可口可乐发言人在 11 月 25 日刊出的 Fast Company 采访中，直接确认《Enjoy Joy》没有使用生成式 AI。这支片由导演 Paul Dektor 执导、Mayan Productions 制作，镜头回到家人吃饭、朋友踢球这些日常场景。",
+        "品牌此前连续两年用 AI 重做节日广告，引发对观感和制作选择的讨论。今年这支新片则同时做了面向美国大众和西语观众的版本，分别有 30 秒、15 秒和 6 秒。发言人说，这只是本次广告的做法，不代表公司改了整体策略。"
+      ],
+      "whyItMatters": "同一个大品牌连续几年用不同方式讲节日故事，观众现在可以直接比较：究竟是画面奇观，还是人的动作和关系，让一支广告更容易被记住？",
+      "caveats": [
+        "没有公开证据表明这次制作选择是由观众反弹或某一项效果指标直接决定的。"
+      ],
+      "figures": [
+        "两个美国版本",
+        "30 / 15 / 6 秒"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Fast Company 于 11 月 25 日刊出品牌发言人回应，区别于 11 月 19 日发布活动。",
+      "sources": [
+        {
+          "name": "可口可乐｜美国广告与官方画面",
+          "url": "https://www.coca-colacompany.com/media-center/coca-cola-2026-holiday-campaign",
+          "role": "primary"
+        },
+        {
+          "name": "Fast Company｜品牌发言人直接回应",
+          "url": "https://www.fastcompany.com/91647554/coca-cola-ditched-the-ai-for-its-new-holiday-ad",
+          "role": "secondary"
+        },
+        {
+          "name": "Marketing Dive｜此前制作路线报道",
+          "url": "https://www.marketingdive.com/news/coca-cola-pivots-from-divisive-ai-generated-ads-for-holiday-campaign/875215/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 3,
+      "id": "2026-11-26-evening-03",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-03.jpg",
+        "alt": "真人实拍广告《Enjoy Joy》里，手从桌边递过一瓶可口可乐",
+        "credit": "可口可乐美国版官方广告画面",
+        "sourcePage": "https://www.coca-colacompany.com/media-center/coca-cola-2026-holiday-campaign",
+        "retrievedFrom": "https://i.ytimg.com/vi/DqV0bcaIzNc/maxresdefault.jpg",
+        "retrievedAt": "2026-11-26T12:00:56.137Z"
+      }
+    },
+    {
+      "region": "国内",
+      "kickerEn": "BRANDED DRAMA L1",
+      "headline": "全家拍过两季真人短剧后转做 AI，主创先走访了 20 多位店长",
+      "standfirst": "从全家到百雀羚，中国品牌试着让商品成为剧情的一部分，而不只是贴片广告。",
+      "paragraphs": [
+        "新华社 11 月 25 日采访了几组正在做 AI 短剧的品牌。全家此前做过两季真人短剧，这次用 AI 拍便利店里的日常和恋爱。导演说，在拿出故事提纲前，团队先采访了 20 多位门店店长，把真实发生过的事变成剧情，而不是让模型自己编一家便利店。",
+        "百雀羚则把熬夜、护肤这些问题写进故事，并称会成批做不同剧集、测试观众反应；全家仍要求逐帧检查商品长什么样、出现在什么地方。两家的做法都说明，节约的主要是场景和特效成本，前期采风与后期校对没有被省掉。"
+      ],
+      "whyItMatters": "当广告越来越像一集剧，品牌能更早试出哪些故事有人看。对观众来说，也更需要看清什么时候在看故事、什么时候在被推销。",
+      "caveats": [
+        "品牌没有在报道中公开成本或转化率明细，不能据此断定 AI 剧比真人剧更赚钱。"
+      ],
+      "figures": [
+        "两季真人短剧",
+        "采访 20 多位店长"
+      ],
+      "publishedAt": "2026-11-25T20:38:00+08:00",
+      "publishedAtNote": "新华社页面标示 11 月 25 日 20:38（北京时间）。",
+      "sources": [
+        {
+          "name": "新华社｜品牌及主创采访，含现场照片",
+          "url": "https://english.news.cn/europe/20261126/5836df2dcff44bd3aedb80132ae1e8ee/c.html",
+          "role": "primary"
+        }
+      ],
+      "rank": 4,
+      "id": "2026-11-26-evening-04",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-04.jpg",
+        "alt": "上海百雀羚员工在工作台上制作品牌 AI 短剧",
+        "credit": "新华社现场照片，2026 年 11 月 20 日",
+        "sourcePage": "https://english.news.cn/europe/20261126/5836df2dcff44bd3aedb80132ae1e8ee/c.html",
+        "retrievedFrom": "https://english.news.cn/europe/20261126/5836df2dcff44bd3aedb80132ae1e8ee/b75fb8a167bc418199c518606e41d974.jpg",
+        "retrievedAt": "2026-11-26T12:00:56.137Z"
+      }
+    },
+    {
+      "region": "海外",
+      "kickerEn": "AI CINEMA L1",
+      "headline": "首尔七部 AI 短片将同日首映，《The Signal》披露声音团队分工",
+      "standfirst": "首尔的独立电影节把短片、制作复盘和技术演示排在一起，让观众看到片子怎么做。",
+      "paragraphs": [
+        "ElevenLabs 11 月 25 日确认，为安相勋和朴贤信合作的 20 分钟短片《The Signal》提供声音制作工具。片中说唱歌手把一直听见的异响变成节拍，声音不只是后期润色，也推动故事。项目没有公布具体生成了哪段人声、音乐或环境声。",
+        "首尔独立电影节将于 11 月 27 日集中首映该项目的七部短片。电影导演负责叙事和调度，AI 导演把想法转成可用镜头，导演再回来修改。主办方把部分放映、制作拆解和技术团队分享排在同一个场次，方便观众对照成片看。"
+      ],
+      "whyItMatters": "值得留意的是它把导演、AI 导演和声音工具团队的工作分开列了，同行可以具体讨论谁做哪一步，而不只比较用了哪个视频模型。",
+      "caveats": [
+        "节目单是计划放映，不能写成已经完成；目前没有确认影片在网上公开播放。"
+      ],
+      "figures": [
+        "7 部短片",
+        "20 分钟",
+        "11 月 27 日首映"
+      ],
+      "publishedAt": "2026-11-25T09:58:00+09:00",
+      "publishedAtNote": "11 月 25 日 09:58 韩国时间报道 ElevenLabs 的本片分工。",
+      "sources": [
+        {
+          "name": "首尔独立电影节｜影片、主创与导演照片",
+          "url": "https://siff.kr/films/%EC%8B%9C%EA%B7%B8%EB%84%90/",
+          "role": "primary"
+        },
+        {
+          "name": "首尔独立电影节｜集中首映排期",
+          "url": "https://siff.kr/notice/%EC%84%9C%EC%9A%B8%EB%8F%85%EB%A6%BD%EC%98%81%ED%99%94%EC%A0%9C2026-ai-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4-%EB%8D%94-%EC%BD%9C%EB%9D%BC%EB%B3%B4%EB%A0%88%EC%9D%B4%EC%85%98/",
+          "role": "secondary"
+        },
+        {
+          "name": "朝鲜 Biz｜ElevenLabs 的制作分工回应",
+          "url": "https://biz.chosun.com/it-science/ict/2026/11/25/ZSPIUC36NRHMZOXSMRQSKS6FJM/",
+          "role": "secondary"
+        }
+      ],
+      "rank": 5,
+      "id": "2026-11-26-evening-05",
+      "tier": "send",
+      "image": {
+        "status": "archived",
+        "file": "2026-11-26/evening-05.jpg",
+        "alt": "《The Signal》导演安相勋的肖像",
+        "credit": "首尔独立电影节节目官方导演照片",
+        "sourcePage": "https://siff.kr/films/%EC%8B%9C%EA%B7%B8%EB%84%90/",
+        "retrievedFrom": "https://siff.kr/wp-content/uploads/2026/11/1-4_%EC%8B%9C%EA%B7%B8%EB%84%90_%EA%B0%90%EB%8F%85_%EC%95%88%EC%83%81%ED%9B%88-833x1024.jpg",
+        "retrievedAt": "2026-11-26T12:00:56.137Z"
+      }
+    }
+  ]
+}
