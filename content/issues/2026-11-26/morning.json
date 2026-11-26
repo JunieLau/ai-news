@@ -7,7 +7,7 @@
   "slot": "10:00",
   "slotNote": "本期按 10:00 档期在对话里手动编发，取材截至北京时间 11 月 26 日 09:40。",
   "title": "AI新闻速报",
-  "editorsNote": "本期 9 条，取材窗口为北京时间 11 月 24 日 09:00 至 26 日 09:40，按事件的独立来源数和时间衰减排序；6 条为建议发送。已和 11 月 25 日两期早报、两期晚报去重。配图均为新闻现场照片或当事方官方图片。窗口里够格的事件只有 9 件，没有凑满 10 条。",
+  "editorsNote": "本期复核后保留 8 条，其中 5 条建议发送。更正：小鹏此次展示的是新版 IRON，并非 IRON 首次公开；Character.AI 拍卖异议在北京时区取材窗口前已公开，11 月 25 日的报道不等于当天新提交，故不计入本期。",
   "showSendShortlist": true,
   "stories": [
     {
@@ -107,63 +107,12 @@
       }
     },
     {
-      "region": "海外",
-      "kickerEn": "CHARACTER.AI",
-      "headline": "42 位州总检察长出手，阻止 Character.AI 拍卖 2100 万账户的私密聊天",
-      "standfirst": "破产中的 Character.AI 计划 12 月 1 日拍卖平台和用户数据，其中 210 多万个账户属于未成年人。",
-      "paragraphs": [
-        "11 月 25 日，美国 42 位州和特区总检察长向破产法院提出反对，要求驳回 Character.AI 的资产出售方案。要卖的东西包括 2100 多万个美国账户的聊天记录、IP 地址和位置信息，其中 210 多万个账户登记为未成年人。记录里有 AI 角色和孩子的性暗示对话，也有用户向假扮医生、心理咨询师的聊天机器人倾诉自残、进食障碍和自杀念头的内容。",
-        "按现在的条款，买家不必遵守 Character.AI 原来的隐私政策，也不必响应删除请求，还可以转卖。目前唯一公开的竞买方 Smirks and Pangs Acquisition LLC 11 月 13 日才成立，第二天就被选为起拍买家，投资人身份没有公开。Character.AI 今年 10 月申请破产保护，此前曾对用户承诺「不出售个人信息」。"
-      ],
-      "whyItMatters": "人们对聊天机器人说的话，往往比搜索记录还私密。公司倒闭时这些记录归谁，这是第一次被摆到法庭上。结果会影响所有 AI 陪伴类产品的用户。",
-      "caveats": [
-        "这是各州提交的反对意见，法院还没有裁决，拍卖是否如期进行仍未确定。"
-      ],
-      "figures": [
-        "42 位总检察长",
-        "2100 万个美国账户",
-        "210 万个未成年人账户",
-        "12 月 1 日拍卖"
-      ],
-      "publishedAt": null,
-      "publishedAtNote": "科罗拉多州总检察长新闻稿日期为 2026 年 11 月 25 日；TechCrunch 报道发布于 2026-11-25 17:35 UTC。",
-      "sources": [
-        {
-          "name": "科罗拉多州总检察长｜新闻稿",
-          "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
-          "role": "primary"
-        },
-        {
-          "name": "TechCrunch｜报道（配图：Character.AI 官方产品图，经 TechCrunch 使用）",
-          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-          "role": "secondary"
-        },
-        {
-          "name": "加州总检察长｜新闻稿",
-          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
-          "role": "secondary"
-        }
-      ],
-      "rank": 3,
-      "id": "2026-11-26-morning-03",
-      "tier": "send",
-      "image": {
-        "status": "archived",
-        "file": "2026-11-26/morning-03.jpg",
-        "alt": "三部手机屏幕显示 Character.AI 的语音通话界面",
-        "credit": "Character.AI 官方产品图，经 TechCrunch 使用",
-        "sourcePage": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-        "retrievedFrom": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg",
-        "retrievedAt": "2026-11-26T01:30:00Z"
-      }
-    },
-    {
       "region": "国内",
       "kickerEn": "XPENG",
-      "headline": "小鹏人形机器人 IRON 首次公开亮相，2027 年 1 月进入硬件量产",
+      "headline": "小鹏新一版 IRON 登台亮相，计划 2027 年 1 月硬件量产",
       "standfirst": "明年一季度先到小鹏门店当导购，二季度正式发布。",
       "paragraphs": [
-        "小鹏汽车 11 月 25 日在广州举办第八届科技日，发布打通汽车和机器人的图灵物理 AI 架构（VLA 3.0）。人形机器人 IRON 登台演讲并和观众互动。何小鹏说，IRON 正进入上市前最后阶段，预计 2027 年 1 月进入硬件量产，一季度在小鹏门店当导购，二季度正式对外发布。",
+        "小鹏汽车 11 月 25 日在广州举办第八届科技日，发布打通汽车和机器人的图灵物理 AI 架构（VLA 3.0）。新版人形机器人 IRON 登台演讲并和观众互动。小鹏曾在 9 月公布 IRON 下线，此次亮相并非整个系列首次公开。何小鹏说，IRON 正进入上市前最后阶段，预计 2027 年 1 月进入硬件量产，一季度在小鹏门店当导购，二季度正式对外发布。",
         "IRON 全身 76 个自由度、1500 多个触觉点，由三颗自研图灵 AI 芯片在本机运行大模型。小鹏还宣布：Robotaxi 已拿到广州 L4 示范运营资格，年底前在部分区域试运营，首款商用车型 YOYO-01 定在 2027 年；自称 VLA 2.0 上车后，国内车险出险率下降 13.93%。"
       ],
       "whyItMatters": "人形机器人行业多半还停在展示阶段。小鹏给出了量产月份和第一份具体岗位，明年一季度就能看到机器人能不能在门店里真正接待顾客。",
@@ -188,10 +137,15 @@
           "name": "中国新闻网｜报道",
           "url": "https://www.chinanews.com/cj/2026/11-25/10737811.shtml",
           "role": "secondary"
+        },
+        {
+          "name": "小鹏｜9 月 IRON 下线公告（背景）",
+          "url": "https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b",
+          "role": "secondary"
         }
       ],
-      "rank": 4,
-      "id": "2026-11-26-morning-04",
+      "rank": 3,
+      "id": "2026-11-26-morning-03",
       "tier": "send",
       "image": {
         "status": "archived",
@@ -235,8 +189,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 5,
-      "id": "2026-11-26-morning-05",
+      "rank": 4,
+      "id": "2026-11-26-morning-04",
       "tier": "send",
       "image": {
         "status": "archived",
@@ -280,8 +234,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 6,
-      "id": "2026-11-26-morning-06",
+      "rank": 5,
+      "id": "2026-11-26-morning-05",
       "tier": "send",
       "image": {
         "status": "archived",
@@ -324,8 +278,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 7,
-      "id": "2026-11-26-morning-07",
+      "rank": 6,
+      "id": "2026-11-26-morning-06",
       "tier": "alternate",
       "image": {
         "status": "archived",
@@ -368,8 +322,8 @@
           "role": "secondary"
         }
       ],
-      "rank": 8,
-      "id": "2026-11-26-morning-08",
+      "rank": 7,
+      "id": "2026-11-26-morning-07",
       "tier": "alternate",
       "image": {
         "status": "archived",
@@ -407,8 +361,8 @@
           "role": "primary"
         }
       ],
-      "rank": 9,
-      "id": "2026-11-26-morning-09",
+      "rank": 8,
+      "id": "2026-11-26-morning-08",
       "tier": "alternate",
       "image": {
         "status": "archived",
