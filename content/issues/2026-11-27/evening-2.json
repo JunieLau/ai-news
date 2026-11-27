@@ -1,0 +1,346 @@
+{
+  "issueDate": "2026-11-27",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-27T20:40:00+08:00",
+  "retrievedThrough": "2026-11-27T20:40:00+08:00",
+  "slot": "20:00",
+  "slotNote": "这是 11 月 27 日晚报的第二期（27-2），按北京时间 11 月 27 日 20:40 取材；同日第一期保留原样，不覆盖。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "这是 11 月 27 日晚报的第二期（27-2）。2026 年 11 月 27 日电影晚报。取材为北京时间 11 月 25 日 20:22 至 27 日 20:40，优先过去约 24 小时、最远不超过约 48 小时。已与 11 月 25 日晚报两期、11 月 26 日晚报及 26-2、11 月 27 日早报去重。窗口内经核实、且能配上与新闻相关真实照片的新事一共 7 条，没有硬凑满 10 条。Luc Besson 的《Furious Five》只写意媒说法不一致及他本人对「正在拍一部电影」的否认式玩笑，不写成已完成的 AI 动画长片。大湾区文投会只写收官数字和路演项目结构，不重复 11 月 25 日已报的 MovieFlow 院线片单。同日第一期 5 条保留原样，不覆盖。与第一期重合的事件只有香港绿灯通行计划，已按合格现场照片重新核对。",
+  "stories": [
+    {
+      "id": "2026-11-27-2-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Luc Besson",
+      "headline": "Luc Besson 在都灵电影节称正用 Seedance 2.0 完成《Furious Five》，意媒对是动画电影还是漫画说法不一",
+      "standfirst": "这是一位国际知名导演在颁奖现场公开把下一个项目与字节跳动的视频模型联系起来，但项目形态还没有被他本人说死。",
+      "paragraphs": [
+        "11 月 26 日，Luc Besson 在都灵电影节领取 Stella della Mole 生涯奖。Sky TG24 写道，他正在用 Seedance 2.0 完成一部名为 Furious Five 的人工智能动画电影，定于 2027 年推出。Askanews 也把它写成动画电影，并说将于明年年中上映。",
+        "意大利通讯社 ANSA 的表述不同：Besson 说他正在用 Seedance 2.0 完成一部名为 Furious Five 的漫画，同样定于 2027 年推出。当被问到是否真如美国影讯所说正在拍电影时，他打趣说，不要相信网上尤其是从美国传出来的所有消息。World of Reel 等英文媒体主要依据 Sky TG24 的「动画电影」写法报道。"
+      ],
+      "whyItMatters": "《Nikita》《Léon》的导演把下一个项目与 Seedance 2.0 绑在一起，会让更多人追问传统作者会不会用生成式工具做长片；在他本人把形态说清楚以前，不能把「已拍成 AI 动画电影」写成既成事实。",
+      "caveats": [
+        "Sky TG24、Askanews 写成动画电影，ANSA 写成漫画，Besson 本人用玩笑否认了「正在拍电影」的美国网传。2027 年中上映只见于部分意媒，官方尚未发布项目声明。"
+      ],
+      "figures": [
+        "都灵颁奖当天为 11 月 26 日；Sky TG24 稿件时间为当地 18:09；ANSA 为当地 19:43；项目名 Furious Five，工具为 Seedance 2.0，时间节点为 2027 年。"
+      ],
+      "publishedAt": "2026-11-26T18:09:00+01:00",
+      "publishedAtNote": "采用 Sky TG24 标注的 26 nov 2026 - 18:09（意大利中部时间，11 月为 CET）。ANSA 电头为 26 novembre 2026, 19:43。",
+      "sources": [
+        {
+          "name": "Sky TG24",
+          "url": "https://tg24.sky.it/spettacolo/cinema/2026/11/26/torino-film-festival-luc-besson-stella-della-mole",
+          "role": "primary"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/26/besson-ho-sfidato-il-gigante-hollywood-con-limmaginazione_6bbf8568-b72f-4945-b8a5-3ba25de02347.html",
+          "role": "secondary"
+        },
+        {
+          "name": "Askanews",
+          "url": "https://askanews.it/2026/11/26/tff-luc-besson-ho-usato-limmaginazione-per-esplorare-nuovi-mondi/",
+          "role": "secondary"
+        },
+        {
+          "name": "World of Reel",
+          "url": "https://www.worldofreel.com/blog/2026/11/26/luc-besson-has-directed-an-ai-generated-animated-movie-called-furious-five",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-01.jpg",
+        "alt": "Luc Besson 于 2026 年都灵电影节站在印有 24 Novembre、2 Dicembre 2026 字样的活动海报前，身穿深蓝色西装外套和黑色上衣。",
+        "credit": "ANSA 拍摄的 Luc Besson 都灵电影节现场照片，刊于 ANSA 报道。",
+        "sourcePage": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/26/besson-ho-sfidato-il-gigante-hollywood-con-limmaginazione_6bbf8568-b72f-4945-b8a5-3ba25de02347.html",
+        "retrievedFrom": "https://www.ansa.it/webimages/img_1280x720/2026/11/26/855e3fed26d8b81d47313c7c9b38c965.jpg",
+        "retrievedAt": "2026-11-27T12:29:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Hazanavicius",
+      "headline": "《The Artist》导演 Michel Hazanavicius 将在 Les Arcs 电影节展示新片《The Third Hand》的 AI 制作片段",
+      "standfirst": "奥斯卡最佳影片导演要公开讲解一部新片里 AI 用在了哪，实拍部分仍按传统方法完成。",
+      "paragraphs": [
+        "Deadline 11 月 26 日报道，Michel Hazanavicius 将在 12 月 12 日至 19 日的法国 Les Arcs 电影节上，与后期公司 Digital District 一起，展示即将上映的《The Third Hand》独家片段，并说明开发和后期中如何使用人工智能。Screen Daily 11 月 27 日证实了同一安排。",
+        "影片讲述一战中受伤的法国士兵在科学家实验室里被接上一只德国手，主演包括 François Civil、Bérénice Bejo 等，被定位为彩色默片。报道写明：拍摄本身使用传统布景和拍摄方法，人工智能用于部分开发和后期。案例分享结束后，将与欧洲议会议员 David Cormand 讨论欧洲如何在保护创作者权利的前提下监管 AI。"
+      ],
+      "whyItMatters": "一部由奥斯卡最佳影片导演执导、仍以实拍为主的新片，要在电影节工业单元里公开拆解 AI 工序，会给行业提供比宣传口径更具体的参照，也会把监管讨论带到同一现场。",
+      "caveats": [
+        "这是前瞻预告，片段要到 12 月节展上才放映。报道没有说明使用了哪些具体工具，也没有公布影片档期。"
+      ],
+      "figures": [
+        "Deadline 报道时间为 11 月 26 日上午 8:06（美国东部时间）；Screen Daily 为 11 月 27 日 10:00 UTC；Les Arcs 电影节日期为 12 月 12 日至 19 日。"
+      ],
+      "publishedAt": "2026-11-26T08:06:00-05:00",
+      "publishedAtNote": "采用 Deadline 标注的 November 26, 2026 8:06am（按 Deadline Hollywood 所在的美国东部时间理解）。Screen Daily 时间为 2026-11-27T10:00:00+00:00。",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/michel-hazanavicius-exclusive-footage-third-hand-ai-1237234059/",
+          "role": "primary"
+        },
+        {
+          "name": "Screen Daily",
+          "url": "https://www.screendaily.com/news/michel-hazanavicius-to-present-footage-of-ai-assisted-the-third-hand-at-les-arcs/5222843.article",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-02.jpg",
+        "alt": "Michel Hazanavicius 在户外手持一台标有 Les Arcs Film Festival 字样的老式摄影机取景，戴着墨镜，穿蓝红黄条纹夹克。",
+        "credit": "Aurore Marechal / Getty Images，经 Deadline 刊载。Deadline 图注写明拍摄于 2025 年 Les Arcs 电影节。",
+        "sourcePage": "https://deadline.com/2026/11/michel-hazanavicius-exclusive-footage-third-hand-ai-1237234059/",
+        "retrievedFrom": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2252572174.jpg?w=1024",
+        "retrievedAt": "2026-11-27T12:29:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "HKAIIFF",
+      "headline": "香港启动「全球绿灯通行计划」：首批投入 100 万美元补贴，投稿不转移版权",
+      "standfirst": "这是把 AI 电影的评审、确权和市场上架串成一条通道，并用真金白银降低创作者的合规成本。",
+      "paragraphs": [
+        "11 月 26 日，「2026 香港 AI 电影产业生态大会暨 HKAIIFF 全球绿灯通行计划启动仪式」在香港举行。香港 AI 国际电影节（HKAIIFF）、INDEX.FILM、香港 AI 电影市场、国际人工智能电影制片人协会联合会（IFAIFPA）和香港人工智能电影制片人协会联合发起，美国、欧洲及全球 37 家实验室、高校、影业和产业链伙伴代表出席。",
+        "计划以「实质创作作用」取代固定的 AI 生成比例门槛，评审理由全公开；一次投稿可同时进入评审、INDEX 绿标确权、市场上架和买家对接，投稿、入选和上架均不改变原始版权归属。首批 100 万美元用于绿标验证补贴和市场上架补贴，预计惠及 3000 名以上创作者。HKAIIFF 2027 征片于 2027 年 3 月 1 日截止，入围作品有机会亮相 FILMART、AFM 和 EFM。"
+      ],
+      "whyItMatters": "对还在找发行和版权出路的 AI 电影创作者来说，评奖和卖片被接到同一条路上，且明确不收走版权，比再办一场只有奖杯的竞赛更实际。",
+      "caveats": [
+        "100 万美元是首批补贴规模，不是已经发放的金额；绿标分为 VERIFIED 与 CLEARED，商业授权仍须由权利人另行确认。活动信息主要来自首发报道和主办方材料。"
+      ],
+      "figures": [
+        "启动日期为 11 月 26 日；首批补贴 100 万美元；预计惠及 3000 名以上创作者；37 家机构代表出席；征片截止 2027 年 3 月 1 日。"
+      ],
+      "publishedAt": "2026-11-26T11:39:08+08:00",
+      "publishedAtNote": "采用香港文汇报稿件时间 2026-11-26 11:39:08。新京报同日 13:22 亦有报道。",
+      "sources": [
+        {
+          "name": "香港文汇报",
+          "url": "https://www.wenweipo.com/a/202611/26/AP6b07a9dde4b028ec0195ab41.html",
+          "role": "primary"
+        },
+        {
+          "name": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1795670546129433.html",
+          "role": "secondary"
+        },
+        {
+          "name": "极客公园",
+          "url": "http://www.geekpark.net/news/374514",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-03.jpg",
+        "alt": "香港会议厅舞台上的深绿色主视觉屏，写有 2026 Hong Kong AI Film Ecosystem Summit 和 HKAIIFF Global Greenlight Fast-Track，左侧有发言台，上方有吊灯和绿色射灯。",
+        "credit": "香港文汇报刊载的启动仪式现场照片。",
+        "sourcePage": "https://www.wenweipo.com/a/202611/26/AP6b07a9dde4b028ec0195ab41.html",
+        "retrievedFrom": "https://dw-media.wenweipo.com/dams/wwpproduct/image/202611/26/6b07a9bbe4b0f8c5b41832381.jpg",
+        "retrievedAt": "2026-11-27T12:29:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Greater Bay Area",
+      "headline": "粤港澳大湾区文投会收官：意向签约约 86 亿元创新高，路演项目中 AI 相关约占一半",
+      "standfirst": "这是一场以「人工智能+文化」为主题的投融资大会交出的成绩单，86 亿元是全部意向签约，不是只投给 AI 电影的金额。",
+      "paragraphs": [
+        "2026 粤港澳大湾区文化产业投资大会 11 月 26 日在广州收官。21 世纪经济报道、羊城晚报和中新网报道，48 家路演企业获得机构签约意向，9 个项目现场签约，累计意向签约金额约 86 亿元，创历届新高。大会从 400 个报名项目中选出 100 个路演，其中估值 100 亿元以上的头部项目 5 个、10 亿至 100 亿元的腰部项目 12 个。",
+        "主办方称，推介的「人工智能+文化」项目超过五成，覆盖世界模型、视频大模型、具身智能、人工智能影视工作流平台和娱乐硬件等。现场签约包括文旅机器人、AI 商业系统、智能硬件，以及鑫鑫漫剧总部项目落地广州。近 200 家投资机构、300 家文化企业主要负责人和 600 家文化单位代表参会。"
+      ],
+      "whyItMatters": "资本愿意把「人工智能+文化」写成大会主轴，并给出创纪录的意向签约额，说明视频模型和影视工作流已经被放进文化产业的融资桌面上；但金额不能理解成已经到账的 AI 电影投资。",
+      "caveats": [
+        "86 亿元是全部意向签约，不是已到位资金，也不等于全部投向 AI 影视。「超过五成」指 100 个路演项目的结构，不是签约金额的结构。MovieFlow 的 10 部院线片计划已在 11 月 25 日晚报报道，本期不重复。"
+      ],
+      "figures": [
+        "意向签约约 86 亿元；48 家企业获意向、9 个项目现场签约；100 个路演项目中 AI 相关超过五成；头部项目 5 个、腰部项目 12 个。"
+      ],
+      "publishedAt": "2026-11-26T15:12:40+08:00",
+      "publishedAtNote": "采用 21 世纪经济报道页面 datePublished 2026-11-26T15:12:40+08:00。羊城晚报同日 15:59:29，中新网 11 月 27 日 15:46 亦报道收官。",
+      "sources": [
+        {
+          "name": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20261126/herald/62c3e40ea4262f887b8c9b68d09ec4f1.html",
+          "role": "primary"
+        },
+        {
+          "name": "中国新闻网",
+          "url": "https://www.chinanews.com/dwq/2026/11-27/10738755.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "羊城晚报·羊城派",
+          "url": "https://ycpai.ycwb.com/content/ikimvjjtim/content_54357622.html",
+          "role": "secondary"
+        },
+        {
+          "name": "电影界",
+          "url": "https://www.dianyingjie.com.cn/2026/1127/413819.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-04.jpg",
+        "alt": "2026 粤港澳大湾区文化产业投资大会会场：观众面向主屏，屏上正在进行广东「人工智能+文化」发展情况报告，讲者在左侧讲台发言。",
+        "credit": "21 世纪经济报道刊载的大会现场照片，原文标注为资料图。",
+        "sourcePage": "https://www.21jingji.com/article/20261126/herald/62c3e40ea4262f887b8c9b68d09ec4f1.html",
+        "retrievedFrom": "https://ocmsmedia.sfccn.com/vod-4310da/image/default/2429BA83079C457987D99144CA6510AD-6-2.jpg",
+        "retrievedAt": "2026-11-27T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Fengxian",
+      "headline": "上海奉贤「在水一方」首映 10 部 AIGC 球幕短剧，周末向公众定期放映",
+      "standfirst": "这是把学生用生成式工具做的球幕短片，直接送进一座正在运营的城市场馆，让观众买得到票。",
+      "paragraphs": [
+        "11 月 26 日，10 部由同济大学设计创意学院 34 名中外学生创作的 AIGC 球幕短剧，在上海奉贤新城「在水一方」科幻馆的 8K 球幕剧场集中首映。新华网和劳动报报道，创作历时约两个月，使用 Midjourney、Luma 等工具，完成构思、生成、剪辑和球幕适配，总时长约 100 分钟，分为「历史之锚」「科幻之翼」「未来之境」三章，并融入柘林玉璧、奉贤滚灯、青村黄桃等在地元素。",
+        "活动由奉贤区新城发展管理办公室、上海奉贤新城建设发展有限公司和同济大学设计创意学院主办。10 部短剧及原创 IP 归场馆长期使用。劳动报称，场馆将在周六、周日开设固定场次，一天 3 场，时间为 10:00、12:00、16:00。"
+      ],
+      "whyItMatters": "AI 短片常见于网上和展会，这次是进入城市文化场馆并排进周末档期，上海观众可以实地去看生成式影像在球幕上好不好看。",
+      "caveats": [
+        "作品是学生课程成果，不是商业院线发行。工具名单和两月工期来自主办方及报道转述。"
+      ],
+      "figures": [
+        "10 部短剧、约 100 分钟、34 名学生、约两个月制作；周末每天 3 场，时间为 10:00、12:00、16:00。"
+      ],
+      "publishedAt": "2026-11-26T16:54:00+08:00",
+      "publishedAtNote": "首映在 11 月 26 日下午。采用劳动报标注的 2026-11-26 16:54。新华网上海 11 月 27 日 09:27 电，电头为 11 月 26 日。",
+      "sources": [
+        {
+          "name": "劳动报",
+          "url": "https://www.51ldb.com/shsldb/ms/content/01a2170ec12dc001000066d533acd97d.html",
+          "role": "primary"
+        },
+        {
+          "name": "新华网",
+          "url": "http://sh.news.cn/20261127/0093b376f3fd41cc9841ed07b60a3aea/c.html",
+          "role": "secondary"
+        },
+        {
+          "name": "中国发展网",
+          "url": "https://dfmg.chinadevelopment.com.cn/mgkb/2026/11/2027461.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-05.jpg",
+        "alt": "奉贤「在水一方」科幻馆球幕剧场首映现场：观众坐在弧形座位上看 8K 穹顶上的两只黄桃形象角色，左上角有「在水一方 三千世界 AIGC球幕影像首映式」字样。",
+        "credit": "劳动报刊载的 11 月 26 日首映现场照片。",
+        "sourcePage": "https://www.51ldb.com/shsldb/ms/content/01a2170ec12dc001000066d533acd97d.html",
+        "retrievedFrom": "https://www.51ldb.com/picture/2ec4a506-4470-4d6b-8793-4df0d126d5d6.jpg",
+        "retrievedAt": "2026-11-27T12:29:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "MiniMax",
+      "headline": "MiniMax 发布 H3 Family：开源 100 天衍生 1472 个模型，下载超 1.48 亿次",
+      "standfirst": "这是海螺视频模型开源后的生态盘点，并正式把旗舰模型和一批合作方衍生模型收成一个家族。",
+      "paragraphs": [
+        "MiniMax 于北京时间 11 月 26 日 20:00 在官方博客发布 H3 Family。英文稿写道，开源 MiniMax H3 的 100 天里，开发者把它做成了 1472 个衍生模型，总下载超过 1.48 亿次，平均每秒超过 17 次。家族包括旗舰 H3、H3-Image 系列和一批扩展模型，部分可在 MiniMax 开放平台调用。",
+        "官方给出的价格是：H3-Highspeed 输出 768P 或 480P，起价每秒 0.04 美元，5 秒片段平均约 11 秒生成，最长 30 秒；H3-Lite 起价每秒 0.025 美元，部分硬件上 5 秒 768P 约 8 秒生成，该片段费用约 0.20 美元。合作方还包括 fal、HeyGen、Pika、Suno 等基于 H3 的垂类模型。"
+      ],
+      "whyItMatters": "国产视频模型少见一次性给出衍生数量、下载量和公开单价，创作者可以据此比较成本和生态，而不仅是看演示片。",
+      "caveats": [
+        "1472 个模型和 1.48 亿次下载是公司自述。H3 本身此前已开源，本期写的是 11 月 26 日的家族发布，不是 H3 首发。"
+      ],
+      "figures": [
+        "官方发布时间 2026-11-26T12:00:09Z（北京时间 20:00:09）；开源 100 天；1472 个衍生模型；下载超 1.48 亿次，平均每秒超过 17 次；H3-Highspeed 起价每秒 0.04 美元，H3-Lite 起价每秒 0.025 美元。"
+      ],
+      "publishedAt": "2026-11-26T12:00:09Z",
+      "publishedAtNote": "采用 MiniMax 英文博客 JSON-LD 的 datePublished 2026-11-26T12:00:09.000Z，合北京时间 20:00:09。页面 time 标签亦为 2026-11-26。",
+      "sources": [
+        {
+          "name": "MiniMax 官方博客（英文）",
+          "url": "https://www.minimax.io/blog/minimax-h3-family",
+          "role": "primary"
+        },
+        {
+          "name": "MiniMax 官方博客（中文）",
+          "url": "https://www.minimax.cn/blog/minimax-h3-family",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-06.png",
+        "alt": "MiniMax 官方公告封面：紫色灯光下的人物剪影站坐在舞台上，上方大字为 H3 Family。",
+        "credit": "MiniMax 官方博客《The H3 Family: Models, Community, and What's Next》封面图。",
+        "sourcePage": "https://www.minimax.io/blog/minimax-h3-family",
+        "retrievedFrom": "https://filecdn.minimax.chat/public/minimax-h3-family-cover-20261124.png",
+        "retrievedAt": "2026-11-27T12:31:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-2-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Vibe Motion",
+      "headline": "纳米大片上线 Vibe Motion：一句话生成宣传片，可用代码逐镜改字和数字",
+      "standfirst": "这是 360 旗下视频工具把模型生成和代码动效拆开：画面交给模型，字幕和图表交给代码，避免改一个数字就要整段重抽。",
+      "paragraphs": [
+        "11 月 27 日，中国网科技等报道，纳米大片上线 Vibe Motion。用户上传产品图、录屏或数据并输入一句需求，系统生成光影、材质和产品动画，同时用代码绘制文字、图表和标注，产出可商用的宣传片。创作者可回到对应镜头改标题、换图或调单位，不必整段推倒重来。",
+        "报道称其采用「模型生成＋代码动效」的混合方式，并提供企业宣传、经营解读、产品演示等模板，支持 16:9、9:16、21:9 等画幅。文中配图由 360 授权刊出。"
+      ],
+      "whyItMatters": "商业宣传片最怕改一个数字就要重新生成整段画面。把准确信息交给代码，可能降低返工，但目前主要是产品发布口径。",
+      "caveats": [
+        "报道写「近日」上线，没有公布确切小时和报价。功能和效果未经本报实测，信息主要来自公司授权稿。"
+      ],
+      "figures": [
+        "公开报道时间为 11 月 27 日 14:39；支持 16:9、9:16、21:9 等画幅。"
+      ],
+      "publishedAt": "2026-11-27T14:39:00+08:00",
+      "publishedAtNote": "采用中国经济网转载中国网科技稿件的时间 2026年11月27日 14:39。新浪财经同日亦转载。公司未公布上线钟点，稿件写「近日」。",
+      "sources": [
+        {
+          "name": "中国经济网（转载中国网科技）",
+          "url": "http://finance.ce.cn/home/jrzq/dc/202611/t20261127_3310222.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaeneh5483577.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-2-07.jpg",
+        "alt": "纳米大片 Vibe Motion 产品界面截图：顶部为 Vibe Motion 标题和输入框，下方是多张宣传片模板缩略图，包括财报解读和行业图表等。",
+        "credit": "360 授权刊出的 Vibe Motion 产品界面，经新浪财经 11 月 27 日报道转载。",
+        "sourcePage": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaeneh5483577.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/finance/transform/66/w550h316/20261127/16bf-5f6b4b3faec81db16dac9ed08a0b06f9.jpg",
+        "retrievedAt": "2026-11-27T12:31:00Z"
+      }
+    }
+  ],
+  "sequence": 2,
+  "showSendShortlist": true
+}
