@@ -1,0 +1,259 @@
+{
+  "issueDate": "2026-11-27",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-27T12:10:32+00:00",
+  "retrievedThrough": "2026-11-27T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "北京时间 11 月 27 日 20:00 截稿。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期 5 条主版，均为建议发送。旧闻、未获证实的放映结果和常规工具更新不补数。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-27-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "FUNDING L1",
+      "headline": "香港联合发起 AI 电影绿灯计划，首批 100 万美元补贴核验和上架",
+      "standfirst": "这笔钱补的是作品进入版权市场的费用，不是拍片经费。",
+      "paragraphs": [
+        "11 月 26 日，香港 AI 国际电影节、香港 AI 电影市场等五方宣布启动「全球绿灯通行计划」。按主办方披露，参加征集的作品可衔接电影节评审、权利链核验和市场上架。首批 100 万美元专项池，主要补贴 INDEX 绿标核验费和市场上架费用；主办方预计可覆盖逾 3,000 名创作者。",
+        "参与者不是把版权卖给电影节。按主办方公布口径，投稿、入选和上架不转移原始著作权，后续交易仍要单独谈。香港 AI 电影市场今年 7 月已经启动，26 日的新动作是把补贴和对接机制接到既有市场，不是成立新交易所。"
+      ],
+      "whyItMatters": "让一部独立 AI 短片走出社交平台，难点常在于拿出可供买家核查的权利材料；这项计划尝试降低这一步的费用。",
+      "caveats": [
+        "3,000 人是主办方估算；这不是已支付金额，也不承诺买家签约。"
+      ],
+      "figures": [
+        "首批 US$100 万",
+        "5 方发起"
+      ],
+      "publishedAt": "2026-11-26T03:39:08Z",
+      "publishedAtNote": "香港文汇报于 11 月 26 日 11:39 香港时间报道发布会；发起方发布稿同日 12:40。",
+      "sources": [
+        {
+          "name": "联合发起方｜项目发布稿",
+          "url": "https://www.streetinsider.com/Press%2BReleases/Hong%2BKong%2BLaunches%2B%22THE%2BGLOBAL%2BGREENLIGHT%2BFAST-TRACK%22%2Bwith%2B%241%2BMillion%2BCreator%2BSubsidy%2BPool%2C%2BUniting%2B37%2BLeading%2BUS%2C%2BEuropean%2C%2Band%2BGlobal%2BAI%2B%26%2BFilm%2BInstitutions/27404163.html",
+          "role": "primary"
+        },
+        {
+          "name": "香港文汇报｜会议现场报道",
+          "url": "https://www.wenweipo.com/s/202611/26/AP6b07a9dde4b028ec0195ab41.html",
+          "role": "secondary"
+        },
+        {
+          "name": "香港 AI 国际电影节｜市场说明",
+          "url": "https://www.hkaiiff.org/zh-hant/market",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-01.jpg",
+        "alt": "香港 AI 电影产业生态大会与全球绿灯通行计划发布现场",
+        "credit": "HKAIIFF，香港文汇报刊载",
+        "sourcePage": "https://www.wenweipo.com/s/202611/26/AP6b07a9dde4b028ec0195ab41.html",
+        "retrievedFrom": "https://dw-media.wenweipo.com/dams/wwpproduct/image/202611/26/6b07a9bbe4b0f8c5b41832381.jpg",
+        "retrievedAt": "2026-11-27T12:10:32+00:00"
+      }
+    },
+    {
+      "id": "2026-11-27-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "VIDEO MODEL L1",
+      "headline": "Sber 发布 Kandinsky 6.5 视频模型，多图入镜并可指定首尾帧",
+      "standfirst": "生成一段画面时，人物、道具和地点可以分别给参考。",
+      "paragraphs": [
+        "俄罗斯 Sber 于 11 月 26 日在 AI Journey 大会推出 Kandinsky 6.5。其视频模型允许上传分别对应人物、物件和场景的照片，将它们合成同一段镜头；也可用指定的第一帧和最后一帧来约束场景。官方列出的规格上限是 10 秒、2K。",
+        "这次发布包含彼此独立的图像和视频模型。Sber 表示两者已在 GigaChat 内提供，视频有单独入口；另外公开的是 Kandinsky SR 2.0 超分辨率模型，主要用于放大或修复画面，不能把这件事写成 Kandinsky 6.5 Video 已开放权重。"
+      ],
+      "whyItMatters": "短片导演可以先定转场的起点和落点，再试中间动作，而不是每次生成后才猜能不能接上前后镜头。",
+      "caveats": [
+        "规格与一致性来自官方；尚无证据证明多个角色在复杂镜头里都能稳定保持外观。"
+      ],
+      "figures": [
+        "单段最长 10 秒",
+        "最高 2K"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Sber 官方及俄媒均报道于 11 月 26 日。",
+      "sources": [
+        {
+          "name": "SberCIB｜大会公告",
+          "url": "https://sber.pro/publication/sber-predstavil-novuyu-flagmanskuyu-model-gigachat-4-i-eschyo-ryad-ii-reshenii/",
+          "role": "primary"
+        },
+        {
+          "name": "Sber｜官方发布",
+          "url": "https://www.sberbank.ru/ru/sberpress/all/article?blockID=1303&lang=ru&newsID=04e81e59-e42a-4bce-b4bd-7400fc372b26&regionID=77&type=NEWS",
+          "role": "secondary"
+        },
+        {
+          "name": "CNews｜视频功能报道",
+          "url": "https://ai.cnews.ru/news/line/2026-11-26_sber_predstavil_novoe",
+          "role": "secondary"
+        },
+        {
+          "name": "Vedomosti｜发布报道",
+          "url": "https://www.vedomosti.ru/technology/news/2026/11/26/1415693-novie-modeli",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "已核对发布方及同期报道，未找到能确认是本次发布现场或对应视频模型演示的可用原图。"
+      }
+    },
+    {
+      "id": "2026-11-27-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "THEATRICAL POST L1",
+      "headline": "首尔三部 AI 短片进影院前先做 4K 放大，后期公司公开处理范围",
+      "standfirst": "首尔影展前一天披露了三部片从生成素材走向大银幕的一道后期工序。",
+      "paragraphs": [
+        "韩国影像公司 4BY4 于 11 月 26 日公布，为首尔独立电影节与 CreativeMango 合作项目中的三部 AI 短片处理画面：张哲洙的《End of Species》、申渊植的《The Missing Liver》以及朴信宇的《Girl With a Blade: Happy Day》。公司称，团队用 AI PIXELL 按场景调整清晰度和细节，再放大到 UHD 4K。",
+        "前一期报道的是七部片的排映和另一部片的声音团队；这次新信息是三部作品在生成结束后，还要单独准备适合影院播放的画面。首尔场次在 11 月 27 日排映，主办方未随公告发出对比片。"
+      ],
+      "whyItMatters": "做大屏版不能只把输出设成 4K；先找出哪些镜头在大屏上变糊或出现纹理问题，才知道后期该补哪里。",
+      "caveats": [
+        "4K 指放大后的交付规格，不代表原镜头是原生 4K，也不是对质量的独立评测。"
+      ],
+      "figures": [
+        "3 部短片",
+        "UHD 4K"
+      ],
+      "publishedAt": "2026-11-25T22:00:00Z",
+      "publishedAtNote": "4BY4 新闻稿发布于 11 月 26 日 07:00 韩国时间。不是现场结果。",
+      "sources": [
+        {
+          "name": "4BY4｜后期团队发布稿",
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1047995",
+          "role": "primary"
+        },
+        {
+          "name": "Korea Now｜后期报道",
+          "url": "https://withnews.co.kr/en/jang-cheol-soo-shin-yeon-shik-ai-films-get-4k-upscale-en/",
+          "role": "secondary"
+        },
+        {
+          "name": "首尔独立电影节｜官方节目册",
+          "url": "https://siff.kr/wp-content/uploads/2026/10/SIFF2026_ticket_web1119.pdf",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-03.jpg",
+        "alt": "4BY4 公布的三部 AI 短片画面",
+        "credit": "4BY4 官方提供，经韩国 Newswire 刊载",
+        "sourcePage": "https://www.newswire.co.kr/newsRead.php?no=1047995",
+        "retrievedFrom": "https://file.newswire.co.kr/data/datafile2/thumb_640/2026/11/2040943137_20261125112641_8777937764.png",
+        "retrievedAt": "2026-11-27T12:10:32+00:00"
+      }
+    },
+    {
+      "id": "2026-11-27-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "MUSIC VIDEO L1",
+      "headline": "RIIZE 的 57 秒情绪短片生成了 111 段素材，导演公开与 Codex 的分工",
+      "standfirst": "导演把生成交给工具，但没有把拍什么和留下什么交给工具。",
+      "paragraphs": [
+        "韩国导演 SeungYu Lee 在首尔分享为 RIIZE 歌曲《Insomnia》做的 57 秒情绪短片。Brand Brief 于 11 月 27 日刊出他的制作数据：约两周，含草稿共生成 111 段视频，仅 Higgsfield 就用了 4,530 积分。他本人承担构思、客户沟通和剪辑；Codex 按他的导演意图拆解提示词和制作方法，再由 Higgsfield 生成。",
+        "短片把失眠改写成喜欢一件事喜欢到睡不着：从蓝色夜宴到橙色日出，颜色跟着角色的情绪变。这里值得借鉴的做法，是先定叙事方向和情绪，再决定哪些生成片段合格。"
+      ],
+      "whyItMatters": "一分钟成片背后有上百次素材尝试。对做 MV 的人来说，先立剪辑和情绪标准，比单纯多生成更能控制返工。",
+      "caveats": [
+        "积分不是现金预算；该片不是 SMTOWN 在十月公开的正式剧情 MV。"
+      ],
+      "figures": [
+        "57 秒成片",
+        "111 段素材",
+        "4,530 平台积分"
+      ],
+      "publishedAt": "2026-11-26T23:00:00Z",
+      "publishedAtNote": "Brand Brief 页面元数据为 11 月 27 日 08:00 韩国时间；这是制作披露，不是影片首发。",
+      "sources": [
+        {
+          "name": "Brand Brief｜导演现场自述",
+          "url": "https://www.brandbrief.co.kr/site/data/html/2026/11/26/2026112650170.html",
+          "role": "primary"
+        },
+        {
+          "name": "The Generated｜制作交叉核对",
+          "url": "https://thegenerated.com/stories/seungyu-lee-riize-insomnia-higgsfield-20261127",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-04.jpg",
+        "alt": "《Insomnia》情绪短片画面：少年拿着红色吉他在海边奔跑",
+        "credit": "SeungYu Lee 作品画面，经 The Generated 刊载",
+        "sourcePage": "https://thegenerated.com/stories/seungyu-lee-riize-insomnia-higgsfield-20261127",
+        "retrievedFrom": "https://media.thegenerated.com/6ef8c4f4-1736-4446-b934-61a003125b2a.jpg",
+        "retrievedAt": "2026-11-27T12:10:32+00:00"
+      }
+    },
+    {
+      "id": "2026-11-27-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "IMMERSIVE FILM L2",
+      "headline": "CapCut 公开伦敦开幕片，为四面屏和天花板重新设计画面",
+      "standfirst": "前一期是展览预告，这次能直接看为五面屏制作的开幕影片。",
+      "paragraphs": [
+        "11 月 26 日英国当地时间，CapCut 发布《The Unimagined》开幕片，随后公开 Outernet 的现场照片。官方称，这支片为 The Now Building 的四面屏墙和顶部显示面设计，把整个房间变成一个巨大的剪辑界面。线上短片和现场照片是这次新增内容，不是把展讯换标题重发。",
+        "主办方介绍展览时，也提到用 CapCut Video Studio 和 Seedance 2.5 4K 制作参展内容。现场不是把一条横版视频简单铺到墙上：同一个视觉变化可以从一面墙走到另一面，再把观众的注意力带向上方。"
+      ],
+      "whyItMatters": "给多面屏做分镜，最重要的不是画布变大，而是先决定观众何时转头，以及错过一面墙后还能不能跟上。",
+      "caveats": [
+        "线上版不是现场体验；开幕片逐镜使用的模型和制作比例未披露。"
+      ],
+      "figures": [
+        "4 面墙屏 + 1 面顶屏"
+      ],
+      "publishedAt": "2026-11-26T17:42:39Z",
+      "publishedAtNote": "首发为伦敦当地 11 月 26 日 17:42，北京时间 11 月 27 日 01:42。",
+      "sources": [
+        {
+          "name": "CapCut｜开幕影片原帖",
+          "url": "https://x.com/capcutapp/status/2126008748233601490",
+          "role": "primary"
+        },
+        {
+          "name": "CapCut｜现场照片",
+          "url": "https://x.com/capcutapp/status/2126068127746216390",
+          "role": "secondary"
+        },
+        {
+          "name": "CapCut｜开幕影片说明",
+          "url": "https://www.instagram.com/reel/DgNpmYwModw/",
+          "role": "secondary"
+        },
+        {
+          "name": "主办方｜展览官方页面",
+          "url": "https://capcutworld.com/unimagined",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/evening-05.jpg",
+        "alt": "伦敦 Outernet 展场现场，观众被大幅屏幕环绕",
+        "credit": "CapCut 官方现场照片",
+        "sourcePage": "https://x.com/capcutapp/status/2126068127746216390",
+        "retrievedFrom": "https://pbs.twimg.com/media/HYFPr-DWUAAK0T3.jpg",
+        "retrievedAt": "2026-11-27T12:10:32+00:00"
+      }
+    }
+  ]
+}
