@@ -1,0 +1,489 @@
+{
+  "issueDate": "2026-11-27",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-27T08:45:00+08:00",
+  "retrievedThrough": "2026-11-27T08:40:00+08:00",
+  "slot": "10:00",
+  "slotNote": "自 2026-11-27 起，早报按约 8:00 Asia/Shanghai 档期编发；仓库 slot 字段仍按约定写 10:00。取材截至北京时间 11 月 27 日 08:40。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期 10 条。OpenAI 合并 Chat 与 Work 的产品负责人原帖时间为北京时间 11 月 25 日 01:46，已超出本期 48 小时窗口，故未收录。黎曼猜想证明、瑞士 BACS 通报、Google Workspace MCP 等亦因首发时间超出窗口未报。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-27-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "NVIDIA",
+      "headline": "英伟达暂停向马来西亚、新加坡、泰国、印尼交付 AI 服务器",
+      "standfirst": "《金融时报》报道，英伟达要求戴尔、超微等伙伴停运，以配合美国堵住中国企业在第三国租用算力的出口管制。",
+      "paragraphs": [
+        "北京时间 11 月 26 日 13:00，《金融时报》报道，英伟达已要求戴尔、超微电脑等制造伙伴，暂停向马来西亚、新加坡、泰国和印度尼西亚运送人工智能服务器。TechCrunch 援引《华尔街日报》做了同样表述。知情人士说，目前还不清楚这一暂停是不是暂时的。",
+        "美国商务部 11 月 16 日的临时最终规则要求，向上述国家以及巴西出口或再出口先进人工智能芯片须获得许可，目的是阻止中国企业通过东南亚等地的云服务绕开限制。TechCrunch 援引进步研究所估算，这类远程数据中心大约供应中国 24% 的人工智能算力。云服务商有 90 天时间申请许可证。《金融时报》还写道，银行已叫停向新加坡云商 Aolani 提供的约 5 亿美元贷款，该项目原计划向字节跳动出租算力；CNBC 则称，大量原计划服务中国租用客户的英伟达 B300 芯片涌入二级市场。"
+      ],
+      "whyItMatters": "东南亚是近年增长最快的人工智能数据中心区域之一。停运意味着美国把管制从不准卖芯片给中国，推进到也不准在邻国租算力，会直接影响中国公司的海外算力安排，以及当地正在建设的机房项目。",
+      "caveats": [
+        "英伟达尚未就此公开说明，报道依据知情人士，暂停是否只是暂时仍不清楚。商务部规则 11 月 16 日已公布，本期新事实是英伟达要求伙伴对四国停运，以及贷款叫停、芯片转售等后续影响。"
+      ],
+      "figures": [
+        "四国：马来西亚、新加坡、泰国、印尼",
+        "远程数据中心约供应中国 24% 人工智能算力（进步研究所估算）",
+        "Aolani 约 5 亿美元贷款被叫停",
+        "云商须在 90 天内申请许可证"
+      ],
+      "publishedAt": "2026-11-26T13:00:19+08:00",
+      "publishedAtNote": "《金融时报》稿件时间为 2026-11-26T05:00:19Z，合北京时间 13:00:19。",
+      "sources": [
+        {
+          "name": "Financial Times｜Nvidia halts chip shipments to south-east Asia",
+          "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+          "role": "primary"
+        },
+        {
+          "name": "TechCrunch｜Nvidia hits pause on chip shipments to Southeast Asia",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "role": "secondary"
+        },
+        {
+          "name": "21世纪经济报道｜英伟达暂停向东南亚四国交付AI服务器",
+          "url": "https://www.21jingji.com/article/20261126/herald/c078da230ecbe61a36fbeca3dd40374b.html",
+          "role": "secondary"
+        },
+        {
+          "name": "联合早报｜英伟达暂停向新加坡等四国供服务器（配图：联合早报新闻照片）",
+          "url": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060954",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-01.jpg",
+        "alt": "英伟达办公楼外墙和前景标识牌上的 NVIDIA 绿色标志",
+        "credit": "联合早报新闻照片",
+        "sourcePage": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060954",
+        "retrievedFrom": "https://dss0.zbstatic5.com/image/zaobao/9c4a98d07f006f52bca900126cd3b63809481e0a8ad2e004ef471e8c498272f7?o=zbimg&oloc=se",
+        "retrievedAt": "2026-11-27T00:20:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Tencent",
+      "headline": "腾讯以第一单位在《Nature》发表 AI 双靶点多肽设计研究",
+      "standfirst": "ORIDTP 平台从头设计能同时作用于两个靶点的多肽，并在小鼠模型中完成减重降糖和肿瘤免疫验证。",
+      "paragraphs": [
+        "11 月 26 日，腾讯宣布其生命科学实验室以第一单位在《Nature》主刊发表论文《De novo design of high-potency dual-target therapeutic peptides with ORIDTP》。澎湃新闻当天 21:19 报道，这是腾讯首次以第一单位登上该刊。论文中的 ORIDTP 平台把扩散生成（PepDif）、双目标强化学习（PepDRL）和柔性亲和力建模（PepDAF）串起来，不依赖天然多肽模板，从头设计双靶点治疗性多肽，每轮实验大约只测 15 条候选。",
+        "在肥胖和糖尿病小鼠模型中，设计出的双激动多肽只需对照药物十分之一的摩尔剂量，就观察到明显的减重和控糖效果。在人源靶点敲入小鼠肿瘤模型中，候选分子 IC-Dual.P3 使肿瘤体积较对照组缩小 94.2%。该平台已放到腾讯健康 BioNexus，向科研社区开放。"
+      ],
+      "whyItMatters": "双靶点多肽一直很难做：提高一个靶点的活性，常常会压低另一个。腾讯把这件事做成可验证的完整闭环，并且第一次以第一单位出现在《Nature》主刊，说明中国大厂的 AI 制药已经从讲方法走到交动物实验证据。",
+      "caveats": [
+        "全部是小鼠临床前结果，94.2% 只适用于特定动物模型，不等于人体疗效；研究尚未开展人体临床试验，也不等于已经有了新药。"
+      ],
+      "figures": [
+        "每轮约测 15 条多肽",
+        "代谢方向剂量为对照药物的 1/10（摩尔剂量）",
+        "IC-Dual.P3 使肿瘤体积较对照组缩小 94.2%",
+        "腾讯首次以第一单位登上《Nature》主刊"
+      ],
+      "publishedAt": "2026-11-26T21:19:00+08:00",
+      "publishedAtNote": "采用澎湃新闻报道时间 2026-11-26 21:19。IT之家称腾讯宣布论文于 11 月 25 日见刊，澎湃写 11 月 26 日正式刊发，故以腾讯宣布及澎湃见报时间为准。",
+      "sources": [
+        {
+          "name": "澎湃新闻｜腾讯以第一单位首登《Nature》（配图：论文中的 ORIDTP 流程图，经澎湃转载）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34567732",
+          "role": "primary"
+        },
+        {
+          "name": "Nature｜De novo design of high-potency dual-target therapeutic peptides with ORIDTP",
+          "url": "https://www.nature.com/articles/s41586-026-11338-1",
+          "role": "secondary"
+        },
+        {
+          "name": "IT之家｜腾讯用 AI 挑战药物研发领域前沿难题",
+          "url": "https://www.ithome.com/1/033/125.htm",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-02.jpg",
+        "alt": "论文配图：ORIDTP 平台用 PepDif、PepDRL、PepDAF 做双靶点多肽设计，再把实验结果反馈回模型的流程图",
+        "credit": "论文图，经澎湃新闻转载",
+        "sourcePage": "https://www.thepaper.cn/newsDetail_forward_34567732",
+        "retrievedFrom": "https://imgpai.thepaper.cn/newpai/image/20261126/f8cbc94e-63dd-4a10-ac8b-51d73cecd568.png",
+        "retrievedAt": "2026-11-27T00:25:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "OpenAI",
+      "headline": "OpenAI 修正 GPT-6.2 计费错误，Astra 额度将快 40% 用完",
+      "standfirst": "产品负责人称上线时误给大多数用户少计了用量；补上之后同样工作会更快触及上限，公司将赠送一次预存重置。",
+      "paragraphs": [
+        "OpenAI 产品负责人 Thibault “Tibo” Sottiaux 11 月 26 日在 X 发帖说，GPT-6.2 上线时出现计费错误，大多数用户的 Astra 和 Sol 用量被少算了。错误已经修好，同样的工作会占用更多套餐额度：与上周相比，GPT-6.2 Astra 会快 40% 达到上限，Sol 会快 25%。他同时表示，这两款模型的用量效率仍应好于前代 GPT-6 Astra 和 GPT-6.1 Sol，其他模型不受影响，公司也不会补收过去少计的那部分。",
+        "作为道歉，OpenAI 将为 Go、Plus、Pro 和 Business 用户各增加一次预存重置（banked reset）。BleepingComputer 写道，这次重置有效期一个月，可在 ChatGPT 设置里的用量页面手动使用。"
+      ],
+      "whyItMatters": "这不是一次普通的产品说明，而是直接改了付费用户每天能用多少。重度用户会明显感觉额度更紧，也说明模型计费规则一旦算错，影响会立刻落到所有订阅者身上。",
+      "caveats": [
+        "一次预存重置不等于把额度永久提高 40%。帖中的 10:50 AM 按美国太平洋时间换算为北京时间 11 月 27 日 02:50。"
+      ],
+      "figures": [
+        "Astra 将快 40% 达到上限",
+        "Sol 将快 25% 达到上限",
+        "Go、Plus、Pro、Business 各获一次预存重置",
+        "其他模型不受影响"
+      ],
+      "publishedAt": "2026-11-27T02:50:00+08:00",
+      "publishedAtNote": "Tibo 原帖截图显示 10:50 AM · Nov 26, 2026。按其美国太平洋时间换算为北京时间 11 月 27 日 02:50。",
+      "sources": [
+        {
+          "name": "BleepingComputer｜OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+          "role": "primary"
+        },
+        {
+          "name": "DigIntoAI｜转载 Tibo 原帖截图（配图来源）",
+          "url": "https://digintoai.com/en/articles/openai-fixes-gpt-6-2-launch-billing-bug-expect-to-hit-limits-40-faster-on-astra-c486dbd4de22",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-03.jpg",
+        "alt": "OpenAI 产品负责人 Tibo（@thsottiaux）的 X 帖：说明 GPT-6.2 计费错误已修复，Astra 将快 40%、Sol 将快 25% 用完额度，并为部分套餐增加一次预存重置",
+        "credit": "Tibo 的 X 原帖，经 DigIntoAI 页面截图转载",
+        "sourcePage": "https://digintoai.com/en/articles/openai-fixes-gpt-6-2-launch-billing-bug-expect-to-hit-limits-40-faster-on-astra-c486dbd4de22",
+        "retrievedFrom": "https://digintoai.com/media/503af8ae177445937b1245e09fb2dbed83dab48f904ad74c8bb6358fc05e7ad9.png",
+        "retrievedAt": "2026-11-27T00:35:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "MOFCOM",
+      "headline": "八部门发文：稳妥有序推动云计算、大模型等 AI 服务出海",
+      "standfirst": "商务部等部门印发服务贸易“十五五”规划，鼓励企业在防范技术外流前提下，把技术、产品和算力打包拓展海外市场。",
+      "paragraphs": [
+        "11 月 26 日，商务部、中共中央宣传部、中央网信办等八部门印发《服务贸易发展“十五五”规划》。规划提出，稳妥有序推动云计算、大模型等人工智能相关服务出海，培育人工智能领域服务贸易新业态。",
+        "规划鼓励人工智能企业在防范技术外流的前提下，整合硬件制造商、算力提供商和信息技术基础设施运营商，形成“技术+产品+服务”一体化解决方案，拓展海外市场；支持与当地伙伴联合运营、提高本地化适配度；并加强与共建“一带一路”国家在农业、医疗、教育、金融、文化、旅游等场景的合作。"
+      ],
+      "whyItMatters": "这是国家层面把大模型出海写进服务贸易规划，既给中国公司走出去开了口子，也划了安全边界：不是只卖接口，更倾向于把算力、硬件和行业应用打包出去。",
+      "caveats": [
+        "这是规划表述，不是已经落地的单项许可或具体国别清单。企业仍要面对跨境数据合规和当地监管差异。"
+      ],
+      "figures": [
+        "八部门联合印发",
+        "覆盖云计算、大模型等人工智能相关服务",
+        "规划期为 2026 年至 2030 年"
+      ],
+      "publishedAt": "2026-11-26T11:23:00+08:00",
+      "publishedAtNote": "采用 21世纪经济报道见报时间 2026-11-26 11:23。商务部官网于 11 月 26 日发布该规划。",
+      "sources": [
+        {
+          "name": "21世纪经济报道｜八部门发文：云计算、大模型等AI服务将稳妥有序出海",
+          "url": "https://www.21jingji.com/article/20261126/herald/cee2856cbd5ec60bff2e287e4ac20fb7.html",
+          "role": "primary"
+        },
+        {
+          "name": "商务部｜服务贸易发展“十五五”规划（配图：官方文件封面）",
+          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_48dd1ca5a38f43bf944c2ba1b2bc522b.html",
+          "role": "secondary"
+        },
+        {
+          "name": "联合早报｜中国八部门：稳妥有序推动云计算大模型等AI服务出海",
+          "url": "https://www.zaobao.com.sg/news/china/story20261126-10063369",
+          "role": "secondary"
+        },
+        {
+          "name": "财联社转载｜《服务贸易发展“十五五”规划》PDF",
+          "url": "https://image.cls.cn/admin/20261126/pdf/bb72mAVH8gtw/%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92.pdf",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-04.jpg",
+        "alt": "《服务贸易发展“十五五”规划》官方文件封面",
+        "credit": "规划文件封面，转自财联社公开的官方文本 PDF 首页",
+        "sourcePage": "https://image.cls.cn/admin/20261126/pdf/bb72mAVH8gtw/%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92.pdf",
+        "retrievedFrom": "https://image.cls.cn/admin/20261126/pdf/bb72mAVH8gtw/%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92.pdf",
+        "retrievedAt": "2026-11-27T00:20:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Meta",
+      "headline": "荷兰组织上法庭，要求叫停 Meta AI 智能眼镜在当地销售",
+      "standfirst": "消费者与数字权益组织认为眼镜可在他人不知情时拍摄，违反欧洲隐私法；法院最晚 12 月 24 日裁决。",
+      "paragraphs": [
+        "路透社 11 月 26 日阿姆斯特丹电，荷兰消费者协会 Consumentenbond、关注网络性侵害的 Offlimits 等组织当天向阿姆斯特丹地区法院申请，要求叫停 Meta 人工智能智能眼镜在荷兰的销售。原告认为，由 Meta 与 Ray-Ban 东家 EssilorLuxottica 开发的眼镜，让佩戴者可以在他人不知情时录像，违反欧洲隐私法规，也会让人在公共场所不敢自在行动。",
+        "原告要求 Meta 防止眼镜被用于偷拍、停止用相关录像训练人工智能，并在整改前停售，同时主张对每个被告每天处以 10 万欧元罚金，上限 1 亿欧元。Meta 律师说，不能因为有人故意滥用就追究厂商责任，镜架上的指示灯会显示正在录像，并否认在欧洲用这些影像训练模型。双方还提到，Meta 与 EssilorLuxottica 2025 年智能眼镜销量超过 700 万副，约占全球八成。法院预计最晚 12 月 24 日作出裁决。"
+      ],
+      "whyItMatters": "这是把“街上会被一副看似普通的眼镜偷拍”搬上法庭。案子只在荷兰打，但简易判决可能被其他地方参考，普通人能不能拒绝被拍，第一次要由法官给出明确答案。",
+      "caveats": [
+        "法院尚未裁决。Meta 否认用眼镜拍摄的内容训练模型；若用户把内容公开发到 Meta 平台，公司可按对公开内容的一般规则使用。"
+      ],
+      "figures": [
+        "申请对每个被告每天罚款 10 万欧元，上限 1 亿欧元",
+        "2025 年智能眼镜销量超过 700 万副，约占全球 80%",
+        "最晚 12 月 24 日裁决"
+      ],
+      "publishedAt": "2026-11-26T19:59:00+08:00",
+      "publishedAtNote": "Investing.com 转载路透稿标注 Published Nov 26, 2026, 06:59 AM，按美东时间换算为北京时间 19:59。",
+      "sources": [
+        {
+          "name": "Reuters｜Dutch groups ask court to halt Meta smart glasses sales（Investing.com 转载）",
+          "url": "https://www.investing.com/news/stock-market-news/dutch-groups-ask-court-to-halt-meta-smart-glasses-sales-over-privacy-concerns-5052455",
+          "role": "primary"
+        },
+        {
+          "name": "NOS｜Rechter beslist over verbod op Meta-bril（配图：NOS 新闻照片）",
+          "url": "https://nos.nl/artikel/2641106-rechter-beslist-over-verbod-op-meta-bril-vanwege-misbruik-met-stiekem-filmen",
+          "role": "secondary"
+        },
+        {
+          "name": "NL Times｜Meta defends AI glasses in court as Dutch groups demand ban",
+          "url": "https://nltimes.nl/2026/11/26/meta-defends-ai-glasses-court-dutch-groups-demand-ban",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-05.jpg",
+        "alt": "佩戴者近景，黑色 Ray-Ban Meta 智能眼镜铰链处可见摄像头",
+        "credit": "NOS 新闻照片",
+        "sourcePage": "https://nos.nl/artikel/2641106-rechter-beslist-over-verbod-op-meta-bril-vanwege-misbruik-met-stiekem-filmen",
+        "retrievedFrom": "https://images.cdn.nos.nl/5/G/N/c/L/3/eoPXmquFjwJt6H2us1VUq8VrB8J6kJ3KahdSnEg/0x417x4000x2250-1280x720.jpg",
+        "retrievedAt": "2026-11-27T00:25:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Microsoft",
+      "headline": "微软发布 ARTEX 防御指南：国家级和犯罪组织已用 AI 智能体自动攻击",
+      "standfirst": "这份公开框架能把侦察到提权的过程压缩到几分钟；微软列出已观察到的使用方，并给出检测方法。",
+      "paragraphs": [
+        "11 月 25 日，微软威胁情报在安全博客发布关于 ARTEX 的防御指南。ARTEX 是 2026 年 7 月开源的人工智能自动化渗透测试框架，可用多个大模型智能体完成侦察、攻击和汇报，几乎不需要人盯着。微软写道，到 2026 年 11 月，已看到国家级和以经济利益为目的的组织把它接入自己的工具，包括 Storm-0940、Storm-3358、Onyx Sleet、Pearl Sleet、Crystal Typhoon 和 Salt Typhoon。",
+        "攻击者先划定范围，框架再自行设定可验证目标、分派任务、调用包括 Metasploit 在内的现成工具，并在知识图谱里记录结果。微软说，它并不创造新的攻击手法，但能以机器速度反复尝试，防守方往往只剩几分钟反应时间。原开发者已在 10 月撤下源代码，但大量分支仍在流传；11 月，微步在线宣称拥有 ARTEX，并开始提供商业版 ARTEX Pro。"
+      ],
+      "whyItMatters": "过去“AI 自动黑客”多半还是演示，微软这次点名多个国家级组织已经在用。公开工具把专业攻击能力摊得更开，企业如果还按人工时代的响应节奏来，窗口会不够用。",
+      "caveats": [
+        "微软描述的是已观察到的滥用和防御建议，不是某一场刚结束的、已完结的单一事件通报。ARTEX 本身是公开框架，被谁使用不等于框架开发者参与了攻击。"
+      ],
+      "figures": [
+        "2026 年 7 月开源，10 月原仓库被撤",
+        "可在数分钟内从侦察推进到持久、高权限访问",
+        "微软点名多家国家级和犯罪组织已接入"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "微软安全博客标注日期为 November 25，未给具体钟点。美国当天对应北京时间已进入 11 月 26 日。publishedAt 用 11 月 25 日正午作为占位，页面时间说明见本注。",
+      "sources": [
+        {
+          "name": "Microsoft Security Blog｜What defenders need to know about ARTEX（配图：官方架构图）",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-06.jpg",
+        "alt": "微软官方博客中的 ARTEX 智能体架构图，展示 Goals、Planner、Worker、Knowledge graph 和 Reporter 如何配合",
+        "credit": "Microsoft Security Blog 官方配图",
+        "sourcePage": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+        "retrievedFrom": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/11/ARTEX-AI-agent-architecture.webp",
+        "retrievedAt": "2026-11-27T00:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-07",
+      "rank": 7,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Guangdong",
+      "headline": "广东公布算力“十五五”规划，鼓励算力中心优先使用国产芯片",
+      "standfirst": "规划提出 2028 年智算规模突破 1000 EFlops，2030 年超 2500、力争 4000，并支持探索海底数据中心。",
+      "paragraphs": [
+        "11 月 26 日，广东省政务服务和数据管理局、广东省发展和改革委员会印发《广东省算力发展“十五五”规划》。每经、第一财经等报道，规划明确鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。",
+        "规划提出，到 2028 年广东智算规模突破 1000 EFlops（FP16），全省数据中心绿电使用占比超过 80%，新建大型及以上数据中心电能利用效率（PUE）小于 1.2；到 2030 年全域智算规模超过 2500 EFlops，力争达到 4000 EFlops。规划还支持珠江口西岸都市圈探索建设海底数据中心，并统筹粤东粤西布局绿色算力基地。"
+      ],
+      "whyItMatters": "这是经济大省把“优先用国产芯片”写进算力规划，还给出了千 EFlops 级别的硬指标。对做芯片、建机房和用算力的企业来说，以后在广东拿项目、接电、选型，会更多按这本规划来。",
+      "caveats": [
+        "这是规划目标，不是已经建成的装机容量。部分媒体写文件 11 月 6 日印发、26 日官网公布，本期按 11 月 26 日公开报道的时间收录。"
+      ],
+      "figures": [
+        "2028 年智算规模突破 1000 EFlops（FP16）",
+        "2030 年超 2500 EFlops，力争 4000 EFlops",
+        "2028 年数据中心绿电占比超 80%，新建大型数据中心 PUE 小于 1.2"
+      ],
+      "publishedAt": "2026-11-26T15:32:00+08:00",
+      "publishedAtNote": "采用南方财经网转载广东省发改委“一图读懂”的页面时间 2026-11-26 15:32。",
+      "sources": [
+        {
+          "name": "每日经济新闻｜广东：鼓励算力中心优先使用国产算力芯片",
+          "url": "https://www.nbd.com.cn/articles/2026-11-26/4659748.html",
+          "role": "primary"
+        },
+        {
+          "name": "南方财经网｜一图读懂《广东省算力发展“十五五”规划》（配图：广东省发改委官方图解）",
+          "url": "https://www.sfccn.com/2026/11-26/1NMDE0NzNfMjMxODE1Ng.html",
+          "role": "secondary"
+        },
+        {
+          "name": "观点网｜广东印发算力十五五规划 2028年智算规模破1000EFlops",
+          "url": "https://www.guandian.cn/article/20261126/633646.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-07.jpg",
+        "alt": "广东省发改委《一图读懂：广东省算力发展“十五五”规划》官方图解上部，含标题和总体要求",
+        "credit": "广东省发展和改革委员会官方图解，经南方财经网转载",
+        "sourcePage": "https://www.sfccn.com/2026/11-26/1NMDE0NzNfMjMxODE1Ng.html",
+        "retrievedFrom": "https://ocmsmedia.sfccn.com/vod-4310da/image/default/DCCBC546A8BC4AF68D0C14BEA31C0946-6-2.png",
+        "retrievedAt": "2026-11-27T00:20:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Weimob",
+      "headline": "微盟采购 5000 张英伟达 GPU，金额约 4.3 亿元",
+      "standfirst": "全资子公司与英迈电子、上海赋欣签约，买入 NVIDIA RTX PRO 5500 Blackwell，并计划逐步向第三方开放算力。",
+      "paragraphs": [
+        "11 月 26 日，港股上市公司微盟集团（02013.HK）公告，全资附属公司微盟智算分别与英迈电子、上海赋欣订立 GPU 采购协议：向英迈电子购买 4000 件 NVIDIA RTX PRO 5500 Blackwell，代价约人民币 3.44 亿元；向上海赋欣购买 1000 件同型号产品，代价人民币 8650 万元。两笔合计 5000 张，金额约 4.305 亿元，由内部资源支付，货物将分批交付。对英迈电子的交易构成须予披露交易。",
+        "新华财经报道，这是微盟首次披露大规模 GPU 采购，意味着公司在应用层之外向算力基础设施延伸，并计划在保障自身需求后逐步向第三方开放算力服务。报道称，微盟 2026 年上半年人工智能应用收入同比增长 89.2%，已超过 2025 年全年相关收入。"
+      ],
+      "whyItMatters": "一家做商家软件和营销的上市公司，一次性买下约 4.3 亿元推理卡，说明应用公司也开始把算力当成自己要攥在手里的生产资料，而不只是按次向云厂商购买。",
+      "caveats": [
+        "代价可能随报关汇率和制造商报价调整。向第三方出租算力仍是计划，不是已经开始的业务。"
+      ],
+      "figures": [
+        "合计 5000 张 NVIDIA RTX PRO 5500 Blackwell",
+        "英迈电子 4000 张约 3.44 亿元，上海赋欣 1000 张 8650 万元",
+        "总额约 4.305 亿元",
+        "上半年 AI 应用收入同比增长 89.2%（新华财经）"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "港交所公告载明协议日期为 2026 年 11 月 26 日，未写具体钟点。publishedAt 仅精确到日。",
+      "sources": [
+        {
+          "name": "香港交易所｜微盟集团须予披露交易：采购 GPU 产品（配图：公告首页）",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600536_c.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "中国金融信息网｜微盟集团签署4.3亿元GPU采购协议",
+          "url": "https://www.cnfin.com/gs-lb/detail/20261126/4500878_1.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-08.jpg",
+        "alt": "港交所公告首页：微盟集团须予披露交易，采购 GPU 产品，并列明与英迈电子、上海赋欣的代价",
+        "credit": "微盟集团港交所公告首页",
+        "sourcePage": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600536_c.pdf",
+        "retrievedFrom": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600536_c.pdf",
+        "retrievedAt": "2026-11-27T00:20:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Anthropic",
+      "headline": "Anthropic 把 Messages API 迁到 Rust，单请求 CPU 约降 70%",
+      "standfirst": "官方研究帖说，Claude 一周写出核心请求路径初稿，但真正花时间的是在不停机的前提下验证与线上 Python 服务对等。",
+      "paragraphs": [
+        "11 月 25 日，Anthropic 在官网发表研究文章，介绍把面向客户的 Messages API 从 Python 迁到 Rust。这套接口是外部客户以及 Claude Code、Cowork 等自家应用调用 Claude 的主要入口。文章写道，从 2024 年初到 2026 年秋，接口流量大约增长了 1800 倍。迁完后，每个请求的 CPU 用量约下降 70%，首个 token 的中位等待时间约下降 20%，过程中没有停止服务，也没有冻结功能开发。",
+        "Claude 用大约一周写出了核心请求路径的第一版，但因为生产环境仍在改、模型输出本身也不完全确定，加上公司不能阅读客户请求，校验工作反而更难。团队把线上服务变成“核对器”，用真实流量对比新旧版本，再自动派智能体去修差异。"
+      ],
+      "whyItMatters": "这是少见的、用公开数据说明大模型公司如何改自己的命门系统。70% 和 20% 是可核对的效率数字，也显示 AI 写代码已经能进生产，卡点变成如何验证它没写错。",
+      "caveats": [
+        "数字来自 Anthropic 自己的技术博客，是公司对自身服务的测量，不是第三方评测。"
+      ],
+      "figures": [
+        "流量约增长 1800 倍（2024 年初至 2026 年秋）",
+        "单请求 CPU 约下降 70%",
+        "首个 token 中位等待时间约下降 20%",
+        "核心请求路径初稿约用一周写出"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Anthropic 官网文章标注 Nov 25, 2026，未给具体钟点。美国当天对应北京时间可能已进入 11 月 26 日。",
+      "sources": [
+        {
+          "name": "Anthropic｜Migrating our Messages API to Rust（配图：官方迁移路径图）",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-09.jpg",
+        "alt": "Anthropic 官方图：Messages API 从 2026 年 3 月部分改用 Rust，到 9 月请求处理路径基本迁到 Rust 的对比",
+        "credit": "Anthropic 官方研究文章配图",
+        "sourcePage": "https://www.anthropic.com/research/migrating-api-to-rust",
+        "retrievedFrom": "https://assets.claude.com/a518c8d4f3c915a99fc745d5cced4fa806274650.png",
+        "retrievedAt": "2026-11-27T00:30:00Z"
+      }
+    },
+    {
+      "id": "2026-11-27-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Nemotron",
+      "headline": "英伟达公开 Nemotron 3.5 Parse 训练数据，高负载下读页速度约为此前 6.86 倍",
+      "standfirst": "Hugging Face 官方博客介绍开放数据、微调方法和更快推理，并给出与 Parse 2.0 的对比数字。",
+      "paragraphs": [
+        "11 月 26 日，英伟达研究人员在 Hugging Face 发表博客，介绍在 Nemotron 3.5 Parse 之上开放训练数据、微调方法和更快的推理路径。Parse 是把文件页面变成可检索的结构化数据的紧凑模型，能按阅读顺序抽出标题、段落、表格和图表，并给出位置框。",
+        "博客写道，在并发 512 的高负载下，Parse 3.5 配合 DFlash2 推测解码可达到每秒 20.44 页，关闭推测解码时为每秒 13.48 页，而 Parse 2.0 为每秒 2.98 页，分别约为此前的 6.86 倍和 4.53 倍。"
+      ],
+      "whyItMatters": "做检索和智能体的人常被“文件读得慢、表格认不准”卡住。英伟达这次把数据和做法一起公开，让更多团队可以按自己的文件再训练，而不只是换一个闭源接口。",
+      "caveats": [
+        "速度数字来自英伟达自己在博客中公布的测试，具体环境以原文为准。配图中的业务简报是合成示例，数值为虚构。"
+      ],
+      "figures": [
+        "高负载下 20.44 页/秒（DFlash2）",
+        "约为 Parse 2.0 的 6.86 倍",
+        "关闭推测解码时为 13.48 页/秒，约 4.53 倍"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "Hugging Face 博客标注 Published November 26, 2026，未给具体钟点。",
+      "sources": [
+        {
+          "name": "NVIDIA Hugging Face Blog｜Building on Nemotron 3.5 Parse（配图：官方模型输出示例）",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "role": "primary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-27/morning-10.jpg",
+        "alt": "NVIDIA 官方示例：Nemotron 3.5 Parse 把一页业务简报解析成带标题、表格和图表结构的文本，图中标明为虚构示例",
+        "credit": "NVIDIA 官方博客图（Nemotron-Parse-Blog-Assets）",
+        "sourcePage": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+        "retrievedFrom": "https://huggingface.co/datasets/nvidia/Nemotron-Parse-Blog-Assets/resolve/main/images/figure-01-page-structure.png",
+        "retrievedAt": "2026-11-27T00:40:00Z"
+      }
+    }
+  ]
+}
