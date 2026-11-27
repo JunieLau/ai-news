@@ -123,29 +123,39 @@
       "tier": "send",
       "region": "海外",
       "kickerEn": "OpenAI",
-      "headline": "OpenAI 修正 GPT-6.2 计费错误，Astra 额度将快 40% 用完",
-      "standfirst": "产品负责人称上线时误给大多数用户少计了用量；补上之后同样工作会更快触及上限，公司将赠送一次预存重置。",
+      "headline": "OpenAI 修正 GPT-6.2 用量计费，Astra 较上周快 40% 达到上限",
+      "standfirst": "上线时误给大多数用户少计了用量，修正后同样的工作更快触及上限；符合条件的套餐已获一次预存重置。",
       "paragraphs": [
         "OpenAI 产品负责人 Thibault “Tibo” Sottiaux 11 月 26 日在 X 发帖说，GPT-6.2 上线时出现计费错误，大多数用户的 Astra 和 Sol 用量被少算了。错误已经修好，同样的工作会占用更多套餐额度：与上周相比，GPT-6.2 Astra 会快 40% 达到上限，Sol 会快 25%。他同时表示，这两款模型的用量效率仍应好于前代 GPT-6 Astra 和 GPT-6.1 Sol，其他模型不受影响，公司也不会补收过去少计的那部分。",
-        "作为道歉，OpenAI 将为 Go、Plus、Pro 和 Business 用户各增加一次预存重置（banked reset）。BleepingComputer 写道，这次重置有效期一个月，可在 ChatGPT 设置里的用量页面手动使用。"
+        "作为补偿，OpenAI 向 Go、Plus、Pro 和 Business 用户提供一次预存重置（banked reset）。Sottiaux 在北京时间 11 月 26 日 15:26 确认已上线。据 BleepingComputer 报道，这次重置有效期一个月，可在 ChatGPT 设置的用量页面手动使用。"
       ],
-      "whyItMatters": "这不是一次普通的产品说明，而是直接改了付费用户每天能用多少。重度用户会明显感觉额度更紧，也说明模型计费规则一旦算错，影响会立刻落到所有订阅者身上。",
+      "whyItMatters": "常用 Astra 或 Sol 的人，在做同样的工作时可能比上周更早碰到套餐用量上限。预存重置可在需要时使用一次，不改变之后的计量规则。",
       "caveats": [
-        "一次预存重置不等于把额度永久提高 40%。帖中的 10:50 AM 按美国太平洋时间换算为北京时间 11 月 27 日 02:50。"
+        "40% 和 25% 是与上周误计量时的用量消耗速度对比，不是订阅涨价或套餐额度减少同样的比例。"
       ],
       "figures": [
         "Astra 将快 40% 达到上限",
         "Sol 将快 25% 达到上限",
-        "Go、Plus、Pro、Business 各获一次预存重置",
+        "Go、Plus、Pro、Business 各获一次预存重置（已上线）",
         "其他模型不受影响"
       ],
-      "publishedAt": "2026-11-27T02:50:00+08:00",
-      "publishedAtNote": "Tibo 原帖截图显示 10:50 AM · Nov 26, 2026。按其美国太平洋时间换算为北京时间 11 月 27 日 02:50。",
+      "publishedAt": "2026-11-26T10:50:10+08:00",
+      "publishedAtNote": "Tibo 原帖发布时间为 11 月 26 日 02:50:10 UTC，换算为北京时间 11 月 26 日 10:50:10。",
       "sources": [
+        {
+          "name": "Thibault Sottiaux｜用量计费修正原帖",
+          "url": "https://x.com/thsottiaux/status/2125784147889393806",
+          "role": "primary"
+        },
+        {
+          "name": "Thibault Sottiaux｜确认预存重置已上线",
+          "url": "https://x.com/thsottiaux/status/2125853628250599730",
+          "role": "secondary"
+        },
         {
           "name": "BleepingComputer｜OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster",
           "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-          "role": "primary"
+          "role": "secondary"
         },
         {
           "name": "DigIntoAI｜转载 Tibo 原帖截图（配图来源）",
@@ -224,13 +234,13 @@
       "tier": "send",
       "region": "海外",
       "kickerEn": "Meta",
-      "headline": "荷兰组织上法庭，要求叫停 Meta AI 智能眼镜在当地销售",
+      "headline": "荷兰法院审理两起 Meta 智能眼镜案，原告要求当地停售",
       "standfirst": "消费者与数字权益组织认为眼镜可在他人不知情时拍摄，违反欧洲隐私法；法院最晚 12 月 24 日裁决。",
       "paragraphs": [
-        "路透社 11 月 26 日阿姆斯特丹电，荷兰消费者协会 Consumentenbond、关注网络性侵害的 Offlimits 等组织当天向阿姆斯特丹地区法院申请，要求叫停 Meta 人工智能智能眼镜在荷兰的销售。原告认为，由 Meta 与 Ray-Ban 东家 EssilorLuxottica 开发的眼镜，让佩戴者可以在他人不知情时录像，违反欧洲隐私法规，也会让人在公共场所不敢自在行动。",
-        "原告要求 Meta 防止眼镜被用于偷拍、停止用相关录像训练人工智能，并在整改前停售，同时主张对每个被告每天处以 10 万欧元罚金，上限 1 亿欧元。Meta 律师说，不能因为有人故意滥用就追究厂商责任，镜架上的指示灯会显示正在录像，并否认在欧洲用这些影像训练模型。双方还提到，Meta 与 EssilorLuxottica 2025 年智能眼镜销量超过 700 万副，约占全球八成。法院预计最晚 12 月 24 日作出裁决。"
+        "阿姆斯特丹地区法院 11 月 26 日开庭审理两起涉及 Meta 智能眼镜的案件。荷兰消费者协会 Consumentenbond、数字权益组织 Offlimits 和 The Firewall 要求在荷兰叫停售卖；两案传票已于 10 月 23 日列入荷兰司法部门的集体诉讼登记册。争议焦点是：一副外观看起来普通的眼镜，能否在旁人不知情时拍下他们。",
+        "原告要求 Meta 防止眼镜被用于偷拍、停止用相关录像训练人工智能，并在整改前停售，同时主张对每个被告每天处以 10 万欧元罚金，上限 1 亿欧元。Meta 律师说，不能因为有人故意滥用就追究厂商责任，镜架上的指示灯会显示正在录像，并否认在欧洲用这些影像训练模型。双方还提到，Meta 与 EssilorLuxottica 2025 年智能眼镜销量超过 700 万副，约占全球八成。据荷兰公共广播 NOS 报道，法官最迟于 12 月 24 日作出裁决。"
       ],
-      "whyItMatters": "这是把“街上会被一副看似普通的眼镜偷拍”搬上法庭。案子只在荷兰打，但简易判决可能被其他地方参考，普通人能不能拒绝被拍，第一次要由法官给出明确答案。",
+      "whyItMatters": "如果一副眼镜在街上、海滩或更衣室里拍摄，旁人未必看得见提示灯。荷兰法院要判断的是：防止偷拍的责任，除了在佩戴者身上，厂商要承担多少。",
       "caveats": [
         "法院尚未裁决。Meta 否认用眼镜拍摄的内容训练模型；若用户把内容公开发到 Meta 平台，公司可按对公开内容的一般规则使用。"
       ],
@@ -243,9 +253,19 @@
       "publishedAtNote": "Investing.com 转载路透稿标注 Published Nov 26, 2026, 06:59 AM，按美东时间换算为北京时间 19:59。",
       "sources": [
         {
+          "name": "荷兰司法部门｜两案传票登记",
+          "url": "https://www.rechtspraak.nl/registers/centraal-register-voor-collectieve-vorderingen",
+          "role": "primary"
+        },
+        {
+          "name": "Offlimits｜原告声明及庭审安排",
+          "url": "https://offlimits.nl/nieuws/offlimits-en-the-firewall-starten-kort-geding-om-meta-bril-uit-de-schappen-te-krijgen",
+          "role": "secondary"
+        },
+        {
           "name": "Reuters｜Dutch groups ask court to halt Meta smart glasses sales（Investing.com 转载）",
           "url": "https://www.investing.com/news/stock-market-news/dutch-groups-ask-court-to-halt-meta-smart-glasses-sales-over-privacy-concerns-5052455",
-          "role": "primary"
+          "role": "secondary"
         },
         {
           "name": "NOS｜Rechter beslist over verbod op Meta-bril（配图：NOS 新闻照片）",
