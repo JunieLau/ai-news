@@ -1,0 +1,451 @@
+{
+  "issueDate": "2026-11-28",
+  "edition": "morning",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-28T08:40:00+08:00",
+  "retrievedThrough": "2026-11-28T08:40:00+08:00",
+  "slot": "10:00",
+  "slotNote": "自 2026-11-27 起，早报按约 8:00 Asia/Shanghai 档期编发；仓库 slot 字段仍按约定写 10:00。取材截至北京时间 11 月 28 日 08:40。",
+  "title": "AI新闻速报",
+  "editorsNote": "本期 9 条。窗口内另有腾讯混元 DFly2，但 arXiv 标注 11 月 25 日，超出约 48 小时未收。阿里云联合支付宝教师权益因缺少合格配图未报。Google Workspace MCP、Claude computer use、Microsoft Copilot 接入 GPT-6.2、字节跳动「小豆」等亦因首发时间超出窗口未报。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-28-morning-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "OpenAI",
+      "headline": "OpenAI 反诉苹果窃取商业秘密并施压供应商",
+      "standfirst": "路透社报道，OpenAI 周五向加州联邦法院提交反诉，指控苹果获取其设备机密并劝阻供应商合作。",
+      "paragraphs": [
+        "北京时间 11 月 28 日 02:28，路透社报道，OpenAI 周五向加州北区联邦法院圣何塞分庭提交反诉，指控苹果窃取商业秘密，并劝阻硬件供应商与 OpenAI 合作开发消费级人工智能设备。法院文件共 81 页，标注提交于 11 月 27 日，案号 5:26-cv-07078-EJD。",
+        "OpenAI 称，一名在该公司工作约六个月后被苹果重新聘用的前员工，接触过新设备信息和未来硬件路线图。苹果否认利用这名员工获取机密，并称反诉是为了转移对其 7 月诉讼的注意力。OpenAI 还写道，已有 400 名苹果员工转投该公司。"
+      ],
+      "whyItMatters": "两家公司把人才和硬件竞争打到了法庭上，会直接影响下一代消费级 AI 设备的供应链和招人。",
+      "caveats": [
+        "双方指控都尚未经法院认定。苹果 7 月先起诉 OpenAI 及前员工 Tang Tan、Chang Liu，本案仍在进行中。"
+      ],
+      "figures": [
+        "反诉状 81 页，标注 Filed 11/27/26",
+        "前员工在 OpenAI 工作约 6 个月",
+        "OpenAI 称已有 400 名员工从苹果转投该公司"
+      ],
+      "publishedAt": "2026-11-28T02:28:00+08:00",
+      "publishedAtNote": "路透社稿件时间为 2026-11-27 18:28 UTC，合北京时间 28 日 02:28。法院文件标注 Filed 11/27/26，没有钟点。",
+      "sources": [
+        {
+          "name": "Reuters｜OpenAI countersues Apple for stealing trade secrets",
+          "url": "https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+          "role": "primary"
+        },
+        {
+          "name": "美国加州北区联邦法院｜Defendants' Counterclaims and Answer（CourtListener）",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "9to5Mac｜OpenAI countersues Apple（含苹果声明）",
+          "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-01.png",
+        "alt": "美国加州北区联邦法院反诉状首页，标注 Case 5:26-cv-07078-EJD Document 217 Filed 11/27/26，标题为 Defendants' Counterclaims and Answer，共 81 页。",
+        "credit": "美国加州北区联邦法院官方诉讼文件封面，经 CourtListener 公开",
+        "sourcePage": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
+        "retrievedFrom": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Z.AI",
+      "headline": "路透：智谱 GLM-5.5、月之暗面 Kimi K4 或推迟，智谱否认",
+      "standfirst": "路透社援引知情人士称两家公司下一代旗舰模型可能延期，智谱高管当晚否认当天爆料。",
+      "paragraphs": [
+        "北京时间 11 月 26 日 15:19，路透社援引知情人士报道，智谱（Z.AI）原定本月发布的约 3 万亿参数旗舰模型 GLM-5.5 已经落后，新的海外算力限制可能把发布时间推到 2027 年一季度或更晚。月之暗面若失去海外算力，旗舰发布间隔可能从约 6 个月拉长到一年以上，Kimi K4 或推迟到 2027 年年中。",
+        "路透还称，月之暗面在更难从 OpenAI、Anthropic 获取训练数据后，已开始从 Google 和 Meta 的模型中蒸馏。发稿时两家公司均未回应。当晚 22:07，快科技报道智谱高管杨昊翊在朋友圈称当天下午的爆料是假消息。"
+      ],
+      "whyItMatters": "美国海外算力许可和防蒸馏措施，第一次具体落到两家中国头部公司的发布时间表上，但智谱公开否认延期。",
+      "caveats": [
+        "路透依据匿名消息人士，发稿时两家公司均未回应。智谱之后公开否认延期；月之暗面截至本期取材仍未见公开说明。"
+      ],
+      "figures": [
+        "GLM-5.5 约 3 万亿参数，或推迟至 2027 年一季度或更晚",
+        "发布间隔或从约 6 个月变为 12 个月以上",
+        "Kimi K4 或推迟至 2027 年年中"
+      ],
+      "publishedAt": "2026-11-26T15:19:00+08:00",
+      "publishedAtNote": "Yahoo Finance 转载路透稿的时间戳对应 2026-11-26 07:19 UTC，合北京时间 15:19。Investing.com 标注为 02:19 AM（美国东部时间）。智谱否认见快科技 11 月 26 日 22:07。",
+      "sources": [
+        {
+          "name": "Reuters｜Exclusive: US chip curbs, distillation crackdown threaten Chinese AI model development（Yahoo Finance 转载）",
+          "url": "https://finance.yahoo.com/news/exclusive-us-chip-curbs-distillation-071923947.html",
+          "role": "primary"
+        },
+        {
+          "name": "德国之声｜消息人士：美国限制海外算力将遏制中国AI模型进度",
+          "url": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E9%99%90%E5%88%B6%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B-%E7%9F%A5%E6%83%85%E4%BA%BA%E5%A3%AB%E7%A7%B0%E4%B8%AD%E5%9B%BDai%E5%85%AC%E5%8F%B8%E5%8F%97%E5%86%B2%E5%87%BB/a-80064912",
+          "role": "secondary"
+        },
+        {
+          "name": "快科技／新浪科技｜智谱高管否认 GLM-5.5 延期爆料",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-26/doc-inkaapny8176881.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-02.jpg",
+        "alt": "Kimi 品牌的现场新闻照片：右侧是发光的 K 形标识，左侧悬挂多排印有 KIMI 字样的蓝色帆布袋。",
+        "credit": "Hector Retamal/AFP，经德国之声报道刊载",
+        "sourcePage": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E9%99%90%E5%88%B6%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B-%E7%9F%A5%E6%83%85%E4%BA%BA%E5%A3%AB%E7%A7%B0%E4%B8%AD%E5%9B%BDai%E5%85%AC%E5%8F%B8%E5%8F%97%E5%86%B2%E5%87%BB/a-80064912",
+        "retrievedFrom": "https://static.dw.com/image/78062891_6.jpg",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Singapore",
+      "headline": "新加坡副总理：尚未确认英伟达停运，正与美国沟通保芯片准入",
+      "standfirst": "Gan Kim Yong 在峰会上说，政府尚未确认英伟达停止向东南亚发运芯片，正在与企业沟通并与美国交涉。",
+      "paragraphs": [
+        "11 月 27 日 09:51，新加坡副总理兼贸工部（贸易）部长 Gan Kim Yong 在 Asia Future Summit 上说，政府尚未确认英伟达已停止向包括新加坡在内的东南亚发运芯片，正在接触企业评估影响，并将与美国合作以回应关切、继续获取高端芯片。",
+        "他还说，新加坡正在检讨流程，加强对芯片非法贸易的监管，避免成为转运通道。这是对 11 月 26 日《金融时报》等关于英伟达暂停向马来西亚、新加坡、泰国、印尼交付人工智能服务器报道的官方回应。"
+      ],
+      "whyItMatters": "当事国政府首次公开表态。新事实是尚未确认停运、正与美国沟通，以及新加坡将收紧本国监管。",
+      "caveats": [
+        "这是已报道的英伟达停运事件的后续，只记录官方新表态。停运本身仍未经新加坡政府证实，与美国谈判的结果也未公布。"
+      ],
+      "figures": [
+        "Gan Kim Yong 于 11 月 27 日在 Asia Future Summit 回应",
+        "涉及此前报道中的马来西亚、新加坡、泰国、印尼"
+      ],
+      "publishedAt": "2026-11-27T09:51:00+08:00",
+      "publishedAtNote": "CNA 页面标注 27 Nov 2026 09:51AM，并写 Updated 27 Nov 2026 07:44PM。新加坡与北京时间相同。",
+      "sources": [
+        {
+          "name": "CNA｜No confirmation that Nvidia has halted chip shipments to Southeast Asia, including Singapore: DPM Gan",
+          "url": "https://www.channelnewsasia.com/singapore/economic-nationalism-asean-partnership-nvidia-chips-dpm-gan-6585321",
+          "role": "primary"
+        },
+        {
+          "name": "Bloomberg 报道转述（Yahoo Finance / StockTwits）｜Singapore Reportedly In Talks With US To Retain Advanced AI Chip Access",
+          "url": "https://finance.yahoo.com/technology/ai/articles/singapore-reportedly-talks-us-retain-105414781.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-03.jpg",
+        "alt": "新加坡副总理 Gan Kim Yong 于 2026 年 11 月 27 日在滨海湾金沙 Asia Future Summit 主席台发言，身后屏幕写有其职务。",
+        "credit": "CNA/Ili Mansor，CNA 报道现场新闻照片",
+        "sourcePage": "https://www.channelnewsasia.com/singapore/economic-nationalism-asean-partnership-nvidia-chips-dpm-gan-6585321",
+        "retrievedFrom": "https://dam.mediacorp.sg/image/upload/s--7KWK3ZjT--/c_crop,h_1125,w_2000,x_0,y_26/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/27/img_6895.jpg?itok=jZ6YrFtg",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "NDA",
+      "headline": "国家数据局就人工智能用数规则公开征求意见",
+      "standfirst": "征求意见稿提出，合法取得或经实质加工的数据在合规前提下可用于人工智能训练和推理，意见征集至 12 月 6 日。",
+      "paragraphs": [
+        "11 月 26 日，国家数据局发布《关于完善数据规则 赋能人工智能创新发展的若干意见》公开征求意见稿，征求意见至 12 月 6 日。新华社 27 日 09:12 报道了这一消息。",
+        "意见稿从三个方面提出十二项举措：支持合法采集、授权或经实质加工形成的衍生数据，在不违法、不侵权的前提下用于人工智能训练和推理；鼓励为高质量数据付费，并建立企业输出的风险防控机制；完善数据流通责任认定和安全治理。下一步将通过试点推动落实。"
+      ],
+      "whyItMatters": "国家层面把哪些数据能用来训练模型、出了问题责任怎么认，写成了正在征求意见的规则文本。",
+      "caveats": [
+        "这是公开征求意见稿，不是已经生效的规定。"
+      ],
+      "figures": [
+        "征求意见期：2026 年 11 月 26 日至 12 月 6 日",
+        "三个方面、十二项举措"
+      ],
+      "publishedAt": "2026-11-26T23:25:00+08:00",
+      "publishedAtNote": "21 世纪经济报道刊载国家数据局公告的时间为 2026-11-26 23:25。官方文件本身标注征求意见期自 11 月 26 日开始，没有更早的精确钟点。新华网稿件时间为 2026-11-27 09:12:37，电头为 11 月 26 日。",
+      "sources": [
+        {
+          "name": "21世纪经济报道｜刊载国家数据局公开征求意见公告",
+          "url": "https://www.21jingji.com/article/20261126/herald/68dd1416ccdae977db7d9bcd2e71d2d5.html",
+          "role": "primary"
+        },
+        {
+          "name": "国家数据局｜《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿）PDF",
+          "url": "https://www.nda.gov.cn/form-files-sjj/2c99e457-8f9edeed-018f-b8a7537c-0243/2c99e457-8f9edeed-018f-b8ad7daf-0256/fileupload_scfj/2026/11/26/ff808081-a1d5596e-01a2-17aa5ba1-0946.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "新华网｜国家数据局拟进一步完善数据规则赋能人工智能创新发展",
+          "url": "https://www.news.cn/tech/20261127/4ef661ba45154fc3b827a137d37e2c5d/c.html",
+          "role": "secondary"
+        },
+        {
+          "name": "中国新闻网｜国家数据局就《关于完善数据规则 赋能人工智能创新发展的若干意见》公开征求意见",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738591.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-04.png",
+        "alt": "《关于完善数据规则 赋能人工智能创新发展的若干意见（公开征求意见稿）》正文首页，标题与第一条、第二条措施可见。",
+        "credit": "国家数据局官方征求意见稿文件封面",
+        "sourcePage": "https://www.nda.gov.cn/form-files-sjj/2c99e457-8f9edeed-018f-b8a7537c-0243/2c99e457-8f9edeed-018f-b8ad7daf-0256/fileupload_scfj/2026/11/26/ff808081-a1d5596e-01a2-17aa5ba1-0946.pdf",
+        "retrievedFrom": "https://www.nda.gov.cn/form-files-sjj/2c99e457-8f9edeed-018f-b8a7537c-0243/2c99e457-8f9edeed-018f-b8ad7daf-0256/fileupload_scfj/2026/11/26/ff808081-a1d5596e-01a2-17aa5ba1-0946.pdf",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "JERA",
+      "headline": "日本 JERA 与 Anthropic、Meta 等洽谈在电厂旁建数据中心",
+      "standfirst": "《日本经济新闻》报道，日本最大发电商正在与多家美国科技公司讨论在东京周边电厂旁建设“电表后”数据中心。",
+      "paragraphs": [
+        "11 月 27 日 05:51，《日本经济新闻》报道，日本最大发电商 JERA 正在与 Anthropic、Meta 以及 Amazon、Microsoft、Google 洽谈，在东京周边发电厂旁建设数据中心，采用“电表后”直供电。计划中的地点包括千叶火力发电站。",
+        "JERA 10 月已与戴尔和英国 RHAELM 签署备忘录，拟先在千叶建设约 150 亿美元的超大规模数据中心。JERA 发言人说，商务由 RHAELM 负责，对方告知正在与多家云厂商洽谈。Anthropic 等公司暂未回应置评请求。"
+      ],
+      "whyItMatters": "把数据中心直接建在电厂旁边，是在电网紧张的地方继续扩建人工智能算力的一条新路径。",
+      "caveats": [
+        "目前是洽谈，不是已经签约的客户订单。约 150 亿美元的千叶项目来自 10 月已经公布的备忘录，本期新事实是与 Anthropic、Meta 等公司的洽谈。"
+      ],
+      "figures": [
+        "洽谈对象包括 Anthropic、Meta、Amazon、Microsoft、Google",
+        "10 月备忘录提出约 150 亿美元的千叶超大规模数据中心"
+      ],
+      "publishedAt": "2026-11-27T05:51:00+08:00",
+      "publishedAtNote": "Nikkei Asia 标注 November 27, 2026 06:51 JST，合北京时间 05:51。",
+      "sources": [
+        {
+          "name": "Nikkei Asia｜Japan's JERA aims to build data centers for Anthropic, other AI players near power plants",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-jera-aims-to-build-anthropic-meta-data-centers-near-power-plants",
+          "role": "primary"
+        },
+        {
+          "name": "CNA｜Japan's JERA enters talks with Anthropic, Meta to build data centres, Nikkei reports",
+          "url": "https://www.channelnewsasia.com/business/japans-jera-enters-talks-anthropic-meta-build-data-centres-nikkei-reports-6586021",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-05.jpg",
+        "alt": "航拍的滨海发电厂：前景是白色厂房和两座高烟囱，后方是工业设施和水域，为 JERA 计划建设数据中心的千叶火力发电站实景。",
+        "credit": "Photo by Shun Kato，经 Nikkei Asia 报道刊载",
+        "sourcePage": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-jera-aims-to-build-anthropic-meta-data-centers-near-power-plants",
+        "retrievedFrom": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F8%2F8%2F5%2F13495882-2-eng-GB%2Fb555baf15017-photo_SXM2026112600006038.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-06",
+      "rank": 6,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "DeepSeek",
+      "headline": "DeepSeek 灰度测试显示每轮对话消耗额度，个人仍免费",
+      "standfirst": "部分用户在对话结束后看到按 API 价格估算的金额卡片，并标有“免费”，功能仍在灰度。",
+      "paragraphs": [
+        "11 月 26 日起，部分用户在网页端和 App 完成一轮对话后，会看到“本轮消耗额度”卡片，列出 token 用量和按 API 空闲时段价格估算的金额，并标有“免费”。IT之家 27 日 08:21 报道了这一变化。",
+        "南方都市报刊出的一张截图中，一轮对话估算为 0.01427112 元：缓存命中输入 473,856 tokens，未命中 322 tokens，输出 1,118 tokens，上下文已占用 47%。功能仍在灰度，并非所有用户都能看到。"
+      ],
+      "whyItMatters": "普通用户第一次能看见“免费对话”背后按官方 API 价估算的算力账单。",
+      "caveats": [
+        "目前只是展示，没有扣费。不同对话的估算金额差异很大，不能当成即将收费的通知。"
+      ],
+      "figures": [
+        "截图示例估算 0.01427112 元，卡片标注“免费”",
+        "空闲时段：缓存命中 0.02 元/百万 tokens，未命中 1 元/百万 tokens，输出 4 元/百万 tokens",
+        "该示例上下文已占用 47%"
+      ],
+      "publishedAt": "2026-11-27T08:21:03+08:00",
+      "publishedAtNote": "IT之家发布时间为 2026-11-27 08:21:03，文中写用户自 11 月 26 日起反馈。南方都市报经东方财富转载的时间为 2026-11-27 13:32。",
+      "sources": [
+        {
+          "name": "IT之家｜DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额",
+          "url": "https://www.ithome.com/1/033/157.htm",
+          "role": "primary"
+        },
+        {
+          "name": "南方都市报｜DeepSeek灰测计费？可查看Token用量和金额（东方财富转载，配图为产品截图）",
+          "url": "https://finance.eastmoney.com/a/202611273941598320.html",
+          "role": "secondary"
+        },
+        {
+          "name": "TechWeb／新浪科技｜DeepSeek灰度上线对话额度显示功能",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-27/doc-inkacvhq5576142.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-06.png",
+        "alt": "DeepSeek 对话结束后弹出的“本轮消耗额度”页面截图，标有“免费”和估算金额 0.01427112 元，并分列缓存命中、未命中和输出的用量。",
+        "credit": "南方都市报刊出的产品界面截图，经东方财富转载",
+        "sourcePage": "https://finance.eastmoney.com/a/202611273941598320.html",
+        "retrievedFrom": "https://np-newspic.dfcfw.com/download/D25456613418723627223_w595h1219.jpg",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Meituan",
+      "headline": "美团三季报：AI 工作台「妙手」服务超过 200 万商家",
+      "standfirst": "美团公布第三季度业绩，收入约 1156 亿元；公司称「妙手」已服务超过 200 万商家。",
+      "paragraphs": [
+        "11 月 27 日，美团公布 2026 年第三季度业绩。港交所公告列明，截至 9 月 30 日止三个月收入 1155.56 亿元，同比增长 21.6%。官方新闻稿称，净利润同比由负转正，季度研发投入 77 亿元，同比增长 11.3%。",
+        "公司称，AI 经营工作台「妙手」（CatPaw）已服务超过 200 万商家；国庆期间，AI 管家「小团」的用户量和调用量较五一假期增长超过六成。"
+      ],
+      "whyItMatters": "一家大型本地生活公司把 AI 工具的商家覆盖规模写进了财报，可以看出这些工具已经用在多少家店里。",
+      "caveats": [
+        "「小团」用户量和调用量的增幅是国庆与五一的节日对比，不是全年日活。11 月开源的 LongCat-2.5 不是本期新发布的模型。"
+      ],
+      "figures": [
+        "收入 1155.56 亿元，同比增长 21.6%",
+        "研发投入 77 亿元，同比增长 11.3%",
+        "「妙手」已服务超过 200 万商家",
+        "「小团」国庆用户量和调用量较五一增长超过六成"
+      ],
+      "publishedAt": null,
+      "publishedAtNote": "美团官方新闻稿与港交所公告日期均为 2026 年 11 月 27 日，未见精确钟点。公开日程显示业绩电话会为 11:00 UTC，合北京时间 19:00。",
+      "sources": [
+        {
+          "name": "美团｜2026 年三季报新闻稿",
+          "url": "https://www.meituan.com/news/NN261127296001055",
+          "role": "primary"
+        },
+        {
+          "name": "港交所｜截至 2026 年 9 月 30 日止三个月业绩公告 PDF",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-07.png",
+        "alt": "港交所《截至 2026 年 9 月 30 日止三个月业绩公告》首页，可见美团名称、财务摘要表格和收入 115,555,935 千元等数字。",
+        "credit": "美团在香港交易所披露的官方业绩公告封面",
+        "sourcePage": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf",
+        "retrievedFrom": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-08",
+      "rank": 8,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Robbyant",
+      "headline": "蚂蚁灵波开源 LingBot-Map 2.0 与导航模型 LingBot-Navi",
+      "standfirst": "官方称新模型在 5.2 公里城市轨迹上把平均误差从 31.12 米降到 4.72 米，并开源带空间记忆的导航模型。",
+      "paragraphs": [
+        "11 月 27 日，蚂蚁集团旗下具身智能公司灵波（Robbyant）发布并开源流式三维重建模型 LingBot-Map 2.0，以及带空间记忆的导航模型 LingBot-Navi。凤凰网 14:43、IT之家 15:08 报道；Business Wire 新闻稿日期为 11 月 26 日。",
+        "官方称，在 5.2 公里、近 1.9 万帧的城市长轨迹测试中，平均轨迹误差从 1.0 版的 31.12 米降至 4.72 米，降幅近 85%；单张 RTX 5090 上推理速度为 27.51 帧/秒。"
+      ],
+      "whyItMatters": "机器人在大场景里走着走着地图会偏、换个任务就要重新认路，是落地时最常见的两个卡点。",
+      "caveats": [
+        "评测数字来自公司自己的测试。公开代码仓库说明，目前放出的几何基座模型不含全部纠偏（GCR）能力。"
+      ],
+      "figures": [
+        "平均轨迹误差从 31.12 米降至 4.72 米，降幅近 85%",
+        "测试距离 5.2 公里、近 1.9 万帧",
+        "单张 RTX 5090 推理 27.51 帧/秒"
+      ],
+      "publishedAt": "2026-11-27T14:43:51+08:00",
+      "publishedAtNote": "凤凰网时间为 2026-11-27 14:43:51，IT之家为 15:08:10。Business Wire 新闻稿日期为 2026-11-26，没有公开钟点。",
+      "sources": [
+        {
+          "name": "凤凰网｜会纠偏、能记路，蚂蚁灵波发布 LingBot-Map 2.0 并开源导航模型 LingBot-Navi",
+          "url": "https://tech.ifeng.com/c/8yOWLKtS27Y",
+          "role": "primary"
+        },
+        {
+          "name": "IT之家｜蚂蚁灵波开源 LingBot-Navi，让机器人对场地“越走越熟悉”",
+          "url": "https://www.ithome.com/1/033/445.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "Business Wire｜Robbyant Open-Sources LingBot-Map 2.0 and LingBot-Navi",
+          "url": "https://www.businesswire.com/news/home/20261126690702/en/Robbyant-Open-Sources-LingBot-Map-2.0-and-LingBot-Navi-Enabling-Long-Term-Spatial-Memory-and-Autonomous-Navigation-for-Robots",
+          "role": "secondary"
+        },
+        {
+          "name": "GitHub｜Robbyant/lingbot-map-v2（官方仓库与演示视频）",
+          "url": "https://github.com/Robbyant/lingbot-map-v2",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-08.jpg",
+        "alt": "官方演示视频静帧：超市长室内序列的三维重建俯视图，彩色轨迹环绕货架，右上角是同步拍摄的通道画面，左下角写有 Streaming Processing after Reconsolidation，画面无播放键。",
+        "credit": "蚂蚁灵波官方演示视频静帧，取自 GitHub 仓库所附演示，无播放键",
+        "sourcePage": "https://github.com/Robbyant/lingbot-map-v2",
+        "retrievedFrom": "https://github.com/user-attachments/assets/57b41dfa-0281-4b09-8b57-e2cddf8cb659",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-09",
+      "rank": 9,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Tencent",
+      "headline": "腾讯混元发布 3D 大模型 Hy3D 3.6，已提供 API",
+      "standfirst": "新模型面向专业 3D 资产生成，已上线腾讯云 Token Hub，并接入内部创意和影视工具。",
+      "paragraphs": [
+        "11 月 27 日 11:17，腾讯混元发布 Hy3D 3.6，面向专业 3D 资产生成，重点提升高模几何和 PBR 材质贴图。模型已上线腾讯云 Token Hub 提供 API，并接入腾讯 AI 创意智能体 Miora、游戏资产生成平台 LAP 和专业影视 AI 平台 WorkRally。",
+        "央广网随后刊发了更完整的介绍。腾讯称，混元 3D 系列社区下载量已超过 653 万。"
+      ],
+      "whyItMatters": "3D 生成要从“能看”进到游戏、手办和影视能接着用的资产底稿，腾讯把新模型直接接到了内部生产工具上。",
+      "caveats": [
+        "几何和纹理“显著优于同类”的说法来自腾讯组织的内部盲测。"
+      ],
+      "figures": [
+        "混元 3D 系列社区下载量超过 653 万",
+        "已上线腾讯云 Token Hub API"
+      ],
+      "publishedAt": "2026-11-27T11:17:38+08:00",
+      "publishedAtNote": "每日经济新闻时间为 2026-11-27 11:17:38。央广网较完整稿件时间为 20:57:18。",
+      "sources": [
+        {
+          "name": "每日经济新闻｜腾讯混元发布最新 3D 大模型 Hy3D 3.6",
+          "url": "https://www.nbd.com.cn/articles/2026-11-27/4660768.html",
+          "role": "primary"
+        },
+        {
+          "name": "央广网｜腾讯混元发布最新 3D 大模型 Hy3D 3.6（配图为官方发布视觉）",
+          "url": "https://tech.cnr.cn/techgd/20261127/t20261127_527885591.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-09.jpg",
+        "alt": "Hy3D 3.6 发布配图：太空背景前站着多组 3D 角色、机器人和一座标有 Hy3D 的舞台，展示官方产品发布视觉。",
+        "credit": "腾讯混元官方产品发布视觉，经央广网报道刊载",
+        "sourcePage": "https://tech.cnr.cn/techgd/20261127/t20261127_527885591.shtml",
+        "retrievedFrom": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2026/1127/ad9f3bacf8044b64acf8d0dac6e7adca10.png?auth=65dc0f9f8320d79fd776845fe21fc0b1&scale=1.78",
+        "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    }
+  ]
+}
