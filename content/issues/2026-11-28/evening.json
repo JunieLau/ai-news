@@ -1,0 +1,282 @@
+{
+  "issueDate": "2026-11-28",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-28T12:04:29.482Z",
+  "retrievedThrough": "2026-11-28T20:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "北京时间 11 月 28 日 20:00 截稿。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "本期 6 条主版，建议发送前 5 条。旧闻、常规工具动态和未经确认的奖单不补数。缺图条目按原标准上线。",
+  "showSendShortlist": true,
+  "stories": [
+    {
+      "id": "2026-11-28-evening-01",
+      "rank": 1,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "PLATFORM ENFORCEMENT L1",
+      "headline": "广电总局点名违规 AI 改编名著，小红书披露已处置 8 万条视听信息",
+      "standfirst": "广电总局列出跨平台处置案例，小红书另公布治理规模。",
+      "paragraphs": [
+        "11 月 28 日，国家广播电视总局通报网络视听专项治理典型案例。微信小程序、短剧平台和社交账号均出现在不同治理环节。通报列举腾讯平台处理涉及《三国演义》《水浒传》等经典影视作品的违规 AI 改编，小红书、爱奇艺也处置了被通报的《红楼梦》相关改编短视频。",
+        "同日，小红书官方账号薯管家公布平台累计处置 8 万条违规视听相关信息、324 个违规账号，覆盖盗版、未经审核的剧集、涉低俗内容及违规 AI 改编等不同问题。新信息是具体处置案例与平台执行规模，并非一条刚颁布的 AI 创作禁令。"
+      ],
+      "whyItMatters": "做二创时，素材能生成、能上传，不等于有权使用；在剪片前查原作权利和平台审核口径，比上线后再补救更有用。",
+      "caveats": [
+        "8 万条是各类违规视听信息的累计数量，不是 AI 视频数量；通报也未一概禁止 AI 改编。"
+      ],
+      "figures": [
+        "小红书累计处置 8 万条违规视听信息",
+        "324 个违规账号"
+      ],
+      "publishedAt": "2026-11-28T13:39:42+08:00",
+      "publishedAtNote": "11 月 28 日，IT之家 13:39:42 报道；新华网 14:01:39 刊载总局微信公众号通报；小红书公告同日，澎湃 16:30 报道。",
+      "sources": [
+        {
+          "name": "广电总局微信公众号通报｜新华网全文",
+          "url": "https://www.xinhuanet.com/politics/20261128/6ee78055fc694c6fa92cbb3bf9bd14ea/c.html",
+          "role": "primary"
+        },
+        {
+          "name": "澎湃新闻｜薯管家公告及数据",
+          "url": "https://m.thepaper.cn/newsDetail_forward_34582909",
+          "role": "secondary"
+        },
+        {
+          "name": "IT之家｜案例全文",
+          "url": "https://www.ithome.com/1/033/840.htm",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "公告及报道没有核验为可刊的相关现场照片；不以公告截图或被处置内容充当配图。"
+      }
+    },
+    {
+      "id": "2026-11-28-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "VIDEO PRODUCTION L3",
+      "headline": "豆包工作接入剪映官方插件，文字指令剪口播并交回可编辑多轨草稿",
+      "standfirst": "不是只生成一条成片：人工还能接回时间轴、逐段改剪。",
+      "paragraphs": [
+        "11 月 27 日，豆包方面宣布，豆包工作电脑端接入剪映官方插件。上传已拍摄的口播素材后，可以用自然语言要求删掉重复段落、处理口误、生成字幕，再看预览、继续提出修改。还可以打开剪映多轨草稿，自行修剪切点或调整字幕字号。",
+        "同一个入口也能调用剪映 Hub，把文稿、脚本或商品素材用于科普动画、短漫剧和营销短片的制作。两条能力不同：前者是对已有素材做剪辑，后者涉及生成新画面；都不是一条指令就保证拿到合格成片。"
+      ],
+      "whyItMatters": "剪辑师可以把第一遍整理交给对话工具，再在熟悉的时间轴上完成节奏和表达，不用从已压平的视频重新拆轨。",
+      "caveats": [
+        "需要豆包工作电脑端和从官网下载的最新版剪映；功能据厂商披露，本刊未实测。"
+      ],
+      "figures": [
+        "两个可继续修改的入口：对话、多轨草稿"
+      ],
+      "publishedAt": "2026-11-27T10:33:51+08:00",
+      "publishedAtNote": "IT之家 11 月 27 日 10:33:51 引述豆包当日上午的公告；新京报同日 15:31 确认，官方原帖未单独取得。",
+      "sources": [
+        {
+          "name": "IT之家｜报道并引述豆包当日上午的发布",
+          "url": "https://www.ithome.com/1/033/208.htm",
+          "role": "primary"
+        },
+        {
+          "name": "新京报贝壳财经｜独立报道",
+          "url": "https://www.bjnews.com.cn/detail/1795753751129101.html",
+          "role": "secondary"
+        },
+        {
+          "name": "每日经济新闻｜功能报道",
+          "url": "https://m.nbd.com.cn/articles/2026-11-27/4660727.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "报道页面的可追溯配图未能确认并归档，未用界面截图或通用 AI 素材顶替。"
+      }
+    },
+    {
+      "id": "2026-11-28-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "FILM PRODUCTION L1",
+      "headline": "首尔七部 AI 短片首映，导演公开怎样把生成失误剪进终版",
+      "standfirst": "比起问 AI 能不能拍，七组创作者给出了更具体的答案：哪些失误值得留？",
+      "paragraphs": [
+        "11 月 27 日，首尔独立电影节合作项目 The Collaboration 在狎鸥亭 CGV 展映七部短片。韩联社从现场报道，真人电影导演与 AI 影像导演以剧本为起点逐场协商。《I AM》在重新输出高画质时，原本没计划腾空的帽子意外飘起来，团队觉得有趣，把它保留在终版。",
+        "《老人与钢琴》的导演搭档则把人物、布景与道具统一为织物质感，用红色棉絮表现血迹。也有导演说，他想让角色做超出常规物理的动作，却反复得到过于合理的结果。与此前的节目单及三片 4K 放大报道不同，这次新增的是首映现场的创作取舍。"
+      ],
+      "whyItMatters": "素材跑偏不一定要重做，先问它有没有让故事变好；需要精确动作时，则不应把模型偶然发挥当作制作计划。",
+      "caveats": [
+        "个别镜头经验为导演自述，不能推断所有模型共有同一限制。"
+      ],
+      "figures": [
+        "7 部短片",
+        "11 月 27 日现场展映"
+      ],
+      "publishedAt": "2026-11-28T07:31:00+09:00",
+      "publishedAtNote": "首场发生于 11 月 27 日；韩联社现场报道发布于 11 月 28 日 07:31 韩国时间。",
+      "sources": [
+        {
+          "name": "首尔独立电影节｜项目及排映",
+          "url": "https://siff.kr/notice/%EC%84%9C%EC%9A%B8%EB%8F%85%EB%A6%BD%EC%98%81%ED%99%94%EC%A0%9C2026-ai-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4-%EB%8D%94-%EC%BD%9C%EB%9D%BC%EB%B3%B4%EB%A0%88%EC%9D%B4%EC%85%98/",
+          "role": "primary"
+        },
+        {
+          "name": "韩联社｜导演现场访问",
+          "url": "https://www.yna.co.kr/amp/view/AKR20261127168000005",
+          "role": "secondary"
+        },
+        {
+          "name": "SBS｜联合制作及合作方背景",
+          "url": "https://ent.sbs.co.kr/amp/article.do?article_id=E10010324752",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "韩联社有本场照片但标明转载限制；旧刊所用 4K 后期配图不是本次导演问答现场。"
+      }
+    },
+    {
+      "id": "2026-11-28-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "CREATOR FINANCING L1",
+      "headline": "CapCut 预告单项目最高 100 万美元创作支持，现金与生成额度合计",
+      "standfirst": "独立创作者值得关注，但这不是现已开放的百万美元现金补助。",
+      "paragraphs": [
+        "CapCut 在伦敦 Outernet 活动披露分阶创作者扶持计划，随后在官网及新闻稿确认，入选项目最高可获 100 万美元支持。这个上限包含现金、生成额度以及模型和工具使用权。公司还提出由业内顾问早期介入，并为作品提供展映及发行方面的机会。",
+        "上一期写的是这次活动的多屏开幕片，本期新增的是支持规模、组成和下一次公布细则的时间。CapCut 说会在 2027 年 1 月给出更多信息，目前尚未公布申请入口、地区限制、各档的现金占比或项目权利条款。"
+      ],
+      "whyItMatters": "如果你想用 AI 做一部需要长期开发的短片，这值得列入融资观察；人力、演员和授权支出却不能按生成额度来付。",
+      "caveats": [
+        "最高额度不是每个项目的拨款承诺，也不是全部现金，不应据此启动制作或签独家条款。"
+      ],
+      "figures": [
+        "单项目最高 US$100 万综合支持",
+        "2027 年 1 月预计公布更多细则"
+      ],
+      "publishedAt": "2026-11-28T10:10:00Z",
+      "publishedAtNote": "伦敦活动为 11 月 26 日；CapCut 新闻室标日 11 月 27 日；公司向 GlobeNewswire 发布于 11 月 28 日 05:10 美东时间。",
+      "sources": [
+        {
+          "name": "CapCut｜伦敦活动及计划细节",
+          "url": "https://www.capcut.com/newsroom/capcut-world-london",
+          "role": "primary"
+        },
+        {
+          "name": "CapCut｜11 月 28 日正式新闻稿",
+          "url": "https://www.globenewswire.com/news-release/2026/11/28/3411530/0/en/capcut-world-london-marks-grand-finale-of-its-first-ever-global-event-series.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-04.jpg",
+        "alt": "CapCut 发布创作者支持计划的伦敦 Outernet 活动现场，屏幕播放开幕影片",
+        "credit": "CapCut 官方提供，GlobeNewswire 新闻稿所附现场照",
+        "sourcePage": "https://www.globenewswire.com/news-release/2026/11/28/3411530/0/en/capcut-world-london-marks-grand-finale-of-its-first-ever-global-event-series.html",
+        "retrievedFrom": "https://ml.globenewswire.com/Resource/Download/670a664c-bdac-4b11-8744-bdf65ef7d4aa/c5.png",
+        "retrievedAt": "2026-11-28T12:04:29.482Z"
+      }
+    },
+    {
+      "id": "2026-11-28-evening-05",
+      "rank": 5,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "AI MICRODRAMA L1",
+      "headline": "140 集 AI 古装短剧第六季登红果热播榜首，平台显示 7750 万热度",
+      "standfirst": "红果榜首的这部 AI 短剧，已经用同一批角色连载到第六季。",
+      "paragraphs": [
+        "11 月 27 日，品传媒报道 AI 仿真人短剧《大唐憨婿之我姐姐是太子妃》第六季已在红果上线。红果正版剧集页列出共 140 集。本季苏昊与城阳公主的酒坊生意引来世家关注，故事再由长安转入甘松岭的边关战事；角色延续，故事的主战场换了。",
+        "11 月 28 日，红果剧集页标示「红果热播榜第 1 名」，显示 7,750 万热度。SceneTrace 同日也把该剧列在红果 AI 剧热播榜第一。品传媒在前一天从剧集页取得的是另一时点的读数，不能直接相减得出一天增加了多少。"
+      ],
+      "whyItMatters": "值得看的是一个 AI 系列怎样把角色、造型和世界设定用到第六季，并靠换场景延续故事，而不单靠增加集数。",
+      "caveats": [
+        "7,750 万是红果显示的热度，不是播放量、独立观众人数或收入。"
+      ],
+      "figures": [
+        "第六季 140 集",
+        "红果热播榜第 1，页面显示 7,750 万热度"
+      ],
+      "publishedAt": "2026-11-27T20:21:00+08:00",
+      "publishedAtNote": "11 月 27 日 20:21 为品传媒刊发时间，不是剧集精确上线时刻；11 月 28 日以红果剧集页核对榜名、热度及集数。",
+      "sources": [
+        {
+          "name": "红果短剧｜第六季正版剧集页和热度",
+          "url": "https://hongguoduanju.com/detail?series_id=7711348853382843454",
+          "role": "primary"
+        },
+        {
+          "name": "品传媒｜核对红果剧集页及海报",
+          "url": "https://pinnews.com.tw/archives/142915",
+          "role": "secondary"
+        },
+        {
+          "name": "SceneTrace｜11 月 28 日榜单记录",
+          "url": "https://shortdramacast.com/zh-cn/weekly/2026-11-23",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-05.jpg",
+        "alt": "红果短剧刊登的《大唐憨婿之我姐姐是太子妃》第六季竖幅海报",
+        "credit": "红果短剧官方剧集海报",
+        "sourcePage": "https://hongguoduanju.com/detail?series_id=7711348853382843454",
+        "retrievedFrom": "https://p3-novel.byteimg.com/novel-pic/e42f641fa6c40418243835037114b344~tplv-shrink:640:0.image",
+        "retrievedAt": "2026-11-28T12:04:29.482Z"
+      }
+    },
+    {
+      "id": "2026-11-28-evening-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "MOTION WORKFLOW L1",
+      "headline": "Krea 上线独立动态设计编辑器，动效可导出视频和关键帧",
+      "standfirst": "这次不是多了一个生成模型，而是给标题动画和图形动效留了继续编辑的入口。",
+      "paragraphs": [
+        "Krea 上线 Motion，提供动效模板和可缩放的工作画布。官方演示面向动态字、界面和图形展示，文档确认可导出 MP4 以及关键帧。部分模板可从 Claude 继续编辑；通过 Krea 的 MCP 接口，也就是让外部助手调用 Krea 的连接方式，可以同时运行最多五个 Motion 导出。",
+        "这条流程与只生成并下载一条视频不同：当品牌片字幕、信息图或片头动画需要反复改版，编辑器与关键帧导出提供了在初稿后继续工作的机会。官网把它作为独立编辑入口，而不是只给某个视频模型换版本号。"
+      ],
+      "whyItMatters": "值得先用一张三秒标题卡试做，看看修改字稿和交付多个版本是否真的省时，再决定整套包装要不要迁移。",
+      "caveats": [
+        "官方没有在公告确认关键帧文件格式、透明通道、后期软件兼容或中文排版效果。"
+      ],
+      "figures": [
+        "最多同时运行 5 个 Motion 导出",
+        "MP4 与关键帧导出"
+      ],
+      "publishedAt": "2026-11-26T16:30:00Z",
+      "publishedAtNote": "Krea 启动演示原帖为 11 月 26 日 16:30 UTC；11 月 27 日官方更新日志确认上线及导出功能。",
+      "sources": [
+        {
+          "name": "Krea｜官方更新日志",
+          "url": "https://www.krea.ai/docs/changelog#november-27-2026",
+          "role": "primary"
+        },
+        {
+          "name": "Krea｜Motion 编辑器入口",
+          "url": "https://www.krea.ai/motion",
+          "role": "secondary"
+        },
+        {
+          "name": "Krea｜发布演示",
+          "url": "https://x.com/krea_ai/status/2125990539933978753",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "已核对产品演示链接，未能获取可归档且不带平台覆盖层的原始演示帧。"
+      }
+    }
+  ]
+}
