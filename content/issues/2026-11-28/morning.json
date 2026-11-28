@@ -5,9 +5,9 @@
   "updatedAt": "2026-11-28T08:40:00+08:00",
   "retrievedThrough": "2026-11-28T08:40:00+08:00",
   "slot": "10:00",
-  "slotNote": "自 2026-11-27 起，早报按约 8:00 Asia/Shanghai 档期编发；仓库 slot 字段仍按约定写 10:00。取材截至北京时间 11 月 28 日 08:40。",
+  "slotNote": "定时校核档期为北京时间 10:00；本期原稿取材截至 08:40，后经核验补入 11 月 27 日广州车展的豆包座舱消息。",
   "title": "AI新闻速报",
-  "editorsNote": "本期 9 条。窗口内另有腾讯混元 DFly2，但 arXiv 标注 11 月 25 日，超出约 48 小时未收。阿里云联合支付宝教师权益因缺少合格配图未报。Google Workspace MCP、Claude computer use、Microsoft Copilot 接入 GPT-6.2、字节跳动「小豆」等亦因首发时间超出窗口未报。",
+  "editorsNote": "本期 10 条。腾讯混元 DFly2 按 arXiv 的 11 月 25 日首发日期核算，不用后续报道日期重计。阿里云与支付宝的教师权益以定向积分和折扣为主，留作备选；是否配得上图不影响收录。",
   "showSendShortlist": true,
   "stories": [
     {
@@ -16,10 +16,10 @@
       "tier": "send",
       "region": "海外",
       "kickerEn": "OpenAI",
-      "headline": "OpenAI 反诉苹果窃取商业秘密并施压供应商",
+      "headline": "OpenAI 反诉苹果，指其窃取硬件商密并施压供应商",
       "standfirst": "路透社报道，OpenAI 周五向加州联邦法院提交反诉，指控苹果获取其设备机密并劝阻供应商合作。",
       "paragraphs": [
-        "北京时间 11 月 28 日 02:28，路透社报道，OpenAI 周五向加州北区联邦法院圣何塞分庭提交反诉，指控苹果窃取商业秘密，并劝阻硬件供应商与 OpenAI 合作开发消费级人工智能设备。法院文件共 81 页，标注提交于 11 月 27 日，案号 5:26-cv-07078-EJD。",
+        "北京时间 11 月 28 日早间，多家媒体报道，OpenAI 周五向加州北区联邦法院圣何塞分庭提交反诉，指控苹果窃取商业秘密，并劝阻硬件供应商与 OpenAI 合作开发消费级人工智能设备。法院文件共 81 页，标注提交于 11 月 27 日，案号 5:26-cv-07078-EJD。",
         "OpenAI 称，一名在该公司工作约六个月后被苹果重新聘用的前员工，接触过新设备信息和未来硬件路线图。苹果否认利用这名员工获取机密，并称反诉是为了转移对其 7 月诉讼的注意力。OpenAI 还写道，已有 400 名苹果员工转投该公司。"
       ],
       "whyItMatters": "两家公司把人才和硬件竞争打到了法庭上，会直接影响下一代消费级 AI 设备的供应链和招人。",
@@ -31,33 +31,43 @@
         "前员工在 OpenAI 工作约 6 个月",
         "OpenAI 称已有 400 名员工从苹果转投该公司"
       ],
-      "publishedAt": "2026-11-28T02:28:00+08:00",
-      "publishedAtNote": "路透社稿件时间为 2026-11-27 18:28 UTC，合北京时间 28 日 02:28。法院文件标注 Filed 11/27/26，没有钟点。",
+      "publishedAt": "2026-11-28T03:06:00+08:00",
+      "publishedAtNote": "反诉文件标注 11 月 27 日递交，不载时刻。这里采用 The Information 11 月 27 日 11:06 PST 的独立报道时间（北京时间 11 月 28 日 03:06），不是最早披露或递交时刻。",
       "sources": [
-        {
-          "name": "Reuters｜OpenAI countersues Apple for stealing trade secrets",
-          "url": "https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
-          "role": "primary"
-        },
         {
           "name": "美国加州北区联邦法院｜Defendants' Counterclaims and Answer（CourtListener）",
           "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
+          "role": "primary"
+        },
+        {
+          "name": "Reuters｜OpenAI 反诉苹果（Investing.com 刊载）",
+          "url": "https://www.investing.com/news/stock-market-news/openai-countersues-apple-for-stealing-trade-secrets-ft-reports-5053798",
           "role": "secondary"
         },
         {
           "name": "9to5Mac｜OpenAI countersues Apple（含苹果声明）",
           "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
           "role": "secondary"
+        },
+        {
+          "name": "The Information｜OpenAI Countersues Apple In Trade Secrets Battle",
+          "url": "https://www.theinformation.com/briefings/openai-countersues-apple-trade-secrets-battle/",
+          "role": "secondary"
+        },
+        {
+          "name": "Reuters／The Guardian｜反诉报道及新闻照片",
+          "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "role": "secondary"
         }
       ],
       "image": {
         "status": "archived",
-        "file": "2026-11-28/morning-01.png",
-        "alt": "美国加州北区联邦法院反诉状首页，标注 Case 5:26-cv-07078-EJD Document 217 Filed 11/27/26，标题为 Defendants' Counterclaims and Answer，共 81 页。",
-        "credit": "美国加州北区联邦法院官方诉讼文件封面，经 CourtListener 公开",
-        "sourcePage": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
-        "retrievedFrom": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.217.0.pdf",
-        "retrievedAt": "2026-11-28T00:40:00Z"
+        "file": "2026-11-28/morning-01-reuters.jpg",
+        "alt": "2026 年旧金山 Dreamforce 峰会现场的 OpenAI 标识，与诉讼报道相关，非庭审现场。",
+        "credit": "Carlos Barría／Reuters，《卫报》刊载；2026 年 Dreamforce 现场",
+        "sourcePage": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+        "retrievedFrom": "https://i.guim.co.uk/img/media/548f2774750f067b58b8293df2904e3bc1888919/417_0_4167_3335/master/4167.jpg?crop=none&dpr=1&s=none&width=800",
+        "retrievedAt": "2026-11-28T01:59:34.957Z"
       }
     },
     {
@@ -160,7 +170,7 @@
       "tier": "send",
       "region": "国内",
       "kickerEn": "NDA",
-      "headline": "国家数据局就人工智能用数规则公开征求意见",
+      "headline": "国家数据局公开征求 AI 用数意见，提出十二项措施",
       "standfirst": "征求意见稿提出，合法取得或经实质加工的数据在合规前提下可用于人工智能训练和推理，意见征集至 12 月 6 日。",
       "paragraphs": [
         "11 月 26 日，国家数据局发布《关于完善数据规则 赋能人工智能创新发展的若干意见》公开征求意见稿，征求意见至 12 月 6 日。新华社 27 日 09:12 报道了这一消息。",
@@ -178,9 +188,14 @@
       "publishedAtNote": "21 世纪经济报道刊载国家数据局公告的时间为 2026-11-26 23:25。官方文件本身标注征求意见期自 11 月 26 日开始，没有更早的精确钟点。新华网稿件时间为 2026-11-27 09:12:37，电头为 11 月 26 日。",
       "sources": [
         {
+          "name": "国家数据局｜公开征求意见公告",
+          "url": "https://www.nda.gov.cn/sjj/hdjl/yjzq/yjzqform/list/index_pc.html?code=ff808081-a1d5596e-01a2-17aa8b5d-096b",
+          "role": "primary"
+        },
+        {
           "name": "21世纪经济报道｜刊载国家数据局公开征求意见公告",
           "url": "https://www.21jingji.com/article/20261126/herald/68dd1416ccdae977db7d9bcd2e71d2d5.html",
-          "role": "primary"
+          "role": "secondary"
         },
         {
           "name": "国家数据局｜《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿）PDF",
@@ -324,17 +339,22 @@
         "「妙手」已服务超过 200 万商家",
         "「小团」国庆用户量和调用量较五一增长超过六成"
       ],
-      "publishedAt": null,
-      "publishedAtNote": "美团官方新闻稿与港交所公告日期均为 2026 年 11 月 27 日，未见精确钟点。公开日程显示业绩电话会为 11:00 UTC，合北京时间 19:00。",
+      "publishedAt": "2026-11-27T18:17:24+08:00",
+      "publishedAtNote": "新华网原页标注北京时间 11 月 27 日 18:17:24；美团与港交所文件标注同日。",
       "sources": [
         {
           "name": "美团｜2026 年三季报新闻稿",
-          "url": "https://www.meituan.com/news/NN261127296001055",
+          "url": "https://www.meituan.com/zh-HK/news/NN261127296001055",
           "role": "primary"
         },
         {
           "name": "港交所｜截至 2026 年 9 月 30 日止三个月业绩公告 PDF",
           "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf",
+          "role": "secondary"
+        },
+        {
+          "name": "新华网｜美团三季报与妙手覆盖规模",
+          "url": "https://www3.xinhuanet.com/tech/20261127/f5debadb2cbe45f094375f1f3a28e7c7/c.html",
           "role": "secondary"
         }
       ],
@@ -445,6 +465,65 @@
         "sourcePage": "https://tech.cnr.cn/techgd/20261127/t20261127_527885591.shtml",
         "retrievedFrom": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2026/1127/ad9f3bacf8044b64acf8d0dac6e7adca10.png?auth=65dc0f9f8320d79fd776845fe21fc0b1&scale=1.78",
         "retrievedAt": "2026-11-28T00:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-morning-10",
+      "rank": 10,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Deepal",
+      "headline": "深蓝两款新车广州车展上市，豆包进座舱、限时 14.99 万元起",
+      "standfirst": "深蓝把字节豆包带进 L07、S07 的座舱；这次 AI 主要改变的是车内交互，不是自动驾驶。",
+      "paragraphs": [
+        "11 月 27 日，深蓝汽车在广州车展推出全新 L07 和 S07 AI 激光版，两款车限时权益价均从 14.99 万元起。深蓝董事长邓承浩在发布会上介绍，两款车型将首批搭载开放域端到端豆包大模型。按厂商描述，系统可结合语音和实时场景来理解指令，而不是只识别固定指令，再执行导航、车控等操作。",
+        "豆包负责车内交互，华为引望的星驰是另一套辅助驾驶方案。深蓝称，待星驰 2027 年开通订阅时，已售 AI 激光版车辆可通过在线更新免费升级方案。这不等于未来订阅免费，也不能把辅助驾驶当作自动驾驶。"
+      ],
+      "whyItMatters": "聊天模型进了可购买的量产车型。对车主来说，真正值得试的是能否少记几条命令、少点几次菜单。",
+      "caveats": [
+        "14.99 万元是限时权益起价；不同配置的语音体验和订阅条件仍以实车及官方说明为准。"
+      ],
+      "figures": [
+        "两款车型均限时 14.99 万元起",
+        "星驰订阅计划于 2027 年开放"
+      ],
+      "publishedAt": "2026-11-27T11:47:53+08:00",
+      "publishedAtNote": "采用 IT之家现场报道时间；发布会上厂商介绍与车型正式上市以 11 月 27 日为准。",
+      "sources": [
+        {
+          "name": "汽车之家｜深蓝汽车广州车展发布会",
+          "url": "https://live.autohome.com.cn/live/974839/",
+          "role": "primary"
+        },
+        {
+          "name": "IT之家｜广州车展现场：深蓝 S07／L07 搭载豆包",
+          "url": "https://www.ithome.com/1/033/283.htm",
+          "role": "secondary"
+        },
+        {
+          "name": "搜狐汽车｜广州车展发布和限时权益价",
+          "url": "https://m.sohu.com/a/1107156103_430526",
+          "role": "secondary"
+        },
+        {
+          "name": "新浪汽车原创｜广州车展现场图片与车型报道",
+          "url": "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaewtv0980885.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "网通社｜深蓝正式介绍座舱大模型（凤凰网刊载）",
+          "url": "https://auto.ifeng.com/c/8yOIzOWRlkY",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/morning-10-deepal.jpg",
+        "alt": "2026 广州车展现场，蓝色深蓝 L07 的车头与标有车型的前牌。",
+        "credit": "新浪汽车原创报道，广州车展现场",
+        "sourcePage": "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaewtv0980885.shtml",
+        "retrievedFrom": "https://n.sinaimg.cn/auto/transform/355/w660h495/20261127/996d-e94811d888269653621ad66b341655d9.jpg",
+        "retrievedAt": "2026-11-28T01:59:34.957Z"
       }
     }
   ]
