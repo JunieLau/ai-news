@@ -1,0 +1,331 @@
+{
+  "issueDate": "2026-11-28",
+  "edition": "evening",
+  "timezone": "Asia/Shanghai",
+  "updatedAt": "2026-11-28T21:00:00+08:00",
+  "retrievedThrough": "2026-11-28T21:00:00+08:00",
+  "slot": "20:00",
+  "slotNote": "这是 11 月 28 日晚报的第二期（28-2），按北京时间 11 月 28 日约 21:00 取材；同日第一期保留原样，不覆盖。",
+  "title": "AI电影与视频速报",
+  "editorsNote": "这是 11 月 28 日晚报的第二期（28-2）。取材为北京时间 11 月 26 日 20:22 至 28 日约 21:00。已与 11 月 25 日晚报两期、11 月 26 日晚报及 26-2、11 月 27 日晚报及 27-2、11 月 28 日早报和同日第一期晚报去重。窗口内经核实的新事一共 7 条，没有硬凑满 10 条。同日第一期 6 条保留原样，不覆盖。广电总局这条没有可核验的现场照片，改为备选，不用公告截图或被处置画面顶替。豆包这条同样没有可核验的产品或发布现场照片，保持备选。CapCut 只写 11 月 28 日正式新闻稿里的基金计划，不把伦敦活动再报一遍，也不写成已经开放申请。《持械入宋》只确认第一季登陆央视频，不把此前的 120 亿全网播放写成新纪录或央视频播放量。首尔一条用韩联社现场摄影，不用标明禁止转载的剧照。",
+  "stories": [
+    {
+      "id": "2026-11-28-2-evening-01",
+      "rank": 1,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "NRTA",
+      "headline": "广电总局通报典型案例：腾讯、小红书、爱奇艺处置 AI 魔改《三国演义》《水浒传》《红楼梦》",
+      "standfirst": "监管点名平台清理名著和儿童动画的 AI 魔改，但通报没有可核验的现场照片，这一条因此放在备选。",
+      "paragraphs": [
+        "11 月 28 日 14:01，国家广播电视总局微信公众号通报网络视听不良传播行为治理典型案例，新华社、央视网、中新网随即转发。通报把「AI 魔改」与侵权盗版、低俗微短剧等并列，并点名：腾讯平台依规处置 AI 魔改《三国演义》《水浒传》等经典影视作品、历史名人，以及魔改未成年人熟知的动画形象、恶意邪典化等内容；小红书、爱奇艺等平台依规处置传播 AI 魔改《红楼梦》短视频。",
+        "同日，小红书「薯管家」发布治理公告。澎湃新闻 16:30 报道，公告称有用户借影视剧、短剧和 AI 动画热度传播盗版、搬运未经审核剧集、用 AI 篡改经典和动画形象，或剪辑低俗猎奇片段。自治理开展以来，已累计处置各类违规视听相关信息 8 万条、违规账号 324 个。"
+      ],
+      "whyItMatters": "监管部门点名平台清理 AI 魔改名著和儿童动画，普通人刷到的二创会直接受影响，做改编前要先核对原作权利和平台口径。",
+      "caveats": [
+        "通报本身覆盖多项违规，不只是 AI。8 万条是治理开展以来的累计，包含各类违规视听信息，不是当天数字，也不是纯 AI 条数。通报并未一概禁止 AI 改编。"
+      ],
+      "figures": [
+        "广电总局微信公众号通报时间为 11 月 28 日 14:01；小红书累计处置违规视听相关信息 8 万条、违规账号 324 个。"
+      ],
+      "publishedAt": "2026-11-28T14:01:39+08:00",
+      "publishedAtNote": "采用新华网转载国家广播电视总局微信公众号的时间 2026-11-28 14:01:39。澎湃新闻对薯管家公告的报道时间为同日 16:30。",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20261128/6ee78055fc694c6fa92cbb3bf9bd14ea/c.html",
+          "role": "primary"
+        },
+        {
+          "name": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-28/10739257.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34583082",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "新华网、中新网和澎湃新闻都没有与这次通报密切相关的现场照片；不以公告截图或被处置的魔改画面充当配图，因此从建议发送改为备选。"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-02",
+      "rank": 2,
+      "tier": "send",
+      "region": "国内",
+      "kickerEn": "Yangshipin",
+      "headline": "《持械入宋》第一季登陆央视频微短剧频道，总策划称团队感到惊喜和自豪",
+      "standfirst": "一部已在商业平台走红的 AI 短剧，经红果授权进入总台旗下频道；目前公开报道确认的是第一季。",
+      "paragraphs": [
+        "11 月 27 日，长安街知事注意到，AI 短剧《持械入宋》第一季已登陆央视频微短剧频道，用户可收看第一季全集。星岛网转载时间为 14:49。报道称该剧经红果短剧授权上线，首发平台为红果，第一季于 2026 年 8 月上线，目前全系列已更新至第十一季。新晚报同日 15:38、河北日报 11 月 28 日 17:38 作了同样报道。",
+        "长城网·冀云的采访经网易转载。总策划张汉生说，得知消息后第一时间转发到团队群，成员都挺开心，也很自豪，并表示团队仍在沉下心制作新短剧。"
+      ],
+      "whyItMatters": "一部已在商业平台走红的 AI 短剧，经授权进入总台旗下频道，说明至少版权和内容审核能对上号。",
+      "caveats": [
+        "报道中的「全网播放量突破 120 亿」是此前全网累计口径，不是央视频的播放量，也不能当成新纪录。目前公开报道只确认第一季登陆，不是十一季全部。"
+      ],
+      "figures": [
+        "星岛网转载时间为 11 月 27 日 14:49；公开报道确认登陆的是第一季全集；全系列已更新至第十一季。"
+      ],
+      "publishedAt": "2026-11-27T14:49:00+08:00",
+      "publishedAtNote": "采用星岛网转载长安街知事的发布时间 2026-11-27 14:49。新晚报为同日 15:38，河北日报转载为 11 月 28 日 17:38。",
+      "sources": [
+        {
+          "name": "星岛网",
+          "url": "https://www.stnn.cc/detail/6b0927bf8f9d2b19dde135df.html",
+          "role": "primary"
+        },
+        {
+          "name": "新晚报",
+          "url": "https://finance.sina.com.cn/wm/2026-11-27/doc-inkaefwc1112690.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "河北日报",
+          "url": "https://finance.sina.com.cn/wm/2026-11-28/doc-inkahvky7224309.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "网易",
+          "url": "https://www.163.com/dy/article/LCPQ2F7G0553V42J.html",
+          "role": "secondary"
+        },
+        {
+          "name": "长城网·冀云",
+          "url": "https://www.hebrts.cn/19/19js/zx/jjfdlxhb3960/smhz/12601335.shtml",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-2-02.png",
+        "alt": "张汉生戴白帽、穿深色马甲，在印有井陉矿区字样的背景前接受采访，画面是近景侧脸。",
+        "credit": "长城网·冀云 2026 年 11 月 17 日专访《持械入宋》总策划张汉生的配图。这是受访者近照，不是央视频页面，也不是该剧的生成海报。",
+        "sourcePage": "https://www.hebrts.cn/19/19js/zx/jjfdlxhb3960/smhz/12601335.shtml",
+        "retrievedFrom": "https://pic.cmc.hebrts.cn/cms/rmt0336/upload/HttpImage/mrtpsc/2026/11/17/bca3b5255f2f49a5be02df8115a46494.jpg",
+        "retrievedAt": "2026-11-28T12:40:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-03",
+      "rank": 3,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "CapCut",
+      "headline": "CapCut 新闻稿确认计划设立基金，入选项目最高可获 100 万美元综合支持",
+      "standfirst": "这是写进正式新闻稿的计划，不是已经打开的申请入口，最高额度也不是全部现金。",
+      "paragraphs": [
+        "11 月 28 日 05:10（美国东部时间，北京时间 18:10），CapCut 通过 GlobeNewswire 发布新闻稿，写明计划设立一项基金。单个入选项目最高可提供 100 万美元支持，构成包括现金、生成额度和 AI 模型与工具使用权。配套还有行业顾问指导，以及在 TikTok、CapCut、流媒体平台的发行机会和电影节展示机会。公司还提到 Visual Creator Program 和 Creator Honor Wall。",
+        "新闻稿称，基金的更多细节预计 2027 年 1 月公布。官网新闻室 11 月 27 日已预告过「分阶支持、入选项目最高 100 万美元」。这是计划预告，还没有申请入口。"
+      ],
+      "whyItMatters": "全球剪辑平台把「最高百万美元」写进正式新闻稿，准备做长项目的创作者会把它列入融资观察；但额度不能用来支付全部人力、演员和授权成本。",
+      "caveats": [
+        "这是计划，不是已经开放的申请。最高额度不是每个项目都能拿到，也不是全部现金。新闻稿没有公布地区限制、现金占比或权利条款。伦敦活动本身已在 11 月 26 日晚报报道，本期不重复活动过程。"
+      ],
+      "figures": [
+        "正式新闻稿时间为 2026-11-28 05:10（美国东部时间）；单项目最高 100 万美元综合支持；细则预计 2027 年 1 月公布。"
+      ],
+      "publishedAt": "2026-11-28T05:10:00-05:00",
+      "publishedAtNote": "采用 GlobeNewswire 新闻稿标注的 2026-11-28 05:10 ET。11 月美国东部为 EST（UTC-5），对应北京时间 18:10。官网新闻室页面标注 11 月 27 日。",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/28/3411530/0/en/capcut-world-london-marks-grand-finale-of-its-first-ever-global-event-series.html",
+          "role": "primary"
+        },
+        {
+          "name": "CapCut 新闻室",
+          "url": "https://www.capcut.com/newsroom/capcut-world-london",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-2-03.png",
+        "alt": "CapCut World 伦敦活动现场：观众面向舞台，大屏幕上是 CapCut World 和人物圆形照片，一名讲者站在屏幕前，上方悬挂反光球体。",
+        "credit": "CapCut 提供、随 11 月 28 日 GlobeNewswire 新闻稿发布的伦敦活动现场照片。",
+        "sourcePage": "https://www.globenewswire.com/news-release/2026/11/28/3411530/0/en/capcut-world-london-marks-grand-finale-of-its-first-ever-global-event-series.html",
+        "retrievedFrom": "https://ml.globenewswire.com/Resource/Download/7f1b16b6-8fad-4a6c-92df-115fb189165e",
+        "retrievedAt": "2026-11-28T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-04",
+      "rank": 4,
+      "tier": "send",
+      "region": "海外",
+      "kickerEn": "Collaboration",
+      "headline": "首尔 The Collaboration 七部 AI 短片试映，导演公开把哪些生成失误留进终版",
+      "standfirst": "11 月 27 日是试映和导演会，面向普通观众的场次在 11 月 29 日。",
+      "paragraphs": [
+        "11 月 27 日，第 52 届首尔独立电影节与 Creative Mango 合作的 The Collaboration 2026，在首尔狎鸥亭 CGV 举行七部生成式 AI 短片的试映和导演会。韩联社 11 月 28 日 07:31（韩国时间，北京时间 06:31）发出现场报道：七位已有实拍经验的导演与 AI 导演合作完成这些短片。",
+        "《I AM》的 AI 导演李班石说，在重新输出高画质时，原本没计划腾空的帽子飘了起来，团队觉得有趣，把这一镜留进终版。唯一的动画作品《老人的钢琴》把人物、背景和道具统一成织物质感，用红色棉絮表现血迹。重新诠释韩国传说「별주부전」的短片《토의 간》，导演申延植说，他想让人鱼跃起约 10 米，但模型认为以那种尾巴和推力做不到，就「死活不给」。韩联社写道，这七部短片将于 11 月 29 日在 CGV 清潭 Cinecity 面向普通观众放映。"
+      ],
+      "whyItMatters": "有院线作品经验的导演在首映后具体谈哪些意外可以留下、哪些动作模型拒绝完成，比一张节目单更有参照。",
+      "caveats": [
+        "27 日是试映和导演会；面向普通观众的场次在 29 日。个别镜头经验是导演自述，不能推广成所有模型的共性。韩联社部分剧照标明禁止转载，本期没有使用那些剧照。"
+      ],
+      "figures": [
+        "七部短片；试映和导演会在 11 月 27 日；面向普通观众的放映在 11 月 29 日，地点为 CGV 清潭 Cinecity。"
+      ],
+      "publishedAt": "2026-11-28T07:31:00+09:00",
+      "publishedAtNote": "采用韩联社稿件时间 2026-11-28T07:31:00+09:00（韩国时间），对应北京时间 06:31。试映和导演会在 11 月 27 日。",
+      "sources": [
+        {
+          "name": "韩联社",
+          "url": "https://www.yna.co.kr/view/AKR20261127168000005",
+          "role": "primary"
+        },
+        {
+          "name": "首尔独立电影节",
+          "url": "https://siff.kr/notice/%EC%84%9C%EC%9A%B8%EB%8F%85%EB%A6%BD%EC%98%81%ED%99%94%EC%A0%9C2026-ai-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4-%EB%8D%94-%EC%BD%9C%EB%9D%BC%EB%B3%B4%EB%A0%88%EC%9D%B4%EC%85%98/",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-2-04.jpg",
+        "alt": "首尔狎鸥亭 CGV 放映厅里，一排导演坐在银幕下参加问答，银幕上是人物肖像，前景是观众的座位。",
+        "credit": "韩联社记者柳孝林（류효림）2026 年 11 月 27 日摄于首尔狎鸥亭 CGV 的 The Collaboration 2026 试映暨导演问答。这是现场摄影，不是标注「재판매 및 DB금지」的剧照。",
+        "sourcePage": "https://www.yna.co.kr/view/AKR20261127168000005",
+        "retrievedFrom": "https://img7.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112714500001300_P4.jpg",
+        "retrievedAt": "2026-11-28T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-05",
+      "rank": 5,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "AIGC Pact",
+      "headline": "中国文化产业发展大会发布《AIGC内容生产行业自律公约》",
+      "standfirst": "行业协会把版权和人机创作边界写成公开原则，这不是政府部门颁布的规章。",
+      "paragraphs": [
+        "11 月 27 日，由全国工商联指导、中国民营文化产业商会主办、中国传媒大学联合主办的 2026 中国文化产业发展大会在北京举行，现场发布《AIGC内容生产行业自律公约》。中新网 11 月 28 日报道，公约引导市场主体在拥抱技术的同时，坚守价值导向，严守版权保护底线，厘清人机创作边界，防范技术滥用风险。",
+        "经济观察网、钛媒体转述界面新闻称，商会会长吴建荣表示，需要完善法律法规和行业规范，进一步明确原创作品的知识产权归属、使用边界和利益分配机制。大会同时启动「中国文化行业信用评价」及商会团体标准筹备。"
+      ],
+      "whyItMatters": "行业协会把版权和人机创作边界写成公开公约，会成为后续讨论的文本，但还不能当成已经生效的强制规定。",
+      "caveats": [
+        "公开报道只概括了原则，完整条款和签署名单未见权威全文。这不是政府部门颁布的规章。"
+      ],
+      "figures": [
+        "大会在 11 月 27 日举行；中新网报道时间为 11 月 28 日 15:40。公开报道未给出条款条数或签署机构名单。"
+      ],
+      "publishedAt": "2026-11-28T15:40:25+08:00",
+      "publishedAtNote": "大会在 11 月 27 日。采用中新网发布时间 2026-11-28 15:40:25。经济观察网为同日 14:30，钛媒体页面时间为同日 13:51。",
+      "sources": [
+        {
+          "name": "中国新闻网",
+          "url": "https://www.chinanews.com/sh/2026/11-28/10739236.shtml",
+          "role": "primary"
+        },
+        {
+          "name": "经济观察网",
+          "url": "http://www.eeo.com.cn/2026/1128/1106364.shtml",
+          "role": "secondary"
+        },
+        {
+          "name": "钛媒体",
+          "url": "https://www.tmtpost.com/nictation/8221344.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-2-05.jpg",
+        "alt": "2026 中国文化产业发展大会舞台上，背景屏写着《AIGC内容生产行业自律公约》发布和发布仪式，台上站着参加发布的人，台口是大会名称。",
+        "credit": "中新网刊出的 11 月 27 日大会现场照片，原文图说为《AIGC内容生产行业自律公约》发布，主办方供图。",
+        "sourcePage": "https://www.chinanews.com/sh/2026/11-28/10739236.shtml",
+        "retrievedFrom": "https://i2.chinanews.com.cn/simg/ypt/2026/261128/3b67c369-b3e8-4d63-be59-64a9cbd51b20_zsite.jpg",
+        "retrievedAt": "2026-11-28T12:38:00Z"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-06",
+      "rank": 6,
+      "tier": "alternate",
+      "region": "国内",
+      "kickerEn": "Doubao",
+      "headline": "豆包工作接入剪映官方插件，一句话可剪口播并打开多轨草稿",
+      "standfirst": "官方称电脑端可独家调用剪映做口播清理；功能未经本报实测，也没有可核验的发布现场照片。",
+      "paragraphs": [
+        "11 月 27 日上午，豆包官方宣布，豆包工作电脑端独家接入剪映官方插件。IT之家 10:33 报道：用户把已拍摄的视频交给豆包工作，用一句话描述需求，由插件调用剪映完成剪辑，再通过对话继续改，或打开剪映多轨草稿微调切点和字幕。官方举例包括删减口播重复、处理口误、加字幕和调整字号。",
+        "同一入口也可调用剪映 Hub，把文稿、脚本或商品图做成科普动画、短漫剧或营销短片。使用方式是在豆包工作电脑端侧栏「插件」中搜索「剪映」，并需安装从剪映官网下载的最新版客户端。官方称，近期首次接入并完成登录的用户，有机会获得 200 剪映积分体验优惠，以产品界面为准。每日经济新闻 10:55 作了同样报道，正文写「近日接入」。"
+      ],
+      "whyItMatters": "常用这两样工具的人，可以把第一遍整理交给对话，再回到熟悉的时间轴改节奏，而不必从压平的成品重新拆轨。",
+      "caveats": [
+        "「独家接入」是厂商口径。功能未经本报实测。需同时使用豆包工作电脑端和官网最新版剪映。"
+      ],
+      "figures": [
+        "IT之家报道时间为 11 月 27 日 10:33；首次接入并登录的用户或可获 200 剪映积分，以产品界面为准。"
+      ],
+      "publishedAt": "2026-11-27T10:33:51+08:00",
+      "publishedAtNote": "采用 IT之家页面时间 2026/11/27 10:33:51。每日经济新闻为同日 10:55，正文写「近日接入」。",
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/033/208.htm",
+          "role": "primary"
+        },
+        {
+          "name": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-11-27/4660727.html",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "gap",
+        "gapReason": "IT之家和每日经济新闻页面没有可核验的官方产品或发布现场照片；不用界面截图或通用素材顶替。"
+      }
+    },
+    {
+      "id": "2026-11-28-2-evening-07",
+      "rank": 7,
+      "tier": "alternate",
+      "region": "海外",
+      "kickerEn": "Krea",
+      "headline": "Krea 上线 Motion，可免费试用并导出 MP4 和关键帧",
+      "standfirst": "这是一条可以改字、改版再导出的动效编辑流程，官方没有写明免费试用期限。",
+      "paragraphs": [
+        "11 月 26 日 16:30（UTC，北京时间 27 日 00:30），Krea 官方账号宣布上线 Motion，称已花数周设计用 AI 生成动态图形的工作流，现向所有人开放，可免费试用。官方更新日志 11 月 27 日确认：编辑器提供模板、可缩放画布，可导出 MP4 和关键帧，部分模板可在 Claude 中继续编辑；通过 Krea MCP 可同时运行最多 5 个 Motion 导出。",
+        "演示面向动态字、界面动画和图表。入口为 krea.ai/motion，需登录 Krea 账号。"
+      ],
+      "whyItMatters": "这是一条可以反复改字、改版再导出的动效编辑流程，和「一次生成一条视频」不是同一类工具，适合片头、字幕卡和信息图。",
+      "caveats": [
+        "官方未说明关键帧文件格式、透明通道、后期软件兼容或中文排版效果，也未写明免费试用期限。"
+      ],
+      "figures": [
+        "官方帖时间为 2026-11-26 16:30 UTC；通过 Krea MCP 最多同时 5 个 Motion 导出；可导出 MP4 和关键帧。"
+      ],
+      "publishedAt": "2026-11-26T16:30:18Z",
+      "publishedAtNote": "采用 Krea 官方 X 帖时间 2026-11-26 16:30:18 UTC，合北京时间 11 月 27 日 00:30。更新日志标注 11 月 27 日。",
+      "sources": [
+        {
+          "name": "Krea",
+          "url": "https://x.com/krea_ai/status/2125990539933978753",
+          "role": "primary"
+        },
+        {
+          "name": "Krea 更新日志",
+          "url": "https://www.krea.ai/docs/changelog",
+          "role": "secondary"
+        }
+      ],
+      "image": {
+        "status": "archived",
+        "file": "2026-11-28/evening-2-07.jpg",
+        "alt": "Krea Motion 官方演示中的动态字画面：浅色方卡上红黑字母散成一团，背景是虚化的界面，没有播放键。",
+        "credit": "Krea 官方 X 帖所附演示视频中的静帧，取自动态字一段，画面上没有播放键。帖子封面缩略图几乎是黑场，故改用同一条官方视频里能看出产品演示的一帧。",
+        "sourcePage": "https://x.com/krea_ai/status/2125990539933978753",
+        "retrievedFrom": "https://video.twimg.com/amplify_video/2125990470669221893/vid/avc1/1280x720/kNaVL4CFnweuWXQp.mp4?tag=29",
+        "retrievedAt": "2026-11-28T12:45:00Z"
+      }
+    }
+  ],
+  "sequence": 2,
+  "showSendShortlist": true
+}
